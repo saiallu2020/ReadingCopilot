@@ -1,0 +1,246 @@
+{
+  "timestamp": "2025-09-17T19:45:10.220316Z",
+  "pdf_path": "C:/Users/saiallu/source/repos/ReadingCopilot/inputPDFs/AMD_UltraMini_2.pdf",
+  "reason": "ok",
+  "density_target": 0.1,
+  "min_threshold": 0.15,
+  "profile_present": true,
+  "document_goal_present": true,
+  "profile_char_len": 468,
+  "goal_char_len": 520,
+  "chunks": [
+    {
+      "id": 0,
+      "page_index": 0,
+      "char_count": 70,
+      "text_preview": "2024 was also an outstanding year for our data center  \nAI business."
+    },
+    {
+      "id": 1,
+      "page_index": 0,
+      "char_count": 307,
+      "text_preview": "We launched our AMD Instinct MI325X GPUs with \nindustry-leading inferencing performance, accelerated our \nAI hardware roadmap to deliver an annual cadence of new \naccelerators, signi\ufb01cantly enhanced our ROCm software \nsuite and strengthened our partnerships with many of the \nworld\u2019s largest AI providers."
+    },
+    {
+      "id": 2,
+      "page_index": 0,
+      "char_count": 455,
+      "text_preview": "Leading cloud providers and AI innovators adopted AMD \nInstinct MI300 accelerators at scale to power their AI \nworkloads. Microsoft highlighted the TCO advantages of \nAMD Instinct MI300X accelerators when running multiple \nMicrosoft Copilot services that use the latest GPT-4 \nmodels. Meta announced broad deployment of MI300X \nfor inference, including serving all live traffic for its most \ndemanding Llama 405B frontier model exclusively on \nAMD GPUs."
+    },
+    {
+      "id": 3,
+      "page_index": 0,
+      "char_count": 376,
+      "text_preview": "Microsoft, Oracle Cloud, IBM Cloud and more than a \ndozen other AI-specialized cloud providers adopted AMD \nInstinct accelerators to power their public cloud instances, \nincluding \ufb02agship instances available on Microsoft Azure \nthat scale up to thousands of GPUs for AI inference and \ntraining and high-performance computing workloads. \nAnnual Cadence of New AI Accelerators"
+    },
+    {
+      "id": 4,
+      "page_index": 0,
+      "char_count": 12,
+      "text_preview": "2025 \n2026"
+    },
+    {
+      "id": 5,
+      "page_index": 0,
+      "char_count": 12,
+      "text_preview": "2023 \n2024"
+    },
+    {
+      "id": 6,
+      "page_index": 0,
+      "char_count": 34,
+      "text_preview": "HBM3E Memory \nIncreased \nCompute"
+    },
+    {
+      "id": 7,
+      "page_index": 0,
+      "char_count": 41,
+      "text_preview": "MI325X \nCompute \nand Memory \nLeadership"
+    },
+    {
+      "id": 8,
+      "page_index": 0,
+      "char_count": 38,
+      "text_preview": "MI350 SERIES \nNext-Gen \nArchitecture"
+    },
+    {
+      "id": 9,
+      "page_index": 0,
+      "char_count": 34,
+      "text_preview": "MI400 SERIES \nGen AI \nLeadership"
+    },
+    {
+      "id": 10,
+      "page_index": 0,
+      "char_count": 8,
+      "text_preview": "MI300X"
+    },
+    {
+      "id": 11,
+      "page_index": 0,
+      "char_count": 173,
+      "text_preview": "Laboratory, powered by AMD Instinct MI300A APUs, debuted \nas the fastest computer in the world on the latest TOP500 \nlist. AMD proudly powers two of the top three exascale"
+    },
+    {
+      "id": 12,
+      "page_index": 0,
+      "char_count": 321,
+      "text_preview": "computers in the United States, and El Capitan is one of them. \nAdoption of our AMD EPYC and AMD Instinct processors \nwith the broader supercomputer customer base also grew in \nthe year, with AMD-based systems comprising 50% of the \ntop ten fastest and 40% of the ten most energy-efficient \nsupercomputers in the world."
+    }
+  ],
+  "scores": [
+    {
+      "id": 2,
+      "page_index": 0,
+      "relevance": 0.9,
+      "rationale_preview": "This chunk details major customer wins (Microsoft, Meta) and specific use cases for AMD's GPUs, which are critical for understanding opportunities, milestones, and competitive positioning."
+    },
+    {
+      "id": 3,
+      "page_index": 0,
+      "relevance": 0.9,
+      "rationale_preview": "This chunk highlights adoption by major cloud providers and scalability of AMD's GPUs, which is highly relevant for assessing opportunities, customer base, and competitive landscape."
+    },
+    {
+      "id": 1,
+      "page_index": 0,
+      "relevance": 0.8,
+      "rationale_preview": "This chunk provides key information about AMD's AI hardware roadmap, partnerships, and software enhancements, which are relevant for evaluating opportunities and competitive positioning."
+    },
+    {
+      "id": 0,
+      "page_index": 0,
+      "relevance": 0.5,
+      "rationale_preview": "This statement highlights the success of AMD's data center AI business in 2024 but lacks specific details about risks, opportunities, or comparisons to competitors."
+    },
+    {
+      "id": 9,
+      "page_index": 0,
+      "relevance": 0.4,
+      "rationale_preview": "The 'MI400 SERIES' and 'Gen AI Leadership' suggest a focus on AI, which is relevant to data center GPUs. However, the lack of context or details limits its usefulness for investment evaluation."
+    },
+    {
+      "id": 8,
+      "page_index": 0,
+      "relevance": 0.3,
+      "rationale_preview": "The mention of 'MI350 SERIES' and 'Next-Gen Architecture' is vague and lacks specific details about AMD's data center GPU business, risks, opportunities, or competitive positioning."
+    },
+    {
+      "id": 10,
+      "page_index": 0,
+      "relevance": 0.2,
+      "rationale_preview": "The mention of 'MI300X' is too brief and provides no context or information about its significance in AMD's data center GPU business or competitive landscape."
+    },
+    {
+      "id": 4,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 5,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 6,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 7,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 11,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 12,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    }
+  ],
+  "scored_order": [
+    {
+      "id": 2,
+      "relevance": 0.9,
+      "page_index": 0
+    },
+    {
+      "id": 3,
+      "relevance": 0.9,
+      "page_index": 0
+    },
+    {
+      "id": 1,
+      "relevance": 0.8,
+      "page_index": 0
+    },
+    {
+      "id": 0,
+      "relevance": 0.5,
+      "page_index": 0
+    },
+    {
+      "id": 9,
+      "relevance": 0.4,
+      "page_index": 0
+    },
+    {
+      "id": 8,
+      "relevance": 0.3,
+      "page_index": 0
+    },
+    {
+      "id": 10,
+      "relevance": 0.2,
+      "page_index": 0
+    },
+    {
+      "id": 4,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 5,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 6,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 7,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 11,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 12,
+      "relevance": 0.0,
+      "page_index": 0
+    }
+  ],
+  "selected": [
+    {
+      "id": 0,
+      "page_index": 0,
+      "relevance": 0.9,
+      "text_preview": "Leading cloud providers and AI innovators adopted AMD \nInstinct MI300 accelerators at scale to power their AI \nworkloads. Microsoft highlighted the TCO advantages of \nAMD Instinct MI300X accelerators when running multiple \nMicrosoft Copilot services that use the latest GPT-4 \nmodels. Meta announced broad deployment of MI300X \nfor inference, including serving all live traffic for its most \ndemandin"
+    }
+  ]
+}

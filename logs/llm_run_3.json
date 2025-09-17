@@ -1,0 +1,1351 @@
+{
+  "timestamp": "2025-09-17T20:06:48.303091Z",
+  "pdf_path": "C:/Users/saiallu/source/repos/ReadingCopilot/inputPDFs/AMD_Mini_2.pdf",
+  "reason": "ok",
+  "density_target": 0.25,
+  "min_threshold": 0.6,
+  "profile_present": true,
+  "document_goal_present": true,
+  "profile_char_len": 468,
+  "goal_char_len": 520,
+  "chunks": [
+    {
+      "id": 0,
+      "page_index": 0,
+      "char_count": 226,
+      "text_preview": "Dear Shareholders, \nEvery day, more than 27,000 AMDers around the world come to work united by a \nsingle purpose: push the limits of high-performance and adaptive computing to \nhelp solve the world\u2019s most important challenges."
+    },
+    {
+      "id": 1,
+      "page_index": 0,
+      "char_count": 105,
+      "text_preview": "The impact of our work has \nnever been more profound, and the opportunities ahead have never been greater"
+    },
+    {
+      "id": 2,
+      "page_index": 0,
+      "char_count": 139,
+      "text_preview": ". \nThis is an incredibly exciting time for \nAMD and the entire semiconductor \nindustry as chips now power nearly every \naspect of modern li"
+    },
+    {
+      "id": 3,
+      "page_index": 0,
+      "char_count": 113,
+      "text_preview": "fe. AMD technology is \neverywhere, enabling the essential devices \nand services used by billions of people \nevery"
+    },
+    {
+      "id": 4,
+      "page_index": 0,
+      "char_count": 89,
+      "text_preview": "day. \nToday, no technology better exempli\ufb01es \nthe power of high-performance computing \nth"
+    },
+    {
+      "id": 5,
+      "page_index": 0,
+      "char_count": 175,
+      "text_preview": "an AI. As the most transformative \ntechnology of the last 50 years, AI will \nfundamentally reshape industries and \ndaily life in ways that extend far beyond \nanything we can i"
+    },
+    {
+      "id": 6,
+      "page_index": 0,
+      "char_count": 225,
+      "text_preview": "magine. \nIn the data center alone, we expect the AI \naccelerator total addressable market to \ngrow by more than 60% annually, reaching \n$500 billion by 2028 \u2014 equivalent to the \nentire semiconductor industry\u2019s annual \nrevenue"
+    },
+    {
+      "id": 7,
+      "page_index": 0,
+      "char_count": 164,
+      "text_preview": "in 2023. Beyond the data center, \nthe rapid expansion of AI across PCs, \nembedded devices and the edge will drive \ndemand for more compute across each of \nour targe"
+    },
+    {
+      "id": 8,
+      "page_index": 0,
+      "char_count": 157,
+      "text_preview": "t markets. \nDelivering on the promise of AI will \nrequire a diverse set of energy-efficient \nand high-performance compute engines, \nwhich we have spent years"
+    },
+    {
+      "id": 9,
+      "page_index": 0,
+      "char_count": 177,
+      "text_preview": "developing. \nHowever, truly addressing the scope and \ncomplexity of AI demands operational \nexcellence at scale and a complete \necosystem built on trusted partnerships \nwith ind"
+    },
+    {
+      "id": 10,
+      "page_index": 0,
+      "char_count": 77,
+      "text_preview": "ustry leaders. Our decade-long \ntransformation has prepared us in each of \nth"
+    },
+    {
+      "id": 11,
+      "page_index": 0,
+      "char_count": 498,
+      "text_preview": "ese dimensions. We believe AMD is one \nof the few companies with the technical \nexpertise and deep customer partnerships \nto deliver seamless end-to-end AI solutions \n\u2014 from the cloud to the edge and across \nthousands of end devices. \n\u2022 Signi\ufb01cantly enhanced our ROCm\u2122 \nAI software stack by integrating \nnew features, optimizing popular \nlibraries, enabling new frameworks \nand expanding third-party ecosystem \nsupport that increased inferencing \nperformance of AMD Instinct MI300X \naccelerators 2."
+    },
+    {
+      "id": 12,
+      "page_index": 0,
+      "char_count": 118,
+      "text_preview": "7x since launch. \nOur differentiated AI strategy builds on \nclose collaboration with hardware and \nsoftware leaders ac"
+    },
+    {
+      "id": 13,
+      "page_index": 0,
+      "char_count": 87,
+      "text_preview": "ross the industry. We \nbelieve open standards and ecosystems \naccelerate innovation and"
+    },
+    {
+      "id": 14,
+      "page_index": 0,
+      "char_count": 216,
+      "text_preview": "broaden \nadoption. Just as standards-based \nprotocols drove signi\ufb01cant internet growth \nand transformed industries, establishing \nkey standards and creating an open \nsoftware ecosystem are critical to enabling \nthe f"
+    },
+    {
+      "id": 15,
+      "page_index": 0,
+      "char_count": 669,
+      "text_preview": "ull potential of AI. \n2024 marked a major milestone in our \njourney as we: \n\u2022 Achieved record server processor \nmarket share, driven by growing \nadoption of AMD EPYC\u2122 processors \nacross cloud, enterprise and \nsupercomputing customers. \n\u2022 Scaled our data center AI business \nto more than $5 billion in annual \nrevenue, with Meta, Microsoft, Oracle \nand others deploying AMD Instinct\u2122 \nMI300 accelerators in large-scale \nproduction environments. \n\u2022 Gained client processor market share \nbased on cuttin"
+    },
+    {
+      "id": 16,
+      "page_index": 0,
+      "char_count": 70,
+      "text_preview": "e computing solutions. \nBased on this momentum, we delivered \nstrong \ufb01"
+    },
+    {
+      "id": 17,
+      "page_index": 0,
+      "char_count": 156,
+      "text_preview": "nancial results in 2024. Annual \nrevenue grew 14% to $25.8 billion as \nrecord Data Center and Client segment \nrevenue more than offset declines in \nour Gami"
+    },
+    {
+      "id": 18,
+      "page_index": 0,
+      "char_count": 166,
+      "text_preview": "ng and Embedded segments. \nImportantly, combined sales of our AMD \nEPYC and AMD Instinct data center \nproducts nearly doubled year-over-year, \ncontributing approximat"
+    },
+    {
+      "id": 19,
+      "page_index": 0,
+      "char_count": 133,
+      "text_preview": "ely 50% of \nannual revenue. As a result, we achieved \nrecord annual revenue while signi\ufb01cantly \nexpanding gross margin and increasing"
+    },
+    {
+      "id": 20,
+      "page_index": 0,
+      "char_count": 324,
+      "text_preview": "pro\ufb01tability year-over-year. \n2024 Financial Performance \nData Center Transformation \n$25.8B \nAnnual Revenue \n14% \nYear-over-year \nRecord revenue growth in Data Center and Client \nsegments partially offset by lower revenue in \nGaming and Embedded segments \n$12.6B\nData Center Revenue \n$7.1B \nClient Revenue \n$2.6B \nGaming Re"
+    },
+    {
+      "id": 21,
+      "page_index": 1,
+      "char_count": 108,
+      "text_preview": "DATA CENTER \nData Center segment  \nannual revenue increased  \n94% year-over-year to \na record $12.6 billion."
+    },
+    {
+      "id": 22,
+      "page_index": 1,
+      "char_count": 90,
+      "text_preview": "2024 was another major in\ufb02ection point \nfor our server business as share gains \naccelerate"
+    },
+    {
+      "id": 23,
+      "page_index": 1,
+      "char_count": 284,
+      "text_preview": "d. EPYC processors have \nbecome the CPU of choice for the modern \ndata center as we have consistently \nexecuted our multi-year roadmaps and \ndelivered a top-to-bottom portfolio \nthat offers signi\ufb01cant performance and \nTCO advantages across virtually every \nenterprise and cloud worklo"
+    },
+    {
+      "id": 24,
+      "page_index": 1,
+      "char_count": 224,
+      "text_preview": "ad. \nThe world\u2019s largest cloud providers \nhave deployed EPYC CPUs at scale to \npower their most important and popular \nservices, including Office 365, Facebook, \nMicrosoft Teams, Salesforce, SAP, Zoom, \nUber, Net\ufb02ix and many"
+    },
+    {
+      "id": 25,
+      "page_index": 1,
+      "char_count": 103,
+      "text_preview": "more. Meta \nalone has deployed more than 1.5 million \nEPYC processors across their global data  \ncenter"
+    },
+    {
+      "id": 26,
+      "page_index": 1,
+      "char_count": 196,
+      "text_preview": "\ufb02eet. \nMore than 1,000 AMD-powered public \ncloud instances are now available \nfrom AWS, Alibaba, Google Cloud, \nMicrosoft Azure, IBM Cloud, Oracle, \nTencent and others, an increase of 27% \nyear-ov"
+    },
+    {
+      "id": 27,
+      "page_index": 1,
+      "char_count": 159,
+      "text_preview": "er-year. Enterprise adoption of \nEPYC in the cloud grew signi\ufb01cantly in \nthe year with large businesses activating \nnearly 3x more EPYC cloud instances \nyear-o"
+    },
+    {
+      "id": 28,
+      "page_index": 1,
+      "char_count": 153,
+      "text_preview": "ver-year. \nEnterprise adoption of EPYC processors \nalso surged as there are now more \nthan 450 AMD EPYC server platforms \navailable from the largest OEMs"
+    },
+    {
+      "id": 29,
+      "page_index": 1,
+      "char_count": 223,
+      "text_preview": "and \nODMs. We expanded our footprint with \nForbes 2000 companies, highlighted by \nlarge wins with Adobe, Micron, Nestl\u00e9, \nServiceNow, Tata, Verizon, Visa and \nothers who deployed EPYC servers to \npower their mission-critica"
+    },
+    {
+      "id": 30,
+      "page_index": 1,
+      "char_count": 181,
+      "text_preview": "l workloads. \nIn October, we launched our 5th Gen \nEPYC processor family delivering \nbreakthrough performance and \nleadership TCO across enterprise scale-up \nand cloud-native scale-"
+    },
+    {
+      "id": 31,
+      "page_index": 1,
+      "char_count": 207,
+      "text_preview": "out workloads. \nOur latest EPYC processor family has \nset more than 540 performance world \nrecords across business applications, \ndata management, virtualized \ninfrastructure, supercomputing \nand digital ser"
+    },
+    {
+      "id": 32,
+      "page_index": 1,
+      "char_count": 206,
+      "text_preview": "vices workloads. All \nof our cloud partners are planning \nto deploy 5th Gen EPYC processors \nacross their infrastructure, and server \nproviders are on-track to launch more \nthan 120 platforms supporting the"
+    },
+    {
+      "id": 33,
+      "page_index": 2,
+      "char_count": 68,
+      "text_preview": "2024 was also an outstanding year for our data center  \nAI business."
+    },
+    {
+      "id": 34,
+      "page_index": 2,
+      "char_count": 303,
+      "text_preview": "We launched our AMD Instinct MI325X GPUs with \nindustry-leading inferencing performance, accelerated our \nAI hardware roadmap to deliver an annual cadence of new \naccelerators, signi\ufb01cantly enhanced our ROCm software \nsuite and strengthened our partnerships with many of the \nworld\u2019s largest AI provider"
+    },
+    {
+      "id": 35,
+      "page_index": 2,
+      "char_count": 121,
+      "text_preview": "s. \nLeading cloud providers and AI innovators adopted AMD \nInstinct MI300 accelerators at scale to power their AI \nworklo"
+    },
+    {
+      "id": 36,
+      "page_index": 2,
+      "char_count": 162,
+      "text_preview": "ads. Microsoft highlighted the TCO advantages of \nAMD Instinct MI300X accelerators when running multiple \nMicrosoft Copilot services that use the latest GPT-4 \nmo"
+    },
+    {
+      "id": 37,
+      "page_index": 2,
+      "char_count": 168,
+      "text_preview": "dels. Meta announced broad deployment of MI300X \nfor inference, including serving all live traffic for its most \ndemanding Llama 405B frontier model exclusively on \nAMD"
+    },
+    {
+      "id": 38,
+      "page_index": 2,
+      "char_count": 334,
+      "text_preview": "GPUs. \nMicrosoft, Oracle Cloud, IBM Cloud and more than a \ndozen other AI-specialized cloud providers adopted AMD \nInstinct accelerators to power their public cloud instances, \nincluding \ufb02agship instances available on Microsoft Azure \nthat scale up to thousands of GPUs for AI inference and \ntraining and high-performance computing wo"
+    },
+    {
+      "id": 39,
+      "page_index": 2,
+      "char_count": 340,
+      "text_preview": "rkloads. \nAnnual Cadence of New AI Accelerators \n2025 \n2026 \n2023 \n2024 \nHBM3E Memory \nIncreased \nCompute \nMI325X \nCompute \nand Memory \nLeadership \nMI350 SERIES \nNext-Gen \nArchitecture \nMI400 SERIES \nGen AI \nLeadership \nMI300X \nLaboratory, powered by AMD Instinct MI300A APUs, debuted \nas the fastest computer in the world on the latest TOP"
+    },
+    {
+      "id": 40,
+      "page_index": 2,
+      "char_count": 112,
+      "text_preview": "500 \nlist. AMD proudly powers two of the top three exascale \ncomputers in the United States, and El Capitan is o"
+    },
+    {
+      "id": 41,
+      "page_index": 2,
+      "char_count": 254,
+      "text_preview": "ne of them. \nAdoption of our AMD EPYC and AMD Instinct processors \nwith the broader supercomputer customer base also grew in \nthe year, with AMD-based systems comprising 50% of the \ntop ten fastest and 40% of the ten most energy-efficient \nsupercomputers"
+    },
+    {
+      "id": 42,
+      "page_index": 3,
+      "char_count": 61,
+      "text_preview": "We expanded \nfunctionality at every layer \nof our ROCm stack."
+    },
+    {
+      "id": 43,
+      "page_index": 3,
+      "char_count": 257,
+      "text_preview": "Today, more than 1 million models \non Hugging Face run seamlessly on \nAMD hardware, and our platforms \nare supported natively in leading \nframeworks like PyTorch and JAX, \nemerging compilers such as OpenAI \nTriton, and serving solutions like vLLM \nand SGLan"
+    },
+    {
+      "id": 44,
+      "page_index": 3,
+      "char_count": 174,
+      "text_preview": "g. \nWhile we have made signi\ufb01cant progress \nwith our hardware and platforms, \naccelerating our software roadmap \nand strengthening broad ecosystem \nsupport remain a top prior"
+    },
+    {
+      "id": 45,
+      "page_index": 3,
+      "char_count": 165,
+      "text_preview": "ity. Our \nstrategy is to establish ROCm as the \nindustry\u2019s leading open software stack \nfor AI, providing developers with greater \n\ufb02exibility and accelerating innova"
+    },
+    {
+      "id": 46,
+      "page_index": 3,
+      "char_count": 280,
+      "text_preview": "tion. \nTo support the growing adoption of \nAMD Instinct accelerators, we are \nincreasing investments to enhance \nthe out-of-the-box experience and \nexpanding our resources supporting the \nopen-source community, enabling faster \ndevelopment, testing and release of \nsoftware enhanc"
+    },
+    {
+      "id": 47,
+      "page_index": 3,
+      "char_count": 211,
+      "text_preview": "ements. \nIn August, we acquired Silo AI, a \nprivate AI lab in Finland with extensive \nexperience developing tailored AI \nsolutions for Allianz, Ericsson, Finnair, \nKorber, Nokia, Phillips, T-Mobile, Unilever \nan"
+    },
+    {
+      "id": 48,
+      "page_index": 3,
+      "char_count": 156,
+      "text_preview": "d others. The Silo team brings deep \nexpertise in large language model \ndevelopment that will enable customers \nto build optimized AI solutions for     \nAMD"
+    },
+    {
+      "id": 49,
+      "page_index": 3,
+      "char_count": 100,
+      "text_preview": "hardware. \nWe took several major steps in our long-\nterm strategy to deliver AI solutions at \ndata c"
+    },
+    {
+      "id": 50,
+      "page_index": 3,
+      "char_count": 347,
+      "text_preview": "enter scale. To address the need \nfor scale-up and scale-out networking \nperformance for AI data centers, AMD \nis a founding member of the Ultra \nAccelerator Link (UALink) and the \nUltra Ethernet Consortium (UEC), both \nof which are de\ufb01ning open industry \nstandards for AI networking to allow an \nopen ecosystem of AI accelerators to \nwork seamles"
+    },
+    {
+      "id": 51,
+      "page_index": 3,
+      "char_count": 152,
+      "text_preview": "sly together. \nWe also announced our intention to \nacquire ZT Systems, a leading provider \nof AI infrastructure to many of the \nlargest hyperscale compu"
+    },
+    {
+      "id": 52,
+      "page_index": 3,
+      "char_count": 250,
+      "text_preview": "ting companies. \nWe expect ZT\u2019s deep expertise across \nsystem design, validation, networking \nand testing to signi\ufb01cantly strengthen \nour systems and customer enablement \ncapabilities and greatly accelerate the \ntime to validate and deploy AMD AI \nso"
+    },
+    {
+      "id": 53,
+      "page_index": 4,
+      "char_count": 79,
+      "text_preview": "CLIENT \nClient segment annual revenue increased  \n52% to a record $7.1 billion."
+    },
+    {
+      "id": 54,
+      "page_index": 4,
+      "char_count": 164,
+      "text_preview": "We built \nsigni\ufb01cant momentum throughout the  \nyear as we expanded our portfolio of Ryzen \ndesktop and mobile processors based on our \nhigh-performance \u201cZen 5\u201d core"
+    },
+    {
+      "id": 55,
+      "page_index": 4,
+      "char_count": 127,
+      "text_preview": ". \nWe launched our Ryzen 9000 series desktop processors \nwith cutting-edge productivity, gaming and content creation \nperforman"
+    },
+    {
+      "id": 56,
+      "page_index": 4,
+      "char_count": 155,
+      "text_preview": "ce. We also introduced our next-generation Ryzen \n9000 X3D processors that use 3D chiplet technologies \nto raise the bar in PC gaming performance even furt"
+    },
+    {
+      "id": 57,
+      "page_index": 4,
+      "char_count": 133,
+      "text_preview": "her. \nDemand for our Ryzen desktop processors was strong \nthroughout the year, resulting in record desktop CPU revenue \nshare for the"
+    },
+    {
+      "id": 58,
+      "page_index": 4,
+      "char_count": 195,
+      "text_preview": "year. \nFor notebooks, we launched our Ryzen AI 300 series that \nextend our industry-leading CPU and GPU performance and \nintroduced the industry\u2019s fastest NPU for Copilot+ PCs with \n50 TOPs of AI"
+    },
+    {
+      "id": 59,
+      "page_index": 4,
+      "char_count": 140,
+      "text_preview": "compute. More than 100 Ryzen AI 300 series \npremium, gaming and commercial platforms have been \nannounced by Acer, Asus, Dell, HP, Lenovo an"
+    },
+    {
+      "id": 60,
+      "page_index": 4,
+      "char_count": 224,
+      "text_preview": "d others. \nWe also expanded our Ryzen portfolio of commercial \nprocessors with the launch of our Ryzen AI PRO 300 series \nGAMING \nGaming segment annual revenue declined  \n58% to $2.6 billion driven largely by lower  \nsemi-cu"
+    },
+    {
+      "id": 61,
+      "page_index": 4,
+      "char_count": 221,
+      "text_preview": "stom sales. \nIn semi-custom, Sony announced the PS5 Pro with signi\ufb01cant \nincreases in graphics and ray tracing performance and AI-\ndriven upscaling enabled by a new AMD semi-custom SoC that \nextends our multi-generational"
+    },
+    {
+      "id": 62,
+      "page_index": 4,
+      "char_count": 143,
+      "text_preview": "partnership. The current console \ngeneration has been strong for AMD, highlighted by cumulative \nunit shipments surpassing 100 million in the f"
+    },
+    {
+      "id": 63,
+      "page_index": 4,
+      "char_count": 265,
+      "text_preview": "ourth quarter. \nIn gaming graphics, channel sell-out accelerated in the second half \nof the year as we prepared to launch our next-generation Radeon\u2122 \nRX 9000 series GPUs powered by our RDNA 4 architecture \nwith signi\ufb01cantly enhanced ray tracing performance and new"
+    },
+    {
+      "id": 64,
+      "page_index": 4,
+      "char_count": 159,
+      "text_preview": "AI capabilities. RDNA 4 brings substantial improvements in ray \ntracing and introduces AI-powered upscaling technology, enabling \nhigh-quality 4K gaming for ma"
+    },
+    {
+      "id": 65,
+      "page_index": 4,
+      "char_count": 84,
+      "text_preview": "instream players. \nWe launched our Radeon RX 9070 graphics cards in early 2025 \nto o"
+    },
+    {
+      "id": 66,
+      "page_index": 4,
+      "char_count": 165,
+      "text_preview": "verwhelming demand. In its \ufb01rst week alone, the RX 9070 \nthat were the \ufb01rst CPUs in the industry to bring enterprise-\nclass security, manageability and AI capabiliti"
+    },
+    {
+      "id": 67,
+      "page_index": 4,
+      "char_count": 252,
+      "text_preview": "es to Copilot+ \nPCs. HP and Lenovo tripled the number of Ryzen AI PRO \nplatforms they offered year-over-year, and we were very \nexcited that Dell announced in January 2025 that they will offer \na complete portfolio of Ryzen PRO commercial notebooks for"
+    },
+    {
+      "id": 68,
+      "page_index": 4,
+      "char_count": 131,
+      "text_preview": "the \ufb01rst time ever. \nOur Ryzen processor portfolio has never been stronger, \nenabling differentiated experiences and better perform"
+    },
+    {
+      "id": 69,
+      "page_index": 4,
+      "char_count": 284,
+      "text_preview": "ance \nacross the stack. For AI PCs, AMD is the only provider that \noffers a complete portfolio of CPUs enabling Copilot+ \nexperiences on premium ultrathin, commercial, gaming and \nmainstream notebooks. \noutsold any previous Radeon GPU launch by a signi\ufb01cant \nmargin, setting a new sal"
+    },
+    {
+      "id": 70,
+      "page_index": 4,
+      "char_count": 148,
+      "text_preview": "es record for the brand. This success \nunderscores our commitment to delivering industry-leading \nperformance in the highest-volume segment of the e"
+    },
+    {
+      "id": 71,
+      "page_index": 4,
+      "char_count": 238,
+      "text_preview": "nthusiast \ngaming market. \nWe launched our newest Radeon RX 9070 series cards in early \n2025 to very strong demand, setting a new record for \ufb01rst-\nweek sales based on delivering leadership performance for the \nhighest-volume segment of th"
+    }
+  ],
+  "scores": [
+    {
+      "id": 34,
+      "page_index": 2,
+      "relevance": 0.9,
+      "rationale_preview": "This chunk provides key information about AMD's AI hardware roadmap, the launch of the MI325X GPUs, enhancements to the ROCm software suite, and partnerships with major AI providers, which are directly relevant to evaluating AMD's data center AI GPU business."
+    },
+    {
+      "id": 50,
+      "page_index": 3,
+      "relevance": 0.9,
+      "rationale_preview": "This chunk discusses AMD's involvement in defining open industry standards for AI networking, which is a key opportunity and differentiator in the data center AI GPU market."
+    },
+    {
+      "id": 11,
+      "page_index": 0,
+      "relevance": 0.8,
+      "rationale_preview": "This chunk highlights AMD's technical expertise, customer partnerships, and improvements to the ROCm AI software stack, which are directly relevant to evaluating their data center AI GPU business and its competitive positioning."
+    },
+    {
+      "id": 18,
+      "page_index": 0,
+      "relevance": 0.8,
+      "rationale_preview": "Highlights the significant growth in AMD's EPYC and Instinct data center products, which is directly relevant to evaluating their data center GPU business and its opportunities."
+    },
+    {
+      "id": 24,
+      "page_index": 1,
+      "relevance": 0.8,
+      "rationale_preview": "This chunk highlights AMD's EPYC CPUs being deployed at scale by major cloud providers for popular services, which is relevant to understanding their data center business and customer base. However, it does not directly address GPUs or AI-specific applications."
+    },
+    {
+      "id": 41,
+      "page_index": 2,
+      "relevance": 0.8,
+      "rationale_preview": "This chunk highlights the adoption of AMD EPYC and Instinct processors in supercomputers, including market share metrics. This is relevant to understanding AMD's position in the data center and AI GPU market."
+    },
+    {
+      "id": 48,
+      "page_index": 3,
+      "relevance": 0.8,
+      "rationale_preview": "This chunk mentions the Silo team's expertise in large language model development, which is relevant to AMD's AI GPU business and its potential to compete with Nvidia and Broadcom in the AI space."
+    },
+    {
+      "id": 51,
+      "page_index": 3,
+      "relevance": 0.8,
+      "rationale_preview": "This chunk highlights AMD's intention to acquire ZT Systems, a move that could strengthen its AI infrastructure capabilities and customer relationships, which is highly relevant to evaluating their business opportunities."
+    },
+    {
+      "id": 26,
+      "page_index": 1,
+      "relevance": 0.75,
+      "rationale_preview": "This chunk discusses AMD-powered public cloud instances and their growth, which is relevant to understanding AMD's data center business. However, it does not specifically address AI GPUs or comparisons to Nvidia and Broadcom."
+    },
+    {
+      "id": 19,
+      "page_index": 0,
+      "relevance": 0.7,
+      "rationale_preview": "Discusses profitability and gross margin expansion, which are important for assessing AMD's financial health and potential as an investment, though not specific to GPUs."
+    },
+    {
+      "id": 25,
+      "page_index": 1,
+      "relevance": 0.7,
+      "rationale_preview": "The mention of Meta deploying 1.5 million EPYC processors provides insight into AMD's penetration in large-scale data centers, but it focuses on CPUs rather than GPUs or AI-specific workloads."
+    },
+    {
+      "id": 8,
+      "page_index": 0,
+      "relevance": 0.6,
+      "rationale_preview": "This chunk mentions energy-efficient and high-performance compute engines, which are relevant to AMD's data center GPU business. However, it lacks specific details about risks, opportunities, or comparisons to competitors."
+    },
+    {
+      "id": 17,
+      "page_index": 0,
+      "relevance": 0.6,
+      "rationale_preview": "Mentions record Data Center revenue, which is relevant to understanding AMD's performance in this segment, but lacks detailed insights into risks, opportunities, or competitive positioning."
+    },
+    {
+      "id": 40,
+      "page_index": 2,
+      "relevance": 0.6,
+      "rationale_preview": "This chunk mentions AMD's involvement in powering exascale computers, which could indicate their capabilities in high-performance computing. However, it lacks specific details about the data center GPU business or comparisons to competitors."
+    },
+    {
+      "id": 49,
+      "page_index": 3,
+      "relevance": 0.6,
+      "rationale_preview": "This chunk briefly mentions AMD's long-term strategy for AI solutions at data center scale, but it lacks specific details, reducing its overall relevance."
+    },
+    {
+      "id": 9,
+      "page_index": 0,
+      "relevance": 0.5,
+      "rationale_preview": "The text discusses operational excellence and partnerships, which are tangentially relevant to understanding AMD's ecosystem and strategy. However, it does not provide specific insights into the data center GPU business."
+    },
+    {
+      "id": 33,
+      "page_index": 2,
+      "relevance": 0.5,
+      "rationale_preview": "This chunk briefly mentions that 2024 was an outstanding year for AMD's data center AI business, but it lacks specific details or context to evaluate opportunities, risks, or comparisons to competitors."
+    },
+    {
+      "id": 10,
+      "page_index": 0,
+      "relevance": 0.4,
+      "rationale_preview": "This chunk is vague and does not provide specific information about AMD's data center GPU business or its competitive positioning."
+    },
+    {
+      "id": 42,
+      "page_index": 3,
+      "relevance": 0.4,
+      "rationale_preview": "The mention of expanding functionality in the ROCm stack is relevant to AMD's software ecosystem, but the lack of detail limits its usefulness for evaluating investment opportunities."
+    },
+    {
+      "id": 32,
+      "page_index": 1,
+      "relevance": 0.3,
+      "rationale_preview": "This chunk mentions cloud partners deploying EPYC processors, which is tangentially related to AMD's data center business but does not directly address GPUs or AI-specific opportunities and risks."
+    },
+    {
+      "id": 58,
+      "page_index": 4,
+      "relevance": 0.3,
+      "rationale_preview": "While this chunk mentions AI capabilities in Ryzen AI 300 series, it primarily focuses on notebook CPUs and NPUs, which are tangential to the data center AI GPU business."
+    },
+    {
+      "id": 66,
+      "page_index": 4,
+      "relevance": 0.3,
+      "rationale_preview": "While it briefly mentions AI capabilities, the focus is on CPUs and enterprise-class security, which are tangential to the data center GPU business."
+    },
+    {
+      "id": 0,
+      "page_index": 0,
+      "relevance": 0.2,
+      "rationale_preview": "This chunk provides a general statement about AMD's purpose and workforce but lacks specific information about their data center GPU business, risks, opportunities, or competitive positioning."
+    },
+    {
+      "id": 16,
+      "page_index": 0,
+      "relevance": 0.2,
+      "rationale_preview": "This chunk is too vague and does not provide specific information about AMD's data center GPU business, risks, opportunities, or comparisons to competitors."
+    },
+    {
+      "id": 56,
+      "page_index": 4,
+      "relevance": 0.2,
+      "rationale_preview": "This chunk discusses Ryzen 9000 X3D processors and PC gaming performance, which is not directly relevant to the data center AI GPU business or investment evaluation."
+    },
+    {
+      "id": 59,
+      "page_index": 4,
+      "relevance": 0.2,
+      "rationale_preview": "The mention of Ryzen AI 300 series platforms and partnerships with OEMs like Acer and Dell is more relevant to consumer and commercial markets than data center AI GPUs."
+    },
+    {
+      "id": 64,
+      "page_index": 4,
+      "relevance": 0.2,
+      "rationale_preview": "This chunk discusses AI capabilities and gaming improvements, which are not directly relevant to AMD's data center GPU business or its comparison to Nvidia and Broadcom."
+    },
+    {
+      "id": 67,
+      "page_index": 4,
+      "relevance": 0.2,
+      "rationale_preview": "This chunk highlights Ryzen AI PRO platforms and commercial notebooks, which are not directly tied to the data center GPU business or its competitive positioning."
+    },
+    {
+      "id": 1,
+      "page_index": 0,
+      "relevance": 0.1,
+      "rationale_preview": "This chunk is a vague statement about the impact and opportunities in AMD's work, without any direct relevance to the user's goal of evaluating the data center GPU business."
+    },
+    {
+      "id": 2,
+      "page_index": 0,
+      "relevance": 0.1,
+      "rationale_preview": "This chunk discusses the semiconductor industry's broad relevance but does not provide specific insights into AMD's data center GPU business or competitive landscape."
+    },
+    {
+      "id": 3,
+      "page_index": 0,
+      "relevance": 0.1,
+      "rationale_preview": "This chunk mentions AMD technology's ubiquity but does not address the data center GPU business, its risks, opportunities, or competitive positioning."
+    },
+    {
+      "id": 57,
+      "page_index": 4,
+      "relevance": 0.1,
+      "rationale_preview": "The focus on Ryzen desktop processors and record CPU revenue share is unrelated to AMD's data center AI GPU business or competitive positioning against Nvidia and Broadcom."
+    },
+    {
+      "id": 65,
+      "page_index": 4,
+      "relevance": 0.1,
+      "rationale_preview": "The text mentions the launch of a gaming GPU, which is unrelated to the data center AI GPU business focus."
+    },
+    {
+      "id": 4,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 5,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 6,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 7,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 12,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 13,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 14,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 15,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 20,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 21,
+      "page_index": 1,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 22,
+      "page_index": 1,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 23,
+      "page_index": 1,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 27,
+      "page_index": 1,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 28,
+      "page_index": 1,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 29,
+      "page_index": 1,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 30,
+      "page_index": 1,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 31,
+      "page_index": 1,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 35,
+      "page_index": 2,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 36,
+      "page_index": 2,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 37,
+      "page_index": 2,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 38,
+      "page_index": 2,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 39,
+      "page_index": 2,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 43,
+      "page_index": 3,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 44,
+      "page_index": 3,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 45,
+      "page_index": 3,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 46,
+      "page_index": 3,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 47,
+      "page_index": 3,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 52,
+      "page_index": 3,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 53,
+      "page_index": 4,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 54,
+      "page_index": 4,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 55,
+      "page_index": 4,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 60,
+      "page_index": 4,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 61,
+      "page_index": 4,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 62,
+      "page_index": 4,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 63,
+      "page_index": 4,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 68,
+      "page_index": 4,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 69,
+      "page_index": 4,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 70,
+      "page_index": 4,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 71,
+      "page_index": 4,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    }
+  ],
+  "scored_order": [
+    {
+      "id": 34,
+      "relevance": 0.9,
+      "page_index": 2
+    },
+    {
+      "id": 50,
+      "relevance": 0.9,
+      "page_index": 3
+    },
+    {
+      "id": 11,
+      "relevance": 0.8,
+      "page_index": 0
+    },
+    {
+      "id": 18,
+      "relevance": 0.8,
+      "page_index": 0
+    },
+    {
+      "id": 24,
+      "relevance": 0.8,
+      "page_index": 1
+    },
+    {
+      "id": 41,
+      "relevance": 0.8,
+      "page_index": 2
+    },
+    {
+      "id": 48,
+      "relevance": 0.8,
+      "page_index": 3
+    },
+    {
+      "id": 51,
+      "relevance": 0.8,
+      "page_index": 3
+    },
+    {
+      "id": 26,
+      "relevance": 0.75,
+      "page_index": 1
+    },
+    {
+      "id": 19,
+      "relevance": 0.7,
+      "page_index": 0
+    },
+    {
+      "id": 25,
+      "relevance": 0.7,
+      "page_index": 1
+    },
+    {
+      "id": 8,
+      "relevance": 0.6,
+      "page_index": 0
+    },
+    {
+      "id": 17,
+      "relevance": 0.6,
+      "page_index": 0
+    },
+    {
+      "id": 40,
+      "relevance": 0.6,
+      "page_index": 2
+    },
+    {
+      "id": 49,
+      "relevance": 0.6,
+      "page_index": 3
+    },
+    {
+      "id": 9,
+      "relevance": 0.5,
+      "page_index": 0
+    },
+    {
+      "id": 33,
+      "relevance": 0.5,
+      "page_index": 2
+    },
+    {
+      "id": 10,
+      "relevance": 0.4,
+      "page_index": 0
+    },
+    {
+      "id": 42,
+      "relevance": 0.4,
+      "page_index": 3
+    },
+    {
+      "id": 32,
+      "relevance": 0.3,
+      "page_index": 1
+    },
+    {
+      "id": 58,
+      "relevance": 0.3,
+      "page_index": 4
+    },
+    {
+      "id": 66,
+      "relevance": 0.3,
+      "page_index": 4
+    },
+    {
+      "id": 0,
+      "relevance": 0.2,
+      "page_index": 0
+    },
+    {
+      "id": 16,
+      "relevance": 0.2,
+      "page_index": 0
+    },
+    {
+      "id": 56,
+      "relevance": 0.2,
+      "page_index": 4
+    },
+    {
+      "id": 59,
+      "relevance": 0.2,
+      "page_index": 4
+    },
+    {
+      "id": 64,
+      "relevance": 0.2,
+      "page_index": 4
+    },
+    {
+      "id": 67,
+      "relevance": 0.2,
+      "page_index": 4
+    },
+    {
+      "id": 1,
+      "relevance": 0.1,
+      "page_index": 0
+    },
+    {
+      "id": 2,
+      "relevance": 0.1,
+      "page_index": 0
+    },
+    {
+      "id": 3,
+      "relevance": 0.1,
+      "page_index": 0
+    },
+    {
+      "id": 57,
+      "relevance": 0.1,
+      "page_index": 4
+    },
+    {
+      "id": 65,
+      "relevance": 0.1,
+      "page_index": 4
+    },
+    {
+      "id": 4,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 5,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 6,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 7,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 12,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 13,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 14,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 15,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 20,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 21,
+      "relevance": 0.0,
+      "page_index": 1
+    },
+    {
+      "id": 22,
+      "relevance": 0.0,
+      "page_index": 1
+    },
+    {
+      "id": 23,
+      "relevance": 0.0,
+      "page_index": 1
+    },
+    {
+      "id": 27,
+      "relevance": 0.0,
+      "page_index": 1
+    },
+    {
+      "id": 28,
+      "relevance": 0.0,
+      "page_index": 1
+    },
+    {
+      "id": 29,
+      "relevance": 0.0,
+      "page_index": 1
+    },
+    {
+      "id": 30,
+      "relevance": 0.0,
+      "page_index": 1
+    },
+    {
+      "id": 31,
+      "relevance": 0.0,
+      "page_index": 1
+    },
+    {
+      "id": 35,
+      "relevance": 0.0,
+      "page_index": 2
+    },
+    {
+      "id": 36,
+      "relevance": 0.0,
+      "page_index": 2
+    },
+    {
+      "id": 37,
+      "relevance": 0.0,
+      "page_index": 2
+    },
+    {
+      "id": 38,
+      "relevance": 0.0,
+      "page_index": 2
+    },
+    {
+      "id": 39,
+      "relevance": 0.0,
+      "page_index": 2
+    },
+    {
+      "id": 43,
+      "relevance": 0.0,
+      "page_index": 3
+    },
+    {
+      "id": 44,
+      "relevance": 0.0,
+      "page_index": 3
+    },
+    {
+      "id": 45,
+      "relevance": 0.0,
+      "page_index": 3
+    },
+    {
+      "id": 46,
+      "relevance": 0.0,
+      "page_index": 3
+    },
+    {
+      "id": 47,
+      "relevance": 0.0,
+      "page_index": 3
+    },
+    {
+      "id": 52,
+      "relevance": 0.0,
+      "page_index": 3
+    },
+    {
+      "id": 53,
+      "relevance": 0.0,
+      "page_index": 4
+    },
+    {
+      "id": 54,
+      "relevance": 0.0,
+      "page_index": 4
+    },
+    {
+      "id": 55,
+      "relevance": 0.0,
+      "page_index": 4
+    },
+    {
+      "id": 60,
+      "relevance": 0.0,
+      "page_index": 4
+    },
+    {
+      "id": 61,
+      "relevance": 0.0,
+      "page_index": 4
+    },
+    {
+      "id": 62,
+      "relevance": 0.0,
+      "page_index": 4
+    },
+    {
+      "id": 63,
+      "relevance": 0.0,
+      "page_index": 4
+    },
+    {
+      "id": 68,
+      "relevance": 0.0,
+      "page_index": 4
+    },
+    {
+      "id": 69,
+      "relevance": 0.0,
+      "page_index": 4
+    },
+    {
+      "id": 70,
+      "relevance": 0.0,
+      "page_index": 4
+    },
+    {
+      "id": 71,
+      "relevance": 0.0,
+      "page_index": 4
+    }
+  ],
+  "selected": [
+    {
+      "id": 0,
+      "page_index": 2,
+      "relevance": 0.9,
+      "text_preview": "We launched our AMD Instinct MI325X GPUs with \nindustry-leading inferencing performance, accelerated our \nAI hardware roadmap to deliver an annual cadence of new \naccelerators, signi\ufb01cantly enhanced our ROCm software \nsuite and strengthened our partnerships with many of the \nworld\u2019s largest AI provider"
+    },
+    {
+      "id": 1,
+      "page_index": 3,
+      "relevance": 0.9,
+      "text_preview": "enter scale. To address the need \nfor scale-up and scale-out networking \nperformance for AI data centers, AMD \nis a founding member of the Ultra \nAccelerator Link (UALink) and the \nUltra Ethernet Consortium (UEC), both \nof which are de\ufb01ning open industry \nstandards for AI networking to allow an \nopen ecosystem of AI accelerators to \nwork seamles"
+    },
+    {
+      "id": 2,
+      "page_index": 0,
+      "relevance": 0.8,
+      "text_preview": "ese dimensions. We believe AMD is one \nof the few companies with the technical \nexpertise and deep customer partnerships \nto deliver seamless end-to-end AI solutions \n\u2014 from the cloud to the edge and across \nthousands of end devices. \n\u2022 Signi\ufb01cantly enhanced our ROCm\u2122 \nAI software stack by integrating \nnew features, optimizing popular \nlibraries, enabling new frameworks \nand expanding third-party "
+    },
+    {
+      "id": 3,
+      "page_index": 0,
+      "relevance": 0.8,
+      "text_preview": "ng and Embedded segments. \nImportantly, combined sales of our AMD \nEPYC and AMD Instinct data center \nproducts nearly doubled year-over-year, \ncontributing approximat"
+    },
+    {
+      "id": 4,
+      "page_index": 1,
+      "relevance": 0.8,
+      "text_preview": "ad. \nThe world\u2019s largest cloud providers \nhave deployed EPYC CPUs at scale to \npower their most important and popular \nservices, including Office 365, Facebook, \nMicrosoft Teams, Salesforce, SAP, Zoom, \nUber, Net\ufb02ix and many"
+    },
+    {
+      "id": 5,
+      "page_index": 2,
+      "relevance": 0.8,
+      "text_preview": "ne of them. \nAdoption of our AMD EPYC and AMD Instinct processors \nwith the broader supercomputer customer base also grew in \nthe year, with AMD-based systems comprising 50% of the \ntop ten fastest and 40% of the ten most energy-efficient \nsupercomputers"
+    },
+    {
+      "id": 6,
+      "page_index": 3,
+      "relevance": 0.8,
+      "text_preview": "d others. The Silo team brings deep \nexpertise in large language model \ndevelopment that will enable customers \nto build optimized AI solutions for     \nAMD"
+    },
+    {
+      "id": 7,
+      "page_index": 3,
+      "relevance": 0.8,
+      "text_preview": "sly together. \nWe also announced our intention to \nacquire ZT Systems, a leading provider \nof AI infrastructure to many of the \nlargest hyperscale compu"
+    },
+    {
+      "id": 8,
+      "page_index": 1,
+      "relevance": 0.75,
+      "text_preview": "\ufb02eet. \nMore than 1,000 AMD-powered public \ncloud instances are now available \nfrom AWS, Alibaba, Google Cloud, \nMicrosoft Azure, IBM Cloud, Oracle, \nTencent and others, an increase of 27% \nyear-ov"
+    },
+    {
+      "id": 9,
+      "page_index": 0,
+      "relevance": 0.7,
+      "text_preview": "ely 50% of \nannual revenue. As a result, we achieved \nrecord annual revenue while signi\ufb01cantly \nexpanding gross margin and increasing"
+    },
+    {
+      "id": 10,
+      "page_index": 1,
+      "relevance": 0.7,
+      "text_preview": "more. Meta \nalone has deployed more than 1.5 million \nEPYC processors across their global data  \ncenter"
+    },
+    {
+      "id": 11,
+      "page_index": 0,
+      "relevance": 0.6,
+      "text_preview": "t markets. \nDelivering on the promise of AI will \nrequire a diverse set of energy-efficient \nand high-performance compute engines, \nwhich we have spent years"
+    },
+    {
+      "id": 12,
+      "page_index": 0,
+      "relevance": 0.6,
+      "text_preview": "nancial results in 2024. Annual \nrevenue grew 14% to $25.8 billion as \nrecord Data Center and Client segment \nrevenue more than offset declines in \nour Gami"
+    },
+    {
+      "id": 13,
+      "page_index": 2,
+      "relevance": 0.6,
+      "text_preview": "500 \nlist. AMD proudly powers two of the top three exascale \ncomputers in the United States, and El Capitan is o"
+    },
+    {
+      "id": 14,
+      "page_index": 3,
+      "relevance": 0.6,
+      "text_preview": "hardware. \nWe took several major steps in our long-\nterm strategy to deliver AI solutions at \ndata c"
+    },
+    {
+      "id": 15,
+      "page_index": 0,
+      "relevance": 0.5,
+      "text_preview": "developing. \nHowever, truly addressing the scope and \ncomplexity of AI demands operational \nexcellence at scale and a complete \necosystem built on trusted partnerships \nwith ind"
+    },
+    {
+      "id": 16,
+      "page_index": 2,
+      "relevance": 0.5,
+      "text_preview": "2024 was also an outstanding year for our data center  \nAI business."
+    },
+    {
+      "id": 17,
+      "page_index": 0,
+      "relevance": 0.4,
+      "text_preview": "ustry leaders. Our decade-long \ntransformation has prepared us in each of \nth"
+    }
+  ]
+}
