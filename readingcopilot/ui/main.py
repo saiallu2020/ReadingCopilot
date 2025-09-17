@@ -5,8 +5,8 @@ from PySide6.QtWidgets import (
     QApplication, QMainWindow, QFileDialog, QWidget, QHBoxLayout, QSplitter,
     QMessageBox, QToolBar, QProgressDialog, QLineEdit, QLabel, QStatusBar
 )
-from PySide6.QtGui import QAction, QKeySequence
-from PySide6.QtCore import Qt
+from PySide6.QtGui import QAction, QKeySequence, QIcon
+from PySide6.QtCore import Qt, QSize
 
 from readingcopilot.core.annotations import AnnotationDocument, Highlight
 from readingcopilot.core.llm_client import build_llm_client
@@ -86,33 +86,37 @@ class MainWindow(QMainWindow):
 
     def _create_toolbar(self):
         tb = QToolBar("Main")
+        tb.setIconSize(QSize(28, 28))  # larger icons
+        tb.setMovable(False)
         self.addToolBar(tb)
-        open_act = QAction("Open", self)
-        open_act.triggered.connect(self.open_pdf)
-        tb.addAction(open_act)
-        save_act = QAction("Save", self)
-        save_act.triggered.connect(self.save_annotations)
-        tb.addAction(save_act)
-        # Navigation arrows
-        prev_act = QAction("◀", self)
+
+        icon_dir = Path(__file__).parent / 'icons'
+
+        def _icon(name: str) -> QIcon:
+            p = icon_dir / f"{name}.svg"
+            return QIcon(str(p)) if p.exists() else QIcon()
+
+        def add_action(text: str, slot, icon_name: str | None = None, obj_name: str | None = None):
+            act = QAction(_icon(icon_name) if icon_name else QIcon(), text, self)
+            if obj_name:
+                # Will map to a QToolButton via toolbar; setData cannot style so we rely on text matching via stylesheet classes if needed.
+                pass
+            act.triggered.connect(slot)
+            tb.addAction(act)
+            return act
+
+        open_act = add_action("Open", self.open_pdf, "open")
+        save_act = add_action("Save", self.save_annotations, "save")
+        prev_act = add_action("◀", self.viewer.prev_page)
         prev_act.setToolTip("Previous Page (PgUp)")
-        prev_act.triggered.connect(self.viewer.prev_page)
-        tb.addAction(prev_act)
-        next_act = QAction("▶", self)
+        next_act = add_action("▶", self.viewer.next_page)
         next_act.setToolTip("Next Page (PgDn)")
-        next_act.triggered.connect(self.viewer.next_page)
-        tb.addAction(next_act)
         tb.addWidget(self.page_input)
-        profile_act = QAction("Profile", self)
-        profile_act.triggered.connect(self.edit_profile)
-        tb.addAction(profile_act)
-        llm_act = QAction("LLM HL", self)
-        llm_act.triggered.connect(self.llm_auto_highlight)
-        tb.addAction(llm_act)
-        clear_act = QAction("Clear HLs", self)
+        profile_act = add_action("Profile", self.edit_profile, "profile")
+        llm_act = add_action("LLM HL", self.llm_auto_highlight, "llm")
+        clear_act = add_action("Clear HLs", self.clear_all_highlights, "clear")
         clear_act.setToolTip("Remove all highlights (manual + auto)")
-        clear_act.triggered.connect(self.clear_all_highlights)
-        tb.addAction(clear_act)
+
         # Shortcuts
         prev_act.setShortcut(QKeySequence(Qt.Key.Key_PageUp))
         next_act.setShortcut(QKeySequence(Qt.Key.Key_PageDown))
@@ -343,6 +347,14 @@ class MainWindow(QMainWindow):
 
 def run():
     app = QApplication(sys.argv)
+    # Apply global stylesheet
+    try:
+        style_path = Path(__file__).parent / 'style.qss'
+        if style_path.exists():
+            with open(style_path, 'r', encoding='utf-8') as f:
+                app.setStyleSheet(f.read())
+    except Exception:
+        pass
     win = MainWindow()
     win.show()
     sys.exit(app.exec())

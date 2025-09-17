@@ -1,0 +1,108 @@
+/* Global modern theme for ReadingCopilot */
+QMainWindow {
+    background: #2e2f33; /* medium gray */
+    color: #f2f2f2;
+}
+
+QToolBar {
+    background: #3a3b40; /* lighter for contrast with dark strokes */
+    spacing: 8px;
+    padding: 6px 10px;
+    border: 0px;
+}
+QToolBar QToolButton {
+    background: rgba(255,255,255,0.06);
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 10px 16px;
+    margin: 2px;
+    font-size: 15px;
+    border: 1px solid rgba(255,255,255,0.08);
+}
+QToolBar QToolButton:hover { background: rgba(255,255,255,0.14); }
+QToolBar QToolButton:pressed { background: rgba(255,255,255,0.22); }
+QToolBar QToolButton[objectName="danger"] {
+    background: #602b2b;
+}
+QToolBar QToolButton[objectName="danger"]:hover {
+    background: #7a3535;
+}
+QToolBar QToolButton[objectName="primary"] {
+    background: #2f4f88;
+}
+QToolBar QToolButton[objectName="primary"]:hover {
+    background: #3962a8;
+}
+
+QMenuBar { background: #3a3b40; color: #e6e6e6; }
+QMenuBar::item:selected { background: #33363b; }
+QMenu { background: #2a2c30; color: #e6e6e6; }
+QMenu::item:selected { background: #3a3d42; }
+
+QStatusBar { background: #3a3b40; color: #d0d0d0; }
+
+QLineEdit {
+    background: #27282c;
+    border: 1px solid #45474c;
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: #f2f2f2;
+    selection-background-color: #5389d8;
+}
+QLineEdit:focus { border: 1px solid #6ea2f1; }
+
+QListWidget, QTextEdit {
+    background: #242529;
+    border: 1px solid #45474c;
+    border-radius: 8px;
+    color: #f2f2f2;
+    selection-background-color: #5389d8;
+    font-size: 14px;
+}
+QListWidget::item:hover { background: #313438; }
+QListWidget::item:selected { background: #3962a8; }
+
+QLabel { color: #c8c8c8; font-size: 13px; }
+
+QDialog QPushButton, QPushButton {
+    background: rgba(255,255,255,0.07);
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 18px;
+    border: 1px solid rgba(255,255,255,0.10);
+    font-size: 14px;
+}
+QDialog QPushButton:hover, QPushButton:hover { background: rgba(255,255,255,0.16); }
+QDialog QPushButton:pressed, QPushButton:pressed { background: rgba(255,255,255,0.24); }
+
+QSlider::groove:horizontal {
+    background: #3a3d42;
+    height: 6px;
+    border-radius: 3px;
+}
+QSlider::handle:horizontal {
+    background: #5389d8;
+    width: 18px;
+    margin: -6px 0;
+    border-radius: 9px;
+}
+QSlider::handle:horizontal:hover { background: #6ea2f1; }
+
+/* Scrollbars */
+QScrollBar:vertical {
+    background: #2a2c30;
+    width: 12px;
+    margin: 4px 0 4px 0;
+    border-radius: 5px;
+}
+QScrollBar::handle:vertical {
+    background: #44474d;
+    border-radius: 5px;
+    min-height: 24px;
+}
+QScrollBar::handle:vertical:hover { background: #555a61; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0; }
+QScrollBar:horizontal { height: 0; }
+
+/* Annotation highlight (graphics view overlay stays unaffected by QSS) */
