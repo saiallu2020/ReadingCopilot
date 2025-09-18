@@ -65,7 +65,7 @@ python -m readingcopilot.ui.main
 
 If the Azure call fails or returns malformed JSON, the app logs diagnostic details and surfaces an error dialog; no fallback dummy scorer is retained.
 
-### Incremental Streaming (New)
+### Incremental Streaming & Cancellation (New)
 The LLM highlight pipeline now streams results incrementally:
 * A small spinner (braille frames) appears in the toolbar instead of a blocking modal.
 * As each batch of chunks is scored, new above-threshold highlights are emitted immediately and drawn; you can start reading them while later pages continue processing.
@@ -78,7 +78,12 @@ Implementation notes:
 * Annotation panel inserts highlights in page order on arrival.
 * Spinner stops on finish or error.
 
-Planned improvements: cancel action, adaptive batch size, dynamic threshold relaxation if target density underfilled late, streaming rationale surfacing, and optional real-time metrics in status bar.
+You can cancel mid-run via the "Cancel AI" toolbar button:
+* Already-emitted highlights remain and are saved automatically.
+* Spinner switches to "Cancelling" until the current batch finishes.
+* Final dialog is labeled (Cancelled) and still shows the log path.
+
+Planned improvements: adaptive batch size, dynamic threshold relaxation if target density underfilled late, streaming rationale surfacing, and optional real-time metrics in status bar.
 
 ### How It Works (High-Level)
 1. `pdfminer.six` extracts lines and groups them into chunks (bounded by vertical gaps and character limits).

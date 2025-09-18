@@ -30,6 +30,7 @@ class MainWindow(QMainWindow):
         self._spinner_frames = ["⠋","⠙","⠸","⠴","⠦","⠇"]
         self._spinner_index = 0
         self._spinner_prefix = "Analyzing"  # dynamic (e.g., Analyzing Pg 3)
+        self._cancel_action = None  # will be created in _create_toolbar
 
         # Status bar
         self.page_label = QLabel("Page: -/-")
@@ -97,6 +98,10 @@ class MainWindow(QMainWindow):
         QTimer.singleShot(0, _configure_llm_btn)
         clear_act = add_action("Clear HLs", self.clear_all_highlights, "clear")
         clear_act.setToolTip("Remove all highlights (manual + auto)")
+        # Cancel action (hidden until a run starts)
+        self._cancel_action = add_action("Cancel AI", self._cancel_stream, "cancel")
+        self._cancel_action.setToolTip("Cancel in-progress AI highlight run")
+        self._cancel_action.setVisible(False)
         # Spinner placeholder (right side)
         self._spinner_label = QLabel("")
         self._spinner_label.setObjectName("SpinnerLabel")
@@ -111,7 +116,7 @@ class MainWindow(QMainWindow):
         tb.addWidget(self.toolbar_page_label)
 
     def open_pdf(self):
-        path, _ = QFileDialog.getOpenFileName(self, "Open PDF", str(Path.cwd()), "PDF Files (*.pdf)")
+        path, _ = QFileDialog.getOpenFileName(self, "Open PDF", str(Path.cwd()) + "\\inputPDFs", "PDF Files (*.pdf)")
         if not path:
             return
         ann = AnnotationDocument.load(path)
@@ -349,6 +354,17 @@ class MainWindow(QMainWindow):
         self._stream_thread.finished.connect(lambda: setattr(self, '_active_stream_worker', None))
         self._stream_thread.finished.connect(self._stream_thread.deleteLater)
         self._stream_thread.start()
+        if self._cancel_action:
+            self._cancel_action.setVisible(True)
+
+    def _cancel_stream(self):
+        if self._active_stream_worker:
+            self._active_stream_worker.request_cancel()
+            self._spinner_prefix = "Cancelling"
+            if self._spinner_label:
+                self._spinner_label.setText(f"{self._spinner_prefix} {self._spinner_frames[self._spinner_index]}")
+            if self._cancel_action:
+                self._cancel_action.setEnabled(False)
 
     def _on_stream_highlight(self, hl: Highlight):
         doc = self.viewer.annotation_doc
@@ -363,8 +379,11 @@ class MainWindow(QMainWindow):
         # Insert into panel (maintain order later via refresh or smarter insertion)
         self.panel.add_highlight(hl)
 
-    def _on_stream_finished(self, log_path: str | None, count: int, page_filter: str):
+    def _on_stream_finished(self, log_path: str | None, count: int, page_filter: str, cancelled: bool):
         self._stop_spinner()
+        if self._cancel_action:
+            self._cancel_action.setVisible(False)
+            self._cancel_action.setEnabled(True)
         self.panel.refresh_list()
         doc = self.viewer.annotation_doc
         if doc:
@@ -374,7 +393,10 @@ class MainWindow(QMainWindow):
                 pass
         suffix = f"\nLog saved to: {log_path}" if log_path else ""
         scope = f" for pages {page_filter}" if page_filter else ""
-        QMessageBox.information(self, "LLM Highlight", f"Added {count} new highlights{scope}.{suffix}")
+        if cancelled:
+            QMessageBox.information(self, "LLM Highlight (Cancelled)", f"Cancelled. {count} highlights retained{scope}.{suffix}")
+        else:
+            QMessageBox.information(self, "LLM Highlight", f"Added {count} new highlights{scope}.{suffix}")
 
     def _on_stream_error(self, message: str):
         self._stop_spinner()
@@ -441,7 +463,7 @@ class MainWindow(QMainWindow):
 
 class LLMStreamWorker(QObject):
     highlightReady = Signal(Highlight)
-    finished = Signal(str, int, str)  # log_path, count, page_filter str
+    finished = Signal(str, int, str, bool)  # log_path, count, page_filter str, cancelled
     error = Signal(str)
     pageProgress = Signal(int)  # current batch (lowest) page index
 
@@ -452,6 +474,11 @@ class LLMStreamWorker(QObject):
         self.pdf_path = pdf_path
         self.density = density
         self.page_filter = page_filter
+        from threading import Event
+        self._cancel_event = Event()
+
+    def request_cancel(self):
+        self._cancel_event.set()
 
     def run(self):  # executed in thread
         try:
@@ -463,10 +490,18 @@ class LLMStreamWorker(QObject):
             def _batch_cb(page_idx):
                 if page_idx is not None:
                     self.pageProgress.emit(int(page_idx))
-            highlighter.generate_streaming(self.annotation_doc, self.pdf_path, density_target=self.density, on_highlight=_cb, on_batch_start=_batch_cb, page_filter=self.page_filter)
+            highlighter.generate_streaming(
+                self.annotation_doc,
+                self.pdf_path,
+                density_target=self.density,
+                on_highlight=_cb,
+                on_batch_start=_batch_cb,
+                should_stop=lambda: self._cancel_event.is_set(),
+                page_filter=self.page_filter
+            )
             log_path = getattr(highlighter, 'last_log_path', None)
             page_filter_str = ",".join(str(p+1) for p in sorted(self.page_filter)) if self.page_filter else ""
-            self.finished.emit(log_path, len(emitted), page_filter_str)
+            self.finished.emit(log_path, len(emitted), page_filter_str, self._cancel_event.is_set())
         except Exception as e:
             self.error.emit(str(e))
 

@@ -119,6 +119,7 @@ class LLMHighlighter:
     def generate_streaming(self, annotation_doc: AnnotationDocument, pdf_path: str, density_target: float,
                             on_highlight,  # callback(Highlight) -> None
                             on_batch_start=None,  # callback(page_index: int | None) -> None
+                            should_stop=None,  # callable() -> bool, checked between batches & emissions
                             min_threshold: float = DEFAULT_MIN_THRESHOLD,
                             page_filter: Optional[Set[int]] = None,
                             batch_size: int = 8,
@@ -161,7 +162,11 @@ class LLMHighlighter:
         selected: List[Highlight] = []
         accumulated_words = 0
         # Process batches
+        cancelled = False
         for i in range(0, len(chunks), batch_size):
+            if should_stop and should_stop():
+                cancelled = True
+                break
             batch = chunks[i:i+batch_size]
             if on_batch_start:
                 # Provide the lowest page index in this batch (or None if empty)
@@ -194,6 +199,9 @@ class LLMHighlighter:
             partial_scored.sort(key=lambda x: x[1], reverse=True)
             # Decide emissions: scan in relevance order like full algorithm
             for chunk, rel in partial_scored:
+                if should_stop and should_stop():
+                    cancelled = True
+                    break
                 if chunk.id in emitted_ids:
                     continue
                 if rel < min_threshold:
@@ -223,8 +231,8 @@ class LLMHighlighter:
                     break
             if accumulated_words >= target_words * soft_cap_multiplier:
                 break
-        # (Optional) fallback if nothing emitted but we have scores
-        if not selected and scored_map:
+        # (Optional) fallback if nothing emitted but we have scores and not cancelled
+        if not cancelled and not selected and scored_map:
             # find max relevance
             top = max(scored_map.values(), key=lambda s: s.relevance)
             if top.relevance >= min_threshold:
@@ -249,7 +257,8 @@ class LLMHighlighter:
             rel = scored_map.get(c.id).relevance if c.id in scored_map else 0.0
             scored_chunks_final.append((c, rel))
         scored_chunks_final.sort(key=lambda x: x[1], reverse=True)
-        self._write_log(pdf_path, annotation_doc, density_target, chunks, scored_map, scored_chunks_final, selected, min_threshold, reason="streaming_ok" if selected else "streaming_no_selection")
+        reason = "streaming_cancelled" if cancelled else ("streaming_ok" if selected else "streaming_no_selection")
+        self._write_log(pdf_path, annotation_doc, density_target, chunks, scored_map, scored_chunks_final, selected, min_threshold, reason=reason)
         return selected
 
     # ---- Internal helpers ----
