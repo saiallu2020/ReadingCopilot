@@ -135,7 +135,7 @@ Activate venv:
 Environment variables:
 $env:RC_LLM_PROVIDER = 'azure_openai'
 $env:RC_AZURE_OPENAI_ENDPOINT = 'https://saialluoai.openai.azure.com'
-$env:RC_AZURE_OPENAI_KEY = '<your-azure-openai-key>'
+$env:RC_AZURE_OPENAI_KEY = 'literal:<REDACTED>'
 $env:RC_AZURE_OPENAI_DEPLOYMENT = 'gpt-4o'
 $env:RC_AZURE_OPENAI_MAX_TOKENS = '16000'
 
