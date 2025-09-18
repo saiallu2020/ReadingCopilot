@@ -18,7 +18,7 @@ class AnnotationPanel(QWidget):
         self.list_widget.currentItemChanged.connect(self._on_item_changed)
         layout.addWidget(self.list_widget, 2)
 
-        layout.addWidget(QLabel("Note"))
+        layout.addWidget(QLabel("Reading Notes"))
         self.note_edit = QTextEdit()
         self.note_edit.textChanged.connect(self._on_note_changed)
         layout.addWidget(self.note_edit, 3)

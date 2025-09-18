@@ -44,45 +44,11 @@ class MainWindow(QMainWindow):
         layout = QHBoxLayout(container)
         layout.addWidget(splitter)
         self.setCentralWidget(container)
-        # Page jump widgets must exist before toolbar creation
-        self.page_input = QLineEdit()
-        self.page_input.setFixedWidth(60)
-        self.page_input.setPlaceholderText("Go to…")
-        self.page_input.returnPressed.connect(self._jump_to_page_from_input)
-        self._create_menu()
         self._create_toolbar()
         self.viewer.pageChanged.connect(self._update_page_label)
 
         # Attempt to auto-load last session PDF
         self._load_last_session_pdf()
-
-    def _create_menu(self):
-        menu = self.menuBar()
-        file_menu = menu.addMenu("File")
-
-        open_action = file_menu.addAction("Open PDF...")
-        open_action.triggered.connect(self.open_pdf)
-
-        save_action = file_menu.addAction("Save Annotations")
-        save_action.triggered.connect(self.save_annotations)
-
-        file_menu.addSeparator()
-        exit_action = file_menu.addAction("Exit")
-        exit_action.triggered.connect(self.close)
-
-        nav_menu = menu.addMenu("Navigate")
-        prev_act = nav_menu.addAction("Previous Page")
-        prev_act.triggered.connect(self.viewer.prev_page)
-        next_act = nav_menu.addAction("Next Page")
-        next_act.triggered.connect(self.viewer.next_page)
-        ai_menu = menu.addMenu("AI")
-        profile_act = ai_menu.addAction("Edit Profile / Goal")
-        profile_act.triggered.connect(self.edit_profile)
-        llm_act = ai_menu.addAction("LLM Auto Highlight")
-        llm_act.triggered.connect(self.llm_auto_highlight)
-        ai_menu.addSeparator()
-        clear_act = ai_menu.addAction("Clear All Highlights…")
-        clear_act.triggered.connect(self.clear_all_highlights)
 
     def _create_toolbar(self):
         tb = QToolBar("Main")
@@ -107,25 +73,10 @@ class MainWindow(QMainWindow):
 
         open_act = add_action("Open", self.open_pdf, "open")
         save_act = add_action("Save", self.save_annotations, "save")
-        prev_act = add_action("◀", self.viewer.prev_page)
-        prev_act.setToolTip("Previous Page (PgUp)")
-        next_act = add_action("▶", self.viewer.next_page)
-        next_act.setToolTip("Next Page (PgDn)")
-        tb.addWidget(self.page_input)
         profile_act = add_action("Profile", self.edit_profile, "profile")
         llm_act = add_action("LLM HL", self.llm_auto_highlight, "llm")
         clear_act = add_action("Clear HLs", self.clear_all_highlights, "clear")
         clear_act.setToolTip("Remove all highlights (manual + auto)")
-
-        # Shortcuts
-        prev_act.setShortcut(QKeySequence(Qt.Key.Key_PageUp))
-        next_act.setShortcut(QKeySequence(Qt.Key.Key_PageDown))
-        go_act = QAction("Go Page", self)
-        go_act.setShortcut(QKeySequence("Ctrl+G"))
-        go_act.triggered.connect(lambda: self.page_input.setFocus())
-        self.addAction(prev_act)
-        self.addAction(next_act)
-        self.addAction(go_act)
 
     def open_pdf(self):
         path, _ = QFileDialog.getOpenFileName(self, "Open PDF", str(Path.cwd()), "PDF Files (*.pdf)")
@@ -296,28 +247,6 @@ class MainWindow(QMainWindow):
             return
         total = self.viewer._pdf.page_count()
         self.page_label.setText(f"Page: {page_index+1}/{total}")
-
-    def _jump_to_page_from_input(self):
-        if not self.viewer._pdf:
-            return
-        text = self.page_input.text().strip()
-        if not text:
-            return
-        try:
-            num = int(text)
-        except ValueError:
-            self.statusBar().showMessage("Invalid page number", 3000)
-            return
-        total = self.viewer._pdf.page_count()
-        if not (1 <= num <= total):
-            self.statusBar().showMessage("Page out of range", 3000)
-            return
-        if (num - 1) != self.viewer._page_index:
-            self.viewer._page_index = num - 1
-            self.viewer._render_current_page()
-            self.viewer._restore_highlights()
-        self._update_page_label(self.viewer._page_index)
-        self.statusBar().showMessage(f"Jumped to page {num}", 1500)
 
     # ---- Persistence helpers ----
     def _state_file_path(self) -> str:
