@@ -66,6 +66,6 @@ def test_azure_client_basic():
 
 
 def test_parse_scores_direct():
-    raw = "Some wrapper text [ {\"id\":0, \"relevance\":0.9, \"rationale\":\"focuses on GPUs\"} ] tail"
+    raw = "Some wrapper text [ {\"id\":0, \"relevance\":0.9, \"rationale\":\"focuses on GPUs\", \"phrase\":\"GPU focus\"} ] tail"
     out = parse_scores(raw)
-    assert out and out[0].id == 0 and out[0].relevance == 0.9
+    assert out and out[0].id == 0 and out[0].relevance == 0.9 and out[0].phrase == "GPU focus"

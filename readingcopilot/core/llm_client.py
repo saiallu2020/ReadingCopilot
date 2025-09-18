@@ -11,6 +11,7 @@ class ScoredChunk:
     id: int
     relevance: float
     rationale: str
+    phrase: str | None = None  # short cohesive label (1-4 words)
 
 class BaseLLMClient(ABC):
     @abstractmethod
@@ -44,8 +45,9 @@ class AzureOpenAIClient(BaseLLMClient):
         }
         system = (
             "You score provided PDF text chunks for relevance to the user's background and stated document goal. "
-            "Return ONLY a JSON list with elements: {id:int, relevance: float 0-1, rationale: string}. "
-            "Relevance reflects usefulness toward achieving the goal for this user."
+            "Return ONLY a JSON list of objects with keys: id (int), relevance (float 0-1), rationale (string <=25 words), phrase (string). "
+            "phrase = ONE short cohesive human-friendly label 1-4 words (no quotes, no trailing punctuation) summarizing the chunk (e.g. AMD Instinct GPUs, Hyperscaler demand signal, Roadmap differentiation). "
+            "No commentary before or after JSON."
         )
         user = json.dumps(payload, ensure_ascii=False)
         return [
@@ -159,7 +161,12 @@ def parse_scores(raw: str) -> List[ScoredChunk]:
     out: List[ScoredChunk] = []
     for item in arr:
         try:
-            out.append(ScoredChunk(id=int(item['id']), relevance=float(item['relevance']), rationale=str(item.get('rationale',''))))
+            out.append(ScoredChunk(
+                id=int(item['id']),
+                relevance=float(item['relevance']),
+                rationale=str(item.get('rationale','')),
+                phrase=(str(item.get('phrase')).strip() if item.get('phrase') else None)
+            ))
         except Exception:
             continue
     return out

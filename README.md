@@ -9,7 +9,7 @@ ReadingCopilot is an extensible local-first PDF reader that will evolve into an 
 * Add / edit free-form notes per highlight in a side panel
 * Persist annotations to a JSON sidecar file: `<pdf>.annotations.json`
 * Profile & Goal dialog (global profile + document-specific goal + highlight density target)
-* LLM Auto Highlight (Azure OpenAI) scores extracted text chunks for relevance (auto-generated highlights appear in orange)
+* LLM Auto Highlight (Azure OpenAI) scores extracted text chunks for relevance (auto-generated highlights appear in orange) and now assigns a short LLM-generated phrase (1–4 words) as the highlight note for quick scanning.
 
 ## Roadmap (Next)
 1. Finer text-span mapping (per-line / per-word geometry) and highlight merging
@@ -70,6 +70,7 @@ If the Azure call fails or returns malformed JSON, the app logs diagnostic detai
 2. Chunks are batched to the LLM with a JSON instruction to return relevance scores 0–1.
 3. Scores are sorted; chunks are selected until the soft word budget (density target) is met.
 4. Each chunk's line rectangles form a multi-rect highlight.
+5. The model now also returns a concise phrase label per chunk (e.g. `AMD Instinct GPUs`, `Hyperscaler demand signal`). This becomes the note shown in the annotation list. If a phrase is missing, a local heuristic keyword fallback is used.
 
 ### Limitations
 * Chunk granularity is line-group based; not yet word-level.
@@ -135,7 +136,7 @@ $env:RC_LLM_PROVIDER = 'azure_openai'
 $env:RC_AZURE_OPENAI_ENDPOINT = 'https://saialluoai.openai.azure.com'
 $env:RC_AZURE_OPENAI_KEY = 'literal:<REDACTED>'
 $env:RC_AZURE_OPENAI_DEPLOYMENT = 'gpt-4o'
-$env:RC_AZURE_OPENAI_MAX_TOKENS = '20000'
+$env:RC_AZURE_OPENAI_MAX_TOKENS = '16000'
 
 
 Launch application:

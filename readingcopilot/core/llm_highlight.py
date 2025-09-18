@@ -3,6 +3,7 @@ from typing import List, Tuple
 from .text_extraction import extract_chunks, TextChunk
 from .llm_client import BaseLLMClient, ScoredChunk
 from .annotations import Highlight, Rect, AnnotationDocument
+from .keywords import extract_keywords
 import os, json
 from datetime import datetime
 from pathlib import Path
@@ -70,7 +71,14 @@ class LLMHighlighter:
                 # Otherwise skip and keep scanning for higher relevance
                 continue
             rects = [Rect(x1=r[0], y1=r[1], x2=r[2], y2=r[3]) for r in chunk.rects]
-            hl = Highlight(page_index=chunk.page_index, rects=rects, extracted_text=chunk.text, auto_generated=True, profile_score=rel, color=(255, 170, 90))
+            scored = scored_map.get(chunk.id)
+            phrase = getattr(scored, 'phrase', None) if scored else None
+            if phrase:
+                note = phrase
+            else:
+                kw = extract_keywords(chunk.text, max_keywords=4)
+                note = " ".join(kw) if kw else None
+            hl = Highlight(page_index=chunk.page_index, rects=rects, extracted_text=chunk.text, auto_generated=True, profile_score=rel, color=(255, 170, 90), note=note)
             selected.append(hl)
             accumulated += len(chunk.text.split())
             if accumulated >= target_words * 2:  # soft cap
@@ -82,7 +90,14 @@ class LLMHighlighter:
             # Only fallback if top chunk actually meets threshold (avoid surfacing low-quality 0.4 scores)
             if top_rel >= min_threshold:
                 rects = [Rect(x1=r[0], y1=r[1], x2=r[2], y2=r[3]) for r in top_chunk.rects]
-                selected.append(Highlight(page_index=top_chunk.page_index, rects=rects, extracted_text=top_chunk.text, auto_generated=True, profile_score=top_rel, color=(255, 170, 90)))
+                scored_top = scored_map.get(top_chunk.id)
+                phrase = getattr(scored_top, 'phrase', None) if scored_top else None
+                if phrase:
+                    note = phrase
+                else:
+                    kw = extract_keywords(top_chunk.text, max_keywords=4)
+                    note = " ".join(kw) if kw else None
+                selected.append(Highlight(page_index=top_chunk.page_index, rects=rects, extracted_text=top_chunk.text, auto_generated=True, profile_score=top_rel, color=(255, 170, 90), note=note))
                 fallback_used = True
         self._write_log(
             pdf_path,

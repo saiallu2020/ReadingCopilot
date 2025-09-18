@@ -3,6 +3,7 @@ from typing import Optional
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QListWidget, QListWidgetItem, QTextEdit, QLabel
 from PySide6.QtCore import Qt, Signal
 from readingcopilot.core.annotations import Highlight, AnnotationDocument
+from readingcopilot.core.keywords import extract_keywords
 
 class AnnotationPanel(QWidget):
     highlightSelected = Signal(Highlight)
@@ -34,14 +35,19 @@ class AnnotationPanel(QWidget):
         # ensure highlights are in a stable, sorted order by page index
         self.doc.highlights = sorted(self.doc.highlights, key=lambda hl: hl.page_index)
         for hl in self.doc.highlights:
-            item = QListWidgetItem(f"Page {hl.page_index+1} - {hl.note[:30]+'...' if hl.note else 'No note'}")
+            # Populate missing notes (e.g., legacy saved highlights) using heuristic keywords
+            if (not hl.note) and hl.extracted_text:
+                kw = extract_keywords(hl.extracted_text, max_keywords=4)
+                if kw:
+                    hl.note = "; ".join(kw)
+            item = QListWidgetItem(f"Page {hl.page_index+1} - {hl.note[:30] if hl.note else 'No note'}")
             item.setData(Qt.ItemDataRole.UserRole, hl)
             self.list_widget.addItem(item)
 
     def add_highlight(self, hl: Highlight):
         if not self.doc:
             return
-        item = QListWidgetItem(f"Page {hl.page_index+1} - {hl.note[:30]+'...' if hl.note else 'No note'}")
+        item = QListWidgetItem(f"Page {hl.page_index+1} - {hl.note[:30] if hl.note else 'No note'}")
         item.setData(Qt.ItemDataRole.UserRole, hl)
         self.list_widget.addItem(item)
 
