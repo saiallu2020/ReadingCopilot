@@ -29,6 +29,7 @@ class MainWindow(QMainWindow):
         self._spinner_label: QLabel | None = None
         self._spinner_frames = ["⠋","⠙","⠸","⠴","⠦","⠇"]
         self._spinner_index = 0
+        self._spinner_prefix = "Analyzing"  # dynamic (e.g., Analyzing Pg 3)
 
         # Status bar
         self.page_label = QLabel("Page: -/-")
@@ -312,22 +313,23 @@ class MainWindow(QMainWindow):
         if self._spinner_timer is None:
             self._spinner_timer = QTimer(self)
             self._spinner_timer.timeout.connect(self._advance_spinner)
+        self._spinner_prefix = prefix
         self._spinner_index = 0
-        self._spinner_label.setText(f"{prefix} {self._spinner_frames[self._spinner_index]}")
+        self._spinner_label.setText(f"{self._spinner_prefix} {self._spinner_frames[self._spinner_index]}")
         self._spinner_timer.start(120)
 
     def _advance_spinner(self):
         if not self._spinner_label:
             return
         self._spinner_index = (self._spinner_index + 1) % len(self._spinner_frames)
-        current_text = self._spinner_label.text().split(' ')[0]
-        self._spinner_label.setText(f"{current_text} {self._spinner_frames[self._spinner_index]}")
+        self._spinner_label.setText(f"{self._spinner_prefix} {self._spinner_frames[self._spinner_index]}")
 
     def _stop_spinner(self):
         if self._spinner_timer:
             self._spinner_timer.stop()
         if self._spinner_label:
             self._spinner_label.setText("")
+        self._spinner_prefix = "Analyzing"
 
     # ---- Streaming worker orchestration ----
     def _start_stream_worker(self, pdf_path: str, density: float, page_filter: set[int] | None):
@@ -339,6 +341,7 @@ class MainWindow(QMainWindow):
         self._active_stream_worker.moveToThread(self._stream_thread)
         self._stream_thread.started.connect(self._active_stream_worker.run)
         self._active_stream_worker.highlightReady.connect(self._on_stream_highlight)
+        self._active_stream_worker.pageProgress.connect(self._on_stream_page_progress)
         self._active_stream_worker.finished.connect(self._on_stream_finished)
         self._active_stream_worker.error.connect(self._on_stream_error)
         self._active_stream_worker.finished.connect(self._stream_thread.quit)
@@ -376,6 +379,15 @@ class MainWindow(QMainWindow):
     def _on_stream_error(self, message: str):
         self._stop_spinner()
         QMessageBox.critical(self, "LLM Error", message)
+
+    def _on_stream_page_progress(self, page_index: int):
+        # Update spinner prefix with human-friendly page number
+        if page_index is None or not self._spinner_label:
+            return
+        human = page_index + 1
+        self._spinner_prefix = f"Analyzing Page {human}"
+        # Force immediate UI update without waiting for next timer tick
+        self._spinner_label.setText(f"{self._spinner_prefix} {self._spinner_frames[self._spinner_index]}")
     # ---- Navigation helpers ----
     def _update_page_label(self, page_index: int):
         if not self.viewer._pdf:
@@ -431,6 +443,7 @@ class LLMStreamWorker(QObject):
     highlightReady = Signal(Highlight)
     finished = Signal(str, int, str)  # log_path, count, page_filter str
     error = Signal(str)
+    pageProgress = Signal(int)  # current batch (lowest) page index
 
     def __init__(self, client, annotation_doc: AnnotationDocument, pdf_path: str, density: float, page_filter: set[int] | None):
         super().__init__()
@@ -447,7 +460,10 @@ class LLMStreamWorker(QObject):
             def _cb(hl: Highlight):
                 emitted.append(hl)
                 self.highlightReady.emit(hl)
-            highlighter.generate_streaming(self.annotation_doc, self.pdf_path, density_target=self.density, on_highlight=_cb, page_filter=self.page_filter)
+            def _batch_cb(page_idx):
+                if page_idx is not None:
+                    self.pageProgress.emit(int(page_idx))
+            highlighter.generate_streaming(self.annotation_doc, self.pdf_path, density_target=self.density, on_highlight=_cb, on_batch_start=_batch_cb, page_filter=self.page_filter)
             log_path = getattr(highlighter, 'last_log_path', None)
             page_filter_str = ",".join(str(p+1) for p in sorted(self.page_filter)) if self.page_filter else ""
             self.finished.emit(log_path, len(emitted), page_filter_str)

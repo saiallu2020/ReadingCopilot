@@ -118,6 +118,7 @@ class LLMHighlighter:
     # --- Streaming (incremental) variant -------------------------------------------------
     def generate_streaming(self, annotation_doc: AnnotationDocument, pdf_path: str, density_target: float,
                             on_highlight,  # callback(Highlight) -> None
+                            on_batch_start=None,  # callback(page_index: int | None) -> None
                             min_threshold: float = DEFAULT_MIN_THRESHOLD,
                             page_filter: Optional[Set[int]] = None,
                             batch_size: int = 8,
@@ -162,6 +163,16 @@ class LLMHighlighter:
         # Process batches
         for i in range(0, len(chunks), batch_size):
             batch = chunks[i:i+batch_size]
+            if on_batch_start:
+                # Provide the lowest page index in this batch (or None if empty)
+                try:
+                    page_idx = min((c.page_index for c in batch), default=None)
+                except Exception:
+                    page_idx = None
+                try:
+                    on_batch_start(page_idx)
+                except Exception:
+                    pass
             try:
                 batch_scores = self.client.score_chunks(
                     chunks=[{"id": c.id, "text": c.text} for c in batch],
