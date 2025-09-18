@@ -1,0 +1,1782 @@
+{
+  "timestamp": "2025-09-18T16:08:58.978878Z",
+  "pdf_path": "C:/Users/saiallu/source/repos/ReadingCopilot/inputPDFs/Azure_for_Architects.pdf",
+  "reason": "ok",
+  "density_target": 0.1,
+  "min_threshold": 0.6,
+  "profile_present": true,
+  "document_goal_present": true,
+  "profile_char_len": 158,
+  "goal_char_len": 122,
+  "chunks": [
+    {
+      "id": 783,
+      "page_index": 37,
+      "char_count": 19,
+      "text_preview": "Cloud computing | 5"
+    },
+    {
+      "id": 784,
+      "page_index": 37,
+      "char_count": 18,
+      "text_preview": "Cost-effectiveness"
+    },
+    {
+      "id": 785,
+      "page_index": 37,
+      "char_count": 83,
+      "text_preview": "Paying for resources that are being consumed and using them optimally by increasing"
+    },
+    {
+      "id": 786,
+      "page_index": 37,
+      "char_count": 80,
+      "text_preview": "and decreasing the resource counts and capacity automatically is the fundamental"
+    },
+    {
+      "id": 787,
+      "page_index": 37,
+      "char_count": 81,
+      "text_preview": "tenet of cloud computing. These emerging application requirements demand the cloud"
+    },
+    {
+      "id": 788,
+      "page_index": 37,
+      "char_count": 92,
+      "text_preview": "as the preferred platform to scale easily, be highly available, be disaster-resistant, bring"
+    },
+    {
+      "id": 789,
+      "page_index": 37,
+      "char_count": 84,
+      "text_preview": "in changes easily, and achieve predictable and consistent automated deployments in a"
+    },
+    {
+      "id": 790,
+      "page_index": 37,
+      "char_count": 22,
+      "text_preview": "cost-effective manner."
+    },
+    {
+      "id": 791,
+      "page_index": 37,
+      "char_count": 29,
+      "text_preview": "Deployment paradigms in Azure"
+    },
+    {
+      "id": 792,
+      "page_index": 37,
+      "char_count": 86,
+      "text_preview": "There are three different deployment patterns that are available in Azure; they are as"
+    },
+    {
+      "id": 793,
+      "page_index": 37,
+      "char_count": 8,
+      "text_preview": "follows:"
+    },
+    {
+      "id": 794,
+      "page_index": 37,
+      "char_count": 7,
+      "text_preview": "\u2022  IaaS"
+    },
+    {
+      "id": 795,
+      "page_index": 37,
+      "char_count": 7,
+      "text_preview": "\u2022  PaaS"
+    },
+    {
+      "id": 796,
+      "page_index": 37,
+      "char_count": 7,
+      "text_preview": "\u2022  SaaS"
+    },
+    {
+      "id": 797,
+      "page_index": 37,
+      "char_count": 83,
+      "text_preview": "The difference between these three deployment patterns is the level of control that"
+    },
+    {
+      "id": 798,
+      "page_index": 37,
+      "char_count": 87,
+      "text_preview": "is exercised by customers via Azure. Figure 1.1 displays the different levels of control"
+    },
+    {
+      "id": 799,
+      "page_index": 37,
+      "char_count": 41,
+      "text_preview": "within each of these deployment patterns:"
+    },
+    {
+      "id": 800,
+      "page_index": 37,
+      "char_count": 14,
+      "text_preview": "IaaS\nPaaS\nSaaS"
+    },
+    {
+      "id": 801,
+      "page_index": 37,
+      "char_count": 38,
+      "text_preview": "Applications\nApplications\nApplications"
+    },
+    {
+      "id": 802,
+      "page_index": 37,
+      "char_count": 14,
+      "text_preview": "Data\nData\nData"
+    },
+    {
+      "id": 803,
+      "page_index": 37,
+      "char_count": 23,
+      "text_preview": "Runtime\nRuntime\nRuntime"
+    },
+    {
+      "id": 804,
+      "page_index": 37,
+      "char_count": 32,
+      "text_preview": "Middleware\nMiddleware\nMiddleware"
+    },
+    {
+      "id": 805,
+      "page_index": 37,
+      "char_count": 8,
+      "text_preview": "OS\nOS\nOS"
+    },
+    {
+      "id": 806,
+      "page_index": 37,
+      "char_count": 44,
+      "text_preview": "Virtualization\nVirtualization\nVirtualization"
+    },
+    {
+      "id": 807,
+      "page_index": 37,
+      "char_count": 7,
+      "text_preview": "Servers"
+    },
+    {
+      "id": 808,
+      "page_index": 37,
+      "char_count": 15,
+      "text_preview": "Storage\nServers"
+    },
+    {
+      "id": 809,
+      "page_index": 37,
+      "char_count": 15,
+      "text_preview": "Storage\nServers"
+    },
+    {
+      "id": 810,
+      "page_index": 37,
+      "char_count": 7,
+      "text_preview": "Storage"
+    },
+    {
+      "id": 811,
+      "page_index": 37,
+      "char_count": 32,
+      "text_preview": "Networking\nNetworking\nNetworking"
+    },
+    {
+      "id": 812,
+      "page_index": 37,
+      "char_count": 37,
+      "text_preview": "Managed by Consumer\nManaged by Vendor"
+    },
+    {
+      "id": 813,
+      "page_index": 37,
+      "char_count": 47,
+      "text_preview": "Figure 1.1: Cloud services\u2014IaaS, PaaS, and SaaS"
+    },
+    {
+      "id": 814,
+      "page_index": 38,
+      "char_count": 30,
+      "text_preview": "6 | Getting started with Azure"
+    },
+    {
+      "id": 815,
+      "page_index": 38,
+      "char_count": 76,
+      "text_preview": "It is clear from Figure 1.1 that customers have more control when using IaaS"
+    },
+    {
+      "id": 816,
+      "page_index": 38,
+      "char_count": 85,
+      "text_preview": "deployments, and this level of control continually decreases as we progress from PaaS"
+    },
+    {
+      "id": 817,
+      "page_index": 38,
+      "char_count": 20,
+      "text_preview": "to SaaS deployments."
+    },
+    {
+      "id": 818,
+      "page_index": 38,
+      "char_count": 4,
+      "text_preview": "IaaS"
+    },
+    {
+      "id": 819,
+      "page_index": 38,
+      "char_count": 79,
+      "text_preview": "IaaS is a type of deployment model that allows customers to provision their own"
+    },
+    {
+      "id": 820,
+      "page_index": 38,
+      "char_count": 85,
+      "text_preview": "infrastructure on Azure. Azure provides several infrastructure resources and customers"
+    },
+    {
+      "id": 821,
+      "page_index": 38,
+      "char_count": 74,
+      "text_preview": "can provision them on-demand. Customers are responsible for maintaining and"
+    },
+    {
+      "id": 822,
+      "page_index": 38,
+      "char_count": 84,
+      "text_preview": "governing their own infrastructure. Azure will ensure the maintenance of the physical"
+    },
+    {
+      "id": 823,
+      "page_index": 38,
+      "char_count": 79,
+      "text_preview": "infrastructure on which these virtual infrastructure resources are hosted. Under"
+    },
+    {
+      "id": 824,
+      "page_index": 38,
+      "char_count": 78,
+      "text_preview": "this approach, customers require active management and operations in the Azure"
+    },
+    {
+      "id": 825,
+      "page_index": 38,
+      "char_count": 12,
+      "text_preview": "environment."
+    },
+    {
+      "id": 826,
+      "page_index": 38,
+      "char_count": 4,
+      "text_preview": "PaaS"
+    },
+    {
+      "id": 827,
+      "page_index": 38,
+      "char_count": 81,
+      "text_preview": "PaaS takes away infrastructure deployment and control from the customer. This is a"
+    },
+    {
+      "id": 828,
+      "page_index": 38,
+      "char_count": 85,
+      "text_preview": "higher-level abstraction compared to IaaS. In this approach, customers bring their own"
+    },
+    {
+      "id": 829,
+      "page_index": 38,
+      "char_count": 81,
+      "text_preview": "application, code, and data, and deploy them on the Azure-provided platform. These"
+    },
+    {
+      "id": 830,
+      "page_index": 38,
+      "char_count": 84,
+      "text_preview": "platforms are managed and governed by Azure and customers are solely responsible for"
+    },
+    {
+      "id": 831,
+      "page_index": 38,
+      "char_count": 87,
+      "text_preview": "their applications. Customers perform activities related to their application deployment"
+    },
+    {
+      "id": 832,
+      "page_index": 38,
+      "char_count": 85,
+      "text_preview": "only. This model provides faster and easier options for the deployment of applications"
+    },
+    {
+      "id": 833,
+      "page_index": 38,
+      "char_count": 17,
+      "text_preview": "compared to IaaS."
+    },
+    {
+      "id": 834,
+      "page_index": 38,
+      "char_count": 4,
+      "text_preview": "SaaS"
+    },
+    {
+      "id": 835,
+      "page_index": 38,
+      "char_count": 86,
+      "text_preview": "SaaS is a higher-level abstraction compared to PaaS. In this approach, software and its"
+    },
+    {
+      "id": 836,
+      "page_index": 38,
+      "char_count": 84,
+      "text_preview": "services are available for customer consumption. Customers only bring their data into"
+    },
+    {
+      "id": 837,
+      "page_index": 38,
+      "char_count": 82,
+      "text_preview": "these services\u2014they do not have any control over these services. Now that we have a"
+    },
+    {
+      "id": 838,
+      "page_index": 38,
+      "char_count": 86,
+      "text_preview": "basic understanding of service types in Azure, let's get into the details of Azure and"
+    },
+    {
+      "id": 839,
+      "page_index": 38,
+      "char_count": 33,
+      "text_preview": "understand it from the ground up."
+    },
+    {
+      "id": 840,
+      "page_index": 38,
+      "char_count": 19,
+      "text_preview": "Understanding Azure"
+    },
+    {
+      "id": 841,
+      "page_index": 38,
+      "char_count": 84,
+      "text_preview": "Azure provides all the benefits of the cloud while remaining open and flexible. Azure"
+    },
+    {
+      "id": 842,
+      "page_index": 38,
+      "char_count": 85,
+      "text_preview": "supports a wide variety of operating systems, languages, tools, platforms, utilities,"
+    },
+    {
+      "id": 843,
+      "page_index": 38,
+      "char_count": 77,
+      "text_preview": "and frameworks. For example, it supports Linux and Windows, SQL Server, MySQL,"
+    },
+    {
+      "id": 844,
+      "page_index": 38,
+      "char_count": 75,
+      "text_preview": "and PostgreSQL. It supports most of the programming languages, including C#,"
+    },
+    {
+      "id": 845,
+      "page_index": 38,
+      "char_count": 80,
+      "text_preview": "Python, Java, Node.js, and Bash. It supports NoSQL databases, such as MongoDB and"
+    },
+    {
+      "id": 846,
+      "page_index": 38,
+      "char_count": 81,
+      "text_preview": "Cosmos DB, and it also supports continuous integration tools, such as Jenkins and"
+    },
+    {
+      "id": 847,
+      "page_index": 38,
+      "char_count": 77,
+      "text_preview": "Azure DevOps Services (formerly Visual Studio Team Services (VSTS)). The whole"
+    },
+    {
+      "id": 848,
+      "page_index": 38,
+      "char_count": 85,
+      "text_preview": "idea behind this ecosystem is to enable customers to have the freedom to choose their"
+    },
+    {
+      "id": 849,
+      "page_index": 38,
+      "char_count": 85,
+      "text_preview": "own language, platform, operating system, database, storage, and tools and utilities."
+    },
+    {
+      "id": 850,
+      "page_index": 38,
+      "char_count": 80,
+      "text_preview": "Customers should not be constrained from a technology perspective; instead, they"
+    },
+    {
+      "id": 851,
+      "page_index": 38,
+      "char_count": 85,
+      "text_preview": "should be able to build and focus on their business solution, and Azure provides them"
+    },
+    {
+      "id": 852,
+      "page_index": 38,
+      "char_count": 54,
+      "text_preview": "with a world-class technology stack that they can use."
+    },
+    {
+      "id": 853,
+      "page_index": 39,
+      "char_count": 23,
+      "text_preview": "Understanding Azure | 7"
+    },
+    {
+      "id": 854,
+      "page_index": 39,
+      "char_count": 77,
+      "text_preview": "Azure is very much compatible with the customer's choice of technology stack."
+    },
+    {
+      "id": 855,
+      "page_index": 39,
+      "char_count": 77,
+      "text_preview": "For example, Azure supports all popular (open-source and commercial) database"
+    },
+    {
+      "id": 856,
+      "page_index": 39,
+      "char_count": 75,
+      "text_preview": "environments. Azure provides Azure SQL, MySQL, and Postgres PaaS services. It"
+    },
+    {
+      "id": 857,
+      "page_index": 39,
+      "char_count": 78,
+      "text_preview": "provides the Hadoop ecosystem and offers HDInsight, a 100% Apache Hadoop\u2013based"
+    },
+    {
+      "id": 858,
+      "page_index": 39,
+      "char_count": 79,
+      "text_preview": "PaaS. It also provides a Hadoop on Linux virtual machine (VM) implementation for"
+    },
+    {
+      "id": 859,
+      "page_index": 39,
+      "char_count": 82,
+      "text_preview": "customers who prefer the IaaS approach. Azure also provides the Redis Cache service"
+    },
+    {
+      "id": 860,
+      "page_index": 39,
+      "char_count": 83,
+      "text_preview": "and supports other popular database environments, such as Cassandra, Couchbase, and"
+    },
+    {
+      "id": 861,
+      "page_index": 39,
+      "char_count": 33,
+      "text_preview": "Oracle as an IaaS implementation."
+    },
+    {
+      "id": 862,
+      "page_index": 39,
+      "char_count": 88,
+      "text_preview": "The number of services is increasing by the day in Azure and the most up-to-date list of"
+    },
+    {
+      "id": 863,
+      "page_index": 39,
+      "char_count": 62,
+      "text_preview": "services can be found at https://azure.microsoft.com/services."
+    },
+    {
+      "id": 864,
+      "page_index": 39,
+      "char_count": 83,
+      "text_preview": "Azure also provides a unique cloud computing paradigm known as the hybrid cloud. The"
+    },
+    {
+      "id": 865,
+      "page_index": 39,
+      "char_count": 86,
+      "text_preview": "hybrid cloud refers to a deployment strategy in which a subset of services is deployed"
+    },
+    {
+      "id": 866,
+      "page_index": 39,
+      "char_count": 84,
+      "text_preview": "on a public cloud, while other services are deployed on an on-premises private cloud"
+    },
+    {
+      "id": 867,
+      "page_index": 39,
+      "char_count": 84,
+      "text_preview": "or datacenter. There is a virtual private network (VPN) connection between the public"
+    },
+    {
+      "id": 868,
+      "page_index": 39,
+      "char_count": 84,
+      "text_preview": "and private clouds. Azure offers customers the flexibility to divide and deploy their"
+    },
+    {
+      "id": 869,
+      "page_index": 39,
+      "char_count": 64,
+      "text_preview": "workload on both the public cloud and an on-premises datacenter."
+    },
+    {
+      "id": 870,
+      "page_index": 39,
+      "char_count": 83,
+      "text_preview": "Azure has datacenters across the globe and combines these datacenters into regions."
+    },
+    {
+      "id": 871,
+      "page_index": 39,
+      "char_count": 84,
+      "text_preview": "Each region has multiple datacenters to ensure that recovery from disasters is quick"
+    },
+    {
+      "id": 872,
+      "page_index": 39,
+      "char_count": 89,
+      "text_preview": "and efficient. At the time of writing, there are 58 regions across the globe. This provides"
+    },
+    {
+      "id": 873,
+      "page_index": 39,
+      "char_count": 88,
+      "text_preview": "customers with the flexibility to deploy their services in their choice of location. They"
+    },
+    {
+      "id": 874,
+      "page_index": 39,
+      "char_count": 82,
+      "text_preview": "can also combine these regions to deploy a solution that is disaster-resistant and"
+    },
+    {
+      "id": 875,
+      "page_index": 39,
+      "char_count": 34,
+      "text_preview": "deployed near their customer base."
+    },
+    {
+      "id": 876,
+      "page_index": 39,
+      "char_count": 4,
+      "text_preview": "Note"
+    },
+    {
+      "id": 877,
+      "page_index": 39,
+      "char_count": 75,
+      "text_preview": "In China and Germany, the Azure Cloud Services are separate for general use"
+    },
+    {
+      "id": 878,
+      "page_index": 39,
+      "char_count": 77,
+      "text_preview": "and for governmental use. This means that the cloud services are maintained in"
+    },
+    {
+      "id": 879,
+      "page_index": 39,
+      "char_count": 21,
+      "text_preview": "separate datacenters."
+    }
+  ],
+  "scores": [
+    {
+      "id": 786,
+      "page_index": 37,
+      "relevance": 0.9,
+      "rationale_preview": "Discusses dynamic scaling, key for Azure services."
+    },
+    {
+      "id": 789,
+      "page_index": 37,
+      "relevance": 0.9,
+      "rationale_preview": "Focuses on automated deployments, essential for Azure expertise."
+    },
+    {
+      "id": 794,
+      "page_index": 37,
+      "relevance": 0.9,
+      "rationale_preview": "IaaS is a key Azure service model."
+    },
+    {
+      "id": 795,
+      "page_index": 37,
+      "relevance": 0.9,
+      "rationale_preview": "PaaS is a core Azure service model."
+    },
+    {
+      "id": 796,
+      "page_index": 37,
+      "relevance": 0.9,
+      "rationale_preview": "SaaS is a fundamental Azure service model."
+    },
+    {
+      "id": 812,
+      "page_index": 37,
+      "relevance": 0.9,
+      "rationale_preview": "Highlights Azure's management models"
+    },
+    {
+      "id": 827,
+      "page_index": 38,
+      "relevance": 0.9,
+      "rationale_preview": "Highlights PaaS abstraction, relevant for Azure architecture learning."
+    },
+    {
+      "id": 843,
+      "page_index": 38,
+      "relevance": 0.9,
+      "rationale_preview": "Details Azure's support for diverse databases, useful for architectural design."
+    },
+    {
+      "id": 844,
+      "page_index": 38,
+      "relevance": 0.9,
+      "rationale_preview": "Lists programming languages supported by Azure, relevant for software engineering."
+    },
+    {
+      "id": 854,
+      "page_index": 39,
+      "relevance": 0.9,
+      "rationale_preview": "Directly relevant to Azure's compatibility with tech stacks."
+    },
+    {
+      "id": 857,
+      "page_index": 39,
+      "relevance": 0.9,
+      "rationale_preview": "Introduces HDInsight, relevant for architecture learning"
+    },
+    {
+      "id": 864,
+      "page_index": 39,
+      "relevance": 0.9,
+      "rationale_preview": "Hybrid cloud is a key Azure concept relevant to architecture."
+    },
+    {
+      "id": 788,
+      "page_index": 37,
+      "relevance": 0.85,
+      "rationale_preview": "Mentions disaster resistance, critical for Azure architecture."
+    },
+    {
+      "id": 785,
+      "page_index": 37,
+      "relevance": 0.8,
+      "rationale_preview": "Highlights resource optimization, relevant for Azure architecture."
+    },
+    {
+      "id": 791,
+      "page_index": 37,
+      "relevance": 0.8,
+      "rationale_preview": "Relevant to Azure architecture and deployment paradigms."
+    },
+    {
+      "id": 797,
+      "page_index": 37,
+      "relevance": 0.8,
+      "rationale_preview": "Explains control levels, relevant to architecture."
+    },
+    {
+      "id": 798,
+      "page_index": 37,
+      "relevance": 0.8,
+      "rationale_preview": "Highlights control differences, useful for understanding architecture."
+    },
+    {
+      "id": 800,
+      "page_index": 37,
+      "relevance": 0.8,
+      "rationale_preview": "Highlights key Azure service models relevant to architecture."
+    },
+    {
+      "id": 813,
+      "page_index": 37,
+      "relevance": 0.8,
+      "rationale_preview": "Explains Azure service types"
+    },
+    {
+      "id": 819,
+      "page_index": 38,
+      "relevance": 0.8,
+      "rationale_preview": "Explains IaaS provisioning and customer responsibilities."
+    },
+    {
+      "id": 829,
+      "page_index": 38,
+      "relevance": 0.8,
+      "rationale_preview": "Discusses customer responsibilities in PaaS, useful for understanding Azure roles."
+    },
+    {
+      "id": 835,
+      "page_index": 38,
+      "relevance": 0.8,
+      "rationale_preview": "Explains SaaS abstraction, relevant for understanding Azure architecture layers."
+    },
+    {
+      "id": 841,
+      "page_index": 38,
+      "relevance": 0.8,
+      "rationale_preview": "Highlights Azure's flexibility and openness, relevant for expanding architectural knowledge."
+    },
+    {
+      "id": 846,
+      "page_index": 38,
+      "relevance": 0.8,
+      "rationale_preview": "Mentions CI tools like Jenkins, relevant for modern software workflows."
+    },
+    {
+      "id": 849,
+      "page_index": 38,
+      "relevance": 0.8,
+      "rationale_preview": "Emphasizes Azure's compatibility with diverse tech stacks."
+    },
+    {
+      "id": 851,
+      "page_index": 38,
+      "relevance": 0.8,
+      "rationale_preview": "Azure's world-class stack is relevant for architecture learning."
+    },
+    {
+      "id": 852,
+      "page_index": 38,
+      "relevance": 0.8,
+      "rationale_preview": "Azure's stack aligns with your upskilling goal."
+    },
+    {
+      "id": 856,
+      "page_index": 39,
+      "relevance": 0.8,
+      "rationale_preview": "Highlights Azure's PaaS offerings for databases"
+    },
+    {
+      "id": 859,
+      "page_index": 39,
+      "relevance": 0.8,
+      "rationale_preview": "Mentions Redis Cache, relevant for Azure services knowledge"
+    },
+    {
+      "id": 867,
+      "page_index": 39,
+      "relevance": 0.8,
+      "rationale_preview": "VPN connection detail adds depth to hybrid cloud understanding."
+    },
+    {
+      "id": 874,
+      "page_index": 39,
+      "relevance": 0.8,
+      "rationale_preview": "Focuses on disaster-resistant solutions, a key architectural concept."
+    },
+    {
+      "id": 792,
+      "page_index": 37,
+      "relevance": 0.7,
+      "rationale_preview": "Introduces deployment patterns, relevant to Azure knowledge."
+    },
+    {
+      "id": 814,
+      "page_index": 38,
+      "relevance": 0.7,
+      "rationale_preview": "Introduces Azure basics"
+    },
+    {
+      "id": 815,
+      "page_index": 38,
+      "relevance": 0.7,
+      "rationale_preview": "Highlights control differences in Azure service models."
+    },
+    {
+      "id": 836,
+      "page_index": 38,
+      "relevance": 0.7,
+      "rationale_preview": "Highlights customer interaction with SaaS, useful for Azure service design insights."
+    },
+    {
+      "id": 847,
+      "page_index": 38,
+      "relevance": 0.7,
+      "rationale_preview": "Azure DevOps aligns with your Azure expertise."
+    },
+    {
+      "id": 850,
+      "page_index": 38,
+      "relevance": 0.7,
+      "rationale_preview": "Supports focus on business solutions over tech constraints."
+    },
+    {
+      "id": 855,
+      "page_index": 39,
+      "relevance": 0.7,
+      "rationale_preview": "Mentions database support relevant to Azure expertise"
+    },
+    {
+      "id": 858,
+      "page_index": 39,
+      "relevance": 0.7,
+      "rationale_preview": "Discusses Hadoop on Linux VM, useful for IaaS understanding"
+    },
+    {
+      "id": 860,
+      "page_index": 39,
+      "relevance": 0.7,
+      "rationale_preview": "Lists other database environments, broadening Azure scope"
+    },
+    {
+      "id": 870,
+      "page_index": 39,
+      "relevance": 0.7,
+      "rationale_preview": "Global datacenter regions are foundational for Azure architecture."
+    },
+    {
+      "id": 871,
+      "page_index": 39,
+      "relevance": 0.7,
+      "rationale_preview": "Highlights Azure's disaster recovery strategy, relevant for architecture learning."
+    },
+    {
+      "id": 877,
+      "page_index": 39,
+      "relevance": 0.7,
+      "rationale_preview": "Highlights region-specific Azure services, relevant for understanding compliance and architecture."
+    },
+    {
+      "id": 878,
+      "page_index": 39,
+      "relevance": 0.7,
+      "rationale_preview": "Discusses maintenance of separate services, relevant for compliance-aware architecture."
+    },
+    {
+      "id": 806,
+      "page_index": 37,
+      "relevance": 0.6,
+      "rationale_preview": "Mentions virtualization, a foundational concept in Azure architecture."
+    },
+    {
+      "id": 848,
+      "page_index": 38,
+      "relevance": 0.6,
+      "rationale_preview": "Highlights flexibility in technology choices."
+    },
+    {
+      "id": 861,
+      "page_index": 39,
+      "relevance": 0.6,
+      "rationale_preview": "Includes Oracle IaaS, less directly relevant to Azure architecture"
+    },
+    {
+      "id": 873,
+      "page_index": 39,
+      "relevance": 0.6,
+      "rationale_preview": "Discusses flexibility in service deployment, relevant for architectural considerations."
+    },
+    {
+      "id": 875,
+      "page_index": 39,
+      "relevance": 0.6,
+      "rationale_preview": "Touches on proximity to customer base, relevant for performance optimization in architecture."
+    },
+    {
+      "id": 853,
+      "page_index": 39,
+      "relevance": 0.5,
+      "rationale_preview": "General statement about Azure understanding."
+    },
+    {
+      "id": 862,
+      "page_index": 39,
+      "relevance": 0.5,
+      "rationale_preview": "General statement about Azure services, less specific"
+    },
+    {
+      "id": 872,
+      "page_index": 39,
+      "relevance": 0.5,
+      "rationale_preview": "Mentions Azure's global regions, but less directly tied to advanced architecture insights."
+    },
+    {
+      "id": 793,
+      "page_index": 37,
+      "relevance": 0.3,
+      "rationale_preview": "Minimal standalone value, context-dependent."
+    },
+    {
+      "id": 879,
+      "page_index": 39,
+      "relevance": 0.2,
+      "rationale_preview": "Minimal architectural insight for Azure expertise"
+    },
+    {
+      "id": 876,
+      "page_index": 39,
+      "relevance": 0.1,
+      "rationale_preview": "Generic note marker, not directly informative."
+    },
+    {
+      "id": 783,
+      "page_index": 37,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 784,
+      "page_index": 37,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 787,
+      "page_index": 37,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 790,
+      "page_index": 37,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 799,
+      "page_index": 37,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 801,
+      "page_index": 37,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 802,
+      "page_index": 37,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 803,
+      "page_index": 37,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 804,
+      "page_index": 37,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 805,
+      "page_index": 37,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 807,
+      "page_index": 37,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 808,
+      "page_index": 37,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 809,
+      "page_index": 37,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 810,
+      "page_index": 37,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 811,
+      "page_index": 37,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 816,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 817,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 818,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 820,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 821,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 822,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 823,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 824,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 825,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 826,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 828,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 830,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 831,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 832,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 833,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 834,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 837,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 838,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 839,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 840,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 842,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 845,
+      "page_index": 38,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 863,
+      "page_index": 39,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 865,
+      "page_index": 39,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 866,
+      "page_index": 39,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 868,
+      "page_index": 39,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 869,
+      "page_index": 39,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    }
+  ],
+  "scored_order": [
+    {
+      "id": 786,
+      "relevance": 0.9,
+      "page_index": 37
+    },
+    {
+      "id": 789,
+      "relevance": 0.9,
+      "page_index": 37
+    },
+    {
+      "id": 794,
+      "relevance": 0.9,
+      "page_index": 37
+    },
+    {
+      "id": 795,
+      "relevance": 0.9,
+      "page_index": 37
+    },
+    {
+      "id": 796,
+      "relevance": 0.9,
+      "page_index": 37
+    },
+    {
+      "id": 812,
+      "relevance": 0.9,
+      "page_index": 37
+    },
+    {
+      "id": 827,
+      "relevance": 0.9,
+      "page_index": 38
+    },
+    {
+      "id": 843,
+      "relevance": 0.9,
+      "page_index": 38
+    },
+    {
+      "id": 844,
+      "relevance": 0.9,
+      "page_index": 38
+    },
+    {
+      "id": 854,
+      "relevance": 0.9,
+      "page_index": 39
+    },
+    {
+      "id": 857,
+      "relevance": 0.9,
+      "page_index": 39
+    },
+    {
+      "id": 864,
+      "relevance": 0.9,
+      "page_index": 39
+    },
+    {
+      "id": 788,
+      "relevance": 0.85,
+      "page_index": 37
+    },
+    {
+      "id": 785,
+      "relevance": 0.8,
+      "page_index": 37
+    },
+    {
+      "id": 791,
+      "relevance": 0.8,
+      "page_index": 37
+    },
+    {
+      "id": 797,
+      "relevance": 0.8,
+      "page_index": 37
+    },
+    {
+      "id": 798,
+      "relevance": 0.8,
+      "page_index": 37
+    },
+    {
+      "id": 800,
+      "relevance": 0.8,
+      "page_index": 37
+    },
+    {
+      "id": 813,
+      "relevance": 0.8,
+      "page_index": 37
+    },
+    {
+      "id": 819,
+      "relevance": 0.8,
+      "page_index": 38
+    },
+    {
+      "id": 829,
+      "relevance": 0.8,
+      "page_index": 38
+    },
+    {
+      "id": 835,
+      "relevance": 0.8,
+      "page_index": 38
+    },
+    {
+      "id": 841,
+      "relevance": 0.8,
+      "page_index": 38
+    },
+    {
+      "id": 846,
+      "relevance": 0.8,
+      "page_index": 38
+    },
+    {
+      "id": 849,
+      "relevance": 0.8,
+      "page_index": 38
+    },
+    {
+      "id": 851,
+      "relevance": 0.8,
+      "page_index": 38
+    },
+    {
+      "id": 852,
+      "relevance": 0.8,
+      "page_index": 38
+    },
+    {
+      "id": 856,
+      "relevance": 0.8,
+      "page_index": 39
+    },
+    {
+      "id": 859,
+      "relevance": 0.8,
+      "page_index": 39
+    },
+    {
+      "id": 867,
+      "relevance": 0.8,
+      "page_index": 39
+    },
+    {
+      "id": 874,
+      "relevance": 0.8,
+      "page_index": 39
+    },
+    {
+      "id": 792,
+      "relevance": 0.7,
+      "page_index": 37
+    },
+    {
+      "id": 814,
+      "relevance": 0.7,
+      "page_index": 38
+    },
+    {
+      "id": 815,
+      "relevance": 0.7,
+      "page_index": 38
+    },
+    {
+      "id": 836,
+      "relevance": 0.7,
+      "page_index": 38
+    },
+    {
+      "id": 847,
+      "relevance": 0.7,
+      "page_index": 38
+    },
+    {
+      "id": 850,
+      "relevance": 0.7,
+      "page_index": 38
+    },
+    {
+      "id": 855,
+      "relevance": 0.7,
+      "page_index": 39
+    },
+    {
+      "id": 858,
+      "relevance": 0.7,
+      "page_index": 39
+    },
+    {
+      "id": 860,
+      "relevance": 0.7,
+      "page_index": 39
+    },
+    {
+      "id": 870,
+      "relevance": 0.7,
+      "page_index": 39
+    },
+    {
+      "id": 871,
+      "relevance": 0.7,
+      "page_index": 39
+    },
+    {
+      "id": 877,
+      "relevance": 0.7,
+      "page_index": 39
+    },
+    {
+      "id": 878,
+      "relevance": 0.7,
+      "page_index": 39
+    },
+    {
+      "id": 806,
+      "relevance": 0.6,
+      "page_index": 37
+    },
+    {
+      "id": 848,
+      "relevance": 0.6,
+      "page_index": 38
+    },
+    {
+      "id": 861,
+      "relevance": 0.6,
+      "page_index": 39
+    },
+    {
+      "id": 873,
+      "relevance": 0.6,
+      "page_index": 39
+    },
+    {
+      "id": 875,
+      "relevance": 0.6,
+      "page_index": 39
+    },
+    {
+      "id": 853,
+      "relevance": 0.5,
+      "page_index": 39
+    },
+    {
+      "id": 862,
+      "relevance": 0.5,
+      "page_index": 39
+    },
+    {
+      "id": 872,
+      "relevance": 0.5,
+      "page_index": 39
+    },
+    {
+      "id": 793,
+      "relevance": 0.3,
+      "page_index": 37
+    },
+    {
+      "id": 879,
+      "relevance": 0.2,
+      "page_index": 39
+    },
+    {
+      "id": 876,
+      "relevance": 0.1,
+      "page_index": 39
+    },
+    {
+      "id": 783,
+      "relevance": 0.0,
+      "page_index": 37
+    },
+    {
+      "id": 784,
+      "relevance": 0.0,
+      "page_index": 37
+    },
+    {
+      "id": 787,
+      "relevance": 0.0,
+      "page_index": 37
+    },
+    {
+      "id": 790,
+      "relevance": 0.0,
+      "page_index": 37
+    },
+    {
+      "id": 799,
+      "relevance": 0.0,
+      "page_index": 37
+    },
+    {
+      "id": 801,
+      "relevance": 0.0,
+      "page_index": 37
+    },
+    {
+      "id": 802,
+      "relevance": 0.0,
+      "page_index": 37
+    },
+    {
+      "id": 803,
+      "relevance": 0.0,
+      "page_index": 37
+    },
+    {
+      "id": 804,
+      "relevance": 0.0,
+      "page_index": 37
+    },
+    {
+      "id": 805,
+      "relevance": 0.0,
+      "page_index": 37
+    },
+    {
+      "id": 807,
+      "relevance": 0.0,
+      "page_index": 37
+    },
+    {
+      "id": 808,
+      "relevance": 0.0,
+      "page_index": 37
+    },
+    {
+      "id": 809,
+      "relevance": 0.0,
+      "page_index": 37
+    },
+    {
+      "id": 810,
+      "relevance": 0.0,
+      "page_index": 37
+    },
+    {
+      "id": 811,
+      "relevance": 0.0,
+      "page_index": 37
+    },
+    {
+      "id": 816,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 817,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 818,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 820,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 821,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 822,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 823,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 824,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 825,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 826,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 828,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 830,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 831,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 832,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 833,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 834,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 837,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 838,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 839,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 840,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 842,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 845,
+      "relevance": 0.0,
+      "page_index": 38
+    },
+    {
+      "id": 863,
+      "relevance": 0.0,
+      "page_index": 39
+    },
+    {
+      "id": 865,
+      "relevance": 0.0,
+      "page_index": 39
+    },
+    {
+      "id": 866,
+      "relevance": 0.0,
+      "page_index": 39
+    },
+    {
+      "id": 868,
+      "relevance": 0.0,
+      "page_index": 39
+    },
+    {
+      "id": 869,
+      "relevance": 0.0,
+      "page_index": 39
+    }
+  ],
+  "selected": [
+    {
+      "id": 0,
+      "page_index": 37,
+      "relevance": 0.9,
+      "text_preview": "and decreasing the resource counts and capacity automatically is the fundamental"
+    },
+    {
+      "id": 1,
+      "page_index": 37,
+      "relevance": 0.9,
+      "text_preview": "in changes easily, and achieve predictable and consistent automated deployments in a"
+    },
+    {
+      "id": 2,
+      "page_index": 37,
+      "relevance": 0.9,
+      "text_preview": "\u2022  IaaS"
+    },
+    {
+      "id": 3,
+      "page_index": 37,
+      "relevance": 0.9,
+      "text_preview": "\u2022  PaaS"
+    },
+    {
+      "id": 4,
+      "page_index": 37,
+      "relevance": 0.9,
+      "text_preview": "\u2022  SaaS"
+    },
+    {
+      "id": 5,
+      "page_index": 37,
+      "relevance": 0.9,
+      "text_preview": "Managed by Consumer\nManaged by Vendor"
+    },
+    {
+      "id": 6,
+      "page_index": 38,
+      "relevance": 0.9,
+      "text_preview": "PaaS takes away infrastructure deployment and control from the customer. This is a"
+    },
+    {
+      "id": 7,
+      "page_index": 38,
+      "relevance": 0.9,
+      "text_preview": "and frameworks. For example, it supports Linux and Windows, SQL Server, MySQL,"
+    },
+    {
+      "id": 8,
+      "page_index": 38,
+      "relevance": 0.9,
+      "text_preview": "and PostgreSQL. It supports most of the programming languages, including C#,"
+    },
+    {
+      "id": 9,
+      "page_index": 39,
+      "relevance": 0.9,
+      "text_preview": "Azure is very much compatible with the customer's choice of technology stack."
+    },
+    {
+      "id": 10,
+      "page_index": 39,
+      "relevance": 0.9,
+      "text_preview": "provides the Hadoop ecosystem and offers HDInsight, a 100% Apache Hadoop\u2013based"
+    },
+    {
+      "id": 11,
+      "page_index": 39,
+      "relevance": 0.9,
+      "text_preview": "Azure also provides a unique cloud computing paradigm known as the hybrid cloud. The"
+    },
+    {
+      "id": 12,
+      "page_index": 37,
+      "relevance": 0.85,
+      "text_preview": "as the preferred platform to scale easily, be highly available, be disaster-resistant, bring"
+    },
+    {
+      "id": 13,
+      "page_index": 37,
+      "relevance": 0.8,
+      "text_preview": "Paying for resources that are being consumed and using them optimally by increasing"
+    },
+    {
+      "id": 14,
+      "page_index": 37,
+      "relevance": 0.8,
+      "text_preview": "Deployment paradigms in Azure"
+    },
+    {
+      "id": 15,
+      "page_index": 37,
+      "relevance": 0.8,
+      "text_preview": "The difference between these three deployment patterns is the level of control that"
+    },
+    {
+      "id": 16,
+      "page_index": 37,
+      "relevance": 0.8,
+      "text_preview": "is exercised by customers via Azure. Figure 1.1 displays the different levels of control"
+    },
+    {
+      "id": 17,
+      "page_index": 37,
+      "relevance": 0.8,
+      "text_preview": "IaaS\nPaaS\nSaaS"
+    },
+    {
+      "id": 18,
+      "page_index": 37,
+      "relevance": 0.8,
+      "text_preview": "Figure 1.1: Cloud services\u2014IaaS, PaaS, and SaaS"
+    }
+  ]
+}

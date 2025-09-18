@@ -1,0 +1,9 @@
+{
+  "pdf_path": "C:/Users/saiallu/source/repos/ReadingCopilot/inputPDFs/Azure_for_Architects.pdf",
+  "highlights": [],
+  "profile_context": "{\"global_profile\": \"I am a software engineer at Microsoft who has worked closely with Azure services. I am trying to upskill myself by learning more about architecture and Azure.\", \"document_goal\": \"This is a document about Architecting in Azure. I am looking for just interesting takeaways that I might not know already.\", \"density\": 0.1}",
+  "global_profile": "I am a software engineer at Microsoft who has worked closely with Azure services. I am trying to upskill myself by learning more about architecture and Azure.",
+  "document_goal": "This is a document about Architecting in Azure. I am looking for just interesting takeaways that I might not know already.",
+  "highlight_density_target": 0.1,
+  "version": 1
+}

@@ -1,0 +1,1708 @@
+{
+  "timestamp": "2025-09-18T16:06:00.581104Z",
+  "pdf_path": "C:/Users/saiallu/source/repos/ReadingCopilot/inputPDFs/Azure_for_Architects.pdf",
+  "reason": "ok",
+  "density_target": 0.1,
+  "min_threshold": 0.6,
+  "profile_present": true,
+  "document_goal_present": true,
+  "profile_char_len": 158,
+  "goal_char_len": 122,
+  "chunks": [
+    {
+      "id": 690,
+      "page_index": 34,
+      "char_count": 30,
+      "text_preview": "2 | Getting started with Azure"
+    },
+    {
+      "id": 691,
+      "page_index": 34,
+      "char_count": 81,
+      "text_preview": "The most remarkable innovation of the 2000s was the rise and adoption of portable"
+    },
+    {
+      "id": 692,
+      "page_index": 34,
+      "char_count": 82,
+      "text_preview": "devices, especially smartphones, and with these came a plethora of apps. Apps could"
+    },
+    {
+      "id": 693,
+      "page_index": 34,
+      "char_count": 84,
+      "text_preview": "connect to centralized servers on the internet and carry out business as usual. Users"
+    },
+    {
+      "id": 694,
+      "page_index": 34,
+      "char_count": 83,
+      "text_preview": "were no longer dependent on browsers to do this work; all servers were either self-"
+    },
+    {
+      "id": 695,
+      "page_index": 34,
+      "char_count": 86,
+      "text_preview": "hosted or hosted using a service provider, such as an internet service provider (ISP)."
+    },
+    {
+      "id": 696,
+      "page_index": 34,
+      "char_count": 79,
+      "text_preview": "Users did not have much control over their servers. Multiple customers and their"
+    },
+    {
+      "id": 697,
+      "page_index": 34,
+      "char_count": 82,
+      "text_preview": "deployments were part of the same server, even without customers knowing about it."
+    },
+    {
+      "id": 698,
+      "page_index": 34,
+      "char_count": 83,
+      "text_preview": "However, something else happened in the middle and latter parts of the first decade"
+    },
+    {
+      "id": 699,
+      "page_index": 34,
+      "char_count": 82,
+      "text_preview": "of the 2000s. This was the rise of cloud computing, and it again rewrote the entire"
+    },
+    {
+      "id": 700,
+      "page_index": 34,
+      "char_count": 88,
+      "text_preview": "landscape of the IT industry. Initially, adoption was slow, and people approached it with"
+    },
+    {
+      "id": 701,
+      "page_index": 34,
+      "char_count": 88,
+      "text_preview": "caution, either because the cloud was in its infancy and still had to mature, or because"
+    },
+    {
+      "id": 702,
+      "page_index": 34,
+      "char_count": 54,
+      "text_preview": "people had various negative notions about what it was."
+    },
+    {
+      "id": 703,
+      "page_index": 34,
+      "char_count": 88,
+      "text_preview": "To gain a better understanding of the disruptive technology, we will cover the following"
+    },
+    {
+      "id": 704,
+      "page_index": 34,
+      "char_count": 23,
+      "text_preview": "topics in this chapter:"
+    },
+    {
+      "id": 705,
+      "page_index": 34,
+      "char_count": 18,
+      "text_preview": "\u2022  Cloud computing"
+    },
+    {
+      "id": 706,
+      "page_index": 34,
+      "char_count": 86,
+      "text_preview": "\u2022  Infrastructure as a service (IaaS), platform as a service (PaaS), and Software as a"
+    },
+    {
+      "id": 707,
+      "page_index": 34,
+      "char_count": 14,
+      "text_preview": "service (SaaS)"
+    },
+    {
+      "id": 708,
+      "page_index": 34,
+      "char_count": 22,
+      "text_preview": "\u2022  Understanding Azure"
+    },
+    {
+      "id": 709,
+      "page_index": 34,
+      "char_count": 31,
+      "text_preview": "\u2022  Azure Resource Manager (ARM)"
+    },
+    {
+      "id": 710,
+      "page_index": 34,
+      "char_count": 41,
+      "text_preview": "\u2022  Virtualization, containers, and Docker"
+    },
+    {
+      "id": 711,
+      "page_index": 34,
+      "char_count": 41,
+      "text_preview": "\u2022  Interacting with the intelligent cloud"
+    },
+    {
+      "id": 712,
+      "page_index": 34,
+      "char_count": 15,
+      "text_preview": "Cloud computing"
+    },
+    {
+      "id": 713,
+      "page_index": 34,
+      "char_count": 78,
+      "text_preview": "Today, cloud computing is one of the most promising upcoming technologies, and"
+    },
+    {
+      "id": 714,
+      "page_index": 34,
+      "char_count": 90,
+      "text_preview": "enterprises, no matter how big or small, are adopting it as a part of their IT strategy. It"
+    },
+    {
+      "id": 715,
+      "page_index": 34,
+      "char_count": 88,
+      "text_preview": "is difficult these days to have any meaningful conversation about an IT strategy without"
+    },
+    {
+      "id": 716,
+      "page_index": 34,
+      "char_count": 62,
+      "text_preview": "including cloud computing in the overall solution discussions."
+    },
+    {
+      "id": 717,
+      "page_index": 34,
+      "char_count": 85,
+      "text_preview": "Cloud computing, or simply the cloud in layman's terms, refers to the availability of"
+    },
+    {
+      "id": 718,
+      "page_index": 34,
+      "char_count": 85,
+      "text_preview": "resources on the internet. These resources are made available to users on the internet"
+    },
+    {
+      "id": 719,
+      "page_index": 34,
+      "char_count": 86,
+      "text_preview": "as services. For example, storage is available on-demand through the internet for users"
+    },
+    {
+      "id": 720,
+      "page_index": 34,
+      "char_count": 89,
+      "text_preview": "to store their files, documents, and more. Here, storage is a service that is offered by a"
+    },
+    {
+      "id": 721,
+      "page_index": 34,
+      "char_count": 15,
+      "text_preview": "cloud provider."
+    },
+    {
+      "id": 722,
+      "page_index": 35,
+      "char_count": 19,
+      "text_preview": "Cloud computing | 3"
+    },
+    {
+      "id": 723,
+      "page_index": 35,
+      "char_count": 80,
+      "text_preview": "A cloud provider is an enterprise or consortium of companies that provides cloud"
+    },
+    {
+      "id": 724,
+      "page_index": 35,
+      "char_count": 79,
+      "text_preview": "services to other enterprises and consumers. They host and manage these services"
+    },
+    {
+      "id": 725,
+      "page_index": 35,
+      "char_count": 85,
+      "text_preview": "on behalf of the user. They are responsible for enabling and maintaining the health of"
+    },
+    {
+      "id": 726,
+      "page_index": 35,
+      "char_count": 84,
+      "text_preview": "services. There are large datacenters across the globe that have been opened by cloud"
+    },
+    {
+      "id": 727,
+      "page_index": 35,
+      "char_count": 46,
+      "text_preview": "providers to cater to the IT demands of users."
+    },
+    {
+      "id": 728,
+      "page_index": 35,
+      "char_count": 81,
+      "text_preview": "Cloud resources consist of hosting services on on-demand infrastructures, such as"
+    },
+    {
+      "id": 729,
+      "page_index": 35,
+      "char_count": 87,
+      "text_preview": "computing infrastructures, networks, and storage facilities. This flavor of the cloud is"
+    },
+    {
+      "id": 730,
+      "page_index": 35,
+      "char_count": 14,
+      "text_preview": "known as IaaS."
+    },
+    {
+      "id": 731,
+      "page_index": 35,
+      "char_count": 33,
+      "text_preview": "The advantages of cloud computing"
+    },
+    {
+      "id": 732,
+      "page_index": 35,
+      "char_count": 88,
+      "text_preview": "Cloud adoption is at an all-time high and is growing because of several advantages, such"
+    },
+    {
+      "id": 733,
+      "page_index": 35,
+      "char_count": 9,
+      "text_preview": "as these:"
+    },
+    {
+      "id": 734,
+      "page_index": 35,
+      "char_count": 79,
+      "text_preview": "\u2022  Pay-as-you-go model: Customers do not need to purchase hardware and software"
+    },
+    {
+      "id": 735,
+      "page_index": 35,
+      "char_count": 79,
+      "text_preview": "for cloud resources. There is no capital expenditure for using a cloud resource;"
+    },
+    {
+      "id": 736,
+      "page_index": 35,
+      "char_count": 70,
+      "text_preview": "customers simply pay for the time that they use or reserve a resource."
+    },
+    {
+      "id": 737,
+      "page_index": 35,
+      "char_count": 78,
+      "text_preview": "\u2022  Global access: Cloud resources are available globally through the internet."
+    },
+    {
+      "id": 738,
+      "page_index": 35,
+      "char_count": 61,
+      "text_preview": "Customers can access their resources on-demand from anywhere."
+    },
+    {
+      "id": 739,
+      "page_index": 35,
+      "char_count": 80,
+      "text_preview": "\u2022  Unlimited resources: The scaling capability of cloud technology is unlimited;"
+    },
+    {
+      "id": 740,
+      "page_index": 35,
+      "char_count": 80,
+      "text_preview": "customers can provision as many resources as they want, without any constraints."
+    },
+    {
+      "id": 741,
+      "page_index": 35,
+      "char_count": 44,
+      "text_preview": "This is also known as unlimited scalability."
+    },
+    {
+      "id": 742,
+      "page_index": 35,
+      "char_count": 75,
+      "text_preview": "\u2022  Managed services: The cloud provider provides numerous services that are"
+    },
+    {
+      "id": 743,
+      "page_index": 35,
+      "char_count": 73,
+      "text_preview": "managed by them for customers. This takes away any technical and financial"
+    },
+    {
+      "id": 744,
+      "page_index": 35,
+      "char_count": 25,
+      "text_preview": "burden from the customer."
+    },
+    {
+      "id": 745,
+      "page_index": 35,
+      "char_count": 20,
+      "text_preview": "Why cloud computing?"
+    },
+    {
+      "id": 746,
+      "page_index": 35,
+      "char_count": 77,
+      "text_preview": "To understand the need for cloud computing, we must understand the industry's"
+    },
+    {
+      "id": 747,
+      "page_index": 35,
+      "char_count": 12,
+      "text_preview": "perspective."
+    },
+    {
+      "id": 748,
+      "page_index": 36,
+      "char_count": 30,
+      "text_preview": "4 | Getting started with Azure"
+    },
+    {
+      "id": 749,
+      "page_index": 36,
+      "char_count": 23,
+      "text_preview": "Flexibility and agility"
+    },
+    {
+      "id": 750,
+      "page_index": 36,
+      "char_count": 76,
+      "text_preview": "Instead of creating a large monolithic application using a big-bang approach"
+    },
+    {
+      "id": 751,
+      "page_index": 36,
+      "char_count": 79,
+      "text_preview": "deployment methodology, today, applications comprise smaller services using the"
+    },
+    {
+      "id": 752,
+      "page_index": 36,
+      "char_count": 78,
+      "text_preview": "microservices paradigm. Microservices help to create services in an independent"
+    },
+    {
+      "id": 753,
+      "page_index": 36,
+      "char_count": 82,
+      "text_preview": "and autonomous manner that can be evolved in isolation without bringing the entire"
+    },
+    {
+      "id": 754,
+      "page_index": 36,
+      "char_count": 88,
+      "text_preview": "application down. They offer large amounts of flexibility and agility in bringing changes"
+    },
+    {
+      "id": 755,
+      "page_index": 36,
+      "char_count": 79,
+      "text_preview": "to production in a faster and better way. There are many microservices that come"
+    },
+    {
+      "id": 756,
+      "page_index": 36,
+      "char_count": 86,
+      "text_preview": "together to create an application and provide integrated solutions for customers. These"
+    },
+    {
+      "id": 757,
+      "page_index": 36,
+      "char_count": 85,
+      "text_preview": "microservices should be discoverable and have well-defined endpoints for integration."
+    },
+    {
+      "id": 758,
+      "page_index": 36,
+      "char_count": 80,
+      "text_preview": "The number of integrations with the microservices approach is very high compared"
+    },
+    {
+      "id": 759,
+      "page_index": 36,
+      "char_count": 84,
+      "text_preview": "to traditional monolithic applications. These integrations add complexity in both the"
+    },
+    {
+      "id": 760,
+      "page_index": 36,
+      "char_count": 43,
+      "text_preview": "development and deployment of applications."
+    },
+    {
+      "id": 761,
+      "page_index": 36,
+      "char_count": 39,
+      "text_preview": "Speed, standardization, and consistency"
+    },
+    {
+      "id": 762,
+      "page_index": 36,
+      "char_count": 84,
+      "text_preview": "It follows that the methodology for deployments should also undergo changes to adapt"
+    },
+    {
+      "id": 763,
+      "page_index": 36,
+      "char_count": 83,
+      "text_preview": "to the needs of these services, that is, frequent changes and frequent deployments."
+    },
+    {
+      "id": 764,
+      "page_index": 36,
+      "char_count": 83,
+      "text_preview": "For frequent changes and deployments, it is important to use processes that help in"
+    },
+    {
+      "id": 765,
+      "page_index": 36,
+      "char_count": 83,
+      "text_preview": "bringing about these changes in a predictable and consistent manner. Automated agile"
+    },
+    {
+      "id": 766,
+      "page_index": 36,
+      "char_count": 80,
+      "text_preview": "processes should be used such that smaller changes can be deployed and tested in"
+    },
+    {
+      "id": 767,
+      "page_index": 36,
+      "char_count": 10,
+      "text_preview": "isolation."
+    },
+    {
+      "id": 768,
+      "page_index": 36,
+      "char_count": 16,
+      "text_preview": "Staying relevant"
+    },
+    {
+      "id": 769,
+      "page_index": 36,
+      "char_count": 82,
+      "text_preview": "Finally, deployment targets should be redefined. Not only should deployment targets"
+    },
+    {
+      "id": 770,
+      "page_index": 36,
+      "char_count": 87,
+      "text_preview": "be easily creatable within seconds, but also the environment built should be consistent"
+    },
+    {
+      "id": 771,
+      "page_index": 36,
+      "char_count": 84,
+      "text_preview": "across versions, with appropriate binaries, runtimes, frameworks, and configuration."
+    },
+    {
+      "id": 772,
+      "page_index": 36,
+      "char_count": 83,
+      "text_preview": "Virtual machines were used with monolithic applications but microservices need more"
+    },
+    {
+      "id": 773,
+      "page_index": 36,
+      "char_count": 83,
+      "text_preview": "agility, flexibility, and a more lightweight option than virtual machines. Container"
+    },
+    {
+      "id": 774,
+      "page_index": 36,
+      "char_count": 84,
+      "text_preview": "technology is the preferred mechanism for deployment targets for these services, and"
+    },
+    {
+      "id": 775,
+      "page_index": 36,
+      "char_count": 52,
+      "text_preview": "we will cover more about that later in this chapter."
+    },
+    {
+      "id": 776,
+      "page_index": 36,
+      "char_count": 11,
+      "text_preview": "Scalability"
+    },
+    {
+      "id": 777,
+      "page_index": 36,
+      "char_count": 84,
+      "text_preview": "Some important tenets of using microservices are that they have an unlimited scaling"
+    },
+    {
+      "id": 778,
+      "page_index": 36,
+      "char_count": 85,
+      "text_preview": "capability in isolation, global high availability, disaster recovery with a near-zero"
+    },
+    {
+      "id": 779,
+      "page_index": 36,
+      "char_count": 80,
+      "text_preview": "recovery point, and time objectives. These qualities of microservices necessitate"
+    },
+    {
+      "id": 780,
+      "page_index": 36,
+      "char_count": 86,
+      "text_preview": "infrastructure that can scale in an unlimited fashion. There should not be any resource"
+    },
+    {
+      "id": 781,
+      "page_index": 36,
+      "char_count": 90,
+      "text_preview": "constraints. While this is the case, it is also important that an organization does not pay"
+    },
+    {
+      "id": 782,
+      "page_index": 36,
+      "char_count": 50,
+      "text_preview": "for resources up front when they are not utilized."
+    }
+  ],
+  "scores": [
+    {
+      "id": 690,
+      "page_index": 34,
+      "relevance": 0.9,
+      "rationale_preview": "Directly relevant to Azure and starting architecture exploration."
+    },
+    {
+      "id": 709,
+      "page_index": 34,
+      "relevance": 0.9,
+      "rationale_preview": "Azure Resource Manager is key for architecture in Azure."
+    },
+    {
+      "id": 750,
+      "page_index": 36,
+      "relevance": 0.9,
+      "rationale_preview": "Highlights modern deployment methodology relevant to Azure architecture."
+    },
+    {
+      "id": 757,
+      "page_index": 36,
+      "relevance": 0.9,
+      "rationale_preview": "Highlights the importance of discoverable microservices and well-defined endpoints, relevant for Azure architecture."
+    },
+    {
+      "id": 764,
+      "page_index": 36,
+      "relevance": 0.9,
+      "rationale_preview": "Emphasizes predictable and consistent processes, crucial for Azure architecture."
+    },
+    {
+      "id": 773,
+      "page_index": 36,
+      "relevance": 0.9,
+      "rationale_preview": "Focuses on agility and flexibility, critical for Azure microservices."
+    },
+    {
+      "id": 774,
+      "page_index": 36,
+      "relevance": 0.9,
+      "rationale_preview": "Container technology is central to Azure microservices deployment."
+    },
+    {
+      "id": 780,
+      "page_index": 36,
+      "relevance": 0.9,
+      "rationale_preview": "Highlights scalable infrastructure, key for Azure architecture."
+    },
+    {
+      "id": 752,
+      "page_index": 36,
+      "relevance": 0.85,
+      "rationale_preview": "Discusses microservices autonomy, key for Azure-based solutions."
+    },
+    {
+      "id": 765,
+      "page_index": 36,
+      "relevance": 0.85,
+      "rationale_preview": "Mentions automated agile processes, relevant for Azure development."
+    },
+    {
+      "id": 710,
+      "page_index": 34,
+      "relevance": 0.8,
+      "rationale_preview": "Virtualization and containers are foundational for modern cloud architecture."
+    },
+    {
+      "id": 726,
+      "page_index": 35,
+      "relevance": 0.8,
+      "rationale_preview": "Mentions global datacenters, relevant for Azure architecture."
+    },
+    {
+      "id": 734,
+      "page_index": 35,
+      "relevance": 0.8,
+      "rationale_preview": "Highlights a key Azure cost model relevant to architecture."
+    },
+    {
+      "id": 739,
+      "page_index": 35,
+      "relevance": 0.8,
+      "rationale_preview": "Highlights Azure's unlimited scaling, relevant for advanced architecture."
+    },
+    {
+      "id": 759,
+      "page_index": 36,
+      "relevance": 0.8,
+      "rationale_preview": "Discusses the high number of integrations in microservices, which adds complexity, a key architectural consideration."
+    },
+    {
+      "id": 763,
+      "page_index": 36,
+      "relevance": 0.8,
+      "rationale_preview": "Highlights frequent changes and deployments, key for Azure services."
+    },
+    {
+      "id": 766,
+      "page_index": 36,
+      "relevance": 0.8,
+      "rationale_preview": "Focuses on deploying smaller changes, useful for Azure scalability."
+    },
+    {
+      "id": 772,
+      "page_index": 36,
+      "relevance": 0.8,
+      "rationale_preview": "Highlights shift from monolithic to microservices, key for Azure architecture."
+    },
+    {
+      "id": 777,
+      "page_index": 36,
+      "relevance": 0.8,
+      "rationale_preview": "Unlimited scaling aligns with Azure's microservices capabilities."
+    },
+    {
+      "id": 778,
+      "page_index": 36,
+      "relevance": 0.8,
+      "rationale_preview": "Discusses disaster recovery, relevant to Azure architecture."
+    },
+    {
+      "id": 699,
+      "page_index": 34,
+      "relevance": 0.7,
+      "rationale_preview": "Discusses the rise of cloud computing, relevant to Azure's evolution."
+    },
+    {
+      "id": 711,
+      "page_index": 34,
+      "relevance": 0.7,
+      "rationale_preview": "Interacting with intelligent cloud aligns with Azure's advanced capabilities."
+    },
+    {
+      "id": 728,
+      "page_index": 35,
+      "relevance": 0.7,
+      "rationale_preview": "Discusses on-demand infrastructures, key for Azure services."
+    },
+    {
+      "id": 737,
+      "page_index": 35,
+      "relevance": 0.7,
+      "rationale_preview": "Discusses global availability, a core Azure feature."
+    },
+    {
+      "id": 742,
+      "page_index": 35,
+      "relevance": 0.7,
+      "rationale_preview": "Managed services reduce operational overhead, useful for architectural insights."
+    },
+    {
+      "id": 762,
+      "page_index": 36,
+      "relevance": 0.7,
+      "rationale_preview": "Discusses adapting deployment methodology, relevant for Azure architecture."
+    },
+    {
+      "id": 769,
+      "page_index": 36,
+      "relevance": 0.7,
+      "rationale_preview": "Discusses redefining deployment targets, applicable to Azure architecture."
+    },
+    {
+      "id": 770,
+      "page_index": 36,
+      "relevance": 0.7,
+      "rationale_preview": "Discusses environment consistency, relevant for Azure architecture."
+    },
+    {
+      "id": 776,
+      "page_index": 36,
+      "relevance": 0.7,
+      "rationale_preview": "Scalability is a core Azure architecture principle."
+    },
+    {
+      "id": 779,
+      "page_index": 36,
+      "relevance": 0.7,
+      "rationale_preview": "Mentions recovery objectives, useful for Azure services."
+    },
+    {
+      "id": 782,
+      "page_index": 36,
+      "relevance": 0.7,
+      "rationale_preview": "Discusses resource utilization, relevant to Azure optimization."
+    },
+    {
+      "id": 696,
+      "page_index": 34,
+      "relevance": 0.6,
+      "rationale_preview": "Discusses server control, relevant to Azure's managed services."
+    },
+    {
+      "id": 703,
+      "page_index": 34,
+      "relevance": 0.6,
+      "rationale_preview": "Mentions gaining understanding of disruptive technology, aligns with learning Azure architecture."
+    },
+    {
+      "id": 767,
+      "page_index": 36,
+      "relevance": 0.6,
+      "rationale_preview": "General statement about isolation testing, moderately relevant."
+    },
+    {
+      "id": 771,
+      "page_index": 36,
+      "relevance": 0.6,
+      "rationale_preview": "Mentions binaries and frameworks, useful for Azure service setup."
+    },
+    {
+      "id": 781,
+      "page_index": 36,
+      "relevance": 0.6,
+      "rationale_preview": "Touches on cost efficiency, relevant but less technical."
+    },
+    {
+      "id": 695,
+      "page_index": 34,
+      "relevance": 0.5,
+      "rationale_preview": "Touches on hosting, somewhat relevant to Azure's hosting services."
+    },
+    {
+      "id": 697,
+      "page_index": 34,
+      "relevance": 0.5,
+      "rationale_preview": "Mentions shared servers, relevant to multi-tenant architecture in Azure."
+    },
+    {
+      "id": 768,
+      "page_index": 36,
+      "relevance": 0.5,
+      "rationale_preview": "Broad concept of staying relevant, less specific to Azure."
+    },
+    {
+      "id": 775,
+      "page_index": 36,
+      "relevance": 0.5,
+      "rationale_preview": "Promises more details later, less immediate relevance."
+    },
+    {
+      "id": 692,
+      "page_index": 34,
+      "relevance": 0.4,
+      "rationale_preview": "Discusses app connectivity, tangentially relevant to Azure services."
+    },
+    {
+      "id": 693,
+      "page_index": 34,
+      "relevance": 0.4,
+      "rationale_preview": "Mentions centralized servers, slightly relevant to cloud architecture."
+    },
+    {
+      "id": 691,
+      "page_index": 34,
+      "relevance": 0.3,
+      "rationale_preview": "General innovation context, less specific to Azure architecture."
+    },
+    {
+      "id": 694,
+      "page_index": 34,
+      "relevance": 0.3,
+      "rationale_preview": "Browser independence is less specific to Azure architecture."
+    },
+    {
+      "id": 716,
+      "page_index": 34,
+      "relevance": 0.3,
+      "rationale_preview": "Highlights cloud computing's role in IT solutions."
+    },
+    {
+      "id": 719,
+      "page_index": 34,
+      "relevance": 0.3,
+      "rationale_preview": "Explains on-demand storage services."
+    },
+    {
+      "id": 720,
+      "page_index": 34,
+      "relevance": 0.3,
+      "rationale_preview": "Details storage as a cloud service."
+    },
+    {
+      "id": 721,
+      "page_index": 34,
+      "relevance": 0.3,
+      "rationale_preview": "Mentions cloud providers offering storage."
+    },
+    {
+      "id": 714,
+      "page_index": 34,
+      "relevance": 0.2,
+      "rationale_preview": "General statement about IT strategy adoption."
+    },
+    {
+      "id": 717,
+      "page_index": 34,
+      "relevance": 0.2,
+      "rationale_preview": "Defines cloud computing in simple terms."
+    },
+    {
+      "id": 718,
+      "page_index": 34,
+      "relevance": 0.2,
+      "rationale_preview": "Describes internet-based resource availability."
+    },
+    {
+      "id": 715,
+      "page_index": 34,
+      "relevance": 0.1,
+      "rationale_preview": "Broad mention of IT strategy discussions."
+    },
+    {
+      "id": 698,
+      "page_index": 34,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 700,
+      "page_index": 34,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 701,
+      "page_index": 34,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 702,
+      "page_index": 34,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 704,
+      "page_index": 34,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 705,
+      "page_index": 34,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 706,
+      "page_index": 34,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 707,
+      "page_index": 34,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 708,
+      "page_index": 34,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 712,
+      "page_index": 34,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 713,
+      "page_index": 34,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 722,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 723,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 724,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 725,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 727,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 729,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 730,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 731,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 732,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 733,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 735,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 736,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 738,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 740,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 741,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 743,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 744,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 745,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 746,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 747,
+      "page_index": 35,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 748,
+      "page_index": 36,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 749,
+      "page_index": 36,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 751,
+      "page_index": 36,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 753,
+      "page_index": 36,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 754,
+      "page_index": 36,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 755,
+      "page_index": 36,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 756,
+      "page_index": 36,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 758,
+      "page_index": 36,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 760,
+      "page_index": 36,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 761,
+      "page_index": 36,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    }
+  ],
+  "scored_order": [
+    {
+      "id": 690,
+      "relevance": 0.9,
+      "page_index": 34
+    },
+    {
+      "id": 709,
+      "relevance": 0.9,
+      "page_index": 34
+    },
+    {
+      "id": 750,
+      "relevance": 0.9,
+      "page_index": 36
+    },
+    {
+      "id": 757,
+      "relevance": 0.9,
+      "page_index": 36
+    },
+    {
+      "id": 764,
+      "relevance": 0.9,
+      "page_index": 36
+    },
+    {
+      "id": 773,
+      "relevance": 0.9,
+      "page_index": 36
+    },
+    {
+      "id": 774,
+      "relevance": 0.9,
+      "page_index": 36
+    },
+    {
+      "id": 780,
+      "relevance": 0.9,
+      "page_index": 36
+    },
+    {
+      "id": 752,
+      "relevance": 0.85,
+      "page_index": 36
+    },
+    {
+      "id": 765,
+      "relevance": 0.85,
+      "page_index": 36
+    },
+    {
+      "id": 710,
+      "relevance": 0.8,
+      "page_index": 34
+    },
+    {
+      "id": 726,
+      "relevance": 0.8,
+      "page_index": 35
+    },
+    {
+      "id": 734,
+      "relevance": 0.8,
+      "page_index": 35
+    },
+    {
+      "id": 739,
+      "relevance": 0.8,
+      "page_index": 35
+    },
+    {
+      "id": 759,
+      "relevance": 0.8,
+      "page_index": 36
+    },
+    {
+      "id": 763,
+      "relevance": 0.8,
+      "page_index": 36
+    },
+    {
+      "id": 766,
+      "relevance": 0.8,
+      "page_index": 36
+    },
+    {
+      "id": 772,
+      "relevance": 0.8,
+      "page_index": 36
+    },
+    {
+      "id": 777,
+      "relevance": 0.8,
+      "page_index": 36
+    },
+    {
+      "id": 778,
+      "relevance": 0.8,
+      "page_index": 36
+    },
+    {
+      "id": 699,
+      "relevance": 0.7,
+      "page_index": 34
+    },
+    {
+      "id": 711,
+      "relevance": 0.7,
+      "page_index": 34
+    },
+    {
+      "id": 728,
+      "relevance": 0.7,
+      "page_index": 35
+    },
+    {
+      "id": 737,
+      "relevance": 0.7,
+      "page_index": 35
+    },
+    {
+      "id": 742,
+      "relevance": 0.7,
+      "page_index": 35
+    },
+    {
+      "id": 762,
+      "relevance": 0.7,
+      "page_index": 36
+    },
+    {
+      "id": 769,
+      "relevance": 0.7,
+      "page_index": 36
+    },
+    {
+      "id": 770,
+      "relevance": 0.7,
+      "page_index": 36
+    },
+    {
+      "id": 776,
+      "relevance": 0.7,
+      "page_index": 36
+    },
+    {
+      "id": 779,
+      "relevance": 0.7,
+      "page_index": 36
+    },
+    {
+      "id": 782,
+      "relevance": 0.7,
+      "page_index": 36
+    },
+    {
+      "id": 696,
+      "relevance": 0.6,
+      "page_index": 34
+    },
+    {
+      "id": 703,
+      "relevance": 0.6,
+      "page_index": 34
+    },
+    {
+      "id": 767,
+      "relevance": 0.6,
+      "page_index": 36
+    },
+    {
+      "id": 771,
+      "relevance": 0.6,
+      "page_index": 36
+    },
+    {
+      "id": 781,
+      "relevance": 0.6,
+      "page_index": 36
+    },
+    {
+      "id": 695,
+      "relevance": 0.5,
+      "page_index": 34
+    },
+    {
+      "id": 697,
+      "relevance": 0.5,
+      "page_index": 34
+    },
+    {
+      "id": 768,
+      "relevance": 0.5,
+      "page_index": 36
+    },
+    {
+      "id": 775,
+      "relevance": 0.5,
+      "page_index": 36
+    },
+    {
+      "id": 692,
+      "relevance": 0.4,
+      "page_index": 34
+    },
+    {
+      "id": 693,
+      "relevance": 0.4,
+      "page_index": 34
+    },
+    {
+      "id": 691,
+      "relevance": 0.3,
+      "page_index": 34
+    },
+    {
+      "id": 694,
+      "relevance": 0.3,
+      "page_index": 34
+    },
+    {
+      "id": 716,
+      "relevance": 0.3,
+      "page_index": 34
+    },
+    {
+      "id": 719,
+      "relevance": 0.3,
+      "page_index": 34
+    },
+    {
+      "id": 720,
+      "relevance": 0.3,
+      "page_index": 34
+    },
+    {
+      "id": 721,
+      "relevance": 0.3,
+      "page_index": 34
+    },
+    {
+      "id": 714,
+      "relevance": 0.2,
+      "page_index": 34
+    },
+    {
+      "id": 717,
+      "relevance": 0.2,
+      "page_index": 34
+    },
+    {
+      "id": 718,
+      "relevance": 0.2,
+      "page_index": 34
+    },
+    {
+      "id": 715,
+      "relevance": 0.1,
+      "page_index": 34
+    },
+    {
+      "id": 698,
+      "relevance": 0.0,
+      "page_index": 34
+    },
+    {
+      "id": 700,
+      "relevance": 0.0,
+      "page_index": 34
+    },
+    {
+      "id": 701,
+      "relevance": 0.0,
+      "page_index": 34
+    },
+    {
+      "id": 702,
+      "relevance": 0.0,
+      "page_index": 34
+    },
+    {
+      "id": 704,
+      "relevance": 0.0,
+      "page_index": 34
+    },
+    {
+      "id": 705,
+      "relevance": 0.0,
+      "page_index": 34
+    },
+    {
+      "id": 706,
+      "relevance": 0.0,
+      "page_index": 34
+    },
+    {
+      "id": 707,
+      "relevance": 0.0,
+      "page_index": 34
+    },
+    {
+      "id": 708,
+      "relevance": 0.0,
+      "page_index": 34
+    },
+    {
+      "id": 712,
+      "relevance": 0.0,
+      "page_index": 34
+    },
+    {
+      "id": 713,
+      "relevance": 0.0,
+      "page_index": 34
+    },
+    {
+      "id": 722,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 723,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 724,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 725,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 727,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 729,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 730,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 731,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 732,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 733,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 735,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 736,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 738,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 740,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 741,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 743,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 744,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 745,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 746,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 747,
+      "relevance": 0.0,
+      "page_index": 35
+    },
+    {
+      "id": 748,
+      "relevance": 0.0,
+      "page_index": 36
+    },
+    {
+      "id": 749,
+      "relevance": 0.0,
+      "page_index": 36
+    },
+    {
+      "id": 751,
+      "relevance": 0.0,
+      "page_index": 36
+    },
+    {
+      "id": 753,
+      "relevance": 0.0,
+      "page_index": 36
+    },
+    {
+      "id": 754,
+      "relevance": 0.0,
+      "page_index": 36
+    },
+    {
+      "id": 755,
+      "relevance": 0.0,
+      "page_index": 36
+    },
+    {
+      "id": 756,
+      "relevance": 0.0,
+      "page_index": 36
+    },
+    {
+      "id": 758,
+      "relevance": 0.0,
+      "page_index": 36
+    },
+    {
+      "id": 760,
+      "relevance": 0.0,
+      "page_index": 36
+    },
+    {
+      "id": 761,
+      "relevance": 0.0,
+      "page_index": 36
+    }
+  ],
+  "selected": [
+    {
+      "id": 0,
+      "page_index": 34,
+      "relevance": 0.9,
+      "text_preview": "2 | Getting started with Azure"
+    },
+    {
+      "id": 1,
+      "page_index": 34,
+      "relevance": 0.9,
+      "text_preview": "\u2022  Azure Resource Manager (ARM)"
+    },
+    {
+      "id": 2,
+      "page_index": 36,
+      "relevance": 0.9,
+      "text_preview": "Instead of creating a large monolithic application using a big-bang approach"
+    },
+    {
+      "id": 3,
+      "page_index": 36,
+      "relevance": 0.9,
+      "text_preview": "microservices should be discoverable and have well-defined endpoints for integration."
+    },
+    {
+      "id": 4,
+      "page_index": 36,
+      "relevance": 0.9,
+      "text_preview": "For frequent changes and deployments, it is important to use processes that help in"
+    },
+    {
+      "id": 5,
+      "page_index": 36,
+      "relevance": 0.9,
+      "text_preview": "agility, flexibility, and a more lightweight option than virtual machines. Container"
+    },
+    {
+      "id": 6,
+      "page_index": 36,
+      "relevance": 0.9,
+      "text_preview": "technology is the preferred mechanism for deployment targets for these services, and"
+    },
+    {
+      "id": 7,
+      "page_index": 36,
+      "relevance": 0.9,
+      "text_preview": "infrastructure that can scale in an unlimited fashion. There should not be any resource"
+    },
+    {
+      "id": 8,
+      "page_index": 36,
+      "relevance": 0.85,
+      "text_preview": "microservices paradigm. Microservices help to create services in an independent"
+    },
+    {
+      "id": 9,
+      "page_index": 36,
+      "relevance": 0.85,
+      "text_preview": "bringing about these changes in a predictable and consistent manner. Automated agile"
+    },
+    {
+      "id": 10,
+      "page_index": 34,
+      "relevance": 0.8,
+      "text_preview": "\u2022  Virtualization, containers, and Docker"
+    },
+    {
+      "id": 11,
+      "page_index": 35,
+      "relevance": 0.8,
+      "text_preview": "services. There are large datacenters across the globe that have been opened by cloud"
+    },
+    {
+      "id": 12,
+      "page_index": 35,
+      "relevance": 0.8,
+      "text_preview": "\u2022  Pay-as-you-go model: Customers do not need to purchase hardware and software"
+    },
+    {
+      "id": 13,
+      "page_index": 35,
+      "relevance": 0.8,
+      "text_preview": "\u2022  Unlimited resources: The scaling capability of cloud technology is unlimited;"
+    },
+    {
+      "id": 14,
+      "page_index": 36,
+      "relevance": 0.8,
+      "text_preview": "to traditional monolithic applications. These integrations add complexity in both the"
+    },
+    {
+      "id": 15,
+      "page_index": 36,
+      "relevance": 0.8,
+      "text_preview": "to the needs of these services, that is, frequent changes and frequent deployments."
+    },
+    {
+      "id": 16,
+      "page_index": 36,
+      "relevance": 0.8,
+      "text_preview": "processes should be used such that smaller changes can be deployed and tested in"
+    },
+    {
+      "id": 17,
+      "page_index": 36,
+      "relevance": 0.8,
+      "text_preview": "Virtual machines were used with monolithic applications but microservices need more"
+    }
+  ]
+}
