@@ -1,0 +1,241 @@
+{
+  "timestamp": "2025-09-18T15:20:17.838328Z",
+  "pdf_path": "C:/Users/saiallu/source/repos/ReadingCopilot/inputPDFs/AMD_Mini_2.pdf",
+  "reason": "ok",
+  "density_target": 0.25,
+  "min_threshold": 0.6,
+  "profile_present": true,
+  "document_goal_present": true,
+  "profile_char_len": 468,
+  "goal_char_len": 520,
+  "chunks": [
+    {
+      "id": 25,
+      "page_index": 1,
+      "char_count": 11,
+      "text_preview": "DATA CENTER"
+    },
+    {
+      "id": 26,
+      "page_index": 1,
+      "char_count": 19,
+      "text_preview": "Data Center segment"
+    },
+    {
+      "id": 27,
+      "page_index": 1,
+      "char_count": 24,
+      "text_preview": "annual revenue increased"
+    },
+    {
+      "id": 28,
+      "page_index": 1,
+      "char_count": 21,
+      "text_preview": "94% year-over-year to"
+    },
+    {
+      "id": 29,
+      "page_index": 1,
+      "char_count": 23,
+      "text_preview": "a record $12.6 billion."
+    },
+    {
+      "id": 30,
+      "page_index": 1,
+      "char_count": 376,
+      "text_preview": "2024 was another major in\ufb02ection point \nfor our server business as share gains \naccelerated. EPYC processors have \nbecome the CPU of choice for the modern \ndata center as we have consistently \nexecuted our multi-year roadmaps and \ndelivered a top-to-bottom portfolio \nthat offers signi\ufb01cant performance and \nTCO advantages across virtually every \nenterprise and cloud workload."
+    },
+    {
+      "id": 31,
+      "page_index": 1,
+      "char_count": 328,
+      "text_preview": "The world\u2019s largest cloud providers \nhave deployed EPYC CPUs at scale to \npower their most important and popular \nservices, including Office 365, Facebook, \nMicrosoft Teams, Salesforce, SAP, Zoom, \nUber, Net\ufb02ix and many more. Meta \nalone has deployed more than 1.5 million \nEPYC processors across their global data  \ncenter \ufb02eet."
+    },
+    {
+      "id": 32,
+      "page_index": 1,
+      "char_count": 34,
+      "text_preview": "More than 1,000 AMD-powered public"
+    },
+    {
+      "id": 33,
+      "page_index": 1,
+      "char_count": 320,
+      "text_preview": "cloud instances are now available \nfrom AWS, Alibaba, Google Cloud, \nMicrosoft Azure, IBM Cloud, Oracle, \nTencent and others, an increase of 27% \nyear-over-year. Enterprise adoption of \nEPYC in the cloud grew signi\ufb01cantly in \nthe year with large businesses activating \nnearly 3x more EPYC cloud instances \nyear-over-year."
+    },
+    {
+      "id": 34,
+      "page_index": 1,
+      "char_count": 377,
+      "text_preview": "Enterprise adoption of EPYC processors \nalso surged as there are now more \nthan 450 AMD EPYC server platforms \navailable from the largest OEMs and \nODMs. We expanded our footprint with \nForbes 2000 companies, highlighted by \nlarge wins with Adobe, Micron, Nestl\u00e9, \nServiceNow, Tata, Verizon, Visa and \nothers who deployed EPYC servers to \npower their mission-critical workloads."
+    },
+    {
+      "id": 35,
+      "page_index": 1,
+      "char_count": 69,
+      "text_preview": "In October, we launched our 5th Gen \nEPYC processor family delivering"
+    },
+    {
+      "id": 36,
+      "page_index": 1,
+      "char_count": 523,
+      "text_preview": "breakthrough performance and \nleadership TCO across enterprise scale-up \nand cloud-native scale-out workloads. Our latest EPYC processor family has \nset more than 540 performance world \nrecords across business applications, \ndata management, virtualized \ninfrastructure, supercomputing \nand digital services workloads. All \nof our cloud partners are planning \nto deploy 5th Gen EPYC processors \nacross their infrastructure, and server \nproviders are on-track to launch more \nthan 120 platforms suppor"
+    }
+  ],
+  "scores": [
+    {
+      "id": 30,
+      "page_index": 1,
+      "relevance": 0.9,
+      "rationale_preview": "Discusses AMD's EPYC processors' advantages and roadmap execution, relevant to data center business evaluation."
+    },
+    {
+      "id": 34,
+      "page_index": 1,
+      "relevance": 0.9,
+      "rationale_preview": "Details enterprise wins and customer expansion, critical for evaluating AMD's competitive position and opportunities."
+    },
+    {
+      "id": 31,
+      "page_index": 1,
+      "relevance": 0.85,
+      "rationale_preview": "Highlights major cloud providers using AMD EPYC CPUs, showcasing customer adoption and scale."
+    },
+    {
+      "id": 33,
+      "page_index": 1,
+      "relevance": 0.8,
+      "rationale_preview": "Highlights cloud adoption growth and partnerships, relevant for understanding AMD's data center business opportunities."
+    },
+    {
+      "id": 36,
+      "page_index": 1,
+      "relevance": 0.7,
+      "rationale_preview": "Discusses performance leadership and cloud partner adoption, relevant for assessing AMD's competitive edge."
+    },
+    {
+      "id": 35,
+      "page_index": 1,
+      "relevance": 0.4,
+      "rationale_preview": "Mentions a product launch but lacks specific details on relevance to data center GPUs."
+    },
+    {
+      "id": 25,
+      "page_index": 1,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 26,
+      "page_index": 1,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 27,
+      "page_index": 1,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 28,
+      "page_index": 1,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 29,
+      "page_index": 1,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 32,
+      "page_index": 1,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    }
+  ],
+  "scored_order": [
+    {
+      "id": 30,
+      "relevance": 0.9,
+      "page_index": 1
+    },
+    {
+      "id": 34,
+      "relevance": 0.9,
+      "page_index": 1
+    },
+    {
+      "id": 31,
+      "relevance": 0.85,
+      "page_index": 1
+    },
+    {
+      "id": 33,
+      "relevance": 0.8,
+      "page_index": 1
+    },
+    {
+      "id": 36,
+      "relevance": 0.7,
+      "page_index": 1
+    },
+    {
+      "id": 35,
+      "relevance": 0.4,
+      "page_index": 1
+    },
+    {
+      "id": 25,
+      "relevance": 0.0,
+      "page_index": 1
+    },
+    {
+      "id": 26,
+      "relevance": 0.0,
+      "page_index": 1
+    },
+    {
+      "id": 27,
+      "relevance": 0.0,
+      "page_index": 1
+    },
+    {
+      "id": 28,
+      "relevance": 0.0,
+      "page_index": 1
+    },
+    {
+      "id": 29,
+      "relevance": 0.0,
+      "page_index": 1
+    },
+    {
+      "id": 32,
+      "relevance": 0.0,
+      "page_index": 1
+    }
+  ],
+  "selected": [
+    {
+      "id": 0,
+      "page_index": 1,
+      "relevance": 0.9,
+      "text_preview": "2024 was another major in\ufb02ection point \nfor our server business as share gains \naccelerated. EPYC processors have \nbecome the CPU of choice for the modern \ndata center as we have consistently \nexecuted our multi-year roadmaps and \ndelivered a top-to-bottom portfolio \nthat offers signi\ufb01cant performance and \nTCO advantages across virtually every \nenterprise and cloud workload."
+    },
+    {
+      "id": 1,
+      "page_index": 1,
+      "relevance": 0.9,
+      "text_preview": "Enterprise adoption of EPYC processors \nalso surged as there are now more \nthan 450 AMD EPYC server platforms \navailable from the largest OEMs and \nODMs. We expanded our footprint with \nForbes 2000 companies, highlighted by \nlarge wins with Adobe, Micron, Nestl\u00e9, \nServiceNow, Tata, Verizon, Visa and \nothers who deployed EPYC servers to \npower their mission-critical workloads."
+    },
+    {
+      "id": 2,
+      "page_index": 1,
+      "relevance": 0.85,
+      "text_preview": "The world\u2019s largest cloud providers \nhave deployed EPYC CPUs at scale to \npower their most important and popular \nservices, including Office 365, Facebook, \nMicrosoft Teams, Salesforce, SAP, Zoom, \nUber, Net\ufb02ix and many more. Meta \nalone has deployed more than 1.5 million \nEPYC processors across their global data  \ncenter \ufb02eet."
+    }
+  ]
+}

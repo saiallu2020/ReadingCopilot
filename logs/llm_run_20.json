@@ -1,0 +1,474 @@
+{
+  "timestamp": "2025-09-18T15:19:48.291861Z",
+  "pdf_path": "C:/Users/saiallu/source/repos/ReadingCopilot/inputPDFs/AMD_Mini_2.pdf",
+  "reason": "ok",
+  "density_target": 0.25,
+  "min_threshold": 0.6,
+  "profile_present": true,
+  "document_goal_present": true,
+  "profile_char_len": 468,
+  "goal_char_len": 520,
+  "chunks": [
+    {
+      "id": 0,
+      "page_index": 0,
+      "char_count": 18,
+      "text_preview": "Dear Shareholders,"
+    },
+    {
+      "id": 1,
+      "page_index": 0,
+      "char_count": 76,
+      "text_preview": "Every day, more than 27,000 AMDers around the world come to work united by a"
+    },
+    {
+      "id": 2,
+      "page_index": 0,
+      "char_count": 77,
+      "text_preview": "single purpose: push the limits of high-performance and adaptive computing to"
+    },
+    {
+      "id": 3,
+      "page_index": 0,
+      "char_count": 75,
+      "text_preview": "help solve the world\u2019s most important challenges. The impact of our work has"
+    },
+    {
+      "id": 4,
+      "page_index": 0,
+      "char_count": 78,
+      "text_preview": "never been more profound, and the opportunities ahead have never been greater."
+    },
+    {
+      "id": 5,
+      "page_index": 0,
+      "char_count": 253,
+      "text_preview": "This is an incredibly exciting time for \nAMD and the entire semiconductor \nindustry as chips now power nearly every \naspect of modern life. AMD technology is \neverywhere, enabling the essential devices \nand services used by billions of people \nevery day."
+    },
+    {
+      "id": 6,
+      "page_index": 0,
+      "char_count": 264,
+      "text_preview": "Today, no technology better exempli\ufb01es \nthe power of high-performance computing \nthan AI. As the most transformative \ntechnology of the last 50 years, AI will \nfundamentally reshape industries and \ndaily life in ways that extend far beyond \nanything we can imagine."
+    },
+    {
+      "id": 7,
+      "page_index": 0,
+      "char_count": 390,
+      "text_preview": "In the data center alone, we expect the AI \naccelerator total addressable market to \ngrow by more than 60% annually, reaching \n$500 billion by 2028 \u2014 equivalent to the \nentire semiconductor industry\u2019s annual \nrevenue in 2023. Beyond the data center, \nthe rapid expansion of AI across PCs, \nembedded devices and the edge will drive \ndemand for more compute across each of \nour target markets."
+    },
+    {
+      "id": 8,
+      "page_index": 0,
+      "char_count": 910,
+      "text_preview": "Delivering on the promise of AI will \nrequire a diverse set of energy-efficient \nand high-performance compute engines, \nwhich we have spent years developing. However, truly addressing the scope and \ncomplexity of AI demands operational \nexcellence at scale and a complete \necosystem built on trusted partnerships \nwith industry leaders. Our decade-long \ntransformation has prepared us in each of \nthese dimensions. We believe AMD is one \nof the few companies with the technical \nexpertise and deep cu"
+    },
+    {
+      "id": 9,
+      "page_index": 0,
+      "char_count": 422,
+      "text_preview": "Our differentiated AI strategy builds on \nclose collaboration with hardware and \nsoftware leaders across the industry. We \nbelieve open standards and ecosystems \naccelerate innovation and broaden \nadoption. Just as standards-based \nprotocols drove signi\ufb01cant internet growth \nand transformed industries, establishing \nkey standards and creating an open \nsoftware ecosystem are critical to enabling \nthe full potential of AI."
+    },
+    {
+      "id": 10,
+      "page_index": 0,
+      "char_count": 52,
+      "text_preview": "2024 marked a major milestone in our \njourney as we:"
+    },
+    {
+      "id": 11,
+      "page_index": 0,
+      "char_count": 158,
+      "text_preview": "\u2022 Achieved record server processor \nmarket share, driven by growing \nadoption of AMD EPYC\u2122 processors \nacross cloud, enterprise and \nsupercomputing customers."
+    },
+    {
+      "id": 12,
+      "page_index": 0,
+      "char_count": 346,
+      "text_preview": "\u2022 Scaled our data center AI business \nto more than $5 billion in annual \nrevenue, with Meta, Microsoft, Oracle \nand others deploying AMD Instinct\u2122 \nMI300 accelerators in large-scale \nproduction environments. \n\u2022 Gained client processor market share \nbased on cutting-edge performance, \nefficiency and AI capabilities of our \nAMD Ryzen\u2122 processors."
+    },
+    {
+      "id": 13,
+      "page_index": 0,
+      "char_count": 107,
+      "text_preview": "\u2022 Solidi\ufb01ed and extended our position \nas the industry\u2019s leading provider of \nadaptive computing solutions."
+    },
+    {
+      "id": 14,
+      "page_index": 0,
+      "char_count": 527,
+      "text_preview": "Based on this momentum, we delivered \nstrong \ufb01nancial results in 2024. Annual \nrevenue grew 14% to $25.8 billion as \nrecord Data Center and Client segment \nrevenue more than offset declines in \nour Gaming and Embedded segments. Importantly, combined sales of our AMD \nEPYC and AMD Instinct data center \nproducts nearly doubled year-over-year, \ncontributing approximately 50% of \nannual revenue. As a result, we achieved \nrecord annual revenue while signi\ufb01cantly \nexpanding gross margin and increasing"
+    },
+    {
+      "id": 15,
+      "page_index": 0,
+      "char_count": 54,
+      "text_preview": "2024 Financial Performance \nData Center Transformation"
+    },
+    {
+      "id": 16,
+      "page_index": 0,
+      "char_count": 6,
+      "text_preview": "$25.8B"
+    },
+    {
+      "id": 17,
+      "page_index": 0,
+      "char_count": 19,
+      "text_preview": "Annual Revenue \n14%"
+    },
+    {
+      "id": 18,
+      "page_index": 0,
+      "char_count": 14,
+      "text_preview": "Year-over-year"
+    },
+    {
+      "id": 19,
+      "page_index": 0,
+      "char_count": 132,
+      "text_preview": "Record revenue growth in Data Center and Client \nsegments partially offset by lower revenue in \nGaming and Embedded segments \n$12.6B"
+    },
+    {
+      "id": 20,
+      "page_index": 0,
+      "char_count": 26,
+      "text_preview": "Data Center Revenue \n$7.1B"
+    },
+    {
+      "id": 21,
+      "page_index": 0,
+      "char_count": 14,
+      "text_preview": "Client Revenue"
+    },
+    {
+      "id": 22,
+      "page_index": 0,
+      "char_count": 5,
+      "text_preview": "$2.6B"
+    },
+    {
+      "id": 23,
+      "page_index": 0,
+      "char_count": 21,
+      "text_preview": "Gaming Revenue \n$3.6B"
+    },
+    {
+      "id": 24,
+      "page_index": 0,
+      "char_count": 16,
+      "text_preview": "Embedded Revenue"
+    }
+  ],
+  "scores": [
+    {
+      "id": 7,
+      "page_index": 0,
+      "relevance": 1.0,
+      "rationale_preview": "Directly discusses AI accelerator market growth, critical for evaluating AMD's data center GPU opportunities."
+    },
+    {
+      "id": 12,
+      "page_index": 0,
+      "relevance": 1.0,
+      "rationale_preview": "Directly discusses data center AI revenue, customers, and MI300 accelerators, highly relevant to investment evaluation."
+    },
+    {
+      "id": 6,
+      "page_index": 0,
+      "relevance": 0.9,
+      "rationale_preview": "Highlights AI as transformative, relevant to AMD's data center GPU business and investment potential."
+    },
+    {
+      "id": 8,
+      "page_index": 0,
+      "relevance": 0.9,
+      "rationale_preview": "Discusses AI strategy, ROCm software, and MI300X accelerators, relevant to AMD's data center GPU business."
+    },
+    {
+      "id": 14,
+      "page_index": 0,
+      "relevance": 0.9,
+      "rationale_preview": "Details financial growth driven by data center products, relevant for investment evaluation."
+    },
+    {
+      "id": 19,
+      "page_index": 0,
+      "relevance": 0.9,
+      "rationale_preview": "Highlights data center revenue growth, directly relevant to evaluating AMD's DC GPU business."
+    },
+    {
+      "id": 9,
+      "page_index": 0,
+      "relevance": 0.8,
+      "rationale_preview": "Highlights open standards and ecosystems, relevant for understanding AMD's competitive positioning in AI."
+    },
+    {
+      "id": 20,
+      "page_index": 0,
+      "relevance": 0.8,
+      "rationale_preview": "Specifies data center revenue, a key metric for assessing AMD's DC GPU business."
+    },
+    {
+      "id": 11,
+      "page_index": 0,
+      "relevance": 0.7,
+      "rationale_preview": "Mentions record server processor market share, indirectly relevant to data center GPUs."
+    },
+    {
+      "id": 13,
+      "page_index": 0,
+      "relevance": 0.5,
+      "rationale_preview": "Mentions adaptive computing solutions but lacks direct focus on data center GPUs."
+    },
+    {
+      "id": 15,
+      "page_index": 0,
+      "relevance": 0.3,
+      "rationale_preview": "Mentions financial performance but lacks specific focus on data center GPUs."
+    },
+    {
+      "id": 10,
+      "page_index": 0,
+      "relevance": 0.2,
+      "rationale_preview": "Mentions a milestone year but lacks specific details on data center GPUs."
+    },
+    {
+      "id": 24,
+      "page_index": 0,
+      "relevance": 0.1,
+      "rationale_preview": "Mentions revenue but unrelated to data center GPUs or AI focus."
+    },
+    {
+      "id": 0,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 2,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 3,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 4,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 5,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 16,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 17,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 18,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 21,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 22,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 23,
+      "page_index": 0,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    }
+  ],
+  "scored_order": [
+    {
+      "id": 7,
+      "relevance": 1.0,
+      "page_index": 0
+    },
+    {
+      "id": 12,
+      "relevance": 1.0,
+      "page_index": 0
+    },
+    {
+      "id": 6,
+      "relevance": 0.9,
+      "page_index": 0
+    },
+    {
+      "id": 8,
+      "relevance": 0.9,
+      "page_index": 0
+    },
+    {
+      "id": 14,
+      "relevance": 0.9,
+      "page_index": 0
+    },
+    {
+      "id": 19,
+      "relevance": 0.9,
+      "page_index": 0
+    },
+    {
+      "id": 9,
+      "relevance": 0.8,
+      "page_index": 0
+    },
+    {
+      "id": 20,
+      "relevance": 0.8,
+      "page_index": 0
+    },
+    {
+      "id": 11,
+      "relevance": 0.7,
+      "page_index": 0
+    },
+    {
+      "id": 13,
+      "relevance": 0.5,
+      "page_index": 0
+    },
+    {
+      "id": 15,
+      "relevance": 0.3,
+      "page_index": 0
+    },
+    {
+      "id": 10,
+      "relevance": 0.2,
+      "page_index": 0
+    },
+    {
+      "id": 24,
+      "relevance": 0.1,
+      "page_index": 0
+    },
+    {
+      "id": 0,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 1,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 2,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 3,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 4,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 5,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 16,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 17,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 18,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 21,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 22,
+      "relevance": 0.0,
+      "page_index": 0
+    },
+    {
+      "id": 23,
+      "relevance": 0.0,
+      "page_index": 0
+    }
+  ],
+  "selected": [
+    {
+      "id": 0,
+      "page_index": 0,
+      "relevance": 1.0,
+      "text_preview": "In the data center alone, we expect the AI \naccelerator total addressable market to \ngrow by more than 60% annually, reaching \n$500 billion by 2028 \u2014 equivalent to the \nentire semiconductor industry\u2019s annual \nrevenue in 2023. Beyond the data center, \nthe rapid expansion of AI across PCs, \nembedded devices and the edge will drive \ndemand for more compute across each of \nour target markets."
+    },
+    {
+      "id": 1,
+      "page_index": 0,
+      "relevance": 1.0,
+      "text_preview": "\u2022 Scaled our data center AI business \nto more than $5 billion in annual \nrevenue, with Meta, Microsoft, Oracle \nand others deploying AMD Instinct\u2122 \nMI300 accelerators in large-scale \nproduction environments. \n\u2022 Gained client processor market share \nbased on cutting-edge performance, \nefficiency and AI capabilities of our \nAMD Ryzen\u2122 processors."
+    },
+    {
+      "id": 2,
+      "page_index": 0,
+      "relevance": 0.9,
+      "text_preview": "Today, no technology better exempli\ufb01es \nthe power of high-performance computing \nthan AI. As the most transformative \ntechnology of the last 50 years, AI will \nfundamentally reshape industries and \ndaily life in ways that extend far beyond \nanything we can imagine."
+    },
+    {
+      "id": 3,
+      "page_index": 0,
+      "relevance": 0.9,
+      "text_preview": "Delivering on the promise of AI will \nrequire a diverse set of energy-efficient \nand high-performance compute engines, \nwhich we have spent years developing. However, truly addressing the scope and \ncomplexity of AI demands operational \nexcellence at scale and a complete \necosystem built on trusted partnerships \nwith industry leaders. Our decade-long \ntransformation has prepared us in each of \nthe"
+    },
+    {
+      "id": 4,
+      "page_index": 0,
+      "relevance": 0.9,
+      "text_preview": "Based on this momentum, we delivered \nstrong \ufb01nancial results in 2024. Annual \nrevenue grew 14% to $25.8 billion as \nrecord Data Center and Client segment \nrevenue more than offset declines in \nour Gaming and Embedded segments. Importantly, combined sales of our AMD \nEPYC and AMD Instinct data center \nproducts nearly doubled year-over-year, \ncontributing approximately 50% of \nannual revenue. As a "
+    }
+  ]
+}

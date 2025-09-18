@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-09-18T15:14:29.204632Z",
+  "pdf_path": "C:\\Users\\saiallu\\AppData\\Local\\Temp\\pytest-of-saiallu\\pytest-8\\test_page_filter_limits_select0\\dummy.pdf",
+  "reason": "ok",
+  "density_target": 0.5,
+  "min_threshold": 0.6,
+  "profile_present": true,
+  "document_goal_present": true,
+  "profile_char_len": 1,
+  "goal_char_len": 1,
+  "chunks": [
+    {
+      "id": 1,
+      "page_index": 1,
+      "char_count": 20,
+      "text_preview": "second page content"
+    }
+  ],
+  "scores": [
+    {
+      "id": 1,
+      "page_index": 1,
+      "relevance": 0.9,
+      "rationale_preview": "r"
+    }
+  ],
+  "scored_order": [
+    {
+      "id": 1,
+      "relevance": 0.9,
+      "page_index": 1
+    }
+  ],
+  "selected": [
+    {
+      "id": 0,
+      "page_index": 1,
+      "relevance": 0.9,
+      "text_preview": "second page content"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 from __future__ import annotations
-from typing import List, Tuple
+from typing import List, Tuple, Optional, Set
 from .text_extraction import extract_chunks, TextChunk
 from .llm_client import BaseLLMClient, ScoredChunk
 from .annotations import Highlight, Rect, AnnotationDocument
@@ -19,7 +19,7 @@ class LLMHighlighter:
         self.client = client
         self.last_log_path: str | None = None
 
-    def generate(self, annotation_doc: AnnotationDocument, pdf_path: str, density_target: float, min_threshold: float = DEFAULT_MIN_THRESHOLD):
+    def generate(self, annotation_doc: AnnotationDocument, pdf_path: str, density_target: float, min_threshold: float = DEFAULT_MIN_THRESHOLD, page_filter: Optional[Set[int]] = None):
         # Allow environment variable override (RC_MIN_RELEVANCE_THRESHOLD)
         if min_threshold == DEFAULT_MIN_THRESHOLD:  # only override if caller used default
             env_thr = os.environ.get("RC_MIN_RELEVANCE_THRESHOLD")
@@ -32,6 +32,9 @@ class LLMHighlighter:
                     pass
         # Step 1: Extract chunks
         chunks = extract_chunks(pdf_path)
+        if page_filter:
+            # keep only chunks whose page_index is in filter
+            chunks = [c for c in chunks if c.page_index in page_filter]
         if not chunks:
             self._write_log(pdf_path, annotation_doc, density_target, [], {}, [], [], reason="no_chunks_extracted")
             return []
