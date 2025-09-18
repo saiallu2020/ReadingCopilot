@@ -1,0 +1,6454 @@
+{
+  "timestamp": "2025-09-18T17:06:22.636997Z",
+  "pdf_path": "C:/Users/saiallu/source/repos/ReadingCopilot/inputPDFs/Romeo_And_Juliet.pdf",
+  "reason": "ok",
+  "density_target": 0.1,
+  "min_threshold": 0.6,
+  "profile_present": true,
+  "document_goal_present": true,
+  "profile_char_len": 56,
+  "goal_char_len": 110,
+  "chunks": [
+    {
+      "id": 524,
+      "page_index": 14,
+      "char_count": 30,
+      "text_preview": "19\nRomeo and Juliet\nACT 1. SC. 1"
+    },
+    {
+      "id": 525,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0151"
+    },
+    {
+      "id": 526,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0152"
+    },
+    {
+      "id": 527,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0153"
+    },
+    {
+      "id": 528,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0154"
+    },
+    {
+      "id": 529,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0155"
+    },
+    {
+      "id": 530,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0156"
+    },
+    {
+      "id": 531,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0157"
+    },
+    {
+      "id": 532,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0158"
+    },
+    {
+      "id": 533,
+      "page_index": 14,
+      "char_count": 50,
+      "text_preview": "FTLN 0159\n But all so soon as the all-cheering sun"
+    },
+    {
+      "id": 534,
+      "page_index": 14,
+      "char_count": 41,
+      "text_preview": "Should in the farthest east begin to draw"
+    },
+    {
+      "id": 535,
+      "page_index": 14,
+      "char_count": 37,
+      "text_preview": "The shady curtains from Aurora\u2019s bed,"
+    },
+    {
+      "id": 536,
+      "page_index": 14,
+      "char_count": 40,
+      "text_preview": "Away from light steals home my heavy son"
+    },
+    {
+      "id": 537,
+      "page_index": 14,
+      "char_count": 40,
+      "text_preview": "And private in his chamber pens himself,"
+    },
+    {
+      "id": 538,
+      "page_index": 14,
+      "char_count": 46,
+      "text_preview": "Shuts up his windows, locks fair daylight out,"
+    },
+    {
+      "id": 539,
+      "page_index": 14,
+      "char_count": 38,
+      "text_preview": "And makes himself an artificial night."
+    },
+    {
+      "id": 540,
+      "page_index": 14,
+      "char_count": 43,
+      "text_preview": "Black and portentous must this humor prove,"
+    },
+    {
+      "id": 541,
+      "page_index": 14,
+      "char_count": 41,
+      "text_preview": "Unless good counsel may the cause remove."
+    },
+    {
+      "id": 542,
+      "page_index": 14,
+      "char_count": 8,
+      "text_preview": "BENVOLIO"
+    },
+    {
+      "id": 543,
+      "page_index": 14,
+      "char_count": 49,
+      "text_preview": "FTLN 0160\n My noble uncle, do you know the cause?"
+    },
+    {
+      "id": 544,
+      "page_index": 14,
+      "char_count": 8,
+      "text_preview": "MONTAGUE"
+    },
+    {
+      "id": 545,
+      "page_index": 14,
+      "char_count": 50,
+      "text_preview": "FTLN 0161\n I neither know it nor can learn of him."
+    },
+    {
+      "id": 546,
+      "page_index": 14,
+      "char_count": 8,
+      "text_preview": "BENVOLIO"
+    },
+    {
+      "id": 547,
+      "page_index": 14,
+      "char_count": 48,
+      "text_preview": "FTLN 0162\n Have you importuned him by any means?"
+    },
+    {
+      "id": 548,
+      "page_index": 14,
+      "char_count": 8,
+      "text_preview": "MONTAGUE"
+    },
+    {
+      "id": 549,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0163"
+    },
+    {
+      "id": 550,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0164"
+    },
+    {
+      "id": 551,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0165"
+    },
+    {
+      "id": 552,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0166"
+    },
+    {
+      "id": 553,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0167"
+    },
+    {
+      "id": 554,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0168"
+    },
+    {
+      "id": 555,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0169"
+    },
+    {
+      "id": 556,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0170"
+    },
+    {
+      "id": 557,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0171"
+    },
+    {
+      "id": 558,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0172"
+    },
+    {
+      "id": 559,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0173"
+    },
+    {
+      "id": 560,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0174"
+    },
+    {
+      "id": 561,
+      "page_index": 14,
+      "char_count": 9,
+      "text_preview": "FTLN 0175"
+    },
+    {
+      "id": 562,
+      "page_index": 14,
+      "char_count": 49,
+      "text_preview": "FTLN 0176\n Both by myself and many other friends."
+    },
+    {
+      "id": 563,
+      "page_index": 14,
+      "char_count": 40,
+      "text_preview": "But he,  his  own affections\u2019 counselor,"
+    },
+    {
+      "id": 564,
+      "page_index": 14,
+      "char_count": 38,
+      "text_preview": "Is to himself\u2014I will not say how true,"
+    },
+    {
+      "id": 565,
+      "page_index": 14,
+      "char_count": 38,
+      "text_preview": "But to himself so secret and so close,"
+    },
+    {
+      "id": 566,
+      "page_index": 14,
+      "char_count": 35,
+      "text_preview": "So far from sounding and discovery,"
+    },
+    {
+      "id": 567,
+      "page_index": 14,
+      "char_count": 38,
+      "text_preview": "As is the bud bit with an envious worm"
+    },
+    {
+      "id": 568,
+      "page_index": 14,
+      "char_count": 45,
+      "text_preview": "Ere he can spread his sweet leaves to the air"
+    },
+    {
+      "id": 569,
+      "page_index": 14,
+      "char_count": 35,
+      "text_preview": "Or dedicate his beauty to the same."
+    },
+    {
+      "id": 570,
+      "page_index": 14,
+      "char_count": 48,
+      "text_preview": "Could we but learn from whence his sorrows grow,"
+    },
+    {
+      "id": 571,
+      "page_index": 14,
+      "char_count": 40,
+      "text_preview": "We would as willingly give cure as know."
+    },
+    {
+      "id": 572,
+      "page_index": 14,
+      "char_count": 12,
+      "text_preview": "Enter Romeo."
+    },
+    {
+      "id": 573,
+      "page_index": 14,
+      "char_count": 8,
+      "text_preview": "BENVOLIO"
+    },
+    {
+      "id": 574,
+      "page_index": 14,
+      "char_count": 45,
+      "text_preview": "See where he comes. So please you, step aside."
+    },
+    {
+      "id": 575,
+      "page_index": 14,
+      "char_count": 42,
+      "text_preview": "I\u2019ll know his grievance or be much denied."
+    },
+    {
+      "id": 576,
+      "page_index": 14,
+      "char_count": 8,
+      "text_preview": "MONTAGUE"
+    },
+    {
+      "id": 577,
+      "page_index": 14,
+      "char_count": 38,
+      "text_preview": "I would thou wert so happy by thy stay"
+    },
+    {
+      "id": 578,
+      "page_index": 14,
+      "char_count": 45,
+      "text_preview": "To hear true shrift.\u2014Come, madam, let\u2019s away."
+    },
+    {
+      "id": 579,
+      "page_index": 14,
+      "char_count": 36,
+      "text_preview": "Montague and Lady Montague  exit. 140"
+    },
+    {
+      "id": 580,
+      "page_index": 14,
+      "char_count": 3,
+      "text_preview": "145"
+    },
+    {
+      "id": 581,
+      "page_index": 14,
+      "char_count": 3,
+      "text_preview": "150"
+    },
+    {
+      "id": 582,
+      "page_index": 14,
+      "char_count": 3,
+      "text_preview": "155"
+    },
+    {
+      "id": 583,
+      "page_index": 14,
+      "char_count": 3,
+      "text_preview": "160"
+    },
+    {
+      "id": 584,
+      "page_index": 15,
+      "char_count": 30,
+      "text_preview": "21\nRomeo and Juliet\nACT 1. SC. 1"
+    },
+    {
+      "id": 585,
+      "page_index": 15,
+      "char_count": 8,
+      "text_preview": "BENVOLIO"
+    },
+    {
+      "id": 586,
+      "page_index": 15,
+      "char_count": 31,
+      "text_preview": "FTLN 0177\n Good morrow, cousin."
+    },
+    {
+      "id": 587,
+      "page_index": 15,
+      "char_count": 15,
+      "text_preview": "FTLN 0178\nROMEO"
+    },
+    {
+      "id": 588,
+      "page_index": 15,
+      "char_count": 8,
+      "text_preview": "BENVOLIO"
+    },
+    {
+      "id": 589,
+      "page_index": 15,
+      "char_count": 51,
+      "text_preview": "FTLN 0179\n But new struck nine. Is the day so young?"
+    },
+    {
+      "id": 590,
+      "page_index": 15,
+      "char_count": 44,
+      "text_preview": "FTLN 0180\nROMEO\n Ay me, sad hours seem long."
+    },
+    {
+      "id": 591,
+      "page_index": 15,
+      "char_count": 54,
+      "text_preview": "FTLN 0181\n Was that my father that went hence so fast?"
+    },
+    {
+      "id": 592,
+      "page_index": 15,
+      "char_count": 8,
+      "text_preview": "BENVOLIO"
+    },
+    {
+      "id": 593,
+      "page_index": 15,
+      "char_count": 55,
+      "text_preview": "FTLN 0182\n It was. What sadness lengthens Romeo\u2019s hours?"
+    },
+    {
+      "id": 594,
+      "page_index": 15,
+      "char_count": 5,
+      "text_preview": "ROMEO"
+    },
+    {
+      "id": 595,
+      "page_index": 15,
+      "char_count": 59,
+      "text_preview": "FTLN 0183\n Not having that which, having, makes them short."
+    },
+    {
+      "id": 596,
+      "page_index": 15,
+      "char_count": 29,
+      "text_preview": "FTLN 0184\nBENVOLIO\n  In love?"
+    },
+    {
+      "id": 597,
+      "page_index": 15,
+      "char_count": 22,
+      "text_preview": "FTLN 0185\nROMEO\n  Out\u2014"
+    },
+    {
+      "id": 598,
+      "page_index": 15,
+      "char_count": 29,
+      "text_preview": "FTLN 0186\nBENVOLIO\n  Of love?"
+    },
+    {
+      "id": 599,
+      "page_index": 15,
+      "char_count": 5,
+      "text_preview": "ROMEO"
+    },
+    {
+      "id": 600,
+      "page_index": 15,
+      "char_count": 47,
+      "text_preview": "FTLN 0187\n Out of her favor where I am in love."
+    },
+    {
+      "id": 601,
+      "page_index": 15,
+      "char_count": 8,
+      "text_preview": "BENVOLIO"
+    },
+    {
+      "id": 602,
+      "page_index": 15,
+      "char_count": 9,
+      "text_preview": "FTLN 0188"
+    },
+    {
+      "id": 603,
+      "page_index": 15,
+      "char_count": 9,
+      "text_preview": "FTLN 0189"
+    },
+    {
+      "id": 604,
+      "page_index": 15,
+      "char_count": 9,
+      "text_preview": "FTLN 0190"
+    },
+    {
+      "id": 605,
+      "page_index": 15,
+      "char_count": 9,
+      "text_preview": "FTLN 0191"
+    },
+    {
+      "id": 606,
+      "page_index": 15,
+      "char_count": 9,
+      "text_preview": "FTLN 0192"
+    },
+    {
+      "id": 607,
+      "page_index": 15,
+      "char_count": 9,
+      "text_preview": "FTLN 0193"
+    },
+    {
+      "id": 608,
+      "page_index": 15,
+      "char_count": 9,
+      "text_preview": "FTLN 0194"
+    },
+    {
+      "id": 609,
+      "page_index": 15,
+      "char_count": 9,
+      "text_preview": "FTLN 0195"
+    },
+    {
+      "id": 610,
+      "page_index": 15,
+      "char_count": 9,
+      "text_preview": "FTLN 0196"
+    },
+    {
+      "id": 611,
+      "page_index": 15,
+      "char_count": 9,
+      "text_preview": "FTLN 0197"
+    },
+    {
+      "id": 612,
+      "page_index": 15,
+      "char_count": 9,
+      "text_preview": "FTLN 0198"
+    },
+    {
+      "id": 613,
+      "page_index": 15,
+      "char_count": 9,
+      "text_preview": "FTLN 0199"
+    },
+    {
+      "id": 614,
+      "page_index": 15,
+      "char_count": 9,
+      "text_preview": "FTLN 0200"
+    },
+    {
+      "id": 615,
+      "page_index": 15,
+      "char_count": 9,
+      "text_preview": "FTLN 0201"
+    },
+    {
+      "id": 616,
+      "page_index": 15,
+      "char_count": 49,
+      "text_preview": "FTLN 0202\n Alas that love, so gentle in his view,"
+    },
+    {
+      "id": 617,
+      "page_index": 15,
+      "char_count": 42,
+      "text_preview": "Should be so tyrannous and rough in proof!"
+    },
+    {
+      "id": 618,
+      "page_index": 15,
+      "char_count": 5,
+      "text_preview": "ROMEO"
+    },
+    {
+      "id": 619,
+      "page_index": 15,
+      "char_count": 44,
+      "text_preview": "Alas that love, whose view is muffled still,"
+    },
+    {
+      "id": 620,
+      "page_index": 15,
+      "char_count": 45,
+      "text_preview": "Should without eyes see pathways to his will!"
+    },
+    {
+      "id": 621,
+      "page_index": 15,
+      "char_count": 45,
+      "text_preview": "Where shall we dine?\u2014O me! What fray was here?"
+    },
+    {
+      "id": 622,
+      "page_index": 15,
+      "char_count": 41,
+      "text_preview": "Yet tell me not, for I have heard it all."
+    },
+    {
+      "id": 623,
+      "page_index": 15,
+      "char_count": 48,
+      "text_preview": "Here\u2019s much to do with hate, but more with love."
+    },
+    {
+      "id": 624,
+      "page_index": 15,
+      "char_count": 41,
+      "text_preview": "Why then, O brawling love, O loving hate,"
+    },
+    {
+      "id": 625,
+      "page_index": 15,
+      "char_count": 36,
+      "text_preview": "O anything of nothing first  create!"
+    },
+    {
+      "id": 626,
+      "page_index": 15,
+      "char_count": 34,
+      "text_preview": "O heavy lightness, serious vanity,"
+    },
+    {
+      "id": 627,
+      "page_index": 15,
+      "char_count": 40,
+      "text_preview": "Misshapen chaos of  well-seeming  forms,"
+    },
+    {
+      "id": 628,
+      "page_index": 15,
+      "char_count": 54,
+      "text_preview": "Feather of lead, bright smoke, cold fire, sick health,"
+    },
+    {
+      "id": 629,
+      "page_index": 15,
+      "char_count": 42,
+      "text_preview": "Still-waking sleep that is not what it is!"
+    },
+    {
+      "id": 630,
+      "page_index": 15,
+      "char_count": 44,
+      "text_preview": "This love feel I, that feel no love in this."
+    },
+    {
+      "id": 631,
+      "page_index": 15,
+      "char_count": 20,
+      "text_preview": "Dost thou not laugh?"
+    },
+    {
+      "id": 632,
+      "page_index": 15,
+      "char_count": 18,
+      "text_preview": "FTLN 0203\nBENVOLIO"
+    },
+    {
+      "id": 633,
+      "page_index": 15,
+      "char_count": 5,
+      "text_preview": "ROMEO"
+    },
+    {
+      "id": 634,
+      "page_index": 15,
+      "char_count": 57,
+      "text_preview": "FTLN 0204\n Good heart, at what? No, coz, I rather weep. 165"
+    },
+    {
+      "id": 635,
+      "page_index": 15,
+      "char_count": 3,
+      "text_preview": "170"
+    },
+    {
+      "id": 636,
+      "page_index": 15,
+      "char_count": 3,
+      "text_preview": "175"
+    },
+    {
+      "id": 637,
+      "page_index": 15,
+      "char_count": 3,
+      "text_preview": "180"
+    },
+    {
+      "id": 638,
+      "page_index": 15,
+      "char_count": 3,
+      "text_preview": "185"
+    },
+    {
+      "id": 639,
+      "page_index": 15,
+      "char_count": 3,
+      "text_preview": "190"
+    },
+    {
+      "id": 640,
+      "page_index": 16,
+      "char_count": 30,
+      "text_preview": "23\nRomeo and Juliet\nACT 1. SC. 1"
+    },
+    {
+      "id": 641,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0205"
+    },
+    {
+      "id": 642,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0206"
+    },
+    {
+      "id": 643,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0207"
+    },
+    {
+      "id": 644,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0208"
+    },
+    {
+      "id": 645,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0209"
+    },
+    {
+      "id": 646,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0210"
+    },
+    {
+      "id": 647,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0211"
+    },
+    {
+      "id": 648,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0212"
+    },
+    {
+      "id": 649,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0213"
+    },
+    {
+      "id": 650,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0214"
+    },
+    {
+      "id": 651,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0215"
+    },
+    {
+      "id": 652,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0216"
+    },
+    {
+      "id": 653,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0217"
+    },
+    {
+      "id": 654,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0218"
+    },
+    {
+      "id": 655,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0219"
+    },
+    {
+      "id": 656,
+      "page_index": 16,
+      "char_count": 50,
+      "text_preview": "FTLN 0220\n At thy good heart\u2019s oppression. BENVOLIO"
+    },
+    {
+      "id": 657,
+      "page_index": 16,
+      "char_count": 42,
+      "text_preview": "ROMEO\n  Why, such is love\u2019s transgression."
+    },
+    {
+      "id": 658,
+      "page_index": 16,
+      "char_count": 42,
+      "text_preview": "Griefs of mine own lie heavy in my breast,"
+    },
+    {
+      "id": 659,
+      "page_index": 16,
+      "char_count": 44,
+      "text_preview": "Which thou wilt propagate to have it pressed"
+    },
+    {
+      "id": 660,
+      "page_index": 16,
+      "char_count": 49,
+      "text_preview": "With more of thine. This love that thou hast shown"
+    },
+    {
+      "id": 661,
+      "page_index": 16,
+      "char_count": 44,
+      "text_preview": "Doth add more grief to too much of mine own."
+    },
+    {
+      "id": 662,
+      "page_index": 16,
+      "char_count": 44,
+      "text_preview": "Love is a smoke made with the fume of sighs;"
+    },
+    {
+      "id": 663,
+      "page_index": 16,
+      "char_count": 47,
+      "text_preview": "Being purged, a fire sparkling in lovers\u2019 eyes;"
+    },
+    {
+      "id": 664,
+      "page_index": 16,
+      "char_count": 47,
+      "text_preview": "Being vexed, a sea nourished with loving tears."
+    },
+    {
+      "id": 665,
+      "page_index": 16,
+      "char_count": 40,
+      "text_preview": "What is it else? A madness most discreet,"
+    },
+    {
+      "id": 666,
+      "page_index": 16,
+      "char_count": 39,
+      "text_preview": "A choking gall, and a preserving sweet."
+    },
+    {
+      "id": 667,
+      "page_index": 16,
+      "char_count": 17,
+      "text_preview": "Farewell, my coz."
+    },
+    {
+      "id": 668,
+      "page_index": 16,
+      "char_count": 32,
+      "text_preview": "BENVOLIO\n Soft, I will go along."
+    },
+    {
+      "id": 669,
+      "page_index": 16,
+      "char_count": 39,
+      "text_preview": "An if you leave me so, you do me wrong."
+    },
+    {
+      "id": 670,
+      "page_index": 16,
+      "char_count": 5,
+      "text_preview": "ROMEO"
+    },
+    {
+      "id": 671,
+      "page_index": 16,
+      "char_count": 38,
+      "text_preview": "Tut, I have lost myself. I am not here."
+    },
+    {
+      "id": 672,
+      "page_index": 16,
+      "char_count": 40,
+      "text_preview": "This is not Romeo. He\u2019s some other where."
+    },
+    {
+      "id": 673,
+      "page_index": 16,
+      "char_count": 8,
+      "text_preview": "BENVOLIO"
+    },
+    {
+      "id": 674,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0221"
+    },
+    {
+      "id": 675,
+      "page_index": 16,
+      "char_count": 52,
+      "text_preview": "FTLN 0222\n Tell me in sadness, who is that you love?"
+    },
+    {
+      "id": 676,
+      "page_index": 16,
+      "char_count": 42,
+      "text_preview": "ROMEO\n  What, shall I groan and tell thee?"
+    },
+    {
+      "id": 677,
+      "page_index": 16,
+      "char_count": 8,
+      "text_preview": "BENVOLIO"
+    },
+    {
+      "id": 678,
+      "page_index": 16,
+      "char_count": 47,
+      "text_preview": "FTLN 0223\n Groan? Why, no. But sadly tell me who."
+    },
+    {
+      "id": 679,
+      "page_index": 16,
+      "char_count": 5,
+      "text_preview": "ROMEO"
+    },
+    {
+      "id": 680,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0224"
+    },
+    {
+      "id": 681,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0225"
+    },
+    {
+      "id": 682,
+      "page_index": 16,
+      "char_count": 48,
+      "text_preview": "FTLN 0226\n A sick man in sadness makes his will\u2014"
+    },
+    {
+      "id": 683,
+      "page_index": 16,
+      "char_count": 39,
+      "text_preview": "A word ill urged to one that is so ill."
+    },
+    {
+      "id": 684,
+      "page_index": 16,
+      "char_count": 38,
+      "text_preview": "In sadness, cousin, I do love a woman."
+    },
+    {
+      "id": 685,
+      "page_index": 16,
+      "char_count": 8,
+      "text_preview": "BENVOLIO"
+    },
+    {
+      "id": 686,
+      "page_index": 16,
+      "char_count": 53,
+      "text_preview": "FTLN 0227\n I aimed so near when I supposed you loved."
+    },
+    {
+      "id": 687,
+      "page_index": 16,
+      "char_count": 5,
+      "text_preview": "ROMEO"
+    },
+    {
+      "id": 688,
+      "page_index": 16,
+      "char_count": 54,
+      "text_preview": "FTLN 0228\n A right good markman! And she\u2019s fair I love."
+    },
+    {
+      "id": 689,
+      "page_index": 16,
+      "char_count": 12,
+      "text_preview": "BENVOLIO\n195"
+    },
+    {
+      "id": 690,
+      "page_index": 16,
+      "char_count": 3,
+      "text_preview": "200"
+    },
+    {
+      "id": 691,
+      "page_index": 16,
+      "char_count": 3,
+      "text_preview": "205"
+    },
+    {
+      "id": 692,
+      "page_index": 16,
+      "char_count": 3,
+      "text_preview": "210"
+    },
+    {
+      "id": 693,
+      "page_index": 16,
+      "char_count": 58,
+      "text_preview": "FTLN 0229\n A right fair mark, fair coz, is soonest hit. 215"
+    },
+    {
+      "id": 694,
+      "page_index": 16,
+      "char_count": 5,
+      "text_preview": "ROMEO"
+    },
+    {
+      "id": 695,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0230"
+    },
+    {
+      "id": 696,
+      "page_index": 16,
+      "char_count": 9,
+      "text_preview": "FTLN 0231"
+    },
+    {
+      "id": 697,
+      "page_index": 16,
+      "char_count": 54,
+      "text_preview": "FTLN 0232\n Well in that hit you miss. She\u2019ll not be hit"
+    },
+    {
+      "id": 698,
+      "page_index": 16,
+      "char_count": 39,
+      "text_preview": "With Cupid\u2019s arrow. She hath Dian\u2019s wit,"
+    },
+    {
+      "id": 699,
+      "page_index": 16,
+      "char_count": 44,
+      "text_preview": "And, in strong proof of chastity well armed,"
+    },
+    {
+      "id": 700,
+      "page_index": 17,
+      "char_count": 30,
+      "text_preview": "25\nRomeo and Juliet\nACT 1. SC. 1"
+    },
+    {
+      "id": 701,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0233"
+    },
+    {
+      "id": 702,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0234"
+    },
+    {
+      "id": 703,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0235"
+    },
+    {
+      "id": 704,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0236"
+    },
+    {
+      "id": 705,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0237"
+    },
+    {
+      "id": 706,
+      "page_index": 17,
+      "char_count": 61,
+      "text_preview": "FTLN 0238\n From love\u2019s weak childish bow she lives uncharmed."
+    },
+    {
+      "id": 707,
+      "page_index": 17,
+      "char_count": 44,
+      "text_preview": "She will not stay the siege of loving terms,"
+    },
+    {
+      "id": 708,
+      "page_index": 17,
+      "char_count": 41,
+      "text_preview": "Nor bide th\u2019 encounter of assailing eyes,"
+    },
+    {
+      "id": 709,
+      "page_index": 17,
+      "char_count": 39,
+      "text_preview": "Nor ope her lap to saint-seducing gold."
+    },
+    {
+      "id": 710,
+      "page_index": 17,
+      "char_count": 35,
+      "text_preview": "O, she is rich in beauty, only poor"
+    },
+    {
+      "id": 711,
+      "page_index": 17,
+      "char_count": 48,
+      "text_preview": "That, when she dies, with beauty dies her store."
+    },
+    {
+      "id": 712,
+      "page_index": 17,
+      "char_count": 12,
+      "text_preview": "BENVOLIO\n220"
+    },
+    {
+      "id": 713,
+      "page_index": 17,
+      "char_count": 66,
+      "text_preview": "FTLN 0239\n Then she hath sworn that she will still live chaste? 225"
+    },
+    {
+      "id": 714,
+      "page_index": 17,
+      "char_count": 5,
+      "text_preview": "ROMEO"
+    },
+    {
+      "id": 715,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0240"
+    },
+    {
+      "id": 716,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0241"
+    },
+    {
+      "id": 717,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0242"
+    },
+    {
+      "id": 718,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0243"
+    },
+    {
+      "id": 719,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0244"
+    },
+    {
+      "id": 720,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0245"
+    },
+    {
+      "id": 721,
+      "page_index": 17,
+      "char_count": 60,
+      "text_preview": "FTLN 0246\n She hath, and in that sparing  makes  huge waste;"
+    },
+    {
+      "id": 722,
+      "page_index": 17,
+      "char_count": 38,
+      "text_preview": "For beauty, starved with her severity,"
+    },
+    {
+      "id": 723,
+      "page_index": 17,
+      "char_count": 35,
+      "text_preview": "Cuts beauty off from all posterity."
+    },
+    {
+      "id": 724,
+      "page_index": 17,
+      "char_count": 43,
+      "text_preview": "She is too fair, too wise, wisely too fair,"
+    },
+    {
+      "id": 725,
+      "page_index": 17,
+      "char_count": 36,
+      "text_preview": "To merit bliss by making me despair."
+    },
+    {
+      "id": 726,
+      "page_index": 17,
+      "char_count": 42,
+      "text_preview": "She hath forsworn to love, and in that vow"
+    },
+    {
+      "id": 727,
+      "page_index": 17,
+      "char_count": 41,
+      "text_preview": "Do I live dead, that live to tell it now."
+    },
+    {
+      "id": 728,
+      "page_index": 17,
+      "char_count": 8,
+      "text_preview": "BENVOLIO"
+    },
+    {
+      "id": 729,
+      "page_index": 17,
+      "char_count": 49,
+      "text_preview": "FTLN 0247\n Be ruled by me. Forget to think of her."
+    },
+    {
+      "id": 730,
+      "page_index": 17,
+      "char_count": 5,
+      "text_preview": "ROMEO"
+    },
+    {
+      "id": 731,
+      "page_index": 17,
+      "char_count": 52,
+      "text_preview": "FTLN 0248\n O, teach me how I should forget to think!"
+    },
+    {
+      "id": 732,
+      "page_index": 17,
+      "char_count": 8,
+      "text_preview": "BENVOLIO"
+    },
+    {
+      "id": 733,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0249"
+    },
+    {
+      "id": 734,
+      "page_index": 17,
+      "char_count": 45,
+      "text_preview": "FTLN 0250\n By giving liberty unto thine eyes."
+    },
+    {
+      "id": 735,
+      "page_index": 17,
+      "char_count": 23,
+      "text_preview": "Examine other beauties."
+    },
+    {
+      "id": 736,
+      "page_index": 17,
+      "char_count": 29,
+      "text_preview": "FTLN 0251\nROMEO\n \u2019Tis the way"
+    },
+    {
+      "id": 737,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0252"
+    },
+    {
+      "id": 738,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0253"
+    },
+    {
+      "id": 739,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0254"
+    },
+    {
+      "id": 740,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0255"
+    },
+    {
+      "id": 741,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0256"
+    },
+    {
+      "id": 742,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0257"
+    },
+    {
+      "id": 743,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0258"
+    },
+    {
+      "id": 744,
+      "page_index": 17,
+      "char_count": 9,
+      "text_preview": "FTLN 0259"
+    },
+    {
+      "id": 745,
+      "page_index": 17,
+      "char_count": 53,
+      "text_preview": "FTLN 0260\n To call hers, exquisite, in question more."
+    },
+    {
+      "id": 746,
+      "page_index": 17,
+      "char_count": 47,
+      "text_preview": "These happy masks that kiss fair ladies\u2019 brows,"
+    },
+    {
+      "id": 747,
+      "page_index": 17,
+      "char_count": 48,
+      "text_preview": "Being black, puts us in mind they hide the fair."
+    },
+    {
+      "id": 748,
+      "page_index": 17,
+      "char_count": 39,
+      "text_preview": "He that is strucken blind cannot forget"
+    },
+    {
+      "id": 749,
+      "page_index": 17,
+      "char_count": 43,
+      "text_preview": "The precious treasure of his eyesight lost."
+    },
+    {
+      "id": 750,
+      "page_index": 17,
+      "char_count": 40,
+      "text_preview": "Show me a mistress that is passing fair;"
+    },
+    {
+      "id": 751,
+      "page_index": 17,
+      "char_count": 40,
+      "text_preview": "What doth her beauty serve but as a note"
+    },
+    {
+      "id": 752,
+      "page_index": 17,
+      "char_count": 46,
+      "text_preview": "Where I may read who passed that passing fair?"
+    },
+    {
+      "id": 753,
+      "page_index": 17,
+      "char_count": 43,
+      "text_preview": "Farewell. Thou canst not teach me to forget."
+    },
+    {
+      "id": 754,
+      "page_index": 17,
+      "char_count": 8,
+      "text_preview": "BENVOLIO"
+    },
+    {
+      "id": 755,
+      "page_index": 17,
+      "char_count": 54,
+      "text_preview": "FTLN 0261\n I\u2019ll pay that doctrine or else die in debt."
+    },
+    {
+      "id": 756,
+      "page_index": 17,
+      "char_count": 13,
+      "text_preview": "They exit. 230"
+    },
+    {
+      "id": 757,
+      "page_index": 17,
+      "char_count": 3,
+      "text_preview": "235"
+    },
+    {
+      "id": 758,
+      "page_index": 17,
+      "char_count": 3,
+      "text_preview": "240"
+    },
+    {
+      "id": 759,
+      "page_index": 17,
+      "char_count": 3,
+      "text_preview": "245"
+    },
+    {
+      "id": 760,
+      "page_index": 18,
+      "char_count": 30,
+      "text_preview": "27\nRomeo and Juliet\nACT 1. SC. 2"
+    },
+    {
+      "id": 761,
+      "page_index": 18,
+      "char_count": 7,
+      "text_preview": "Scene 2"
+    },
+    {
+      "id": 762,
+      "page_index": 18,
+      "char_count": 47,
+      "text_preview": "Enter Capulet, County Paris, and  a Servingman."
+    },
+    {
+      "id": 763,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0262"
+    },
+    {
+      "id": 764,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0263"
+    },
+    {
+      "id": 765,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0264"
+    },
+    {
+      "id": 766,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0265"
+    },
+    {
+      "id": 767,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0266"
+    },
+    {
+      "id": 768,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0267"
+    },
+    {
+      "id": 769,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0268"
+    },
+    {
+      "id": 770,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0269"
+    },
+    {
+      "id": 771,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0270"
+    },
+    {
+      "id": 772,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0271"
+    },
+    {
+      "id": 773,
+      "page_index": 18,
+      "char_count": 17,
+      "text_preview": "FTLN 0272\nCAPULET"
+    },
+    {
+      "id": 774,
+      "page_index": 18,
+      "char_count": 35,
+      "text_preview": "But Montague is bound as well as I,"
+    },
+    {
+      "id": 775,
+      "page_index": 18,
+      "char_count": 45,
+      "text_preview": "In penalty alike, and \u2019tis not hard, I think,"
+    },
+    {
+      "id": 776,
+      "page_index": 18,
+      "char_count": 39,
+      "text_preview": "For men so old as we to keep the peace."
+    },
+    {
+      "id": 777,
+      "page_index": 18,
+      "char_count": 5,
+      "text_preview": "PARIS"
+    },
+    {
+      "id": 778,
+      "page_index": 18,
+      "char_count": 36,
+      "text_preview": "Of honorable reckoning are you both,"
+    },
+    {
+      "id": 779,
+      "page_index": 18,
+      "char_count": 40,
+      "text_preview": "And pity \u2019tis you lived at odds so long."
+    },
+    {
+      "id": 780,
+      "page_index": 18,
+      "char_count": 42,
+      "text_preview": "But now, my lord, what say you to my suit?"
+    },
+    {
+      "id": 781,
+      "page_index": 18,
+      "char_count": 7,
+      "text_preview": "CAPULET"
+    },
+    {
+      "id": 782,
+      "page_index": 18,
+      "char_count": 40,
+      "text_preview": "But saying o\u2019er what I have said before."
+    },
+    {
+      "id": 783,
+      "page_index": 18,
+      "char_count": 40,
+      "text_preview": "My child is yet a stranger in the world."
+    },
+    {
+      "id": 784,
+      "page_index": 18,
+      "char_count": 47,
+      "text_preview": "She hath not seen the change of fourteen years."
+    },
+    {
+      "id": 785,
+      "page_index": 18,
+      "char_count": 42,
+      "text_preview": "Let two more summers wither in their pride"
+    },
+    {
+      "id": 786,
+      "page_index": 18,
+      "char_count": 40,
+      "text_preview": "Ere we may think her ripe to be a bride."
+    },
+    {
+      "id": 787,
+      "page_index": 18,
+      "char_count": 5,
+      "text_preview": "PARIS"
+    },
+    {
+      "id": 788,
+      "page_index": 18,
+      "char_count": 51,
+      "text_preview": "FTLN 0273\n Younger than she are happy mothers made."
+    },
+    {
+      "id": 789,
+      "page_index": 18,
+      "char_count": 7,
+      "text_preview": "CAPULET"
+    },
+    {
+      "id": 790,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0274"
+    },
+    {
+      "id": 791,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0275"
+    },
+    {
+      "id": 792,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0276"
+    },
+    {
+      "id": 793,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0277"
+    },
+    {
+      "id": 794,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0278"
+    },
+    {
+      "id": 795,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0279"
+    },
+    {
+      "id": 796,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0280"
+    },
+    {
+      "id": 797,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0281"
+    },
+    {
+      "id": 798,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0282"
+    },
+    {
+      "id": 799,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0283"
+    },
+    {
+      "id": 800,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0284"
+    },
+    {
+      "id": 801,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0285"
+    },
+    {
+      "id": 802,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0286"
+    },
+    {
+      "id": 803,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0287"
+    },
+    {
+      "id": 804,
+      "page_index": 18,
+      "char_count": 9,
+      "text_preview": "FTLN 0288"
+    },
+    {
+      "id": 805,
+      "page_index": 18,
+      "char_count": 55,
+      "text_preview": "FTLN 0289\n And too soon marred are those so early made."
+    },
+    {
+      "id": 806,
+      "page_index": 18,
+      "char_count": 42,
+      "text_preview": "Earth hath swallowed all my hopes but she;"
+    },
+    {
+      "id": 807,
+      "page_index": 18,
+      "char_count": 35,
+      "text_preview": "She\u2019s the hopeful lady of my earth."
+    },
+    {
+      "id": 808,
+      "page_index": 18,
+      "char_count": 41,
+      "text_preview": "But woo her, gentle Paris, get her heart;"
+    },
+    {
+      "id": 809,
+      "page_index": 18,
+      "char_count": 37,
+      "text_preview": "My will to her consent is but a part."
+    },
+    {
+      "id": 810,
+      "page_index": 18,
+      "char_count": 43,
+      "text_preview": "And, she agreed, within her scope of choice"
+    },
+    {
+      "id": 811,
+      "page_index": 18,
+      "char_count": 41,
+      "text_preview": "Lies my consent and fair according voice."
+    },
+    {
+      "id": 812,
+      "page_index": 18,
+      "char_count": 42,
+      "text_preview": "This night I hold an old accustomed feast,"
+    },
+    {
+      "id": 813,
+      "page_index": 18,
+      "char_count": 35,
+      "text_preview": "Whereto I have invited many a guest"
+    },
+    {
+      "id": 814,
+      "page_index": 18,
+      "char_count": 40,
+      "text_preview": "Such as I love; and you among the store,"
+    },
+    {
+      "id": 815,
+      "page_index": 18,
+      "char_count": 45,
+      "text_preview": "One more, most welcome, makes my number more."
+    },
+    {
+      "id": 816,
+      "page_index": 18,
+      "char_count": 42,
+      "text_preview": "At my poor house look to behold this night"
+    },
+    {
+      "id": 817,
+      "page_index": 18,
+      "char_count": 49,
+      "text_preview": "Earth-treading stars that make dark heaven light."
+    },
+    {
+      "id": 818,
+      "page_index": 18,
+      "char_count": 39,
+      "text_preview": "Such comfort as do lusty young men feel"
+    },
+    {
+      "id": 819,
+      "page_index": 18,
+      "char_count": 37,
+      "text_preview": "When well-appareled April on the heel"
+    },
+    {
+      "id": 820,
+      "page_index": 18,
+      "char_count": 45,
+      "text_preview": "Of limping winter treads, even such delight\n5"
+    },
+    {
+      "id": 821,
+      "page_index": 18,
+      "char_count": 2,
+      "text_preview": "10"
+    },
+    {
+      "id": 822,
+      "page_index": 18,
+      "char_count": 2,
+      "text_preview": "15"
+    },
+    {
+      "id": 823,
+      "page_index": 18,
+      "char_count": 2,
+      "text_preview": "20"
+    },
+    {
+      "id": 824,
+      "page_index": 18,
+      "char_count": 2,
+      "text_preview": "25"
+    },
+    {
+      "id": 825,
+      "page_index": 19,
+      "char_count": 30,
+      "text_preview": "29\nRomeo and Juliet\nACT 1. SC. 2"
+    },
+    {
+      "id": 826,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0290"
+    },
+    {
+      "id": 827,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0291"
+    },
+    {
+      "id": 828,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0292"
+    },
+    {
+      "id": 829,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0293"
+    },
+    {
+      "id": 830,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0294"
+    },
+    {
+      "id": 831,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0295"
+    },
+    {
+      "id": 832,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0296"
+    },
+    {
+      "id": 833,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0297"
+    },
+    {
+      "id": 834,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0298"
+    },
+    {
+      "id": 835,
+      "page_index": 19,
+      "char_count": 55,
+      "text_preview": "FTLN 0299\n Among fresh fennel buds shall you this night"
+    },
+    {
+      "id": 836,
+      "page_index": 19,
+      "char_count": 38,
+      "text_preview": "Inherit at my house. Hear all, all see,"
+    },
+    {
+      "id": 837,
+      "page_index": 19,
+      "char_count": 44,
+      "text_preview": "And like her most whose merit most shall be;"
+    },
+    {
+      "id": 838,
+      "page_index": 19,
+      "char_count": 45,
+      "text_preview": "Which, on more view of many, mine, being one,"
+    },
+    {
+      "id": 839,
+      "page_index": 19,
+      "char_count": 46,
+      "text_preview": "May stand in number, though in reck\u2019ning none."
+    },
+    {
+      "id": 840,
+      "page_index": 19,
+      "char_count": 49,
+      "text_preview": "Come go with me. To Servingman, giving him a list."
+    },
+    {
+      "id": 841,
+      "page_index": 19,
+      "char_count": 24,
+      "text_preview": "Go, sirrah, trudge about"
+    },
+    {
+      "id": 842,
+      "page_index": 19,
+      "char_count": 43,
+      "text_preview": "Through fair Verona, find those persons out"
+    },
+    {
+      "id": 843,
+      "page_index": 19,
+      "char_count": 46,
+      "text_preview": "Whose names are written there, and to them say"
+    },
+    {
+      "id": 844,
+      "page_index": 19,
+      "char_count": 44,
+      "text_preview": "My house and welcome on their pleasure stay."
+    },
+    {
+      "id": 845,
+      "page_index": 19,
+      "char_count": 24,
+      "text_preview": "Capulet and Paris  exit."
+    },
+    {
+      "id": 846,
+      "page_index": 19,
+      "char_count": 60,
+      "text_preview": "FTLN 0300\nSERVINGMAN\n  Find them out whose names are written"
+    },
+    {
+      "id": 847,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0301"
+    },
+    {
+      "id": 848,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0302"
+    },
+    {
+      "id": 849,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0303"
+    },
+    {
+      "id": 850,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0304"
+    },
+    {
+      "id": 851,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0305"
+    },
+    {
+      "id": 852,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0306"
+    },
+    {
+      "id": 853,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0307"
+    },
+    {
+      "id": 854,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0308"
+    },
+    {
+      "id": 855,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0309"
+    },
+    {
+      "id": 856,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0310"
+    },
+    {
+      "id": 857,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0311"
+    },
+    {
+      "id": 858,
+      "page_index": 19,
+      "char_count": 9,
+      "text_preview": "FTLN 0312"
+    },
+    {
+      "id": 859,
+      "page_index": 19,
+      "char_count": 55,
+      "text_preview": "FTLN 0313\n here! It is written that the shoemaker should"
+    },
+    {
+      "id": 860,
+      "page_index": 19,
+      "char_count": 54,
+      "text_preview": "meddle with his yard and the tailor with his last, the"
+    },
+    {
+      "id": 861,
+      "page_index": 19,
+      "char_count": 53,
+      "text_preview": "fisher with his pencil and the painter with his nets."
+    },
+    {
+      "id": 862,
+      "page_index": 19,
+      "char_count": 47,
+      "text_preview": "But I am sent to find those persons whose names"
+    },
+    {
+      "id": 863,
+      "page_index": 19,
+      "char_count": 48,
+      "text_preview": "are here writ, and can never find what names the"
+    },
+    {
+      "id": 864,
+      "page_index": 19,
+      "char_count": 52,
+      "text_preview": "writing person hath here writ. I must to the learned."
+    },
+    {
+      "id": 865,
+      "page_index": 19,
+      "char_count": 13,
+      "text_preview": "In good time!"
+    },
+    {
+      "id": 866,
+      "page_index": 19,
+      "char_count": 25,
+      "text_preview": "Enter Benvolio and Romeo."
+    },
+    {
+      "id": 867,
+      "page_index": 19,
+      "char_count": 20,
+      "text_preview": "BENVOLIO\n,  to Romeo"
+    },
+    {
+      "id": 868,
+      "page_index": 19,
+      "char_count": 47,
+      "text_preview": "Tut, man, one fire burns out another\u2019s burning;"
+    },
+    {
+      "id": 869,
+      "page_index": 19,
+      "char_count": 42,
+      "text_preview": "One pain is lessened by another\u2019s anguish."
+    },
+    {
+      "id": 870,
+      "page_index": 19,
+      "char_count": 46,
+      "text_preview": "Turn giddy, and be helped by backward turning."
+    },
+    {
+      "id": 871,
+      "page_index": 19,
+      "char_count": 50,
+      "text_preview": "One desperate grief cures with another\u2019s languish."
+    },
+    {
+      "id": 872,
+      "page_index": 19,
+      "char_count": 40,
+      "text_preview": "Take thou some new infection to thy eye,"
+    },
+    {
+      "id": 873,
+      "page_index": 19,
+      "char_count": 40,
+      "text_preview": "And the rank poison of the old will die."
+    },
+    {
+      "id": 874,
+      "page_index": 19,
+      "char_count": 5,
+      "text_preview": "ROMEO"
+    },
+    {
+      "id": 875,
+      "page_index": 19,
+      "char_count": 52,
+      "text_preview": "FTLN 0314\n Your plantain leaf is excellent for that."
+    },
+    {
+      "id": 876,
+      "page_index": 19,
+      "char_count": 8,
+      "text_preview": "BENVOLIO"
+    },
+    {
+      "id": 877,
+      "page_index": 19,
+      "char_count": 33,
+      "text_preview": "FTLN 0315\n For what, I pray thee?"
+    },
+    {
+      "id": 878,
+      "page_index": 19,
+      "char_count": 38,
+      "text_preview": "FTLN 0316\nROMEO\n For your broken shin."
+    },
+    {
+      "id": 879,
+      "page_index": 19,
+      "char_count": 45,
+      "text_preview": "FTLN 0317\nBENVOLIO\n  Why Romeo, art thou mad?"
+    },
+    {
+      "id": 880,
+      "page_index": 19,
+      "char_count": 5,
+      "text_preview": "ROMEO"
+    },
+    {
+      "id": 881,
+      "page_index": 19,
+      "char_count": 55,
+      "text_preview": "FTLN 0318\n Not mad, but bound more than a madman is,\n30"
+    },
+    {
+      "id": 882,
+      "page_index": 19,
+      "char_count": 2,
+      "text_preview": "35"
+    },
+    {
+      "id": 883,
+      "page_index": 19,
+      "char_count": 2,
+      "text_preview": "40"
+    },
+    {
+      "id": 884,
+      "page_index": 19,
+      "char_count": 2,
+      "text_preview": "45"
+    },
+    {
+      "id": 885,
+      "page_index": 19,
+      "char_count": 2,
+      "text_preview": "50"
+    },
+    {
+      "id": 886,
+      "page_index": 19,
+      "char_count": 2,
+      "text_preview": "55"
+    }
+  ],
+  "scores": [
+    {
+      "id": 567,
+      "page_index": 14,
+      "relevance": 1.0,
+      "rationale_preview": "Metaphor comparing a bud to a person hindered by sorrow"
+    },
+    {
+      "id": 568,
+      "page_index": 14,
+      "relevance": 1.0,
+      "rationale_preview": "Symbolism of unfulfilled potential and beauty"
+    },
+    {
+      "id": 624,
+      "page_index": 15,
+      "relevance": 1.0,
+      "rationale_preview": "Oxymoron 'brawling love' and 'loving hate' as metaphor for complex emotions."
+    },
+    {
+      "id": 626,
+      "page_index": 15,
+      "relevance": 1.0,
+      "rationale_preview": "Oxymoron 'heavy lightness' and 'serious vanity' as metaphor for emotional paradox."
+    },
+    {
+      "id": 628,
+      "page_index": 15,
+      "relevance": 1.0,
+      "rationale_preview": "Contains metaphors and symbolic contrasts."
+    },
+    {
+      "id": 629,
+      "page_index": 15,
+      "relevance": 1.0,
+      "rationale_preview": "Includes a metaphorical paradox."
+    },
+    {
+      "id": 630,
+      "page_index": 15,
+      "relevance": 1.0,
+      "rationale_preview": "Expresses love through metaphor."
+    },
+    {
+      "id": 662,
+      "page_index": 16,
+      "relevance": 1.0,
+      "rationale_preview": "Metaphor comparing love to smoke."
+    },
+    {
+      "id": 663,
+      "page_index": 16,
+      "relevance": 1.0,
+      "rationale_preview": "Symbolism of fire in lovers' eyes."
+    },
+    {
+      "id": 664,
+      "page_index": 16,
+      "relevance": 1.0,
+      "rationale_preview": "Metaphor of love as a sea."
+    },
+    {
+      "id": 665,
+      "page_index": 16,
+      "relevance": 1.0,
+      "rationale_preview": "Metaphor of love as madness."
+    },
+    {
+      "id": 666,
+      "page_index": 16,
+      "relevance": 1.0,
+      "rationale_preview": "Contrasting metaphor of gall and sweet."
+    },
+    {
+      "id": 697,
+      "page_index": 16,
+      "relevance": 1.0,
+      "rationale_preview": "Symbolism of Cupid\u2019s arrow and metaphor about missing the mark."
+    },
+    {
+      "id": 698,
+      "page_index": 16,
+      "relevance": 1.0,
+      "rationale_preview": "Symbolism of Dian\u2019s wit representing chastity."
+    },
+    {
+      "id": 817,
+      "page_index": 18,
+      "relevance": 1.0,
+      "rationale_preview": "Symbolism of stars as beauty and hope"
+    },
+    {
+      "id": 819,
+      "page_index": 18,
+      "relevance": 1.0,
+      "rationale_preview": "Simile comparing April to youthful comfort"
+    },
+    {
+      "id": 868,
+      "page_index": 19,
+      "relevance": 1.0,
+      "rationale_preview": "Symbolism of fire representing emotions."
+    },
+    {
+      "id": 869,
+      "page_index": 19,
+      "relevance": 1.0,
+      "rationale_preview": "Metaphor comparing pain to anguish."
+    },
+    {
+      "id": 870,
+      "page_index": 19,
+      "relevance": 1.0,
+      "rationale_preview": "Metaphor of turning to describe change."
+    },
+    {
+      "id": 871,
+      "page_index": 19,
+      "relevance": 1.0,
+      "rationale_preview": "Metaphor of grief curing grief."
+    },
+    {
+      "id": 872,
+      "page_index": 19,
+      "relevance": 1.0,
+      "rationale_preview": "Symbolism of infection for love."
+    },
+    {
+      "id": 873,
+      "page_index": 19,
+      "relevance": 1.0,
+      "rationale_preview": "Symbolism of poison for old love."
+    },
+    {
+      "id": 535,
+      "page_index": 14,
+      "relevance": 0.95,
+      "rationale_preview": "Symbolism of dawn as Aurora's bed"
+    },
+    {
+      "id": 806,
+      "page_index": 18,
+      "relevance": 0.95,
+      "rationale_preview": "Symbolism of earth swallowing hopes."
+    },
+    {
+      "id": 533,
+      "page_index": 14,
+      "relevance": 0.9,
+      "rationale_preview": "Metaphor for the sun as 'all-cheering'"
+    },
+    {
+      "id": 539,
+      "page_index": 14,
+      "relevance": 0.9,
+      "rationale_preview": "Metaphor for creating darkness"
+    },
+    {
+      "id": 540,
+      "page_index": 14,
+      "relevance": 0.9,
+      "rationale_preview": "Symbolism in 'black and portentous' conveys ominous mood"
+    },
+    {
+      "id": 563,
+      "page_index": 14,
+      "relevance": 0.9,
+      "rationale_preview": "Contains metaphorical language"
+    },
+    {
+      "id": 584,
+      "page_index": 15,
+      "relevance": 0.9,
+      "rationale_preview": "Title indicates context for symbolism and literary devices."
+    },
+    {
+      "id": 590,
+      "page_index": 15,
+      "relevance": 0.9,
+      "rationale_preview": "Metaphor of time and sadness"
+    },
+    {
+      "id": 616,
+      "page_index": 15,
+      "relevance": 0.9,
+      "rationale_preview": "Symbolism of love's duality"
+    },
+    {
+      "id": 617,
+      "page_index": 15,
+      "relevance": 0.9,
+      "rationale_preview": "Metaphor for love's harshness"
+    },
+    {
+      "id": 619,
+      "page_index": 15,
+      "relevance": 0.9,
+      "rationale_preview": "Metaphor for obscured love"
+    },
+    {
+      "id": 623,
+      "page_index": 15,
+      "relevance": 0.9,
+      "rationale_preview": "Contrasting 'hate' and 'love' symbolizes emotional conflict."
+    },
+    {
+      "id": 627,
+      "page_index": 15,
+      "relevance": 0.9,
+      "rationale_preview": "Symbolism in 'misshapen chaos' for disorder in appearances."
+    },
+    {
+      "id": 640,
+      "page_index": 16,
+      "relevance": 0.9,
+      "rationale_preview": "Contains the title and act, relevant for identifying symbolism and literary devices."
+    },
+    {
+      "id": 657,
+      "page_index": 16,
+      "relevance": 0.9,
+      "rationale_preview": "Metaphor in 'love\u2019s transgression' conveys love as a wrongdoing."
+    },
+    {
+      "id": 671,
+      "page_index": 16,
+      "relevance": 0.9,
+      "rationale_preview": "Metaphor for emotional disconnection"
+    },
+    {
+      "id": 672,
+      "page_index": 16,
+      "relevance": 0.9,
+      "rationale_preview": "Metaphor for identity crisis"
+    },
+    {
+      "id": 688,
+      "page_index": 16,
+      "relevance": 0.9,
+      "rationale_preview": "Uses metaphor of a marksman to describe love's precision."
+    },
+    {
+      "id": 699,
+      "page_index": 16,
+      "relevance": 0.9,
+      "rationale_preview": "Metaphor of chastity as armor."
+    },
+    {
+      "id": 706,
+      "page_index": 17,
+      "relevance": 0.9,
+      "rationale_preview": "Contains metaphor about love's bow, relevant to user's goal."
+    },
+    {
+      "id": 709,
+      "page_index": 17,
+      "relevance": 0.9,
+      "rationale_preview": "Symbolism of gold as temptation"
+    },
+    {
+      "id": 721,
+      "page_index": 17,
+      "relevance": 0.9,
+      "rationale_preview": "Symbolism of sparing and waste aligns with user's goal."
+    },
+    {
+      "id": 724,
+      "page_index": 17,
+      "relevance": 0.9,
+      "rationale_preview": "Metaphor comparing fairness to wisdom."
+    },
+    {
+      "id": 727,
+      "page_index": 17,
+      "relevance": 0.9,
+      "rationale_preview": "Metaphor of living dead."
+    },
+    {
+      "id": 735,
+      "page_index": 17,
+      "relevance": 0.9,
+      "rationale_preview": "Symbolism of exploring new attractions."
+    },
+    {
+      "id": 746,
+      "page_index": 17,
+      "relevance": 0.9,
+      "rationale_preview": "Symbolism of masks representing hidden beauty."
+    },
+    {
+      "id": 747,
+      "page_index": 17,
+      "relevance": 0.9,
+      "rationale_preview": "Metaphor of black masks hiding fairness."
+    },
+    {
+      "id": 748,
+      "page_index": 17,
+      "relevance": 0.9,
+      "rationale_preview": "Symbolism of blindness to loss"
+    },
+    {
+      "id": 749,
+      "page_index": 17,
+      "relevance": 0.9,
+      "rationale_preview": "Metaphor for lost vision as treasure"
+    },
+    {
+      "id": 783,
+      "page_index": 18,
+      "relevance": 0.9,
+      "rationale_preview": "Symbolism of youth and innocence"
+    },
+    {
+      "id": 805,
+      "page_index": 18,
+      "relevance": 0.9,
+      "rationale_preview": "Metaphor comparing early marriage to being marred."
+    },
+    {
+      "id": 835,
+      "page_index": 19,
+      "relevance": 0.9,
+      "rationale_preview": "Symbolism in 'fresh fennel buds' aligns with user's Shakespeare familiarity."
+    },
+    {
+      "id": 837,
+      "page_index": 19,
+      "relevance": 0.9,
+      "rationale_preview": "Contains a simile comparing merit to liking."
+    },
+    {
+      "id": 881,
+      "page_index": 19,
+      "relevance": 0.9,
+      "rationale_preview": "Metaphor for emotional constraint"
+    },
+    {
+      "id": 658,
+      "page_index": 16,
+      "relevance": 0.85,
+      "rationale_preview": "Metaphor in 'heavy in my breast' symbolizes emotional weight."
+    },
+    {
+      "id": 711,
+      "page_index": 17,
+      "relevance": 0.85,
+      "rationale_preview": "Symbolism of mortality and beauty"
+    },
+    {
+      "id": 786,
+      "page_index": 18,
+      "relevance": 0.85,
+      "rationale_preview": "Metaphor for maturity"
+    },
+    {
+      "id": 807,
+      "page_index": 18,
+      "relevance": 0.85,
+      "rationale_preview": "Metaphor for daughter as hopeful lady."
+    },
+    {
+      "id": 595,
+      "page_index": 15,
+      "relevance": 0.8,
+      "rationale_preview": "Symbolism of longing and time"
+    },
+    {
+      "id": 600,
+      "page_index": 15,
+      "relevance": 0.8,
+      "rationale_preview": "Contains metaphor of 'favor' and 'love'"
+    },
+    {
+      "id": 620,
+      "page_index": 15,
+      "relevance": 0.8,
+      "rationale_preview": "Symbolism in 'eyes' and 'pathways' for perception and destiny."
+    },
+    {
+      "id": 656,
+      "page_index": 16,
+      "relevance": 0.8,
+      "rationale_preview": "Symbolism in 'heart\u2019s oppression' reflects emotional burden."
+    },
+    {
+      "id": 659,
+      "page_index": 16,
+      "relevance": 0.8,
+      "rationale_preview": "Symbolism in 'pressed' suggests intensifying emotional pain."
+    },
+    {
+      "id": 682,
+      "page_index": 16,
+      "relevance": 0.8,
+      "rationale_preview": "Symbolism of sickness and sadness"
+    },
+    {
+      "id": 684,
+      "page_index": 16,
+      "relevance": 0.8,
+      "rationale_preview": "Expresses love, a common metaphorical theme in Shakespeare's works."
+    },
+    {
+      "id": 693,
+      "page_index": 16,
+      "relevance": 0.8,
+      "rationale_preview": "References a metaphor about a fair mark being hit."
+    },
+    {
+      "id": 707,
+      "page_index": 17,
+      "relevance": 0.8,
+      "rationale_preview": "Symbolism in 'siege of loving terms' aligns with user's goal."
+    },
+    {
+      "id": 710,
+      "page_index": 17,
+      "relevance": 0.8,
+      "rationale_preview": "Metaphor for beauty as wealth"
+    },
+    {
+      "id": 722,
+      "page_index": 17,
+      "relevance": 0.8,
+      "rationale_preview": "Metaphor of beauty being starved fits user's goal."
+    },
+    {
+      "id": 723,
+      "page_index": 17,
+      "relevance": 0.8,
+      "rationale_preview": "Metaphor of beauty being cut off aligns with user's goal."
+    },
+    {
+      "id": 725,
+      "page_index": 17,
+      "relevance": 0.8,
+      "rationale_preview": "Symbolism of despair and bliss."
+    },
+    {
+      "id": 734,
+      "page_index": 17,
+      "relevance": 0.8,
+      "rationale_preview": "Metaphor suggesting freedom of vision."
+    },
+    {
+      "id": 745,
+      "page_index": 17,
+      "relevance": 0.8,
+      "rationale_preview": "Contains metaphorical language about questioning beauty."
+    },
+    {
+      "id": 750,
+      "page_index": 17,
+      "relevance": 0.8,
+      "rationale_preview": "Metaphor for beauty as fairness"
+    },
+    {
+      "id": 774,
+      "page_index": 18,
+      "relevance": 0.8,
+      "rationale_preview": "Highlights the feud between families, a symbolic theme in the play."
+    },
+    {
+      "id": 785,
+      "page_index": 18,
+      "relevance": 0.8,
+      "rationale_preview": "Metaphor for passing time"
+    },
+    {
+      "id": 788,
+      "page_index": 18,
+      "relevance": 0.8,
+      "rationale_preview": "Contains a metaphor about young mothers."
+    },
+    {
+      "id": 808,
+      "page_index": 18,
+      "relevance": 0.8,
+      "rationale_preview": "Symbolism in wooing to win heart."
+    },
+    {
+      "id": 839,
+      "page_index": 19,
+      "relevance": 0.8,
+      "rationale_preview": "Symbolism in numerical reckoning and worth."
+    },
+    {
+      "id": 809,
+      "page_index": 18,
+      "relevance": 0.75,
+      "rationale_preview": "Metaphor for consent as partial will."
+    },
+    {
+      "id": 541,
+      "page_index": 14,
+      "relevance": 0.7,
+      "rationale_preview": "Metaphor in 'good counsel may the cause remove' suggests advice as a remedy"
+    },
+    {
+      "id": 586,
+      "page_index": 15,
+      "relevance": 0.7,
+      "rationale_preview": "Greeting may contain metaphorical language."
+    },
+    {
+      "id": 625,
+      "page_index": 15,
+      "relevance": 0.7,
+      "rationale_preview": "Symbolism in 'anything of nothing' for creation and existence."
+    },
+    {
+      "id": 683,
+      "page_index": 16,
+      "relevance": 0.7,
+      "rationale_preview": "Metaphor of illness and urging words"
+    },
+    {
+      "id": 726,
+      "page_index": 17,
+      "relevance": 0.7,
+      "rationale_preview": "Symbolism in vow of love."
+    },
+    {
+      "id": 731,
+      "page_index": 17,
+      "relevance": 0.7,
+      "rationale_preview": "Metaphor of forgetting thought."
+    },
+    {
+      "id": 751,
+      "page_index": 17,
+      "relevance": 0.7,
+      "rationale_preview": "Symbolism of beauty as a note"
+    },
+    {
+      "id": 752,
+      "page_index": 17,
+      "relevance": 0.7,
+      "rationale_preview": "Metaphor for reading beauty"
+    },
+    {
+      "id": 775,
+      "page_index": 18,
+      "relevance": 0.7,
+      "rationale_preview": "References the difficulty of peace, a metaphor for reconciliation."
+    },
+    {
+      "id": 779,
+      "page_index": 18,
+      "relevance": 0.7,
+      "rationale_preview": "Expresses regret over conflict, a metaphor for wasted time."
+    },
+    {
+      "id": 810,
+      "page_index": 18,
+      "relevance": 0.7,
+      "rationale_preview": "Symbolism in scope of choice."
+    },
+    {
+      "id": 811,
+      "page_index": 18,
+      "relevance": 0.7,
+      "rationale_preview": "Symbolism in consent and voice."
+    },
+    {
+      "id": 860,
+      "page_index": 19,
+      "relevance": 0.7,
+      "rationale_preview": "Symbolism in professions' tools"
+    },
+    {
+      "id": 861,
+      "page_index": 19,
+      "relevance": 0.7,
+      "rationale_preview": "Metaphor in mismatched tools"
+    },
+    {
+      "id": 729,
+      "page_index": 17,
+      "relevance": 0.6,
+      "rationale_preview": "Symbolism in forgetting love."
+    },
+    {
+      "id": 753,
+      "page_index": 17,
+      "relevance": 0.6,
+      "rationale_preview": "Symbolism of forgetting love"
+    },
+    {
+      "id": 778,
+      "page_index": 18,
+      "relevance": 0.6,
+      "rationale_preview": "Acknowledges honor, a recurring symbolic theme in the play."
+    },
+    {
+      "id": 577,
+      "page_index": 14,
+      "relevance": 0.5,
+      "rationale_preview": "Possible metaphor in 'so happy by thy stay'."
+    },
+    {
+      "id": 755,
+      "page_index": 17,
+      "relevance": 0.5,
+      "rationale_preview": "Metaphor for debt as doctrine"
+    },
+    {
+      "id": 862,
+      "page_index": 19,
+      "relevance": 0.5,
+      "rationale_preview": "Search for names metaphor"
+    },
+    {
+      "id": 863,
+      "page_index": 19,
+      "relevance": 0.5,
+      "rationale_preview": "Writing as a metaphor"
+    },
+    {
+      "id": 864,
+      "page_index": 19,
+      "relevance": 0.4,
+      "rationale_preview": "Learning as symbolism"
+    },
+    {
+      "id": 543,
+      "page_index": 14,
+      "relevance": 0.3,
+      "rationale_preview": "Dialogue lacks direct symbolism or metaphor"
+    },
+    {
+      "id": 545,
+      "page_index": 14,
+      "relevance": 0.3,
+      "rationale_preview": "Dialogue lacks direct symbolism or metaphor"
+    },
+    {
+      "id": 547,
+      "page_index": 14,
+      "relevance": 0.3,
+      "rationale_preview": "Dialogue lacks direct symbolism or metaphor"
+    },
+    {
+      "id": 621,
+      "page_index": 15,
+      "relevance": 0.3,
+      "rationale_preview": "Limited metaphorical or symbolic content."
+    },
+    {
+      "id": 634,
+      "page_index": 15,
+      "relevance": 0.3,
+      "rationale_preview": "Minimal figurative language."
+    },
+    {
+      "id": 762,
+      "page_index": 18,
+      "relevance": 0.3,
+      "rationale_preview": "Character entry, no devices"
+    },
+    {
+      "id": 846,
+      "page_index": 19,
+      "relevance": 0.3,
+      "rationale_preview": "Potential metaphor in finding names, but unclear."
+    },
+    {
+      "id": 865,
+      "page_index": 19,
+      "relevance": 0.3,
+      "rationale_preview": "Time as symbolism"
+    },
+    {
+      "id": 524,
+      "page_index": 14,
+      "relevance": 0.2,
+      "rationale_preview": "Title lacks direct examples of literary devices"
+    },
+    {
+      "id": 542,
+      "page_index": 14,
+      "relevance": 0.2,
+      "rationale_preview": "Character name lacks literary device relevance"
+    },
+    {
+      "id": 544,
+      "page_index": 14,
+      "relevance": 0.2,
+      "rationale_preview": "Character name lacks literary device relevance"
+    },
+    {
+      "id": 546,
+      "page_index": 14,
+      "relevance": 0.2,
+      "rationale_preview": "Character name lacks literary device relevance"
+    },
+    {
+      "id": 562,
+      "page_index": 14,
+      "relevance": 0.2,
+      "rationale_preview": "Minimal literary device usage"
+    },
+    {
+      "id": 596,
+      "page_index": 15,
+      "relevance": 0.2,
+      "rationale_preview": "Dialogue lacks clear symbolism or figurative language"
+    },
+    {
+      "id": 597,
+      "page_index": 15,
+      "relevance": 0.2,
+      "rationale_preview": "Short response without figurative elements"
+    },
+    {
+      "id": 598,
+      "page_index": 15,
+      "relevance": 0.2,
+      "rationale_preview": "Simple question without figurative language"
+    },
+    {
+      "id": 622,
+      "page_index": 15,
+      "relevance": 0.2,
+      "rationale_preview": "Minimal figurative language present."
+    },
+    {
+      "id": 631,
+      "page_index": 15,
+      "relevance": 0.2,
+      "rationale_preview": "Lacks figurative language."
+    },
+    {
+      "id": 676,
+      "page_index": 16,
+      "relevance": 0.2,
+      "rationale_preview": "No clear symbolism or figurative language"
+    },
+    {
+      "id": 754,
+      "page_index": 17,
+      "relevance": 0.2,
+      "rationale_preview": "No literary device present"
+    },
+    {
+      "id": 760,
+      "page_index": 18,
+      "relevance": 0.2,
+      "rationale_preview": "Scene title, no devices"
+    },
+    {
+      "id": 761,
+      "page_index": 18,
+      "relevance": 0.2,
+      "rationale_preview": "Scene title, no devices"
+    },
+    {
+      "id": 844,
+      "page_index": 19,
+      "relevance": 0.2,
+      "rationale_preview": "No clear symbolism, metaphor, or simile present."
+    },
+    {
+      "id": 866,
+      "page_index": 19,
+      "relevance": 0.2,
+      "rationale_preview": "Character entry symbolism"
+    },
+    {
+      "id": 548,
+      "page_index": 14,
+      "relevance": 0.1,
+      "rationale_preview": "Does not contain literary devices"
+    },
+    {
+      "id": 599,
+      "page_index": 15,
+      "relevance": 0.1,
+      "rationale_preview": "No text provided for analysis"
+    },
+    {
+      "id": 601,
+      "page_index": 15,
+      "relevance": 0.1,
+      "rationale_preview": "No text provided for analysis"
+    },
+    {
+      "id": 602,
+      "page_index": 15,
+      "relevance": 0.1,
+      "rationale_preview": "No text provided for analysis"
+    },
+    {
+      "id": 603,
+      "page_index": 15,
+      "relevance": 0.1,
+      "rationale_preview": "No text provided for analysis"
+    },
+    {
+      "id": 632,
+      "page_index": 15,
+      "relevance": 0.1,
+      "rationale_preview": "No figurative language present."
+    },
+    {
+      "id": 633,
+      "page_index": 15,
+      "relevance": 0.1,
+      "rationale_preview": "No figurative language present."
+    },
+    {
+      "id": 635,
+      "page_index": 15,
+      "relevance": 0.1,
+      "rationale_preview": "No figurative language present."
+    },
+    {
+      "id": 636,
+      "page_index": 15,
+      "relevance": 0.1,
+      "rationale_preview": "Numerical data lacks literary content or devices."
+    },
+    {
+      "id": 637,
+      "page_index": 15,
+      "relevance": 0.1,
+      "rationale_preview": "Numerical data lacks literary content or devices."
+    },
+    {
+      "id": 638,
+      "page_index": 15,
+      "relevance": 0.1,
+      "rationale_preview": "Numerical data lacks literary content or devices."
+    },
+    {
+      "id": 639,
+      "page_index": 15,
+      "relevance": 0.1,
+      "rationale_preview": "Numerical data lacks literary content or devices."
+    },
+    {
+      "id": 641,
+      "page_index": 16,
+      "relevance": 0.1,
+      "rationale_preview": "FTLN references lack literary content or devices."
+    },
+    {
+      "id": 642,
+      "page_index": 16,
+      "relevance": 0.1,
+      "rationale_preview": "FTLN references lack literary content or devices."
+    },
+    {
+      "id": 643,
+      "page_index": 16,
+      "relevance": 0.1,
+      "rationale_preview": "FTLN references lack literary content or devices."
+    },
+    {
+      "id": 678,
+      "page_index": 16,
+      "relevance": 0.1,
+      "rationale_preview": "Minimal figurative language present"
+    },
+    {
+      "id": 728,
+      "page_index": 17,
+      "relevance": 0.1,
+      "rationale_preview": "No literary device present."
+    },
+    {
+      "id": 730,
+      "page_index": 17,
+      "relevance": 0.1,
+      "rationale_preview": "No literary device present."
+    },
+    {
+      "id": 756,
+      "page_index": 17,
+      "relevance": 0.1,
+      "rationale_preview": "No literary devices present"
+    },
+    {
+      "id": 757,
+      "page_index": 17,
+      "relevance": 0.1,
+      "rationale_preview": "No literary devices present"
+    },
+    {
+      "id": 758,
+      "page_index": 17,
+      "relevance": 0.1,
+      "rationale_preview": "No literary devices present"
+    },
+    {
+      "id": 759,
+      "page_index": 17,
+      "relevance": 0.1,
+      "rationale_preview": "No literary devices present"
+    },
+    {
+      "id": 763,
+      "page_index": 18,
+      "relevance": 0.1,
+      "rationale_preview": "No literary devices present"
+    },
+    {
+      "id": 845,
+      "page_index": 19,
+      "relevance": 0.1,
+      "rationale_preview": "Stage direction lacks literary devices."
+    },
+    {
+      "id": 867,
+      "page_index": 19,
+      "relevance": 0.1,
+      "rationale_preview": "Dialogue introduction"
+    },
+    {
+      "id": 525,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text content"
+    },
+    {
+      "id": 526,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text content"
+    },
+    {
+      "id": 527,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text content"
+    },
+    {
+      "id": 528,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text content"
+    },
+    {
+      "id": 529,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text content"
+    },
+    {
+      "id": 530,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text content"
+    },
+    {
+      "id": 531,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text content"
+    },
+    {
+      "id": 532,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 534,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 536,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 537,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 538,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 549,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text provided"
+    },
+    {
+      "id": 550,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text provided"
+    },
+    {
+      "id": 551,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text provided"
+    },
+    {
+      "id": 552,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text provided"
+    },
+    {
+      "id": 553,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text provided"
+    },
+    {
+      "id": 554,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text provided"
+    },
+    {
+      "id": 555,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text provided"
+    },
+    {
+      "id": 556,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 557,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 558,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 559,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 560,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 561,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 564,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 565,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 566,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 569,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 570,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 571,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 572,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolism or figurative language present."
+    },
+    {
+      "id": 573,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolism or figurative language present."
+    },
+    {
+      "id": 574,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolism or figurative language present."
+    },
+    {
+      "id": 575,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolism or figurative language present."
+    },
+    {
+      "id": 576,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolism or figurative language present."
+    },
+    {
+      "id": 578,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolism or figurative language present."
+    },
+    {
+      "id": 579,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolism or figurative language present."
+    },
+    {
+      "id": 580,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 581,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 582,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 583,
+      "page_index": 14,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 585,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 587,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 588,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 589,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 591,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 592,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 593,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 594,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 604,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolic or figurative language"
+    },
+    {
+      "id": 605,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolic or figurative language"
+    },
+    {
+      "id": 606,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolic or figurative language"
+    },
+    {
+      "id": 607,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolic or figurative language"
+    },
+    {
+      "id": 608,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolic or figurative language"
+    },
+    {
+      "id": 609,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolic or figurative language"
+    },
+    {
+      "id": 610,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolic or figurative language"
+    },
+    {
+      "id": 611,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolic or figurative language"
+    },
+    {
+      "id": 612,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 613,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 614,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 615,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 618,
+      "page_index": 15,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 644,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolic or figurative language"
+    },
+    {
+      "id": 645,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolic or figurative language"
+    },
+    {
+      "id": 646,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolic or figurative language"
+    },
+    {
+      "id": 647,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolic or figurative language"
+    },
+    {
+      "id": 648,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolic or figurative language"
+    },
+    {
+      "id": 649,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolic or figurative language"
+    },
+    {
+      "id": 650,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolic or figurative language"
+    },
+    {
+      "id": 651,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": "No symbolic or figurative language"
+    },
+    {
+      "id": 652,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 653,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 654,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 655,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 660,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 661,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 667,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 668,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 669,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 670,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 673,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 674,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 675,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 677,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": "No text or context provided"
+    },
+    {
+      "id": 679,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": "No text or context provided"
+    },
+    {
+      "id": 680,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": "No text or context provided"
+    },
+    {
+      "id": 681,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": "No text or context provided"
+    },
+    {
+      "id": 685,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 686,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 687,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 689,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 690,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 691,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 692,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 694,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 695,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 696,
+      "page_index": 16,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 700,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 701,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 702,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 703,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 704,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 705,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 708,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 712,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 713,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 714,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 715,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 716,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 717,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 718,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 719,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 720,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 732,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 733,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 736,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 737,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 738,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 739,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 740,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 741,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 742,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 743,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 744,
+      "page_index": 17,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 764,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 765,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 766,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 767,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 768,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 769,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 770,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 771,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 772,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 773,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 776,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 777,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 780,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 781,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 782,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 784,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 787,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 789,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 790,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 791,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 792,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 793,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 794,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 795,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 796,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text provided"
+    },
+    {
+      "id": 797,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text provided"
+    },
+    {
+      "id": 798,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text provided"
+    },
+    {
+      "id": 799,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text provided"
+    },
+    {
+      "id": 800,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text provided"
+    },
+    {
+      "id": 801,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text provided"
+    },
+    {
+      "id": 802,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text provided"
+    },
+    {
+      "id": 803,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": "No meaningful text provided"
+    },
+    {
+      "id": 804,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 812,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 813,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 814,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 815,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 816,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 818,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 820,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 821,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 822,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 823,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 824,
+      "page_index": 18,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 825,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 826,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 827,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 828,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 829,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 830,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 831,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 832,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 833,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 834,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 836,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 838,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 840,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 841,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 842,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 843,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 847,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": "No text provided to analyze."
+    },
+    {
+      "id": 848,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": "No text provided to analyze."
+    },
+    {
+      "id": 849,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": "No text provided to analyze."
+    },
+    {
+      "id": 850,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": "No text provided to analyze."
+    },
+    {
+      "id": 851,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": "No text provided to analyze."
+    },
+    {
+      "id": 852,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 853,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 854,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 855,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 856,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 857,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 858,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 859,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 874,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": "No literary device present."
+    },
+    {
+      "id": 875,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": "No literary device present."
+    },
+    {
+      "id": 876,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 877,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 878,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 879,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 880,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 882,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 883,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 884,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 885,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 886,
+      "page_index": 19,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    }
+  ],
+  "scored_order": [
+    {
+      "id": 567,
+      "relevance": 1.0,
+      "page_index": 14
+    },
+    {
+      "id": 568,
+      "relevance": 1.0,
+      "page_index": 14
+    },
+    {
+      "id": 624,
+      "relevance": 1.0,
+      "page_index": 15
+    },
+    {
+      "id": 626,
+      "relevance": 1.0,
+      "page_index": 15
+    },
+    {
+      "id": 628,
+      "relevance": 1.0,
+      "page_index": 15
+    },
+    {
+      "id": 629,
+      "relevance": 1.0,
+      "page_index": 15
+    },
+    {
+      "id": 630,
+      "relevance": 1.0,
+      "page_index": 15
+    },
+    {
+      "id": 662,
+      "relevance": 1.0,
+      "page_index": 16
+    },
+    {
+      "id": 663,
+      "relevance": 1.0,
+      "page_index": 16
+    },
+    {
+      "id": 664,
+      "relevance": 1.0,
+      "page_index": 16
+    },
+    {
+      "id": 665,
+      "relevance": 1.0,
+      "page_index": 16
+    },
+    {
+      "id": 666,
+      "relevance": 1.0,
+      "page_index": 16
+    },
+    {
+      "id": 697,
+      "relevance": 1.0,
+      "page_index": 16
+    },
+    {
+      "id": 698,
+      "relevance": 1.0,
+      "page_index": 16
+    },
+    {
+      "id": 817,
+      "relevance": 1.0,
+      "page_index": 18
+    },
+    {
+      "id": 819,
+      "relevance": 1.0,
+      "page_index": 18
+    },
+    {
+      "id": 868,
+      "relevance": 1.0,
+      "page_index": 19
+    },
+    {
+      "id": 869,
+      "relevance": 1.0,
+      "page_index": 19
+    },
+    {
+      "id": 870,
+      "relevance": 1.0,
+      "page_index": 19
+    },
+    {
+      "id": 871,
+      "relevance": 1.0,
+      "page_index": 19
+    },
+    {
+      "id": 872,
+      "relevance": 1.0,
+      "page_index": 19
+    },
+    {
+      "id": 873,
+      "relevance": 1.0,
+      "page_index": 19
+    },
+    {
+      "id": 535,
+      "relevance": 0.95,
+      "page_index": 14
+    },
+    {
+      "id": 806,
+      "relevance": 0.95,
+      "page_index": 18
+    },
+    {
+      "id": 533,
+      "relevance": 0.9,
+      "page_index": 14
+    },
+    {
+      "id": 539,
+      "relevance": 0.9,
+      "page_index": 14
+    },
+    {
+      "id": 540,
+      "relevance": 0.9,
+      "page_index": 14
+    },
+    {
+      "id": 563,
+      "relevance": 0.9,
+      "page_index": 14
+    },
+    {
+      "id": 584,
+      "relevance": 0.9,
+      "page_index": 15
+    },
+    {
+      "id": 590,
+      "relevance": 0.9,
+      "page_index": 15
+    },
+    {
+      "id": 616,
+      "relevance": 0.9,
+      "page_index": 15
+    },
+    {
+      "id": 617,
+      "relevance": 0.9,
+      "page_index": 15
+    },
+    {
+      "id": 619,
+      "relevance": 0.9,
+      "page_index": 15
+    },
+    {
+      "id": 623,
+      "relevance": 0.9,
+      "page_index": 15
+    },
+    {
+      "id": 627,
+      "relevance": 0.9,
+      "page_index": 15
+    },
+    {
+      "id": 640,
+      "relevance": 0.9,
+      "page_index": 16
+    },
+    {
+      "id": 657,
+      "relevance": 0.9,
+      "page_index": 16
+    },
+    {
+      "id": 671,
+      "relevance": 0.9,
+      "page_index": 16
+    },
+    {
+      "id": 672,
+      "relevance": 0.9,
+      "page_index": 16
+    },
+    {
+      "id": 688,
+      "relevance": 0.9,
+      "page_index": 16
+    },
+    {
+      "id": 699,
+      "relevance": 0.9,
+      "page_index": 16
+    },
+    {
+      "id": 706,
+      "relevance": 0.9,
+      "page_index": 17
+    },
+    {
+      "id": 709,
+      "relevance": 0.9,
+      "page_index": 17
+    },
+    {
+      "id": 721,
+      "relevance": 0.9,
+      "page_index": 17
+    },
+    {
+      "id": 724,
+      "relevance": 0.9,
+      "page_index": 17
+    },
+    {
+      "id": 727,
+      "relevance": 0.9,
+      "page_index": 17
+    },
+    {
+      "id": 735,
+      "relevance": 0.9,
+      "page_index": 17
+    },
+    {
+      "id": 746,
+      "relevance": 0.9,
+      "page_index": 17
+    },
+    {
+      "id": 747,
+      "relevance": 0.9,
+      "page_index": 17
+    },
+    {
+      "id": 748,
+      "relevance": 0.9,
+      "page_index": 17
+    },
+    {
+      "id": 749,
+      "relevance": 0.9,
+      "page_index": 17
+    },
+    {
+      "id": 783,
+      "relevance": 0.9,
+      "page_index": 18
+    },
+    {
+      "id": 805,
+      "relevance": 0.9,
+      "page_index": 18
+    },
+    {
+      "id": 835,
+      "relevance": 0.9,
+      "page_index": 19
+    },
+    {
+      "id": 837,
+      "relevance": 0.9,
+      "page_index": 19
+    },
+    {
+      "id": 881,
+      "relevance": 0.9,
+      "page_index": 19
+    },
+    {
+      "id": 658,
+      "relevance": 0.85,
+      "page_index": 16
+    },
+    {
+      "id": 711,
+      "relevance": 0.85,
+      "page_index": 17
+    },
+    {
+      "id": 786,
+      "relevance": 0.85,
+      "page_index": 18
+    },
+    {
+      "id": 807,
+      "relevance": 0.85,
+      "page_index": 18
+    },
+    {
+      "id": 595,
+      "relevance": 0.8,
+      "page_index": 15
+    },
+    {
+      "id": 600,
+      "relevance": 0.8,
+      "page_index": 15
+    },
+    {
+      "id": 620,
+      "relevance": 0.8,
+      "page_index": 15
+    },
+    {
+      "id": 656,
+      "relevance": 0.8,
+      "page_index": 16
+    },
+    {
+      "id": 659,
+      "relevance": 0.8,
+      "page_index": 16
+    },
+    {
+      "id": 682,
+      "relevance": 0.8,
+      "page_index": 16
+    },
+    {
+      "id": 684,
+      "relevance": 0.8,
+      "page_index": 16
+    },
+    {
+      "id": 693,
+      "relevance": 0.8,
+      "page_index": 16
+    },
+    {
+      "id": 707,
+      "relevance": 0.8,
+      "page_index": 17
+    },
+    {
+      "id": 710,
+      "relevance": 0.8,
+      "page_index": 17
+    },
+    {
+      "id": 722,
+      "relevance": 0.8,
+      "page_index": 17
+    },
+    {
+      "id": 723,
+      "relevance": 0.8,
+      "page_index": 17
+    },
+    {
+      "id": 725,
+      "relevance": 0.8,
+      "page_index": 17
+    },
+    {
+      "id": 734,
+      "relevance": 0.8,
+      "page_index": 17
+    },
+    {
+      "id": 745,
+      "relevance": 0.8,
+      "page_index": 17
+    },
+    {
+      "id": 750,
+      "relevance": 0.8,
+      "page_index": 17
+    },
+    {
+      "id": 774,
+      "relevance": 0.8,
+      "page_index": 18
+    },
+    {
+      "id": 785,
+      "relevance": 0.8,
+      "page_index": 18
+    },
+    {
+      "id": 788,
+      "relevance": 0.8,
+      "page_index": 18
+    },
+    {
+      "id": 808,
+      "relevance": 0.8,
+      "page_index": 18
+    },
+    {
+      "id": 839,
+      "relevance": 0.8,
+      "page_index": 19
+    },
+    {
+      "id": 809,
+      "relevance": 0.75,
+      "page_index": 18
+    },
+    {
+      "id": 541,
+      "relevance": 0.7,
+      "page_index": 14
+    },
+    {
+      "id": 586,
+      "relevance": 0.7,
+      "page_index": 15
+    },
+    {
+      "id": 625,
+      "relevance": 0.7,
+      "page_index": 15
+    },
+    {
+      "id": 683,
+      "relevance": 0.7,
+      "page_index": 16
+    },
+    {
+      "id": 726,
+      "relevance": 0.7,
+      "page_index": 17
+    },
+    {
+      "id": 731,
+      "relevance": 0.7,
+      "page_index": 17
+    },
+    {
+      "id": 751,
+      "relevance": 0.7,
+      "page_index": 17
+    },
+    {
+      "id": 752,
+      "relevance": 0.7,
+      "page_index": 17
+    },
+    {
+      "id": 775,
+      "relevance": 0.7,
+      "page_index": 18
+    },
+    {
+      "id": 779,
+      "relevance": 0.7,
+      "page_index": 18
+    },
+    {
+      "id": 810,
+      "relevance": 0.7,
+      "page_index": 18
+    },
+    {
+      "id": 811,
+      "relevance": 0.7,
+      "page_index": 18
+    },
+    {
+      "id": 860,
+      "relevance": 0.7,
+      "page_index": 19
+    },
+    {
+      "id": 861,
+      "relevance": 0.7,
+      "page_index": 19
+    },
+    {
+      "id": 729,
+      "relevance": 0.6,
+      "page_index": 17
+    },
+    {
+      "id": 753,
+      "relevance": 0.6,
+      "page_index": 17
+    },
+    {
+      "id": 778,
+      "relevance": 0.6,
+      "page_index": 18
+    },
+    {
+      "id": 577,
+      "relevance": 0.5,
+      "page_index": 14
+    },
+    {
+      "id": 755,
+      "relevance": 0.5,
+      "page_index": 17
+    },
+    {
+      "id": 862,
+      "relevance": 0.5,
+      "page_index": 19
+    },
+    {
+      "id": 863,
+      "relevance": 0.5,
+      "page_index": 19
+    },
+    {
+      "id": 864,
+      "relevance": 0.4,
+      "page_index": 19
+    },
+    {
+      "id": 543,
+      "relevance": 0.3,
+      "page_index": 14
+    },
+    {
+      "id": 545,
+      "relevance": 0.3,
+      "page_index": 14
+    },
+    {
+      "id": 547,
+      "relevance": 0.3,
+      "page_index": 14
+    },
+    {
+      "id": 621,
+      "relevance": 0.3,
+      "page_index": 15
+    },
+    {
+      "id": 634,
+      "relevance": 0.3,
+      "page_index": 15
+    },
+    {
+      "id": 762,
+      "relevance": 0.3,
+      "page_index": 18
+    },
+    {
+      "id": 846,
+      "relevance": 0.3,
+      "page_index": 19
+    },
+    {
+      "id": 865,
+      "relevance": 0.3,
+      "page_index": 19
+    },
+    {
+      "id": 524,
+      "relevance": 0.2,
+      "page_index": 14
+    },
+    {
+      "id": 542,
+      "relevance": 0.2,
+      "page_index": 14
+    },
+    {
+      "id": 544,
+      "relevance": 0.2,
+      "page_index": 14
+    },
+    {
+      "id": 546,
+      "relevance": 0.2,
+      "page_index": 14
+    },
+    {
+      "id": 562,
+      "relevance": 0.2,
+      "page_index": 14
+    },
+    {
+      "id": 596,
+      "relevance": 0.2,
+      "page_index": 15
+    },
+    {
+      "id": 597,
+      "relevance": 0.2,
+      "page_index": 15
+    },
+    {
+      "id": 598,
+      "relevance": 0.2,
+      "page_index": 15
+    },
+    {
+      "id": 622,
+      "relevance": 0.2,
+      "page_index": 15
+    },
+    {
+      "id": 631,
+      "relevance": 0.2,
+      "page_index": 15
+    },
+    {
+      "id": 676,
+      "relevance": 0.2,
+      "page_index": 16
+    },
+    {
+      "id": 754,
+      "relevance": 0.2,
+      "page_index": 17
+    },
+    {
+      "id": 760,
+      "relevance": 0.2,
+      "page_index": 18
+    },
+    {
+      "id": 761,
+      "relevance": 0.2,
+      "page_index": 18
+    },
+    {
+      "id": 844,
+      "relevance": 0.2,
+      "page_index": 19
+    },
+    {
+      "id": 866,
+      "relevance": 0.2,
+      "page_index": 19
+    },
+    {
+      "id": 548,
+      "relevance": 0.1,
+      "page_index": 14
+    },
+    {
+      "id": 599,
+      "relevance": 0.1,
+      "page_index": 15
+    },
+    {
+      "id": 601,
+      "relevance": 0.1,
+      "page_index": 15
+    },
+    {
+      "id": 602,
+      "relevance": 0.1,
+      "page_index": 15
+    },
+    {
+      "id": 603,
+      "relevance": 0.1,
+      "page_index": 15
+    },
+    {
+      "id": 632,
+      "relevance": 0.1,
+      "page_index": 15
+    },
+    {
+      "id": 633,
+      "relevance": 0.1,
+      "page_index": 15
+    },
+    {
+      "id": 635,
+      "relevance": 0.1,
+      "page_index": 15
+    },
+    {
+      "id": 636,
+      "relevance": 0.1,
+      "page_index": 15
+    },
+    {
+      "id": 637,
+      "relevance": 0.1,
+      "page_index": 15
+    },
+    {
+      "id": 638,
+      "relevance": 0.1,
+      "page_index": 15
+    },
+    {
+      "id": 639,
+      "relevance": 0.1,
+      "page_index": 15
+    },
+    {
+      "id": 641,
+      "relevance": 0.1,
+      "page_index": 16
+    },
+    {
+      "id": 642,
+      "relevance": 0.1,
+      "page_index": 16
+    },
+    {
+      "id": 643,
+      "relevance": 0.1,
+      "page_index": 16
+    },
+    {
+      "id": 678,
+      "relevance": 0.1,
+      "page_index": 16
+    },
+    {
+      "id": 728,
+      "relevance": 0.1,
+      "page_index": 17
+    },
+    {
+      "id": 730,
+      "relevance": 0.1,
+      "page_index": 17
+    },
+    {
+      "id": 756,
+      "relevance": 0.1,
+      "page_index": 17
+    },
+    {
+      "id": 757,
+      "relevance": 0.1,
+      "page_index": 17
+    },
+    {
+      "id": 758,
+      "relevance": 0.1,
+      "page_index": 17
+    },
+    {
+      "id": 759,
+      "relevance": 0.1,
+      "page_index": 17
+    },
+    {
+      "id": 763,
+      "relevance": 0.1,
+      "page_index": 18
+    },
+    {
+      "id": 845,
+      "relevance": 0.1,
+      "page_index": 19
+    },
+    {
+      "id": 867,
+      "relevance": 0.1,
+      "page_index": 19
+    },
+    {
+      "id": 525,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 526,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 527,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 528,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 529,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 530,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 531,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 532,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 534,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 536,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 537,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 538,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 549,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 550,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 551,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 552,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 553,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 554,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 555,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 556,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 557,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 558,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 559,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 560,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 561,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 564,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 565,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 566,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 569,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 570,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 571,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 572,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 573,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 574,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 575,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 576,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 578,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 579,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 580,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 581,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 582,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 583,
+      "relevance": 0.0,
+      "page_index": 14
+    },
+    {
+      "id": 585,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 587,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 588,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 589,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 591,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 592,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 593,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 594,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 604,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 605,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 606,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 607,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 608,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 609,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 610,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 611,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 612,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 613,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 614,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 615,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 618,
+      "relevance": 0.0,
+      "page_index": 15
+    },
+    {
+      "id": 644,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 645,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 646,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 647,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 648,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 649,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 650,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 651,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 652,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 653,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 654,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 655,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 660,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 661,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 667,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 668,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 669,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 670,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 673,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 674,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 675,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 677,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 679,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 680,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 681,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 685,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 686,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 687,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 689,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 690,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 691,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 692,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 694,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 695,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 696,
+      "relevance": 0.0,
+      "page_index": 16
+    },
+    {
+      "id": 700,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 701,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 702,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 703,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 704,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 705,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 708,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 712,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 713,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 714,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 715,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 716,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 717,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 718,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 719,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 720,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 732,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 733,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 736,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 737,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 738,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 739,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 740,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 741,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 742,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 743,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 744,
+      "relevance": 0.0,
+      "page_index": 17
+    },
+    {
+      "id": 764,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 765,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 766,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 767,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 768,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 769,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 770,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 771,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 772,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 773,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 776,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 777,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 780,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 781,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 782,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 784,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 787,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 789,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 790,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 791,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 792,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 793,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 794,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 795,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 796,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 797,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 798,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 799,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 800,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 801,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 802,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 803,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 804,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 812,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 813,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 814,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 815,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 816,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 818,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 820,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 821,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 822,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 823,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 824,
+      "relevance": 0.0,
+      "page_index": 18
+    },
+    {
+      "id": 825,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 826,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 827,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 828,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 829,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 830,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 831,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 832,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 833,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 834,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 836,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 838,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 840,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 841,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 842,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 843,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 847,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 848,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 849,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 850,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 851,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 852,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 853,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 854,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 855,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 856,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 857,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 858,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 859,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 874,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 875,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 876,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 877,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 878,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 879,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 880,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 882,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 883,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 884,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 885,
+      "relevance": 0.0,
+      "page_index": 19
+    },
+    {
+      "id": 886,
+      "relevance": 0.0,
+      "page_index": 19
+    }
+  ],
+  "selected": [
+    {
+      "id": 0,
+      "page_index": 14,
+      "relevance": 1.0,
+      "text_preview": "As is the bud bit with an envious worm"
+    },
+    {
+      "id": 1,
+      "page_index": 14,
+      "relevance": 1.0,
+      "text_preview": "Ere he can spread his sweet leaves to the air"
+    },
+    {
+      "id": 2,
+      "page_index": 15,
+      "relevance": 1.0,
+      "text_preview": "Why then, O brawling love, O loving hate,"
+    },
+    {
+      "id": 3,
+      "page_index": 15,
+      "relevance": 1.0,
+      "text_preview": "O heavy lightness, serious vanity,"
+    },
+    {
+      "id": 4,
+      "page_index": 15,
+      "relevance": 1.0,
+      "text_preview": "Feather of lead, bright smoke, cold fire, sick health,"
+    },
+    {
+      "id": 5,
+      "page_index": 15,
+      "relevance": 1.0,
+      "text_preview": "Still-waking sleep that is not what it is!"
+    },
+    {
+      "id": 6,
+      "page_index": 15,
+      "relevance": 1.0,
+      "text_preview": "This love feel I, that feel no love in this."
+    },
+    {
+      "id": 7,
+      "page_index": 16,
+      "relevance": 1.0,
+      "text_preview": "Love is a smoke made with the fume of sighs;"
+    },
+    {
+      "id": 8,
+      "page_index": 16,
+      "relevance": 1.0,
+      "text_preview": "Being purged, a fire sparkling in lovers\u2019 eyes;"
+    },
+    {
+      "id": 9,
+      "page_index": 16,
+      "relevance": 1.0,
+      "text_preview": "Being vexed, a sea nourished with loving tears."
+    },
+    {
+      "id": 10,
+      "page_index": 16,
+      "relevance": 1.0,
+      "text_preview": "What is it else? A madness most discreet,"
+    },
+    {
+      "id": 11,
+      "page_index": 16,
+      "relevance": 1.0,
+      "text_preview": "A choking gall, and a preserving sweet."
+    },
+    {
+      "id": 12,
+      "page_index": 16,
+      "relevance": 1.0,
+      "text_preview": "FTLN 0232\n Well in that hit you miss. She\u2019ll not be hit"
+    },
+    {
+      "id": 13,
+      "page_index": 16,
+      "relevance": 1.0,
+      "text_preview": "With Cupid\u2019s arrow. She hath Dian\u2019s wit,"
+    },
+    {
+      "id": 14,
+      "page_index": 18,
+      "relevance": 1.0,
+      "text_preview": "Earth-treading stars that make dark heaven light."
+    },
+    {
+      "id": 15,
+      "page_index": 18,
+      "relevance": 1.0,
+      "text_preview": "When well-appareled April on the heel"
+    },
+    {
+      "id": 16,
+      "page_index": 19,
+      "relevance": 1.0,
+      "text_preview": "Tut, man, one fire burns out another\u2019s burning;"
+    },
+    {
+      "id": 17,
+      "page_index": 19,
+      "relevance": 1.0,
+      "text_preview": "One pain is lessened by another\u2019s anguish."
+    },
+    {
+      "id": 18,
+      "page_index": 19,
+      "relevance": 1.0,
+      "text_preview": "Turn giddy, and be helped by backward turning."
+    },
+    {
+      "id": 19,
+      "page_index": 19,
+      "relevance": 1.0,
+      "text_preview": "One desperate grief cures with another\u2019s languish."
+    },
+    {
+      "id": 20,
+      "page_index": 19,
+      "relevance": 1.0,
+      "text_preview": "Take thou some new infection to thy eye,"
+    },
+    {
+      "id": 21,
+      "page_index": 19,
+      "relevance": 1.0,
+      "text_preview": "And the rank poison of the old will die."
+    },
+    {
+      "id": 22,
+      "page_index": 14,
+      "relevance": 0.95,
+      "text_preview": "The shady curtains from Aurora\u2019s bed,"
+    },
+    {
+      "id": 23,
+      "page_index": 18,
+      "relevance": 0.95,
+      "text_preview": "Earth hath swallowed all my hopes but she;"
+    },
+    {
+      "id": 24,
+      "page_index": 14,
+      "relevance": 0.9,
+      "text_preview": "FTLN 0159\n But all so soon as the all-cheering sun"
+    },
+    {
+      "id": 25,
+      "page_index": 14,
+      "relevance": 0.9,
+      "text_preview": "And makes himself an artificial night."
+    },
+    {
+      "id": 26,
+      "page_index": 14,
+      "relevance": 0.9,
+      "text_preview": "Black and portentous must this humor prove,"
+    },
+    {
+      "id": 27,
+      "page_index": 14,
+      "relevance": 0.9,
+      "text_preview": "But he,  his  own affections\u2019 counselor,"
+    },
+    {
+      "id": 28,
+      "page_index": 15,
+      "relevance": 0.9,
+      "text_preview": "21\nRomeo and Juliet\nACT 1. SC. 1"
+    },
+    {
+      "id": 29,
+      "page_index": 15,
+      "relevance": 0.9,
+      "text_preview": "FTLN 0180\nROMEO\n Ay me, sad hours seem long."
+    },
+    {
+      "id": 30,
+      "page_index": 15,
+      "relevance": 0.9,
+      "text_preview": "FTLN 0202\n Alas that love, so gentle in his view,"
+    },
+    {
+      "id": 31,
+      "page_index": 15,
+      "relevance": 0.9,
+      "text_preview": "Should be so tyrannous and rough in proof!"
+    },
+    {
+      "id": 32,
+      "page_index": 15,
+      "relevance": 0.9,
+      "text_preview": "Alas that love, whose view is muffled still,"
+    },
+    {
+      "id": 33,
+      "page_index": 15,
+      "relevance": 0.9,
+      "text_preview": "Here\u2019s much to do with hate, but more with love."
+    },
+    {
+      "id": 34,
+      "page_index": 15,
+      "relevance": 0.9,
+      "text_preview": "Misshapen chaos of  well-seeming  forms,"
+    },
+    {
+      "id": 35,
+      "page_index": 16,
+      "relevance": 0.9,
+      "text_preview": "23\nRomeo and Juliet\nACT 1. SC. 1"
+    },
+    {
+      "id": 36,
+      "page_index": 16,
+      "relevance": 0.9,
+      "text_preview": "ROMEO\n  Why, such is love\u2019s transgression."
+    },
+    {
+      "id": 37,
+      "page_index": 16,
+      "relevance": 0.9,
+      "text_preview": "Tut, I have lost myself. I am not here."
+    },
+    {
+      "id": 38,
+      "page_index": 16,
+      "relevance": 0.9,
+      "text_preview": "This is not Romeo. He\u2019s some other where."
+    },
+    {
+      "id": 39,
+      "page_index": 16,
+      "relevance": 0.9,
+      "text_preview": "FTLN 0228\n A right good markman! And she\u2019s fair I love."
+    },
+    {
+      "id": 40,
+      "page_index": 16,
+      "relevance": 0.9,
+      "text_preview": "And, in strong proof of chastity well armed,"
+    },
+    {
+      "id": 41,
+      "page_index": 17,
+      "relevance": 0.9,
+      "text_preview": "FTLN 0238\n From love\u2019s weak childish bow she lives uncharmed."
+    },
+    {
+      "id": 42,
+      "page_index": 17,
+      "relevance": 0.9,
+      "text_preview": "Nor ope her lap to saint-seducing gold."
+    },
+    {
+      "id": 43,
+      "page_index": 17,
+      "relevance": 0.9,
+      "text_preview": "FTLN 0246\n She hath, and in that sparing  makes  huge waste;"
+    }
+  ]
+}

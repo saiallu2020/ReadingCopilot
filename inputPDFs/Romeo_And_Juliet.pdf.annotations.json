@@ -1,0 +1,1144 @@
+{
+  "pdf_path": "C:/Users/saiallu/source/repos/ReadingCopilot/inputPDFs/Romeo_And_Juliet.pdf",
+  "highlights": [
+    {
+      "id": "edce8998-b909-425c-8277-7bf5374d094c",
+      "page_index": 14,
+      "rects": [
+        {
+          "x1": 94.80280000000005,
+          "y1": 425.6450000000004,
+          "x2": 312.0220000000001,
+          "y2": 439.2450000000004
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Bud and envious worm",
+      "created_at": "2025-09-18T17:06:22.636066",
+      "updated_at": "2025-09-18T17:06:22.636089",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "As is the bud bit with an envious worm",
+      "auto_generated": true
+    },
+    {
+      "id": "c4e81420-a94c-4e76-81a3-f0121e7276bd",
+      "page_index": 14,
+      "rects": [
+        {
+          "x1": 94.80280000000005,
+          "y1": 441.6386000000004,
+          "x2": 337.26360000000005,
+          "y2": 455.2386000000004
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Sweet leaves to air",
+      "created_at": "2025-09-18T17:06:22.636221",
+      "updated_at": "2025-09-18T17:06:22.636224",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "Ere he can spread his sweet leaves to the air",
+      "auto_generated": true
+    },
+    {
+      "id": "909d144c-c137-41f5-ba85-633fb57925ea",
+      "page_index": 14,
+      "rects": [
+        {
+          "x1": 94.80280000000005,
+          "y1": 120.96420000000012,
+          "x2": 308.9484,
+          "y2": 134.56420000000014
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Aurora’s bed",
+      "created_at": "2025-09-18T17:06:22.636668",
+      "updated_at": "2025-09-18T17:06:22.636668",
+      "tags": [],
+      "profile_score": 0.95,
+      "extracted_text": "The shady curtains from Aurora’s bed,",
+      "auto_generated": true
+    },
+    {
+      "id": "116a0c1f-51d1-4dd1-b4d7-3f622056ad2b",
+      "page_index": 14,
+      "rects": [
+        {
+          "x1": 20.4,
+          "y1": 219.4953999999998,
+          "x2": 62.2,
+          "y2": 228.29539999999974
+        },
+        {
+          "x1": 94.80280000000005,
+          "y1": 88.97700000000009,
+          "x2": 304.82760000000013,
+          "y2": 102.57700000000011
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "All-cheering sun",
+      "created_at": "2025-09-18T17:06:22.636698",
+      "updated_at": "2025-09-18T17:06:22.636698",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "FTLN 0159\n But all so soon as the all-cheering sun",
+      "auto_generated": true
+    },
+    {
+      "id": "3cc12171-7f5a-4ba0-a847-ed037f238895",
+      "page_index": 14,
+      "rects": [
+        {
+          "x1": 94.80280000000005,
+          "y1": 184.93860000000018,
+          "x2": 304.44680000000017,
+          "y2": 198.5386000000002
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Artificial night",
+      "created_at": "2025-09-18T17:06:22.636713",
+      "updated_at": "2025-09-18T17:06:22.636714",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "And makes himself an artificial night.",
+      "auto_generated": true
+    },
+    {
+      "id": "502102a1-3d6b-41b4-a2f4-a959ead1038b",
+      "page_index": 14,
+      "rects": [
+        {
+          "x1": 94.80280000000005,
+          "y1": 200.9322000000002,
+          "x2": 343.37,
+          "y2": 214.53220000000022
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Ominous mood symbolism",
+      "created_at": "2025-09-18T17:06:22.636727",
+      "updated_at": "2025-09-18T17:06:22.636728",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Black and portentous must this humor prove,",
+      "auto_generated": true
+    },
+    {
+      "id": "5db14bbf-34b4-42fb-97e5-cdd3aafa9be5",
+      "page_index": 14,
+      "rects": [
+        {
+          "x1": 94.80280000000003,
+          "y1": 361.6706000000003,
+          "x2": 317.61160000000007,
+          "y2": 375.27060000000034
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Affections' counselor",
+      "created_at": "2025-09-18T17:06:22.636741",
+      "updated_at": "2025-09-18T17:06:22.636742",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "But he,  his  own affections’ counselor,",
+      "auto_generated": true
+    },
+    {
+      "id": "6b41e07b-5354-45b4-a1a2-45e9320059fd",
+      "page_index": 15,
+      "rects": [
+        {
+          "x1": 94.80079999999998,
+          "y1": 488.8158000000004,
+          "x2": 330.8832,
+          "y2": 502.41580000000044
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Brawling love",
+      "created_at": "2025-09-18T17:06:22.636285",
+      "updated_at": "2025-09-18T17:06:22.636287",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "Why then, O brawling love, O loving hate,",
+      "auto_generated": true
+    },
+    {
+      "id": "efab930b-36bb-4913-b637-2fbe47f89125",
+      "page_index": 15,
+      "rects": [
+        {
+          "x1": 94.80079999999998,
+          "y1": 521.6054000000004,
+          "x2": 281.7872,
+          "y2": 535.2054000000005
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Heavy lightness",
+      "created_at": "2025-09-18T17:06:22.636329",
+      "updated_at": "2025-09-18T17:06:22.636332",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "O heavy lightness, serious vanity,",
+      "auto_generated": true
+    },
+    {
+      "id": "efdfb829-d497-4e6d-a5fd-35bb9ede3f2f",
+      "page_index": 15,
+      "rects": [
+        {
+          "x1": 94.80079999999998,
+          "y1": 554.3950000000004,
+          "x2": 379.2175999999999,
+          "y2": 567.9950000000003
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Symbolic contrasts",
+      "created_at": "2025-09-18T17:06:22.636369",
+      "updated_at": "2025-09-18T17:06:22.636371",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "Feather of lead, bright smoke, cold fire, sick health,",
+      "auto_generated": true
+    },
+    {
+      "id": "50bd43b8-26df-4d88-92e5-9741fd85a361",
+      "page_index": 15,
+      "rects": [
+        {
+          "x1": 94.80079999999998,
+          "y1": 570.3886000000005,
+          "x2": 311.6528,
+          "y2": 583.9886000000004
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Metaphorical paradox",
+      "created_at": "2025-09-18T17:06:22.636404",
+      "updated_at": "2025-09-18T17:06:22.636405",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "Still-waking sleep that is not what it is!",
+      "auto_generated": true
+    },
+    {
+      "id": "847ba279-2129-4d1f-8ebb-830684ff625f",
+      "page_index": 15,
+      "rects": [
+        {
+          "x1": 94.80079999999998,
+          "y1": 586.3822000000004,
+          "x2": 316.1544,
+          "y2": 599.9822000000004
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Love metaphor",
+      "created_at": "2025-09-18T17:06:22.636421",
+      "updated_at": "2025-09-18T17:06:22.636422",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "This love feel I, that feel no love in this.",
+      "auto_generated": true
+    },
+    {
+      "id": "b94bc9d3-c023-48f6-bb41-cb08c827c22f",
+      "page_index": 15,
+      "rects": [
+        {
+          "x1": 90.8,
+          "y1": 44.97580000000005,
+          "x2": 104.39999999999999,
+          "y2": 58.57580000000007
+        },
+        {
+          "x1": 193.6149,
+          "y1": 45.46690000000001,
+          "x2": 299.9997,
+          "y2": 60.66689999999994
+        },
+        {
+          "x1": 378.6363,
+          "y1": 44.302200000000084,
+          "x2": 426.7987,
+          "y2": 53.10220000000004
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Romeo and Juliet",
+      "created_at": "2025-09-18T17:06:22.636761",
+      "updated_at": "2025-09-18T17:06:22.636762",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "21\nRomeo and Juliet\nACT 1. SC. 1",
+      "auto_generated": true
+    },
+    {
+      "id": "531586b6-9c63-4b10-98a0-41937f4f34bd",
+      "page_index": 15,
+      "rects": [
+        {
+          "x1": 20.4,
+          "y1": 171.50220000000002,
+          "x2": 62.2,
+          "y2": 180.30219999999997
+        },
+        {
+          "x1": 82.8,
+          "y1": 170.3893999999999,
+          "x2": 120.3544,
+          "y2": 180.7894
+        },
+        {
+          "x1": 216.8064,
+          "y1": 168.94380000000012,
+          "x2": 377.72159999999997,
+          "y2": 182.54380000000015
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Sad hours seem long",
+      "created_at": "2025-09-18T17:06:22.636780",
+      "updated_at": "2025-09-18T17:06:22.636780",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "FTLN 0180\nROMEO\n Ay me, sad hours seem long.",
+      "auto_generated": true
+    },
+    {
+      "id": "7790e46f-f73b-48fe-a335-ad56f53e5284",
+      "page_index": 15,
+      "rects": [
+        {
+          "x1": 20.4,
+          "y1": 605.099,
+          "x2": 62.2,
+          "y2": 613.899
+        },
+        {
+          "x1": 94.80079999999998,
+          "y1": 360.8670000000003,
+          "x2": 295.76800000000003,
+          "y2": 374.4670000000003
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Love's gentle view",
+      "created_at": "2025-09-18T17:06:22.636795",
+      "updated_at": "2025-09-18T17:06:22.636796",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "FTLN 0202\n Alas that love, so gentle in his view,",
+      "auto_generated": true
+    },
+    {
+      "id": "56bb736e-2bd1-4a52-be4f-016f97fc39f7",
+      "page_index": 15,
+      "rects": [
+        {
+          "x1": 94.80079999999998,
+          "y1": 376.8606000000003,
+          "x2": 335.04479999999995,
+          "y2": 390.46060000000034
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Tyrannous love",
+      "created_at": "2025-09-18T17:06:22.636806",
+      "updated_at": "2025-09-18T17:06:22.636807",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Should be so tyrannous and rough in proof!",
+      "auto_generated": true
+    },
+    {
+      "id": "781fbf47-aa58-43a6-9d4b-c3baa1b93b4a",
+      "page_index": 15,
+      "rects": [
+        {
+          "x1": 94.80079999999998,
+          "y1": 408.84780000000035,
+          "x2": 331.2775999999999,
+          "y2": 422.44780000000037
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Muffled love",
+      "created_at": "2025-09-18T17:06:22.636818",
+      "updated_at": "2025-09-18T17:06:22.636819",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Alas that love, whose view is muffled still,",
+      "auto_generated": true
+    },
+    {
+      "id": "b2b5838f-197b-471b-9918-84cacb5ac331",
+      "page_index": 15,
+      "rects": [
+        {
+          "x1": 94.80079999999998,
+          "y1": 472.8222000000004,
+          "x2": 366.01199999999994,
+          "y2": 486.42220000000043
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Hate and love",
+      "created_at": "2025-09-18T17:06:22.636831",
+      "updated_at": "2025-09-18T17:06:22.636832",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Here’s much to do with hate, but more with love.",
+      "auto_generated": true
+    },
+    {
+      "id": "85c7460a-59c7-45ce-816c-ca56ca5d0d1b",
+      "page_index": 15,
+      "rects": [
+        {
+          "x1": 94.80079999999998,
+          "y1": 538.4014000000004,
+          "x2": 334.2152,
+          "y2": 552.0014000000004
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Misshapen chaos",
+      "created_at": "2025-09-18T17:06:22.636845",
+      "updated_at": "2025-09-18T17:06:22.636846",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Misshapen chaos of  well-seeming  forms,",
+      "auto_generated": true
+    },
+    {
+      "id": "f48a600c-0ed2-46aa-b6e5-ffde76a788f8",
+      "page_index": 16,
+      "rects": [
+        {
+          "x1": 94.80080000000001,
+          "y1": 184.93680000000006,
+          "x2": 348.64480000000003,
+          "y2": 198.53680000000008
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Love as smoke",
+      "created_at": "2025-09-18T17:06:22.636437",
+      "updated_at": "2025-09-18T17:06:22.636438",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "Love is a smoke made with the fume of sighs;",
+      "auto_generated": true
+    },
+    {
+      "id": "d3bf0c68-5fa6-4a14-b7ac-1389dd79238f",
+      "page_index": 16,
+      "rects": [
+        {
+          "x1": 94.80080000000001,
+          "y1": 200.93040000000008,
+          "x2": 347.48879999999997,
+          "y2": 214.5304000000001
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Fire in lovers' eyes",
+      "created_at": "2025-09-18T17:06:22.636453",
+      "updated_at": "2025-09-18T17:06:22.636454",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "Being purged, a fire sparkling in lovers’ eyes;",
+      "auto_generated": true
+    },
+    {
+      "id": "63b0768b-bc36-481c-a23a-d768006b9298",
+      "page_index": 16,
+      "rects": [
+        {
+          "x1": 94.80080000000001,
+          "y1": 216.9240000000001,
+          "x2": 355.4312,
+          "y2": 230.52400000000011
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Love as a sea",
+      "created_at": "2025-09-18T17:06:22.636471",
+      "updated_at": "2025-09-18T17:06:22.636472",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "Being vexed, a sea nourished with loving tears.",
+      "auto_generated": true
+    },
+    {
+      "id": "f4ebd402-5a29-4910-8b3e-bb0305e3ce0f",
+      "page_index": 16,
+      "rects": [
+        {
+          "x1": 94.80080000000001,
+          "y1": 232.9176000000001,
+          "x2": 324.08320000000003,
+          "y2": 246.51760000000013
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Love as madness",
+      "created_at": "2025-09-18T17:06:22.636487",
+      "updated_at": "2025-09-18T17:06:22.636488",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "What is it else? A madness most discreet,",
+      "auto_generated": true
+    },
+    {
+      "id": "27a9ba9c-d5fd-4080-949a-a71b08850dff",
+      "page_index": 16,
+      "rects": [
+        {
+          "x1": 94.80080000000001,
+          "y1": 248.91120000000012,
+          "x2": 313.4888000000001,
+          "y2": 262.51120000000014
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Gall and sweet",
+      "created_at": "2025-09-18T17:06:22.636503",
+      "updated_at": "2025-09-18T17:06:22.636503",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "A choking gall, and a preserving sweet.",
+      "auto_generated": true
+    },
+    {
+      "id": "7994b870-fa93-4576-944f-bca8e38c528a",
+      "page_index": 16,
+      "rects": [
+        {
+          "x1": 20.4,
+          "y1": 651.4984,
+          "x2": 62.2,
+          "y2": 660.2984
+        },
+        {
+          "x1": 94.80079999999998,
+          "y1": 616.7640000000004,
+          "x2": 326.3952,
+          "y2": 630.3640000000003
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Cupid’s arrow symbolism",
+      "created_at": "2025-09-18T17:06:22.636519",
+      "updated_at": "2025-09-18T17:06:22.636519",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "FTLN 0232\n Well in that hit you miss. She’ll not be hit",
+      "auto_generated": true
+    },
+    {
+      "id": "60385f2c-7244-4745-be8d-730a1f0f42ca",
+      "page_index": 16,
+      "rects": [
+        {
+          "x1": 94.80079999999998,
+          "y1": 632.7576000000003,
+          "x2": 324.84479999999996,
+          "y2": 646.3576000000003
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Dian’s wit symbolism",
+      "created_at": "2025-09-18T17:06:22.636534",
+      "updated_at": "2025-09-18T17:06:22.636535",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "With Cupid’s arrow. She hath Dian’s wit,",
+      "auto_generated": true
+    },
+    {
+      "id": "394c966f-d88c-49a7-a161-6bfcfea11c37",
+      "page_index": 16,
+      "rects": [
+        {
+          "x1": 90.8,
+          "y1": 44.97519999999997,
+          "x2": 104.39999999999999,
+          "y2": 58.575199999999995
+        },
+        {
+          "x1": 193.6149,
+          "y1": 45.46640000000002,
+          "x2": 299.9997,
+          "y2": 60.66639999999995
+        },
+        {
+          "x1": 378.6363,
+          "y1": 44.30160000000001,
+          "x2": 426.7987,
+          "y2": 53.10159999999996
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Romeo and Juliet Act 1",
+      "created_at": "2025-09-18T17:06:22.636864",
+      "updated_at": "2025-09-18T17:06:22.636865",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "23\nRomeo and Juliet\nACT 1. SC. 1",
+      "auto_generated": true
+    },
+    {
+      "id": "f4524797-d332-4d48-bfe8-a0ea8b8689ad",
+      "page_index": 16,
+      "rects": [
+        {
+          "x1": 82.8,
+          "y1": 106.39279999999997,
+          "x2": 120.3544,
+          "y2": 116.79280000000006
+        },
+        {
+          "x1": 128.40640000000002,
+          "y1": 104.96879999999999,
+          "x2": 321.05039999999997,
+          "y2": 118.56880000000001
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Love’s transgression",
+      "created_at": "2025-09-18T17:06:22.636881",
+      "updated_at": "2025-09-18T17:06:22.636881",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "ROMEO\n  Why, such is love’s transgression.",
+      "auto_generated": true
+    },
+    {
+      "id": "a87939c4-34c3-4496-be16-06c196b9fce2",
+      "page_index": 16,
+      "rects": [
+        {
+          "x1": 94.80079999999998,
+          "y1": 328.8792000000002,
+          "x2": 303.30240000000003,
+          "y2": 342.4792000000002
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Lost myself metaphor",
+      "created_at": "2025-09-18T17:06:22.636896",
+      "updated_at": "2025-09-18T17:06:22.636897",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Tut, I have lost myself. I am not here.",
+      "auto_generated": true
+    },
+    {
+      "id": "99fa0b06-e4be-4e15-bfa6-a25c5acb6908",
+      "page_index": 16,
+      "rects": [
+        {
+          "x1": 94.80079999999998,
+          "y1": 344.8728000000002,
+          "x2": 334.28319999999997,
+          "y2": 358.47280000000023
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Not Romeo metaphor",
+      "created_at": "2025-09-18T17:06:22.636908",
+      "updated_at": "2025-09-18T17:06:22.636908",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "This is not Romeo. He’s some other where.",
+      "auto_generated": true
+    },
+    {
+      "id": "18df625a-6b49-4f54-86f1-4cbeb55f7d10",
+      "page_index": 16,
+      "rects": [
+        {
+          "x1": 20.4,
+          "y1": 555.4936,
+          "x2": 62.2,
+          "y2": 564.2936000000001
+        },
+        {
+          "x1": 94.80079999999998,
+          "y1": 552.7896000000003,
+          "x2": 345.59839999999997,
+          "y2": 566.3896000000003
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Love as marksmanship",
+      "created_at": "2025-09-18T17:06:22.636923",
+      "updated_at": "2025-09-18T17:06:22.636923",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "FTLN 0228\n A right good markman! And she’s fair I love.",
+      "auto_generated": true
+    },
+    {
+      "id": "18857ca6-71b7-4f7a-962b-6ebff4b4a61a",
+      "page_index": 16,
+      "rects": [
+        {
+          "x1": 94.80079999999998,
+          "y1": 648.7512000000003,
+          "x2": 337.30240000000003,
+          "y2": 662.3512000000003
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Chastity as armor",
+      "created_at": "2025-09-18T17:06:22.636935",
+      "updated_at": "2025-09-18T17:06:22.636936",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "And, in strong proof of chastity well armed,",
+      "auto_generated": true
+    },
+    {
+      "id": "9b19ecd7-bf31-4b3c-81f9-5ca1506a3fb4",
+      "page_index": 17,
+      "rects": [
+        {
+          "x1": 20.4,
+          "y1": 171.4971999999999,
+          "x2": 62.2,
+          "y2": 180.29719999999986
+        },
+        {
+          "x1": 94.80440000000004,
+          "y1": 88.97960000000012,
+          "x2": 387.54439999999994,
+          "y2": 102.57960000000014
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Love's weak childish bow",
+      "created_at": "2025-09-18T17:06:22.636953",
+      "updated_at": "2025-09-18T17:06:22.636954",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "FTLN 0238\n From love’s weak childish bow she lives uncharmed.",
+      "auto_generated": true
+    },
+    {
+      "id": "3767dbe2-dd66-4adc-8d6d-5026352c7ef9",
+      "page_index": 17,
+      "rects": [
+        {
+          "x1": 94.80440000000004,
+          "y1": 136.96040000000016,
+          "x2": 310.10600000000005,
+          "y2": 150.5604000000002
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Saint-seducing gold",
+      "created_at": "2025-09-18T17:06:22.636966",
+      "updated_at": "2025-09-18T17:06:22.636967",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Nor ope her lap to saint-seducing gold.",
+      "auto_generated": true
+    },
+    {
+      "id": "68826379-00dc-45f9-b4e1-7cf9a3cda128",
+      "page_index": 17,
+      "rects": [
+        {
+          "x1": 20.4,
+          "y1": 332.30039999999997,
+          "x2": 62.2,
+          "y2": 341.1004
+        },
+        {
+          "x1": 94.80440000000004,
+          "y1": 233.7244000000003,
+          "x2": 371.986,
+          "y2": 247.3244000000003
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Sparing and waste symbolism",
+      "created_at": "2025-09-18T17:06:22.636982",
+      "updated_at": "2025-09-18T17:06:22.636983",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "FTLN 0246\n She hath, and in that sparing  makes  huge waste;",
+      "auto_generated": true
+    },
+    {
+      "id": "aee83133-7a4f-4707-9e69-e2ace28b944b",
+      "page_index": 18,
+      "rects": [
+        {
+          "x1": 94.79679999999996,
+          "y1": 602.3902000000004,
+          "x2": 362.9615999999999,
+          "y2": 615.9902000000004
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Earth-treading stars",
+      "created_at": "2025-09-18T17:06:22.636549",
+      "updated_at": "2025-09-18T17:06:22.636550",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "Earth-treading stars that make dark heaven light.",
+      "auto_generated": true
+    },
+    {
+      "id": "9217df1d-dabd-4108-8470-273004b71489",
+      "page_index": 18,
+      "rects": [
+        {
+          "x1": 94.79679999999996,
+          "y1": 634.3774000000003,
+          "x2": 310.07120000000003,
+          "y2": 647.9774000000003
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Well-appareled April",
+      "created_at": "2025-09-18T17:06:22.636562",
+      "updated_at": "2025-09-18T17:06:22.636563",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "When well-appareled April on the heel",
+      "auto_generated": true
+    },
+    {
+      "id": "eb8389a6-b051-42ef-af30-0a5ff6b1fb95",
+      "page_index": 18,
+      "rects": [
+        {
+          "x1": 94.79679999999996,
+          "y1": 426.46060000000034,
+          "x2": 335.0408,
+          "y2": 440.06060000000036
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Earth swallowing hopes",
+      "created_at": "2025-09-18T17:06:22.636680",
+      "updated_at": "2025-09-18T17:06:22.636681",
+      "tags": [],
+      "profile_score": 0.95,
+      "extracted_text": "Earth hath swallowed all my hopes but she;",
+      "auto_generated": true
+    },
+    {
+      "id": "645a4387-d04a-4d62-b2ed-ab4b5047979d",
+      "page_index": 19,
+      "rects": [
+        {
+          "x1": 94.8136,
+          "y1": 459.2762000000003,
+          "x2": 353.9344,
+          "y2": 472.8762000000003
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Fire symbolism",
+      "created_at": "2025-09-18T17:06:22.636577",
+      "updated_at": "2025-09-18T17:06:22.636578",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "Tut, man, one fire burns out another’s burning;",
+      "auto_generated": true
+    },
+    {
+      "id": "1300fa80-4a70-41fb-bdbd-3298fe11ccf0",
+      "page_index": 19,
+      "rects": [
+        {
+          "x1": 94.8136,
+          "y1": 475.2698000000003,
+          "x2": 329.7536,
+          "y2": 488.86980000000034
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Pain metaphor",
+      "created_at": "2025-09-18T17:06:22.636591",
+      "updated_at": "2025-09-18T17:06:22.636592",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "One pain is lessened by another’s anguish.",
+      "auto_generated": true
+    },
+    {
+      "id": "0b545550-dcd9-417a-aa11-79c7bea710a4",
+      "page_index": 19,
+      "rects": [
+        {
+          "x1": 94.8136,
+          "y1": 491.26340000000033,
+          "x2": 360.7208,
+          "y2": 504.86340000000035
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Turning metaphor",
+      "created_at": "2025-09-18T17:06:22.636609",
+      "updated_at": "2025-09-18T17:06:22.636610",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "Turn giddy, and be helped by backward turning.",
+      "auto_generated": true
+    },
+    {
+      "id": "251297b5-1a85-41f4-a46b-ee411e620f61",
+      "page_index": 19,
+      "rects": [
+        {
+          "x1": 94.8136,
+          "y1": 507.25700000000035,
+          "x2": 371.2743999999999,
+          "y2": 520.8570000000004
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Grief metaphor",
+      "created_at": "2025-09-18T17:06:22.636626",
+      "updated_at": "2025-09-18T17:06:22.636627",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "One desperate grief cures with another’s languish.",
+      "auto_generated": true
+    },
+    {
+      "id": "0742507e-df3c-4e3a-aa6b-78200bc256db",
+      "page_index": 19,
+      "rects": [
+        {
+          "x1": 94.8136,
+          "y1": 523.2506000000003,
+          "x2": 323.3344,
+          "y2": 536.8506000000003
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Infection symbolism",
+      "created_at": "2025-09-18T17:06:22.636640",
+      "updated_at": "2025-09-18T17:06:22.636641",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "Take thou some new infection to thy eye,",
+      "auto_generated": true
+    },
+    {
+      "id": "17fa36f6-785d-4a82-891a-3cd6d97708f4",
+      "page_index": 19,
+      "rects": [
+        {
+          "x1": 94.8136,
+          "y1": 539.2442000000003,
+          "x2": 312.40000000000003,
+          "y2": 552.8442000000003
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Poison symbolism",
+      "created_at": "2025-09-18T17:06:22.636653",
+      "updated_at": "2025-09-18T17:06:22.636654",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "And the rank poison of the old will die.",
+      "auto_generated": true
+    }
+  ],
+  "profile_context": "{\"global_profile\": \"I have read a lot of Shakespeare books before in school.\", \"document_goal\": \"This is Romeo and Juliet. I want you to highlight examples of symbolism and metaphors and similes in the text.\", \"density\": 0.1}",
+  "global_profile": "I have read a lot of Shakespeare books before in school.",
+  "document_goal": "This is Romeo and Juliet. I want you to highlight examples of symbolism and metaphors and similes in the text.",
+  "highlight_density_target": 0.1,
+  "version": 1
+}
