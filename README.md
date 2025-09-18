@@ -99,6 +99,7 @@ inputPDFs/
 ## Navigation Features
 * Toolbar arrows (◀ / ▶) and menu Navigate > Previous/Next Page.
 * Page label in status bar shows current / total.
+* Floating page number overlay (top-right of viewer) always visible while scrolling (e.g. `4 / 200`).
 * Page jump box (enter page number + Enter) or Ctrl+G focuses the box.
 * PageUp/PageDown keys navigate pages.
 * Selecting a highlight in the right panel jumps to its page and centers the first rectangle.
@@ -134,7 +135,7 @@ Activate venv:
 Environment variables:
 $env:RC_LLM_PROVIDER = 'azure_openai'
 $env:RC_AZURE_OPENAI_ENDPOINT = 'https://saialluoai.openai.azure.com'
-$env:RC_AZURE_OPENAI_KEY = 'literal:<REDACTED>'
+$env:RC_AZURE_OPENAI_KEY = '<your-azure-openai-key>'
 $env:RC_AZURE_OPENAI_DEPLOYMENT = 'gpt-4o'
 $env:RC_AZURE_OPENAI_MAX_TOKENS = '16000'
 

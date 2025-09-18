@@ -46,6 +46,8 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(container)
         self._create_toolbar()
         self.viewer.pageChanged.connect(self._update_page_label)
+        # Toolbar page label reference (created in _create_toolbar)
+        self.toolbar_page_label = None
 
         # Attempt to auto-load last session PDF
         self._load_last_session_pdf()
@@ -88,6 +90,13 @@ class MainWindow(QMainWindow):
         QTimer.singleShot(0, _configure_llm_btn)
         clear_act = add_action("Clear HLs", self.clear_all_highlights, "clear")
         clear_act.setToolTip("Remove all highlights (manual + auto)")
+        # Spacer + page indicator label (mirrors floating overlay)
+        spacer = QLabel(" ")
+        spacer.setMinimumWidth(20)
+        tb.addWidget(spacer)
+        self.toolbar_page_label = QLabel(" ")
+        self.toolbar_page_label.setStyleSheet("color: #555; font-weight: bold; padding-left:4px; padding-right:4px;")
+        tb.addWidget(self.toolbar_page_label)
 
     def open_pdf(self):
         path, _ = QFileDialog.getOpenFileName(self, "Open PDF", str(Path.cwd()), "PDF Files (*.pdf)")
@@ -353,9 +362,13 @@ class MainWindow(QMainWindow):
     def _update_page_label(self, page_index: int):
         if not self.viewer._pdf:
             self.page_label.setText("Page: -/-")
+            if self.toolbar_page_label:
+                self.toolbar_page_label.setText(" ")
             return
         total = self.viewer._pdf.page_count()
         self.page_label.setText(f"Page: {page_index+1}/{total}")
+        if self.toolbar_page_label:
+            self.toolbar_page_label.setText(f"{page_index+1} / {total}")
 
     # ---- Persistence helpers ----
     def _state_file_path(self) -> str:

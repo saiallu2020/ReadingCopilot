@@ -1,6 +1,6 @@
 from __future__ import annotations
 from typing import List, Callable, Optional, Dict, Tuple
-from PySide6.QtWidgets import QGraphicsView, QGraphicsScene, QGraphicsRectItem, QGraphicsTextItem, QGraphicsPixmapItem
+from PySide6.QtWidgets import QGraphicsView, QGraphicsScene, QGraphicsRectItem, QGraphicsTextItem, QGraphicsPixmapItem, QLabel
 from PySide6.QtGui import QPixmap, QImage, QPen, QColor, QBrush, QMouseEvent, QPainter
 from PySide6.QtCore import Qt, QRectF, Signal, QPointF
 
@@ -34,6 +34,16 @@ class PDFViewer(QGraphicsView):
         self.annotation_doc: Optional[AnnotationDocument] = None
         self.setRenderHint(QPainter.RenderHint.Antialiasing, True)
         self.setMouseTracking(True)
+        # Floating page indicator overlay (anchored to viewport)
+        self._page_overlay = QLabel(self.viewport())
+        self._page_overlay.setObjectName("PageOverlay")
+        self._page_overlay.setStyleSheet(
+            "QLabel#PageOverlay { background: rgba(0,0,0,140); color: white; padding: 4px 10px;"
+            " border-radius: 14px; font-weight: bold; font-size: 13px;}"
+        )
+        self._page_overlay.hide()
+        # Update overlay whenever page changes
+        self.pageChanged.connect(self._on_page_changed)
 
     def load_pdf(self, path: str, annotations: Optional[AnnotationDocument] = None):
         if self._pdf:
@@ -43,6 +53,7 @@ class PDFViewer(QGraphicsView):
         self._page_index = 0
         self._render_document()
         self._restore_highlights()
+        self._update_page_overlay()
 
     def _render_single_page(self):
         """Legacy single-page render (used if continuous_mode is False)."""
@@ -90,12 +101,14 @@ class PDFViewer(QGraphicsView):
             max_width = max(max_width, pix.width())
         self.setSceneRect(QRectF(0, 0, max_width, y_cursor))
         self.pageChanged.emit(self._page_index)
+        self._update_page_overlay()
 
     def _render_document(self):
         if self.continuous_mode:
             self._render_all_pages()
         else:
             self._render_single_page()
+        self._update_page_overlay()
 
     def next_page(self):
         if not self._pdf:
@@ -108,6 +121,7 @@ class PDFViewer(QGraphicsView):
             else:
                 self._render_single_page(); self._restore_highlights()
             self.pageChanged.emit(self._page_index)
+            self._update_page_overlay()
 
     def prev_page(self):
         if not self._pdf:
@@ -119,6 +133,7 @@ class PDFViewer(QGraphicsView):
             else:
                 self._render_single_page(); self._restore_highlights()
             self.pageChanged.emit(self._page_index)
+            self._update_page_overlay()
 
     def mousePressEvent(self, event: QMouseEvent):
         if event.button() == Qt.MouseButton.LeftButton:
@@ -204,6 +219,7 @@ class PDFViewer(QGraphicsView):
                 self.pageChanged.emit(self._page_index)
             else:
                 self._render_single_page(); self._restore_highlights()
+            self._update_page_overlay()
 
     def clear_highlight_items(self):
         scene = self.scene()
@@ -217,6 +233,8 @@ class PDFViewer(QGraphicsView):
         super().wheelEvent(event)
         if self.continuous_mode:
             self._update_visible_page()
+        # Overlay position does not depend on scroll offset (anchored), but ensure visibility
+        self._update_page_overlay()
 
     def _update_visible_page(self):
         if not self._pdf or not self._page_offsets:
@@ -234,4 +252,29 @@ class PDFViewer(QGraphicsView):
                 if idx != current:
                     self._page_index = idx
                     self.pageChanged.emit(self._page_index)
+                    self._update_page_overlay()
                 break
+    # ---- Page overlay helpers ----
+    def _on_page_changed(self, _idx: int):  # slot for pageChanged
+        self._update_page_overlay()
+
+    def resizeEvent(self, event):  # noqa: N802
+        super().resizeEvent(event)
+        # Reposition overlay on resize
+        self._update_page_overlay()
+
+    def _update_page_overlay(self):
+        if not self._pdf:
+            self._page_overlay.hide()
+            return
+        total = self._pdf.page_count()
+        self._page_overlay.setText(f"{self._page_index+1} / {total}")
+        self._page_overlay.adjustSize()
+        margin = 12
+        vp_rect = self.viewport().rect()
+        x = vp_rect.right() - self._page_overlay.width() - margin
+        y = vp_rect.top() + margin
+        # Because parent is viewport, coordinates are already correct
+        self._page_overlay.move(x, y)
+        if not self._page_overlay.isVisible():
+            self._page_overlay.show()

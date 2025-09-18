@@ -608,6 +608,30 @@
       "auto_generated": true
     },
     {
+      "id": "0309a9e8-c14d-4c66-af00-c82c54b747a1",
+      "page_index": 0,
+      "rects": [
+        {
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ],
+      "color": [
+        255,
+        255,
+        0
+      ],
+      "note": null,
+      "created_at": "2025-09-18T16:40:54.800227",
+      "updated_at": "2025-09-18T16:40:54.800263",
+      "tags": [],
+      "profile_score": null,
+      "extracted_text": null,
+      "auto_generated": false
+    },
+    {
       "id": "8771475d-164f-4ee0-8c7f-4c628c41d0b8",
       "page_index": 1,
       "rects": [
