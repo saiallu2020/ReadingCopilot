@@ -47,9 +47,20 @@ class AnnotationPanel(QWidget):
     def add_highlight(self, hl: Highlight):
         if not self.doc:
             return
-        item = QListWidgetItem(f"Page {hl.page_index+1} - {hl.note[:30] if hl.note else 'No note'}")
+        # Insert maintaining sort by page_index
+        display = f"Page {hl.page_index+1} - {hl.note[:30] if hl.note else 'No note'}"
+        item = QListWidgetItem(display)
         item.setData(Qt.ItemDataRole.UserRole, hl)
-        self.list_widget.addItem(item)
+        inserted = False
+        for row in range(self.list_widget.count()):
+            existing_item = self.list_widget.item(row)
+            ex_hl = existing_item.data(Qt.ItemDataRole.UserRole)
+            if ex_hl.page_index > hl.page_index:
+                self.list_widget.insertItem(row, item)
+                inserted = True
+                break
+        if not inserted:
+            self.list_widget.addItem(item)
 
     def _on_item_changed(self, current: QListWidgetItem, previous: QListWidgetItem):
         if current is None:

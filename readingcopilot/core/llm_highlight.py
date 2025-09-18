@@ -115,6 +115,132 @@ class LLMHighlighter:
         )
         return selected
 
+    # --- Streaming (incremental) variant -------------------------------------------------
+    def generate_streaming(self, annotation_doc: AnnotationDocument, pdf_path: str, density_target: float,
+                            on_highlight,  # callback(Highlight) -> None
+                            min_threshold: float = DEFAULT_MIN_THRESHOLD,
+                            page_filter: Optional[Set[int]] = None,
+                            batch_size: int = 8,
+                            soft_cap_multiplier: float = 2.0):
+        """Incrementally yield (via callback) highlights as soon as their batch is scored.
+
+        Strategy:
+          1. Extract all chunks (filtered by page_filter if provided).
+          2. Score in batches with existing client (still synchronous per batch).
+          3. After each batch, merge scores so far, recompute ordered list, and emit any *new* highlights
+             whose relevance >= threshold until target budget reached. Avoid re-emitting duplicates.
+          4. Stop early if accumulated word budget surpasses soft cap.
+
+        This is a heuristic incremental selection; final selection may differ slightly from the
+        non-streaming version because decisions are made with partial global knowledge early on.
+        For user experience (seeing early highlights) this trade-off is acceptable.
+        """
+        # Env override like non-streaming
+        if min_threshold == DEFAULT_MIN_THRESHOLD:
+            env_thr = os.environ.get("RC_MIN_RELEVANCE_THRESHOLD")
+            if env_thr:
+                try:
+                    mt = float(env_thr); assert 0.0 <= mt <= 1.0
+                    min_threshold = mt
+                except Exception:
+                    pass
+        chunks = extract_chunks(pdf_path)
+        if page_filter:
+            chunks = [c for c in chunks if c.page_index in page_filter]
+        if not chunks:
+            self._write_log(pdf_path, annotation_doc, density_target, [], {}, [], [], min_threshold, reason="no_chunks_extracted_streaming")
+            return []
+        total_words = sum(len(c.text.split()) for c in chunks)
+        if total_words == 0:
+            self._write_log(pdf_path, annotation_doc, density_target, chunks, {}, [], [], min_threshold, reason="zero_total_words_streaming")
+            return []
+        target_words = max(1, int(total_words * density_target))
+        scored_map: dict[int, ScoredChunk] = {}
+        emitted_ids: Set[int] = set()  # chunk ids already emitted as highlights
+        selected: List[Highlight] = []
+        accumulated_words = 0
+        # Process batches
+        for i in range(0, len(chunks), batch_size):
+            batch = chunks[i:i+batch_size]
+            try:
+                batch_scores = self.client.score_chunks(
+                    chunks=[{"id": c.id, "text": c.text} for c in batch],
+                    global_profile=annotation_doc.global_profile or "",
+                    document_goal=annotation_doc.document_goal or ""
+                )
+            except Exception as e:
+                # Write partial log and re-raise so UI can report error
+                scored_chunks_partial = [(c, scored_map.get(c.id).relevance) for c in chunks if c.id in scored_map]
+                self._write_log(pdf_path, annotation_doc, density_target, chunks, scored_map, scored_chunks_partial, selected, min_threshold, reason=f"error_after_{i}_chunks: {e}")
+                raise
+            for s in batch_scores:
+                scored_map[s.id] = s
+            # Recompute ordering with available scores (missing -> relevance 0)
+            partial_scored: List[Tuple[TextChunk, float]] = []
+            for c in chunks:
+                rel = scored_map.get(c.id).relevance if c.id in scored_map else 0.0
+                partial_scored.append((c, rel))
+            partial_scored.sort(key=lambda x: x[1], reverse=True)
+            # Decide emissions: scan in relevance order like full algorithm
+            for chunk, rel in partial_scored:
+                if chunk.id in emitted_ids:
+                    continue
+                if rel < min_threshold:
+                    # Only consider below-threshold if we haven't met target yet; continue scanning
+                    if accumulated_words >= target_words:
+                        # Stop scanning further because list is sorted descending; remaining will be <= rel
+                        break
+                    continue
+                # Select this chunk now
+                rects = [Rect(x1=r[0], y1=r[1], x2=r[2], y2=r[3]) for r in chunk.rects]
+                scored = scored_map.get(chunk.id)
+                phrase = getattr(scored, 'phrase', None) if scored else None
+                if phrase:
+                    note = phrase
+                else:
+                    kw = extract_keywords(chunk.text, max_keywords=4)
+                    note = " ".join(kw) if kw else None
+                hl = Highlight(page_index=chunk.page_index, rects=rects, extracted_text=chunk.text, auto_generated=True, profile_score=rel, color=(255, 170, 90), note=note)
+                selected.append(hl)
+                emitted_ids.add(chunk.id)
+                accumulated_words += len(chunk.text.split())
+                try:
+                    on_highlight(hl)
+                except Exception:
+                    pass
+                if accumulated_words >= target_words * soft_cap_multiplier:
+                    break
+            if accumulated_words >= target_words * soft_cap_multiplier:
+                break
+        # (Optional) fallback if nothing emitted but we have scores
+        if not selected and scored_map:
+            # find max relevance
+            top = max(scored_map.values(), key=lambda s: s.relevance)
+            if top.relevance >= min_threshold:
+                top_chunk = next(c for c in chunks if c.id == top.id)
+                rects = [Rect(x1=r[0], y1=r[1], x2=r[2], y2=r[3]) for r in top_chunk.rects]
+                phrase = getattr(top, 'phrase', None)
+                if phrase:
+                    note = phrase
+                else:
+                    kw = extract_keywords(top_chunk.text, max_keywords=4)
+                    note = " ".join(kw) if kw else None
+                hl = Highlight(page_index=top_chunk.page_index, rects=rects, extracted_text=top_chunk.text, auto_generated=True, profile_score=top.relevance, color=(255, 170, 90), note=note)
+                selected.append(hl)
+                try:
+                    on_highlight(hl)
+                except Exception:
+                    pass
+        # Final log
+        # Build scored_chunks list for logging from final scored_map ordering
+        scored_chunks_final: List[Tuple[TextChunk, float]] = []
+        for c in chunks:
+            rel = scored_map.get(c.id).relevance if c.id in scored_map else 0.0
+            scored_chunks_final.append((c, rel))
+        scored_chunks_final.sort(key=lambda x: x[1], reverse=True)
+        self._write_log(pdf_path, annotation_doc, density_target, chunks, scored_map, scored_chunks_final, selected, min_threshold, reason="streaming_ok" if selected else "streaming_no_selection")
+        return selected
+
     # ---- Internal helpers ----
     def _log_dir(self) -> str:
         # Allow override via environment variable

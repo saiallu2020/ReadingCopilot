@@ -6,7 +6,7 @@ from PySide6.QtWidgets import (
     QMessageBox, QToolBar, QProgressDialog, QLineEdit, QLabel, QStatusBar, QInputDialog
 )
 from PySide6.QtGui import QAction, QKeySequence, QIcon
-from PySide6.QtCore import Qt, QSize
+from PySide6.QtCore import Qt, QSize, QThread, Signal, QObject, QTimer
 
 from readingcopilot.core.annotations import AnnotationDocument, Highlight
 from readingcopilot.core.llm_client import build_llm_client
@@ -23,6 +23,12 @@ class MainWindow(QMainWindow):
         self._llm_client = None  # lazy init
         self._suppress_page_signal = False
         self._state_path = self._state_file_path()
+        self._stream_thread: QThread | None = None
+        self._active_stream_worker: 'LLMStreamWorker' | None = None
+        self._spinner_timer: QTimer | None = None
+        self._spinner_label: QLabel | None = None
+        self._spinner_frames = ["⠋","⠙","⠸","⠴","⠦","⠇"]
+        self._spinner_index = 0
 
         # Status bar
         self.page_label = QLabel("Page: -/-")
@@ -90,6 +96,11 @@ class MainWindow(QMainWindow):
         QTimer.singleShot(0, _configure_llm_btn)
         clear_act = add_action("Clear HLs", self.clear_all_highlights, "clear")
         clear_act.setToolTip("Remove all highlights (manual + auto)")
+        # Spinner placeholder (right side)
+        self._spinner_label = QLabel("")
+        self._spinner_label.setObjectName("SpinnerLabel")
+        self._spinner_label.setStyleSheet("color:#ff8800; font-weight:bold; padding-left:8px; padding-right:4px;")
+        tb.addWidget(self._spinner_label)
         # Spacer + page indicator label (mirrors floating overlay)
         spacer = QLabel(" ")
         spacer.setMinimumWidth(20)
@@ -178,6 +189,9 @@ class MainWindow(QMainWindow):
             self._llm_client = None
 
     def llm_auto_highlight(self):
+        if self._active_stream_worker:
+            QMessageBox.information(self, "In Progress", "Highlight generation already running.")
+            return
         if not self.viewer.annotation_doc or not self.viewer._pdf:
             QMessageBox.information(self, "No PDF", "Open a PDF first.")
             return
@@ -190,44 +204,8 @@ class MainWindow(QMainWindow):
             QMessageBox.warning(self, "LLM Error", "Could not initialize LLM client.")
             return
         density = max(0.01, min(0.5, doc.highlight_density_target))
-        # Simple progress dialog (indeterminate)
-        progress = QProgressDialog("Generating LLM highlights...", "Cancel", 0, 0, self)
-        progress.setWindowModality(Qt.WindowModality.ApplicationModal)
-        progress.setMinimumDuration(0)
-        progress.show()
-        QApplication.processEvents()
-        try:
-            highlighter = LLMHighlighter(self._llm_client)
-            new_highlights = highlighter.generate(doc, doc.pdf_path, density_target=density)
-            log_path = getattr(highlighter, 'last_log_path', None)
-        except Exception as e:
-            progress.close()
-            QMessageBox.critical(self, "LLM Error", f"Failed to generate LLM highlights:\n{e}")
-            return
-        progress.close()
-        if not new_highlights:
-            extra = f"\nLog: {log_path}" if log_path else ""
-            QMessageBox.information(self, "No Highlights", "LLM produced no relevant highlights (try adjusting density or profile)." + extra)
-            return
-        added = 0
-        for hl in new_highlights:
-            if any((existing.extracted_text == hl.extracted_text and existing.page_index == hl.page_index) for existing in doc.highlights):
-                continue
-            doc.add_highlight(hl)
-            # Always draw highlight in continuous mode; otherwise only if on current page
-            if self.viewer.continuous_mode or hl.page_index == self.viewer._page_index:
-                self.viewer._draw_highlight(hl)
-            added += 1
-        self.panel.refresh_list()
-        msg = f"Added {added} new highlights (scored by model)."
-        if log_path:
-            msg += f"\nLog saved to: {log_path}"
-        QMessageBox.information(self, "LLM Auto Highlight", msg)
-        # Auto-save after generation
-        try:
-            doc.save()
-        except Exception:
-            pass
+        self._start_spinner("Analyzing")
+        self._start_stream_worker(pdf_path=doc.pdf_path, density=density, page_filter=None)
 
     def _prompt_llm_page_range(self):
         """Prompt user for a page range and run LLM highlighting on that subset."""
@@ -256,42 +234,11 @@ class MainWindow(QMainWindow):
             QMessageBox.warning(self, "LLM Error", "Could not initialize LLM client.")
             return
         density = max(0.01, min(0.5, doc.highlight_density_target))
-        progress = QProgressDialog("Generating LLM highlights (selected pages)...", "Cancel", 0, 0, self)
-        progress.setWindowModality(Qt.WindowModality.ApplicationModal)
-        progress.setMinimumDuration(0)
-        progress.show()
-        QApplication.processEvents()
-        try:
-            highlighter = LLMHighlighter(self._llm_client)
-            new_highlights = highlighter.generate(doc, doc.pdf_path, density_target=density, page_filter=page_set)
-            log_path = getattr(highlighter, 'last_log_path', None)
-        except Exception as e:
-            progress.close()
-            QMessageBox.critical(self, "LLM Error", f"Failed to generate LLM highlights:\n{e}")
+        if self._active_stream_worker:
+            QMessageBox.information(self, "In Progress", "Another highlight generation is running.")
             return
-        progress.close()
-        if not new_highlights:
-            extra = f"\nLog: {log_path}" if log_path else ""
-            QMessageBox.information(self, "No Highlights", "LLM produced no relevant highlights for selected pages." + extra)
-            return
-        added = 0
-        for hl in new_highlights:
-            if any((existing.extracted_text == hl.extracted_text and existing.page_index == hl.page_index) for existing in doc.highlights):
-                continue
-            doc.add_highlight(hl)
-            if self.viewer.continuous_mode or hl.page_index == self.viewer._page_index:
-                self.viewer._draw_highlight(hl)
-            added += 1
-        self.panel.refresh_list()
-        info_pages = ", ".join(str(p+1) for p in sorted(page_set))
-        msg = f"Added {added} new highlights for pages: {info_pages}."
-        if log_path:
-            msg += f"\nLog saved to: {log_path}"
-        QMessageBox.information(self, "LLM Auto Highlight (Range)", msg)
-        try:
-            doc.save()
-        except Exception:
-            pass
+        self._start_spinner("AI")
+        self._start_stream_worker(pdf_path=doc.pdf_path, density=density, page_filter=page_set)
 
     @staticmethod
     def _parse_page_range(spec: str, total_pages: int) -> set[int]:
@@ -358,6 +305,77 @@ class MainWindow(QMainWindow):
             pass
         QMessageBox.information(self, "Cleared", f"Removed {count} highlights.")
 
+    # ---- Spinner helpers ----
+    def _start_spinner(self, prefix: str):
+        if not self._spinner_label:
+            return
+        if self._spinner_timer is None:
+            self._spinner_timer = QTimer(self)
+            self._spinner_timer.timeout.connect(self._advance_spinner)
+        self._spinner_index = 0
+        self._spinner_label.setText(f"{prefix} {self._spinner_frames[self._spinner_index]}")
+        self._spinner_timer.start(120)
+
+    def _advance_spinner(self):
+        if not self._spinner_label:
+            return
+        self._spinner_index = (self._spinner_index + 1) % len(self._spinner_frames)
+        current_text = self._spinner_label.text().split(' ')[0]
+        self._spinner_label.setText(f"{current_text} {self._spinner_frames[self._spinner_index]}")
+
+    def _stop_spinner(self):
+        if self._spinner_timer:
+            self._spinner_timer.stop()
+        if self._spinner_label:
+            self._spinner_label.setText("")
+
+    # ---- Streaming worker orchestration ----
+    def _start_stream_worker(self, pdf_path: str, density: float, page_filter: set[int] | None):
+        doc = self.viewer.annotation_doc
+        if not doc:
+            return
+        self._active_stream_worker = LLMStreamWorker(client=self._llm_client, annotation_doc=doc, pdf_path=pdf_path, density=density, page_filter=page_filter)
+        self._stream_thread = QThread(self)
+        self._active_stream_worker.moveToThread(self._stream_thread)
+        self._stream_thread.started.connect(self._active_stream_worker.run)
+        self._active_stream_worker.highlightReady.connect(self._on_stream_highlight)
+        self._active_stream_worker.finished.connect(self._on_stream_finished)
+        self._active_stream_worker.error.connect(self._on_stream_error)
+        self._active_stream_worker.finished.connect(self._stream_thread.quit)
+        self._active_stream_worker.finished.connect(self._active_stream_worker.deleteLater)
+        self._stream_thread.finished.connect(lambda: setattr(self, '_active_stream_worker', None))
+        self._stream_thread.finished.connect(self._stream_thread.deleteLater)
+        self._stream_thread.start()
+
+    def _on_stream_highlight(self, hl: Highlight):
+        doc = self.viewer.annotation_doc
+        if not doc:
+            return
+        # Avoid duplicates from earlier manual/auto runs
+        if any((existing.extracted_text == hl.extracted_text and existing.page_index == hl.page_index) for existing in doc.highlights):
+            return
+        doc.add_highlight(hl)
+        if self.viewer.continuous_mode or hl.page_index == self.viewer._page_index:
+            self.viewer._draw_highlight(hl)
+        # Insert into panel (maintain order later via refresh or smarter insertion)
+        self.panel.add_highlight(hl)
+
+    def _on_stream_finished(self, log_path: str | None, count: int, page_filter: str):
+        self._stop_spinner()
+        self.panel.refresh_list()
+        doc = self.viewer.annotation_doc
+        if doc:
+            try:
+                doc.save()
+            except Exception:
+                pass
+        suffix = f"\nLog saved to: {log_path}" if log_path else ""
+        scope = f" for pages {page_filter}" if page_filter else ""
+        QMessageBox.information(self, "LLM Highlight", f"Added {count} new highlights{scope}.{suffix}")
+
+    def _on_stream_error(self, message: str):
+        self._stop_spinner()
+        QMessageBox.critical(self, "LLM Error", message)
     # ---- Navigation helpers ----
     def _update_page_label(self, page_index: int):
         if not self.viewer._pdf:
@@ -408,6 +426,33 @@ class MainWindow(QMainWindow):
         except Exception:
             pass
         super().closeEvent(event)
+
+class LLMStreamWorker(QObject):
+    highlightReady = Signal(Highlight)
+    finished = Signal(str, int, str)  # log_path, count, page_filter str
+    error = Signal(str)
+
+    def __init__(self, client, annotation_doc: AnnotationDocument, pdf_path: str, density: float, page_filter: set[int] | None):
+        super().__init__()
+        self.client = client
+        self.annotation_doc = annotation_doc
+        self.pdf_path = pdf_path
+        self.density = density
+        self.page_filter = page_filter
+
+    def run(self):  # executed in thread
+        try:
+            highlighter = LLMHighlighter(self.client)
+            emitted: list[Highlight] = []
+            def _cb(hl: Highlight):
+                emitted.append(hl)
+                self.highlightReady.emit(hl)
+            highlighter.generate_streaming(self.annotation_doc, self.pdf_path, density_target=self.density, on_highlight=_cb, page_filter=self.page_filter)
+            log_path = getattr(highlighter, 'last_log_path', None)
+            page_filter_str = ",".join(str(p+1) for p in sorted(self.page_filter)) if self.page_filter else ""
+            self.finished.emit(log_path, len(emitted), page_filter_str)
+        except Exception as e:
+            self.error.emit(str(e))
 
 
 def run():
