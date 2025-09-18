@@ -31,6 +31,8 @@ class AnnotationPanel(QWidget):
         self.list_widget.clear()
         if not self.doc:
             return
+        # ensure highlights are in a stable, sorted order by page index
+        self.doc.highlights = sorted(self.doc.highlights, key=lambda hl: hl.page_index)
         for hl in self.doc.highlights:
             item = QListWidgetItem(f"Page {hl.page_index+1} - {hl.note[:30]+'...' if hl.note else 'No note'}")
             item.setData(Qt.ItemDataRole.UserRole, hl)
