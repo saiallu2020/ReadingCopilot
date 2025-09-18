@@ -1,0 +1,3328 @@
+{
+  "pdf_path": "C:/Users/saiallu/source/repos/ReadingCopilot/inputPDFs/AMD_Report_2.pdf",
+  "highlights": [
+    {
+      "id": "83330b30-dc80-4a22-916e-51d20a5ece9e",
+      "page_index": 2,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 120.72800000000007,
+          "x2": 465.1586000000004,
+          "y2": 133.91000000000008
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Future opportunities",
+      "created_at": "2025-09-18T17:45:15.474468",
+      "updated_at": "2025-09-18T17:45:15.474493",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "never been more profound, and the opportunities ahead have never been greater.",
+      "auto_generated": true
+    },
+    {
+      "id": "04d4cd17-c414-4e47-ab66-3507ab80d2aa",
+      "page_index": 2,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 89.52800000000002,
+          "x2": 459.0681,
+          "y2": 102.52800000000002
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "High-performance computing",
+      "created_at": "2025-09-18T17:45:15.475322",
+      "updated_at": "2025-09-18T17:45:15.475328",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "single purpose: push the limits of high-performance and adaptive computing to",
+      "auto_generated": true
+    },
+    {
+      "id": "9608a17c-fc0c-48c2-a856-87c29dc8e40e",
+      "page_index": 2,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 73.928,
+          "x2": 462.49100000000027,
+          "y2": 86.928
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "AMD workforce mission",
+      "created_at": "2025-09-18T17:45:15.476553",
+      "updated_at": "2025-09-18T17:45:15.476561",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "Every day, more than 27,000 AMDers around the world come to work united by a",
+      "auto_generated": true
+    },
+    {
+      "id": "37e6517c-00b0-4ea0-b9d4-35aac12e8b5e",
+      "page_index": 2,
+      "rects": [
+        {
+          "x1": 213.0,
+          "y1": 513.556,
+          "x2": 360.7440000000001,
+          "y2": 523.636
+        },
+        {
+          "x1": 219.02,
+          "y1": 525.556,
+          "x2": 353.02000000000004,
+          "y2": 535.636
+        },
+        {
+          "x1": 219.02,
+          "y1": 537.556,
+          "x2": 373.67900000000003,
+          "y2": 547.636
+        },
+        {
+          "x1": 219.02,
+          "y1": 549.556,
+          "x2": 367.2310000000001,
+          "y2": 559.636
+        },
+        {
+          "x1": 219.02,
+          "y1": 561.556,
+          "x2": 354.87699999999995,
+          "y2": 571.636
+        },
+        {
+          "x1": 219.02,
+          "y1": 573.556,
+          "x2": 326.079,
+          "y2": 583.636
+        },
+        {
+          "x1": 390.0,
+          "y1": 261.55600000000004,
+          "x2": 547.909,
+          "y2": 271.636
+        },
+        {
+          "x1": 396.02,
+          "y1": 273.556,
+          "x2": 546.2759999999998,
+          "y2": 283.636
+        },
+        {
+          "x1": 396.02,
+          "y1": 285.556,
+          "x2": 540.0889999999999,
+          "y2": 295.636
+        },
+        {
+          "x1": 396.02,
+          "y1": 297.556,
+          "x2": 498.558,
+          "y2": 307.636
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Data center AI wins",
+      "created_at": "2025-09-18T17:45:19.894083",
+      "updated_at": "2025-09-18T17:45:19.894104",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "• Scaled our data center AI business \nto more than $5 billion in annual \nrevenue, with Meta, Microsoft, Oracle \nand others deploying AMD Instinct™ \nMI300 accelerators in large-scale \nproduction environments. \n• Gained client processor market share \nbased on cutting-edge performance, \nefficiency and AI capabilities of our \nAMD Ryzen™ processors.",
+      "auto_generated": true
+    },
+    {
+      "id": "7243688b-3dd5-4a57-9e05-35cdfb83753b",
+      "page_index": 2,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 477.556,
+          "x2": 172.74000000000012,
+          "y2": 487.636
+        },
+        {
+          "x1": 36.0,
+          "y1": 489.556,
+          "x2": 190.9400000000001,
+          "y2": 499.636
+        },
+        {
+          "x1": 36.0,
+          "y1": 501.556,
+          "x2": 196.29400000000012,
+          "y2": 511.636
+        },
+        {
+          "x1": 36.0,
+          "y1": 513.556,
+          "x2": 188.2999999999999,
+          "y2": 523.636
+        },
+        {
+          "x1": 36.0,
+          "y1": 525.556,
+          "x2": 194.19800000000012,
+          "y2": 535.636
+        },
+        {
+          "x1": 36.0,
+          "y1": 537.556,
+          "x2": 185.53999999999996,
+          "y2": 547.636
+        },
+        {
+          "x1": 36.0,
+          "y1": 549.556,
+          "x2": 170.90399999999988,
+          "y2": 559.636
+        },
+        {
+          "x1": 36.0,
+          "y1": 561.556,
+          "x2": 193.21199999999985,
+          "y2": 571.636
+        },
+        {
+          "x1": 213.0,
+          "y1": 153.55600000000004,
+          "x2": 364.8319999999998,
+          "y2": 163.63599999999997
+        },
+        {
+          "x1": 213.0,
+          "y1": 165.55600000000004,
+          "x2": 377.4510000000001,
+          "y2": 175.63599999999997
+        },
+        {
+          "x1": 213.0,
+          "y1": 177.55600000000004,
+          "x2": 376.6890000000001,
+          "y2": 187.63599999999997
+        },
+        {
+          "x1": 213.0,
+          "y1": 189.55600000000004,
+          "x2": 370.58900000000017,
+          "y2": 199.63599999999997
+        },
+        {
+          "x1": 213.0,
+          "y1": 201.55600000000004,
+          "x2": 378.45500000000004,
+          "y2": 211.63599999999997
+        },
+        {
+          "x1": 213.0,
+          "y1": 213.55600000000004,
+          "x2": 383.57200000000006,
+          "y2": 223.63599999999997
+        },
+        {
+          "x1": 213.0,
+          "y1": 225.55600000000004,
+          "x2": 369.83399999999983,
+          "y2": 235.63599999999997
+        },
+        {
+          "x1": 213.0,
+          "y1": 237.55600000000004,
+          "x2": 316.188,
+          "y2": 247.63599999999997
+        },
+        {
+          "x1": 390.0,
+          "y1": 153.55600000000004,
+          "x2": 539.003,
+          "y2": 163.63599999999997
+        },
+        {
+          "x1": 396.02,
+          "y1": 165.55600000000004,
+          "x2": 528.9200000000001,
+          "y2": 175.63599999999997
+        },
+        {
+          "x1": 396.02,
+          "y1": 177.55600000000004,
+          "x2": 532.9459999999999,
+          "y2": 187.63599999999997
+        },
+        {
+          "x1": 396.02,
+          "y1": 189.55600000000004,
+          "x2": 540.061,
+          "y2": 199.63599999999997
+        },
+        {
+          "x1": 396.02,
+          "y1": 201.55600000000004,
+          "x2": 550.3609999999999,
+          "y2": 211.63599999999997
+        },
+        {
+          "x1": 396.02,
+          "y1": 213.55600000000004,
+          "x2": 538.136,
+          "y2": 223.63599999999997
+        },
+        {
+          "x1": 396.02,
+          "y1": 225.55600000000004,
+          "x2": 550.858,
+          "y2": 235.63599999999997
+        },
+        {
+          "x1": 396.02,
+          "y1": 237.55600000000004,
+          "x2": 519.536,
+          "y2": 247.63599999999997
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "AI strategy and ROCm",
+      "created_at": "2025-09-18T17:45:19.894772",
+      "updated_at": "2025-09-18T17:45:19.894778",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Delivering on the promise of AI will \nrequire a diverse set of energy-efficient \nand high-performance compute engines, \nwhich we have spent years developing. However, truly addressing the scope and \ncomplexity of AI demands operational \nexcellence at scale and a complete \necosystem built on trusted partnerships \nwith industry leaders. Our decade-long \ntransformation has prepared us in each of \nthese dimensions. We believe AMD is one \nof the few companies with the technical \nexpertise and deep customer partnerships \nto deliver seamless end-to-end AI solutions \n— from the cloud to the edge and across \nthousands of end devices. \n• Signiﬁcantly enhanced our ROCm™ \nAI software stack by integrating \nnew features, optimizing popular \nlibraries, enabling new frameworks \nand expanding third-party ecosystem \nsupport that increased inferencing \nperformance of AMD Instinct MI300X \naccelerators 2.7x since launch.",
+      "auto_generated": true
+    },
+    {
+      "id": "b5a41ab9-bf0f-4631-a6cf-1e196f4986ba",
+      "page_index": 2,
+      "rects": [
+        {
+          "x1": 213.0,
+          "y1": 261.55600000000004,
+          "x2": 367.58000000000015,
+          "y2": 271.636
+        },
+        {
+          "x1": 213.0,
+          "y1": 273.556,
+          "x2": 361.46799999999985,
+          "y2": 283.636
+        },
+        {
+          "x1": 213.0,
+          "y1": 285.556,
+          "x2": 372.4119999999999,
+          "y2": 295.636
+        },
+        {
+          "x1": 213.0,
+          "y1": 297.556,
+          "x2": 369.40199999999993,
+          "y2": 307.636
+        },
+        {
+          "x1": 213.0,
+          "y1": 309.556,
+          "x2": 348.18999999999994,
+          "y2": 319.636
+        },
+        {
+          "x1": 213.0,
+          "y1": 321.556,
+          "x2": 347.54399999999987,
+          "y2": 331.636
+        },
+        {
+          "x1": 213.0,
+          "y1": 333.556,
+          "x2": 380.7990000000001,
+          "y2": 343.636
+        },
+        {
+          "x1": 213.0,
+          "y1": 345.556,
+          "x2": 372.66500000000013,
+          "y2": 355.636
+        },
+        {
+          "x1": 213.0,
+          "y1": 357.556,
+          "x2": 352.7980000000001,
+          "y2": 367.636
+        },
+        {
+          "x1": 213.0,
+          "y1": 369.556,
+          "x2": 380.9660000000001,
+          "y2": 379.636
+        },
+        {
+          "x1": 213.0,
+          "y1": 381.556,
+          "x2": 303.14400000000006,
+          "y2": 391.636
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Open AI ecosystems",
+      "created_at": "2025-09-18T17:45:19.895011",
+      "updated_at": "2025-09-18T17:45:19.895016",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "Our differentiated AI strategy builds on \nclose collaboration with hardware and \nsoftware leaders across the industry. We \nbelieve open standards and ecosystems \naccelerate innovation and broaden \nadoption. Just as standards-based \nprotocols drove signiﬁcant internet growth \nand transformed industries, establishing \nkey standards and creating an open \nsoftware ecosystem are critical to enabling \nthe full potential of AI.",
+      "auto_generated": true
+    },
+    {
+      "id": "afc305d7-0f09-4151-8c03-fd814d0f22b6",
+      "page_index": 2,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 345.556,
+          "x2": 199.0590000000001,
+          "y2": 355.636
+        },
+        {
+          "x1": 36.0,
+          "y1": 357.556,
+          "x2": 190.2539999999999,
+          "y2": 367.636
+        },
+        {
+          "x1": 36.0,
+          "y1": 369.556,
+          "x2": 203.49,
+          "y2": 379.636
+        },
+        {
+          "x1": 36.0,
+          "y1": 381.556,
+          "x2": 193.50300000000001,
+          "y2": 391.636
+        },
+        {
+          "x1": 36.0,
+          "y1": 393.556,
+          "x2": 189.69900000000018,
+          "y2": 403.636
+        },
+        {
+          "x1": 36.0,
+          "y1": 405.556,
+          "x2": 195.92599999999993,
+          "y2": 415.636
+        },
+        {
+          "x1": 36.0,
+          "y1": 417.556,
+          "x2": 179.99800000000008,
+          "y2": 427.636
+        },
+        {
+          "x1": 36.0,
+          "y1": 429.556,
+          "x2": 199.07099999999986,
+          "y2": 439.636
+        },
+        {
+          "x1": 36.0,
+          "y1": 441.556,
+          "x2": 199.08200000000014,
+          "y2": 451.636
+        },
+        {
+          "x1": 36.0,
+          "y1": 453.556,
+          "x2": 113.89000000000001,
+          "y2": 463.636
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "AI market growth",
+      "created_at": "2025-09-18T17:45:19.895204",
+      "updated_at": "2025-09-18T17:45:19.895209",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "In the data center alone, we expect the AI \naccelerator total addressable market to \ngrow by more than 60% annually, reaching \n$500 billion by 2028 — equivalent to the \nentire semiconductor industry’s annual \nrevenue in 2023. Beyond the data center, \nthe rapid expansion of AI across PCs, \nembedded devices and the edge will drive \ndemand for more compute across each of \nour target markets.",
+      "auto_generated": true
+    },
+    {
+      "id": "fbc6abdb-65bf-4224-8865-f65745773263",
+      "page_index": 2,
+      "rects": [
+        {
+          "x1": 213.0,
+          "y1": 441.556,
+          "x2": 353.68100000000004,
+          "y2": 451.636
+        },
+        {
+          "x1": 219.02,
+          "y1": 453.556,
+          "x2": 351.792,
+          "y2": 463.636
+        },
+        {
+          "x1": 219.02,
+          "y1": 465.556,
+          "x2": 364.831,
+          "y2": 475.636
+        },
+        {
+          "x1": 219.02,
+          "y1": 477.556,
+          "x2": 334.15700000000004,
+          "y2": 487.636
+        },
+        {
+          "x1": 219.02,
+          "y1": 489.556,
+          "x2": 335.194,
+          "y2": 499.636
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Server processor growth",
+      "created_at": "2025-09-18T17:45:19.895339",
+      "updated_at": "2025-09-18T17:45:19.895343",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "• Achieved record server processor \nmarket share, driven by growing \nadoption of AMD EPYC™ processors \nacross cloud, enterprise and \nsupercomputing customers.",
+      "auto_generated": true
+    },
+    {
+      "id": "4e34d391-6bb7-449e-afc9-da5218ee2195",
+      "page_index": 2,
+      "rects": [
+        {
+          "x1": 390.0,
+          "y1": 369.556,
+          "x2": 553.171,
+          "y2": 379.556
+        },
+        {
+          "x1": 390.0,
+          "y1": 381.556,
+          "x2": 550.8590000000002,
+          "y2": 391.556
+        },
+        {
+          "x1": 390.0,
+          "y1": 393.556,
+          "x2": 540.0600000000001,
+          "y2": 403.556
+        },
+        {
+          "x1": 390.0,
+          "y1": 405.556,
+          "x2": 548.8780000000002,
+          "y2": 415.556
+        },
+        {
+          "x1": 390.0,
+          "y1": 417.556,
+          "x2": 540.858,
+          "y2": 427.556
+        },
+        {
+          "x1": 390.0,
+          "y1": 429.556,
+          "x2": 547.4100000000001,
+          "y2": 439.556
+        },
+        {
+          "x1": 390.0,
+          "y1": 441.556,
+          "x2": 555.1680000000001,
+          "y2": 451.556
+        },
+        {
+          "x1": 390.0,
+          "y1": 453.556,
+          "x2": 534.6560000000001,
+          "y2": 463.556
+        },
+        {
+          "x1": 390.0,
+          "y1": 465.556,
+          "x2": 551.83,
+          "y2": 475.556
+        },
+        {
+          "x1": 390.0,
+          "y1": 477.556,
+          "x2": 534.2510000000001,
+          "y2": 487.556
+        },
+        {
+          "x1": 390.0,
+          "y1": 489.556,
+          "x2": 556.6890000000001,
+          "y2": 499.556
+        },
+        {
+          "x1": 390.0,
+          "y1": 501.556,
+          "x2": 557.2840000000001,
+          "y2": 511.556
+        },
+        {
+          "x1": 390.0,
+          "y1": 513.556,
+          "x2": 550.108,
+          "y2": 523.556
+        },
+        {
+          "x1": 390.0,
+          "y1": 525.556,
+          "x2": 502.649,
+          "y2": 535.636
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Data center revenue growth",
+      "created_at": "2025-09-18T17:45:22.279047",
+      "updated_at": "2025-09-18T17:45:22.279067",
+      "tags": [],
+      "profile_score": 0.95,
+      "extracted_text": "Based on this momentum, we delivered \nstrong ﬁnancial results in 2024. Annual \nrevenue grew 14% to $25.8 billion as \nrecord Data Center and Client segment \nrevenue more than offset declines in \nour Gaming and Embedded segments. Importantly, combined sales of our AMD \nEPYC and AMD Instinct data center \nproducts nearly doubled year-over-year, \ncontributing approximately 50% of \nannual revenue. As a result, we achieved \nrecord annual revenue while signiﬁcantly \nexpanding gross margin and increasing \nproﬁtability year-over-year.",
+      "auto_generated": true
+    },
+    {
+      "id": "819bea0c-dd2e-4388-8f4f-88b5f1d4c532",
+      "page_index": 2,
+      "rects": [
+        {
+          "x1": 390.0,
+          "y1": 321.556,
+          "x2": 544.8399999999999,
+          "y2": 331.636
+        },
+        {
+          "x1": 396.02,
+          "y1": 333.556,
+          "x2": 544.0989999999999,
+          "y2": 343.636
+        },
+        {
+          "x1": 396.02,
+          "y1": 345.556,
+          "x2": 521.6940000000001,
+          "y2": 355.636
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Adaptive computing leadership",
+      "created_at": "2025-09-18T17:45:22.279602",
+      "updated_at": "2025-09-18T17:45:22.279609",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "• Solidiﬁed and extended our position \nas the industry’s leading provider of \nadaptive computing solutions.",
+      "auto_generated": true
+    },
+    {
+      "id": "1dd07541-b0a7-448c-98f6-9024f1e9de3a",
+      "page_index": 3,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 431.098,
+          "x2": 170.52999999999997,
+          "y2": 453.274
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "DATA CENTER",
+      "created_at": "2025-09-18T17:45:25.117162",
+      "updated_at": "2025-09-18T17:45:25.117181",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "DATA CENTER",
+      "auto_generated": true
+    },
+    {
+      "id": "593ea07c-9f67-4ecd-82b1-5f4a10ac4f86",
+      "page_index": 3,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 462.73900000000003,
+          "x2": 153.19369999999998,
+          "y2": 475.73900000000003
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Data Center segment",
+      "created_at": "2025-09-18T17:45:25.117609",
+      "updated_at": "2025-09-18T17:45:25.117616",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Data Center segment",
+      "auto_generated": true
+    },
+    {
+      "id": "23729848-eb5c-4c81-9cc7-66890b87aa2f",
+      "page_index": 3,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 478.33900000000006,
+          "x2": 175.33919999999998,
+          "y2": 491.33900000000006
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "annual revenue increased",
+      "created_at": "2025-09-18T17:45:25.117787",
+      "updated_at": "2025-09-18T17:45:25.117792",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "annual revenue increased",
+      "auto_generated": true
+    },
+    {
+      "id": "909f9a35-6b9b-44ea-aef5-82b61e41b77c",
+      "page_index": 3,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 493.9390000000001,
+          "x2": 156.44889999999998,
+          "y2": 506.9390000000001
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "94% year-over-year to",
+      "created_at": "2025-09-18T17:45:25.117922",
+      "updated_at": "2025-09-18T17:45:25.117928",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "94% year-over-year to",
+      "auto_generated": true
+    },
+    {
+      "id": "86c5a4b4-442f-4147-a265-b0e8e0b0be77",
+      "page_index": 3,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 535.99,
+          "x2": 200.3139999999999,
+          "y2": 546.0699999999999
+        },
+        {
+          "x1": 36.0,
+          "y1": 547.99,
+          "x2": 190.02899999999997,
+          "y2": 557.99
+        },
+        {
+          "x1": 36.0,
+          "y1": 559.99,
+          "x2": 176.94900000000004,
+          "y2": 569.99
+        },
+        {
+          "x1": 36.0,
+          "y1": 571.99,
+          "x2": 206.49300000000005,
+          "y2": 582.0699999999999
+        },
+        {
+          "x1": 36.0,
+          "y1": 583.99,
+          "x2": 182.9300000000001,
+          "y2": 593.99
+        },
+        {
+          "x1": 36.0,
+          "y1": 595.99,
+          "x2": 195.25599999999997,
+          "y2": 605.99
+        },
+        {
+          "x1": 36.0,
+          "y1": 607.99,
+          "x2": 181.44399999999993,
+          "y2": 617.99
+        },
+        {
+          "x1": 36.0,
+          "y1": 619.99,
+          "x2": 198.36699999999996,
+          "y2": 629.99
+        },
+        {
+          "x1": 36.0,
+          "y1": 631.99,
+          "x2": 190.44400000000007,
+          "y2": 641.99
+        },
+        {
+          "x1": 36.0,
+          "y1": 643.99,
+          "x2": 162.62400000000002,
+          "y2": 654.07
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "EPYC processors advantages",
+      "created_at": "2025-09-18T17:45:28.929837",
+      "updated_at": "2025-09-18T17:45:28.929856",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "2024 was another major inﬂection point \nfor our server business as share gains \naccelerated. EPYC processors have \nbecome the CPU of choice for the modern \ndata center as we have consistently \nexecuted our multi-year roadmaps and \ndelivered a top-to-bottom portfolio \nthat offers signiﬁcant performance and \nTCO advantages across virtually every \nenterprise and cloud workload.",
+      "auto_generated": true
+    },
+    {
+      "id": "0ad59731-7e3e-4db3-a6df-1a91b67aaa13",
+      "page_index": 3,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 667.99,
+          "x2": 178.05899999999997,
+          "y2": 678.07
+        },
+        {
+          "x1": 36.00000000000001,
+          "y1": 679.99,
+          "x2": 187.52300000000008,
+          "y2": 690.07
+        },
+        {
+          "x1": 36.00000000000001,
+          "y1": 691.99,
+          "x2": 201.57,
+          "y2": 701.99
+        },
+        {
+          "x1": 213.0,
+          "y1": 431.59,
+          "x2": 377.9679999999998,
+          "y2": 441.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 443.59,
+          "x2": 380.51400000000007,
+          "y2": 453.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 455.59,
+          "x2": 357.37999999999994,
+          "y2": 465.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 467.59,
+          "x2": 379.76,
+          "y2": 477.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 479.59,
+          "x2": 380.406,
+          "y2": 489.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 491.59,
+          "x2": 264.689,
+          "y2": 501.59
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Cloud provider adoption",
+      "created_at": "2025-09-18T17:45:28.930330",
+      "updated_at": "2025-09-18T17:45:28.930336",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "The world’s largest cloud providers \nhave deployed EPYC CPUs at scale to \npower their most important and popular \nservices, including Office 365, Facebook, \nMicrosoft Teams, Salesforce, SAP, Zoom, \nUber, Netﬂix and many more. Meta \nalone has deployed more than 1.5 million \nEPYC processors across their global data  \ncenter ﬂeet.",
+      "auto_generated": true
+    },
+    {
+      "id": "b667f814-c274-4e57-aa41-39566683e59b",
+      "page_index": 3,
+      "rects": [
+        {
+          "x1": 213.0,
+          "y1": 527.59,
+          "x2": 349.991,
+          "y2": 537.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 539.59,
+          "x2": 352.31,
+          "y2": 549.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 551.59,
+          "x2": 357.8919999999999,
+          "y2": 561.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 563.59,
+          "x2": 373.7,
+          "y2": 573.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 575.59,
+          "x2": 368.719,
+          "y2": 585.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 587.59,
+          "x2": 369.51099999999997,
+          "y2": 597.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 599.59,
+          "x2": 380.5220000000001,
+          "y2": 609.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 611.59,
+          "x2": 362.6710000000001,
+          "y2": 621.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 623.59,
+          "x2": 275.489,
+          "y2": 633.59
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Cloud instance growth",
+      "created_at": "2025-09-18T17:45:28.930514",
+      "updated_at": "2025-09-18T17:45:28.930518",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "cloud instances are now available \nfrom AWS, Alibaba, Google Cloud, \nMicrosoft Azure, IBM Cloud, Oracle, \nTencent and others, an increase of 27% \nyear-over-year. Enterprise adoption of \nEPYC in the cloud grew signiﬁcantly in \nthe year with large businesses activating \nnearly 3x more EPYC cloud instances \nyear-over-year.",
+      "auto_generated": true
+    },
+    {
+      "id": "a53b8912-1736-4b30-a277-8f2b7544f934",
+      "page_index": 3,
+      "rects": [
+        {
+          "x1": 390.0,
+          "y1": 527.59,
+          "x2": 518.404,
+          "y2": 537.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 539.59,
+          "x2": 560.0160000000001,
+          "y2": 549.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 551.59,
+          "x2": 546.239,
+          "y2": 561.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 563.59,
+          "x2": 541.0710000000001,
+          "y2": 573.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 575.59,
+          "x2": 546.209,
+          "y2": 585.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 587.59,
+          "x2": 540.8860000000001,
+          "y2": 597.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 599.59,
+          "x2": 515.078,
+          "y2": 609.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 611.59,
+          "x2": 519.497,
+          "y2": 621.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 623.59,
+          "x2": 528.799,
+          "y2": 633.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 635.59,
+          "x2": 528.989,
+          "y2": 645.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 647.59,
+          "x2": 532.376,
+          "y2": 657.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 659.59,
+          "x2": 544.4499999999999,
+          "y2": 669.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 671.59,
+          "x2": 543.6800000000001,
+          "y2": 681.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 683.59,
+          "x2": 531.596,
+          "y2": 693.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 695.59,
+          "x2": 457.181,
+          "y2": 705.67
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "5th Gen EPYC processors",
+      "created_at": "2025-09-18T17:45:28.930708",
+      "updated_at": "2025-09-18T17:45:28.930711",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "breakthrough performance and \nleadership TCO across enterprise scale-up \nand cloud-native scale-out workloads. Our latest EPYC processor family has \nset more than 540 performance world \nrecords across business applications, \ndata management, virtualized \ninfrastructure, supercomputing \nand digital services workloads. All \nof our cloud partners are planning \nto deploy 5th Gen EPYC processors \nacross their infrastructure, and server \nproviders are on-track to launch more \nthan 120 platforms supporting the \nnew processors.",
+      "auto_generated": true
+    },
+    {
+      "id": "ac3e8533-9269-4e06-a9c6-33d9d14fa83b",
+      "page_index": 3,
+      "rects": [
+        {
+          "x1": 213.0,
+          "y1": 647.59,
+          "x2": 374.80400000000003,
+          "y2": 657.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 659.59,
+          "x2": 354.46,
+          "y2": 669.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 671.59,
+          "x2": 367.18300000000005,
+          "y2": 681.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 683.59,
+          "x2": 362.5640000000001,
+          "y2": 693.59
+        },
+        {
+          "x1": 213.0,
+          "y1": 695.59,
+          "x2": 373.89899999999994,
+          "y2": 705.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 431.59,
+          "x2": 551.9730000000002,
+          "y2": 441.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 443.59,
+          "x2": 547.6360000000002,
+          "y2": 453.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 455.59,
+          "x2": 535.7180000000001,
+          "y2": 465.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 467.59,
+          "x2": 542.1750000000002,
+          "y2": 477.59
+        },
+        {
+          "x1": 390.0,
+          "y1": 479.59,
+          "x2": 548.949,
+          "y2": 489.67
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Enterprise wins",
+      "created_at": "2025-09-18T17:45:28.930875",
+      "updated_at": "2025-09-18T17:45:28.930878",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "Enterprise adoption of EPYC processors \nalso surged as there are now more \nthan 450 AMD EPYC server platforms \navailable from the largest OEMs and \nODMs. We expanded our footprint with \nForbes 2000 companies, highlighted by \nlarge wins with Adobe, Micron, Nestlé, \nServiceNow, Tata, Verizon, Visa and \nothers who deployed EPYC servers to \npower their mission-critical workloads.",
+      "auto_generated": true
+    },
+    {
+      "id": "64440d5d-154f-429d-8cbb-dfc7d0f79541",
+      "page_index": 4,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 155.59000000000003,
+          "x2": 265.3540000000001,
+          "y2": 165.59000000000003
+        },
+        {
+          "x1": 36.0,
+          "y1": 167.59000000000003,
+          "x2": 252.3400000000001,
+          "y2": 177.59000000000003
+        },
+        {
+          "x1": 36.0,
+          "y1": 179.59000000000003,
+          "x2": 266.04000000000013,
+          "y2": 189.59000000000003
+        },
+        {
+          "x1": 36.0,
+          "y1": 191.59000000000003,
+          "x2": 270.94300000000015,
+          "y2": 201.59000000000003
+        },
+        {
+          "x1": 36.0,
+          "y1": 203.59000000000003,
+          "x2": 246.65899999999993,
+          "y2": 213.59000000000003
+        },
+        {
+          "x1": 36.0,
+          "y1": 215.59000000000003,
+          "x2": 262.018,
+          "y2": 225.59000000000003
+        },
+        {
+          "x1": 36.0,
+          "y1": 227.59000000000003,
+          "x2": 267.31699999999995,
+          "y2": 237.59000000000003
+        },
+        {
+          "x1": 36.0,
+          "y1": 239.59000000000003,
+          "x2": 253.61299999999991,
+          "y2": 249.59000000000003
+        },
+        {
+          "x1": 36.0,
+          "y1": 251.59000000000003,
+          "x2": 84.97999999999999,
+          "y2": 261.66999999999996
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Customer adoption",
+      "created_at": "2025-09-18T17:45:33.436597",
+      "updated_at": "2025-09-18T17:45:33.436618",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "Leading cloud providers and AI innovators adopted AMD \nInstinct MI300 accelerators at scale to power their AI \nworkloads. Microsoft highlighted the TCO advantages of \nAMD Instinct MI300X accelerators when running multiple \nMicrosoft Copilot services that use the latest GPT-4 \nmodels. Meta announced broad deployment of MI300X \nfor inference, including serving all live traffic for its most \ndemanding Llama 405B frontier model exclusively on \nAMD GPUs.",
+      "auto_generated": true
+    },
+    {
+      "id": "9926bcdb-2fdc-4e5f-9ee4-b808430cda27",
+      "page_index": 4,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 71.59000000000003,
+          "x2": 238.98000000000005,
+          "y2": 81.59000000000003
+        },
+        {
+          "x1": 36.0,
+          "y1": 83.59000000000003,
+          "x2": 272.9499999999999,
+          "y2": 93.59000000000003
+        },
+        {
+          "x1": 36.0,
+          "y1": 95.59000000000003,
+          "x2": 272.44500000000005,
+          "y2": 105.59000000000003
+        },
+        {
+          "x1": 36.0,
+          "y1": 107.59000000000003,
+          "x2": 264.30300000000017,
+          "y2": 117.59000000000003
+        },
+        {
+          "x1": 36.0,
+          "y1": 119.59000000000003,
+          "x2": 274.1699999999999,
+          "y2": 129.59000000000003
+        },
+        {
+          "x1": 36.0,
+          "y1": 131.59000000000003,
+          "x2": 150.45999999999992,
+          "y2": 141.66999999999996
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "AI hardware roadmap",
+      "created_at": "2025-09-18T17:45:33.437229",
+      "updated_at": "2025-09-18T17:45:33.437236",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "We launched our AMD Instinct MI325X GPUs with \nindustry-leading inferencing performance, accelerated our \nAI hardware roadmap to deliver an annual cadence of new \naccelerators, signiﬁcantly enhanced our ROCm software \nsuite and strengthened our partnerships with many of the \nworld’s largest AI providers.",
+      "auto_generated": true
+    },
+    {
+      "id": "f59f7d31-7754-42c1-8d15-a59966a9d249",
+      "page_index": 4,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 275.59,
+          "x2": 246.36799999999994,
+          "y2": 285.59
+        },
+        {
+          "x1": 36.0,
+          "y1": 287.59,
+          "x2": 266.862,
+          "y2": 297.59
+        },
+        {
+          "x1": 36.0,
+          "y1": 299.59,
+          "x2": 272.7140000000002,
+          "y2": 309.59
+        },
+        {
+          "x1": 36.0,
+          "y1": 311.59,
+          "x2": 268.179,
+          "y2": 321.59
+        },
+        {
+          "x1": 36.0,
+          "y1": 323.59,
+          "x2": 263.349,
+          "y2": 333.59
+        },
+        {
+          "x1": 36.0,
+          "y1": 335.59,
+          "x2": 254.91000000000008,
+          "y2": 345.67
+        },
+        {
+          "x1": 333.433,
+          "y1": 102.88400000000001,
+          "x2": 529.6376999999999,
+          "y2": 115.07600000000002
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Cloud provider partnerships",
+      "created_at": "2025-09-18T17:45:33.437470",
+      "updated_at": "2025-09-18T17:45:33.437476",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Microsoft, Oracle Cloud, IBM Cloud and more than a \ndozen other AI-specialized cloud providers adopted AMD \nInstinct accelerators to power their public cloud instances, \nincluding ﬂagship instances available on Microsoft Azure \nthat scale up to thousands of GPUs for AI inference and \ntraining and high-performance computing workloads. Annual Cadence of New AI Accelerators",
+      "auto_generated": true
+    },
+    {
+      "id": "22f3a1df-f1b7-4847-9eb8-c05b2783f5f6",
+      "page_index": 4,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 35.59000000000003,
+          "x2": 258.80400000000003,
+          "y2": 45.59000000000003
+        },
+        {
+          "x1": 36.0,
+          "y1": 47.59000000000003,
+          "x2": 87.44,
+          "y2": 57.66999999999996
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Data center AI success",
+      "created_at": "2025-09-18T17:45:33.437650",
+      "updated_at": "2025-09-18T17:45:33.437656",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "2024 was also an outstanding year for our data center  \nAI business.",
+      "auto_generated": true
+    },
+    {
+      "id": "8b1512de-8368-49a8-afc9-961e53b3ea88",
+      "page_index": 4,
+      "rects": [
+        {
+          "x1": 372.187,
+          "y1": 243.52100000000007,
+          "x2": 396.4003,
+          "y2": 250.63300000000004
+        },
+        {
+          "x1": 438.75,
+          "y1": 199.09199999999998,
+          "x2": 466.75,
+          "y2": 206.09199999999998
+        },
+        {
+          "x1": 438.75,
+          "y1": 207.49199999999996,
+          "x2": 476.8937,
+          "y2": 214.49199999999996
+        },
+        {
+          "x1": 438.75,
+          "y1": 215.89199999999994,
+          "x2": 472.7392,
+          "y2": 223.0039999999999
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "MI325X leadership",
+      "created_at": "2025-09-18T17:45:33.437796",
+      "updated_at": "2025-09-18T17:45:33.437801",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "MI325X \nCompute \nand Memory \nLeadership",
+      "auto_generated": true
+    },
+    {
+      "id": "db2339c3-52a8-4ce7-86ad-081190ee435a",
+      "page_index": 4,
+      "rects": [
+        {
+          "x1": 372.193,
+          "y1": 209.09199999999998,
+          "x2": 421.137,
+          "y2": 216.20399999999995
+        },
+        {
+          "x1": 372.193,
+          "y1": 217.49199999999996,
+          "x2": 401.77500000000003,
+          "y2": 224.49199999999996
+        },
+        {
+          "x1": 372.193,
+          "y1": 225.89199999999994,
+          "x2": 400.47299999999996,
+          "y2": 233.0039999999999
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "HBM3E memory",
+      "created_at": "2025-09-18T17:45:33.437911",
+      "updated_at": "2025-09-18T17:45:33.437916",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "HBM3E Memory \nIncreased \nCompute",
+      "auto_generated": true
+    },
+    {
+      "id": "94ea9736-2e64-4f07-8e2d-d723527e5064",
+      "page_index": 4,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 622.5690999999999,
+          "x2": 286.189,
+          "y2": 632.5690999999999
+        },
+        {
+          "x1": 35.998999999999995,
+          "y1": 634.5690999999999,
+          "x2": 275.32770000000005,
+          "y2": 644.5690999999999
+        },
+        {
+          "x1": 35.9987,
+          "y1": 646.5690999999999,
+          "x2": 260.6208,
+          "y2": 656.5691
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Exascale computing wins",
+      "created_at": "2025-09-18T17:45:37.361356",
+      "updated_at": "2025-09-18T17:45:37.361376",
+      "tags": [],
+      "profile_score": 0.95,
+      "extracted_text": "Laboratory, powered by AMD Instinct MI300A APUs, debuted \nas the fastest computer in the world on the latest TOP500 \nlist. AMD proudly powers two of the top three exascale",
+      "auto_generated": true
+    },
+    {
+      "id": "3e3864bd-aaba-4847-8562-9284ca5f0f30",
+      "page_index": 4,
+      "rects": [
+        {
+          "x1": 504.935,
+          "y1": 223.52210000000002,
+          "x2": 549.3366,
+          "y2": 230.6341
+        },
+        {
+          "x1": 306.0,
+          "y1": 223.59199999999998,
+          "x2": 326.73400000000004,
+          "y2": 230.59199999999998
+        },
+        {
+          "x1": 306.0,
+          "y1": 231.99199999999996,
+          "x2": 339.9892,
+          "y2": 239.10399999999993
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "MI400 series leadership",
+      "created_at": "2025-09-18T17:45:37.361898",
+      "updated_at": "2025-09-18T17:45:37.361905",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "MI400 SERIES \nGen AI \nLeadership",
+      "auto_generated": true
+    },
+    {
+      "id": "6ed918c7-1c90-4dc3-a102-546c2256b8bd",
+      "page_index": 4,
+      "rects": [
+        {
+          "x1": 35.9958,
+          "y1": 658.5691,
+          "x2": 291.74,
+          "y2": 668.5691
+        },
+        {
+          "x1": 35.99600000000001,
+          "y1": 670.5691,
+          "x2": 265.6797,
+          "y2": 680.5691
+        },
+        {
+          "x1": 35.99770000000001,
+          "y1": 682.5691,
+          "x2": 281.8368,
+          "y2": 692.5691
+        },
+        {
+          "x1": 35.99680000000001,
+          "y1": 694.5691,
+          "x2": 274.4366,
+          "y2": 704.5691
+        },
+        {
+          "x1": 35.9966,
+          "y1": 706.5691,
+          "x2": 272.1191,
+          "y2": 716.6491
+        },
+        {
+          "x1": 35.99510000000001,
+          "y1": 718.5691,
+          "x2": 157.245,
+          "y2": 728.6491
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Supercomputer market share",
+      "created_at": "2025-09-18T17:45:37.365351",
+      "updated_at": "2025-09-18T17:45:37.365370",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "computers in the United States, and El Capitan is one of them. Adoption of our AMD EPYC and AMD Instinct processors \nwith the broader supercomputer customer base also grew in \nthe year, with AMD-based systems comprising 50% of the \ntop ten fastest and 40% of the ten most energy-efficient \nsupercomputers in the world.",
+      "auto_generated": true
+    },
+    {
+      "id": "4e813898-5eab-4d19-8adc-45dcd6b1e25e",
+      "page_index": 5,
+      "rects": [
+        {
+          "x1": 35.782,
+          "y1": 394.63000000000005,
+          "x2": 141.22499999999997,
+          "y2": 407.81200000000007
+        },
+        {
+          "x1": 214.0,
+          "y1": 179.42700000000002,
+          "x2": 353.2459999999999,
+          "y2": 189.42700000000002
+        },
+        {
+          "x1": 214.0,
+          "y1": 191.42700000000002,
+          "x2": 358.5030000000001,
+          "y2": 201.42700000000002
+        },
+        {
+          "x1": 214.0,
+          "y1": 203.42700000000002,
+          "x2": 354.10699999999997,
+          "y2": 213.42700000000002
+        },
+        {
+          "x1": 214.0,
+          "y1": 215.42700000000002,
+          "x2": 348.426,
+          "y2": 225.42700000000002
+        },
+        {
+          "x1": 214.0,
+          "y1": 227.42700000000002,
+          "x2": 351.354,
+          "y2": 237.42700000000002
+        },
+        {
+          "x1": 214.0,
+          "y1": 239.42700000000002,
+          "x2": 360.5930000000001,
+          "y2": 249.42700000000002
+        },
+        {
+          "x1": 214.0,
+          "y1": 251.42700000000002,
+          "x2": 371.576,
+          "y2": 261.427
+        },
+        {
+          "x1": 214.0,
+          "y1": 263.42699999999996,
+          "x2": 267.153,
+          "y2": 273.42699999999996
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "ROCm stack ecosystem",
+      "created_at": "2025-09-18T17:45:37.365663",
+      "updated_at": "2025-09-18T17:45:37.365671",
+      "tags": [],
+      "profile_score": 0.85,
+      "extracted_text": "of our ROCm stack. Today, more than 1 million models \non Hugging Face run seamlessly on \nAMD hardware, and our platforms \nare supported natively in leading \nframeworks like PyTorch and JAX, \nemerging compilers such as OpenAI \nTriton, and serving solutions like vLLM \nand SGLang.",
+      "auto_generated": true
+    },
+    {
+      "id": "bd40abc7-290c-45e3-846c-1913599f4403",
+      "page_index": 4,
+      "rects": [
+        {
+          "x1": 438.743,
+          "y1": 233.5250000000001,
+          "x2": 482.17839999999995,
+          "y2": 240.63700000000006
+        },
+        {
+          "x1": 504.943,
+          "y1": 189.09199999999998,
+          "x2": 534.3794,
+          "y2": 196.09199999999998
+        },
+        {
+          "x1": 504.943,
+          "y1": 197.49199999999996,
+          "x2": 542.9418,
+          "y2": 204.60399999999993
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "MI350 series architecture",
+      "created_at": "2025-09-18T17:45:37.365854",
+      "updated_at": "2025-09-18T17:45:37.365860",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "MI350 SERIES \nNext-Gen \nArchitecture",
+      "auto_generated": true
+    },
+    {
+      "id": "d464af6b-5c57-4410-8583-3d28a5e4f0ef",
+      "page_index": 4,
+      "rects": [
+        {
+          "x1": 305.995,
+          "y1": 253.5241000000001,
+          "x2": 331.0551,
+          "y2": 260.63610000000006
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "MI300X product",
+      "created_at": "2025-09-18T17:45:37.365985",
+      "updated_at": "2025-09-18T17:45:37.365990",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "MI300X",
+      "auto_generated": true
+    },
+    {
+      "id": "6c10b6aa-ade2-40bf-b91a-7c1d56eaafc1",
+      "page_index": 5,
+      "rects": [
+        {
+          "x1": 214.0,
+          "y1": 287.42699999999996,
+          "x2": 382.561,
+          "y2": 297.42699999999996
+        },
+        {
+          "x1": 214.0,
+          "y1": 299.42699999999996,
+          "x2": 352.185,
+          "y2": 309.42699999999996
+        },
+        {
+          "x1": 214.0,
+          "y1": 311.42699999999996,
+          "x2": 357.62499999999994,
+          "y2": 321.42699999999996
+        },
+        {
+          "x1": 214.0,
+          "y1": 323.42699999999996,
+          "x2": 362.511,
+          "y2": 333.42699999999996
+        },
+        {
+          "x1": 214.0,
+          "y1": 335.42699999999996,
+          "x2": 351.186,
+          "y2": 345.42699999999996
+        },
+        {
+          "x1": 214.0,
+          "y1": 347.42699999999996,
+          "x2": 364.165,
+          "y2": 357.42699999999996
+        },
+        {
+          "x1": 214.0,
+          "y1": 359.42699999999996,
+          "x2": 373.29800000000006,
+          "y2": 369.42699999999996
+        },
+        {
+          "x1": 214.0,
+          "y1": 371.42699999999996,
+          "x2": 378.956,
+          "y2": 381.42699999999996
+        },
+        {
+          "x1": 214.0,
+          "y1": 383.42699999999996,
+          "x2": 369.9669999999999,
+          "y2": 393.42699999999996
+        },
+        {
+          "x1": 214.0,
+          "y1": 395.42699999999996,
+          "x2": 359.48599999999993,
+          "y2": 405.42699999999996
+        },
+        {
+          "x1": 214.0,
+          "y1": 407.42699999999996,
+          "x2": 351.714,
+          "y2": 417.42699999999996
+        },
+        {
+          "x1": 214.0,
+          "y1": 419.42699999999996,
+          "x2": 357.74100000000004,
+          "y2": 429.42699999999996
+        },
+        {
+          "x1": 214.0,
+          "y1": 431.42699999999996,
+          "x2": 355.7049999999999,
+          "y2": 441.42699999999996
+        },
+        {
+          "x1": 214.0,
+          "y1": 443.42699999999996,
+          "x2": 377.128,
+          "y2": 453.42699999999996
+        },
+        {
+          "x1": 214.0,
+          "y1": 455.42699999999996,
+          "x2": 379.91900000000004,
+          "y2": 465.42699999999996
+        },
+        {
+          "x1": 214.0,
+          "y1": 467.42699999999996,
+          "x2": 362.839,
+          "y2": 477.42699999999996
+        },
+        {
+          "x1": 214.0,
+          "y1": 479.42699999999996,
+          "x2": 317.852,
+          "y2": 489.507
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "ROCm software strategy",
+      "created_at": "2025-09-18T17:45:41.341958",
+      "updated_at": "2025-09-18T17:45:41.341965",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "While we have made signiﬁcant progress \nwith our hardware and platforms, \naccelerating our software roadmap \nand strengthening broad ecosystem \nsupport remain a top priority. Our \nstrategy is to establish ROCm as the \nindustry’s leading open software stack \nfor AI, providing developers with greater \nﬂexibility and accelerating innovation. To support the growing adoption of \nAMD Instinct accelerators, we are \nincreasing investments to enhance \nthe out-of-the-box experience and \nexpanding our resources supporting the \nopen-source community, enabling faster \ndevelopment, testing and release of \nsoftware enhancements.",
+      "auto_generated": true
+    },
+    {
+      "id": "af15c714-724b-488e-8faa-1bff0c5bf23b",
+      "page_index": 5,
+      "rects": [
+        {
+          "x1": 390.5,
+          "y1": 251.42700000000002,
+          "x2": 553.9030000000001,
+          "y2": 261.427
+        },
+        {
+          "x1": 390.5,
+          "y1": 263.42699999999996,
+          "x2": 550.0370000000001,
+          "y2": 273.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 275.42699999999996,
+          "x2": 547.499,
+          "y2": 285.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 287.42699999999996,
+          "x2": 546.587,
+          "y2": 297.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 299.42699999999996,
+          "x2": 546.4420000000001,
+          "y2": 309.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 311.42699999999996,
+          "x2": 530.569,
+          "y2": 321.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 323.42699999999996,
+          "x2": 528.8660000000001,
+          "y2": 333.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 335.42699999999996,
+          "x2": 548.8779999999999,
+          "y2": 345.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 347.42699999999996,
+          "x2": 536.107,
+          "y2": 357.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 359.42699999999996,
+          "x2": 553.1570000000002,
+          "y2": 369.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 371.42699999999996,
+          "x2": 541.9799999999999,
+          "y2": 381.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 383.42699999999996,
+          "x2": 498.59399999999994,
+          "y2": 393.42699999999996
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "AI networking standards",
+      "created_at": "2025-09-18T17:45:41.342236",
+      "updated_at": "2025-09-18T17:45:41.342238",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "We took several major steps in our long-\nterm strategy to deliver AI solutions at \ndata center scale. To address the need \nfor scale-up and scale-out networking \nperformance for AI data centers, AMD \nis a founding member of the Ultra \nAccelerator Link (UALink) and the \nUltra Ethernet Consortium (UEC), both \nof which are deﬁning open industry \nstandards for AI networking to allow an \nopen ecosystem of AI accelerators to \nwork seamlessly together.",
+      "auto_generated": true
+    },
+    {
+      "id": "1e551df8-50e8-4e3e-b6e9-a2a7fe966fd3",
+      "page_index": 5,
+      "rects": [
+        {
+          "x1": 390.5,
+          "y1": 407.42699999999996,
+          "x2": 537.4840000000002,
+          "y2": 417.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 419.42699999999996,
+          "x2": 549.028,
+          "y2": 429.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 431.42699999999996,
+          "x2": 532.97,
+          "y2": 441.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 443.42699999999996,
+          "x2": 560.2,
+          "y2": 453.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 455.42699999999996,
+          "x2": 544.4470000000001,
+          "y2": 465.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 467.42699999999996,
+          "x2": 547.0630000000001,
+          "y2": 477.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 479.42699999999996,
+          "x2": 549.3800000000001,
+          "y2": 489.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 491.42699999999996,
+          "x2": 551.3990000000001,
+          "y2": 501.42699999999996
+        },
+        {
+          "x1": 390.5,
+          "y1": 503.42699999999996,
+          "x2": 545.5770000000001,
+          "y2": 513.4269999999999
+        },
+        {
+          "x1": 390.5,
+          "y1": 515.4269999999999,
+          "x2": 536.5360000000001,
+          "y2": 525.427
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "ZT Systems acquisition",
+      "created_at": "2025-09-18T17:45:41.342307",
+      "updated_at": "2025-09-18T17:45:41.342308",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "We also announced our intention to \nacquire ZT Systems, a leading provider \nof AI infrastructure to many of the \nlargest hyperscale computing companies. We expect ZT’s deep expertise across \nsystem design, validation, networking \nand testing to signiﬁcantly strengthen \nour systems and customer enablement \ncapabilities and greatly accelerate the \ntime to validate and deploy AMD AI",
+      "auto_generated": true
+    },
+    {
+      "id": "d7ad954a-9b90-44ac-9092-60cd9f6bdc69",
+      "page_index": 5,
+      "rects": [
+        {
+          "x1": 214.0,
+          "y1": 527.427,
+          "x2": 350.11999999999995,
+          "y2": 537.427
+        },
+        {
+          "x1": 214.0,
+          "y1": 539.427,
+          "x2": 369.599,
+          "y2": 549.427
+        },
+        {
+          "x1": 214.0,
+          "y1": 551.427,
+          "x2": 381.2440000000001,
+          "y2": 561.427
+        },
+        {
+          "x1": 390.5,
+          "y1": 179.42700000000002,
+          "x2": 546.23,
+          "y2": 189.42700000000002
+        },
+        {
+          "x1": 390.5,
+          "y1": 191.42700000000002,
+          "x2": 529.2510000000001,
+          "y2": 201.42700000000002
+        },
+        {
+          "x1": 390.5,
+          "y1": 203.42700000000002,
+          "x2": 555.9420000000001,
+          "y2": 213.42700000000002
+        },
+        {
+          "x1": 390.5,
+          "y1": 215.42700000000002,
+          "x2": 539.5580000000001,
+          "y2": 225.42700000000002
+        },
+        {
+          "x1": 390.5,
+          "y1": 227.42700000000002,
+          "x2": 455.489,
+          "y2": 237.42700000000002
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "AI solutions expertise",
+      "created_at": "2025-09-18T17:45:41.342358",
+      "updated_at": "2025-09-18T17:45:41.342360",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "experience developing tailored AI \nsolutions for Allianz, Ericsson, Finnair, \nKorber, Nokia, Phillips, T-Mobile, Unilever \nand others. The Silo team brings deep \nexpertise in large language model \ndevelopment that will enable customers \nto build optimized AI solutions for     \nAMD hardware.",
+      "auto_generated": true
+    },
+    {
+      "id": "d7381c88-ca91-4088-8bb1-06a0c0c2ae23",
+      "page_index": 5,
+      "rects": [
+        {
+          "x1": 390.5,
+          "y1": 527.427,
+          "x2": 466.079,
+          "y2": 537.507
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Scaling AI solutions",
+      "created_at": "2025-09-18T17:45:41.342395",
+      "updated_at": "2025-09-18T17:45:41.342397",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "solutions at scale.",
+      "auto_generated": true
+    },
+    {
+      "id": "67a09340-e947-4a49-9a99-9ff5e12ec5b3",
+      "page_index": 5,
+      "rects": [
+        {
+          "x1": 214.0,
+          "y1": 503.42699999999996,
+          "x2": 346.71599999999995,
+          "y2": 513.4269999999999
+        },
+        {
+          "x1": 214.0,
+          "y1": 515.4269999999999,
+          "x2": 373.22600000000006,
+          "y2": 525.427
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Silo AI acquisition",
+      "created_at": "2025-09-18T17:45:41.342424",
+      "updated_at": "2025-09-18T17:45:41.342425",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "In August, we acquired Silo AI, a \nprivate AI lab in Finland with extensive",
+      "auto_generated": true
+    },
+    {
+      "id": "444ee51e-7546-451c-958f-3a56a5a72170",
+      "page_index": 7,
+      "rects": [
+        {
+          "x1": 35.99999999999997,
+          "y1": 276.79,
+          "x2": 264.339,
+          "y2": 286.79
+        },
+        {
+          "x1": 35.99999999999997,
+          "y1": 288.79,
+          "x2": 253.355,
+          "y2": 298.87000000000006
+        },
+        {
+          "x1": 35.99999999999997,
+          "y1": 300.79,
+          "x2": 254.81799999999998,
+          "y2": 310.79
+        },
+        {
+          "x1": 35.99999999999997,
+          "y1": 312.79,
+          "x2": 279.002,
+          "y2": 322.87000000000006
+        },
+        {
+          "x1": 301.5,
+          "y1": 276.31,
+          "x2": 533.2430000000002,
+          "y2": 286.31
+        },
+        {
+          "x1": 301.5,
+          "y1": 288.31,
+          "x2": 531.3710000000001,
+          "y2": 298.31
+        },
+        {
+          "x1": 301.5,
+          "y1": 300.31,
+          "x2": 532.3640000000001,
+          "y2": 310.31
+        },
+        {
+          "x1": 301.5,
+          "y1": 312.31,
+          "x2": 535.1970000000001,
+          "y2": 322.39000000000004
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Record design wins",
+      "created_at": "2025-09-18T17:45:55.055415",
+      "updated_at": "2025-09-18T17:45:55.055437",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "For embedded edge applications, we launched the EPYC \nEmbedded 8004 Series optimized to deliver industry-\nleading performance and connectivity for networking, \nstorage and industrial applications. We also began shipping \nImportantly, we closed a record $14 billion of design wins \nin 2024, an increase of more than 25% year-over-year as \ncustomer adoption of our adaptive computing platforms \nexpands, and we won large, new embedded CPU designs.",
+      "auto_generated": true
+    },
+    {
+      "id": "625edfd8-11f6-4fa3-acd5-7f189c74a9eb",
+      "page_index": 7,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 108.79000000000008,
+          "x2": 265.106,
+          "y2": 118.87
+        },
+        {
+          "x1": 35.999999999999986,
+          "y1": 120.79000000000008,
+          "x2": 247.548,
+          "y2": 130.87
+        },
+        {
+          "x1": 35.99999999999997,
+          "y1": 132.79000000000008,
+          "x2": 274.63699999999994,
+          "y2": 142.79000000000008
+        },
+        {
+          "x1": 35.99999999999997,
+          "y1": 144.79000000000008,
+          "x2": 244.28299999999996,
+          "y2": 154.79000000000008
+        },
+        {
+          "x1": 35.99999999999997,
+          "y1": 156.79000000000008,
+          "x2": 255.93700000000004,
+          "y2": 166.79000000000008
+        },
+        {
+          "x1": 35.99999999999997,
+          "y1": 168.79000000000008,
+          "x2": 272.03400000000016,
+          "y2": 178.79000000000008
+        },
+        {
+          "x1": 35.99999999999997,
+          "y1": 180.79000000000008,
+          "x2": 255.27900000000002,
+          "y2": 190.79000000000008
+        },
+        {
+          "x1": 35.99999999999997,
+          "y1": 192.79000000000008,
+          "x2": 271.1860000000001,
+          "y2": 202.79000000000008
+        },
+        {
+          "x1": 35.99999999999997,
+          "y1": 204.79000000000008,
+          "x2": 276.72999999999996,
+          "y2": 214.79000000000008
+        },
+        {
+          "x1": 35.99999999999997,
+          "y1": 216.79000000000008,
+          "x2": 279.501,
+          "y2": 226.87
+        },
+        {
+          "x1": 35.99999999999997,
+          "y1": 228.79000000000008,
+          "x2": 268.2720000000001,
+          "y2": 238.79000000000008
+        },
+        {
+          "x1": 35.99999999999997,
+          "y1": 240.79000000000008,
+          "x2": 250.62400000000005,
+          "y2": 250.79000000000008
+        },
+        {
+          "x1": 35.99999999999997,
+          "y1": 252.79000000000008,
+          "x2": 232.44999999999996,
+          "y2": 262.79
+        },
+        {
+          "x1": 301.5,
+          "y1": 240.31000000000006,
+          "x2": 553.7,
+          "y2": 250.31000000000006
+        },
+        {
+          "x1": 301.5,
+          "y1": 252.31000000000006,
+          "x2": 420.16600000000005,
+          "y2": 262.39000000000004
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Versal FPGA launches",
+      "created_at": "2025-09-18T17:45:55.055950",
+      "updated_at": "2025-09-18T17:45:55.055958",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "We expanded our portfolio with differentiated solutions \nfor key markets. We launched the industry’s largest \nFPGA, the Versal Premium VP1902, that has been adopted \nby all major emulation and prototyping companies. We announced several new product families spanning \nmultiple performance and prices ranges including Spartan \nUltrascale+ for cost-optimized applications; Versal RF \nseries for aerospace and defense markets; 2nd Gen Versal \nfamily for edge AI applications that delivers up to 10x more \ncompute and enables AI application acceleration on a single \nchip; Versal Premium Series Gen 2; and Ryzen Embedded \n8000 series with integrated NPU for machine vision, \nrobotics and industrial automation applications. \nour next-gen Alveo card that is the industry’s fastest solution \nfor ultra-low latency trading.",
+      "auto_generated": true
+    },
+    {
+      "id": "b2617e33-d9ee-4e5c-b3e8-ac5f755dbb54",
+      "page_index": 7,
+      "rects": [
+        {
+          "x1": 301.5,
+          "y1": 531.061,
+          "x2": 546.678,
+          "y2": 541.061
+        },
+        {
+          "x1": 301.5,
+          "y1": 543.061,
+          "x2": 533.018,
+          "y2": 553.061
+        },
+        {
+          "x1": 301.5,
+          "y1": 555.061,
+          "x2": 537.011,
+          "y2": 565.061
+        },
+        {
+          "x1": 301.5,
+          "y1": 567.061,
+          "x2": 534.6660000000003,
+          "y2": 577.061
+        },
+        {
+          "x1": 301.5,
+          "y1": 579.061,
+          "x2": 531.0720000000003,
+          "y2": 589.061
+        },
+        {
+          "x1": 301.5,
+          "y1": 591.061,
+          "x2": 524.1579999999999,
+          "y2": 601.061
+        },
+        {
+          "x1": 301.5,
+          "y1": 603.061,
+          "x2": 552.788,
+          "y2": 613.061
+        },
+        {
+          "x1": 301.5,
+          "y1": 615.061,
+          "x2": 460.58,
+          "y2": 625.061
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "AMD Instinct MI300X GPUs",
+      "created_at": "2025-09-18T17:45:57.126050",
+      "updated_at": "2025-09-18T17:45:57.126063",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "Delivering highly-performant and highly efficient processors \nis central to our long-term roadmaps. As an example, we \nset a goal to deliver a 30x increase in energy efficiency for \nAMD processors and accelerators for AI training and high-\nperformance computing from 2020 to 2025. We are well \non track to exceed our goal based on delivering a 28.3x \nimprovement at the end of 2024 with our latest AMD Instinct \nMI300X GPUs and 5th Gen EPYC CPUs.",
+      "auto_generated": true
+    },
+    {
+      "id": "442f36a1-8e43-4e39-a6bd-62999c0ee2de",
+      "page_index": 8,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 301.541,
+          "x2": 195.86299999999997,
+          "y2": 311.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 313.541,
+          "x2": 181.98200000000003,
+          "y2": 323.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 325.541,
+          "x2": 180.32999999999993,
+          "y2": 335.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 337.541,
+          "x2": 191.53699999999998,
+          "y2": 347.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 349.541,
+          "x2": 201.08399999999997,
+          "y2": 359.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 361.541,
+          "x2": 195.526,
+          "y2": 371.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 373.541,
+          "x2": 189.06699999999995,
+          "y2": 383.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 385.541,
+          "x2": 205.38000000000005,
+          "y2": 395.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 397.541,
+          "x2": 194.65199999999993,
+          "y2": 407.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 409.541,
+          "x2": 202.15399999999994,
+          "y2": 419.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 421.541,
+          "x2": 204.87599999999998,
+          "y2": 431.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 433.541,
+          "x2": 100.8,
+          "y2": 443.62100000000004
+        },
+        {
+          "x1": 213.0,
+          "y1": 35.59100000000001,
+          "x2": 364.99899999999997,
+          "y2": 45.59100000000001
+        },
+        {
+          "x1": 213.0,
+          "y1": 47.59100000000001,
+          "x2": 378.25700000000006,
+          "y2": 57.59100000000001
+        },
+        {
+          "x1": 213.0,
+          "y1": 59.59100000000001,
+          "x2": 358.50300000000004,
+          "y2": 69.59100000000001
+        },
+        {
+          "x1": 213.0,
+          "y1": 71.59100000000001,
+          "x2": 351.51499999999993,
+          "y2": 81.59100000000001
+        },
+        {
+          "x1": 213.0,
+          "y1": 83.59100000000001,
+          "x2": 356.16299999999995,
+          "y2": 93.59100000000001
+        },
+        {
+          "x1": 213.0,
+          "y1": 95.59100000000001,
+          "x2": 360.9320000000001,
+          "y2": 105.59100000000001
+        },
+        {
+          "x1": 213.0,
+          "y1": 107.59100000000001,
+          "x2": 347.81999999999994,
+          "y2": 117.59100000000001
+        },
+        {
+          "x1": 213.0,
+          "y1": 119.59100000000001,
+          "x2": 351.6119999999999,
+          "y2": 129.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 131.591,
+          "x2": 361.4710000000001,
+          "y2": 141.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 143.591,
+          "x2": 351.469,
+          "y2": 153.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 155.591,
+          "x2": 361.072,
+          "y2": 165.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 167.591,
+          "x2": 364.349,
+          "y2": 177.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 179.591,
+          "x2": 366.108,
+          "y2": 189.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 191.591,
+          "x2": 373.67299999999994,
+          "y2": 201.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 203.591,
+          "x2": 347.902,
+          "y2": 213.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 215.591,
+          "x2": 351.432,
+          "y2": 225.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 227.591,
+          "x2": 357.12999999999994,
+          "y2": 237.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 239.591,
+          "x2": 346.10300000000007,
+          "y2": 249.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 251.591,
+          "x2": 350.61100000000005,
+          "y2": 261.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 263.59099999999995,
+          "x2": 351.50899999999996,
+          "y2": 273.59099999999995
+        },
+        {
+          "x1": 213.0,
+          "y1": 275.59099999999995,
+          "x2": 379.00700000000006,
+          "y2": 285.59099999999995
+        },
+        {
+          "x1": 213.0,
+          "y1": 287.59099999999995,
+          "x2": 372.03000000000003,
+          "y2": 297.59099999999995
+        },
+        {
+          "x1": 213.0,
+          "y1": 299.59099999999995,
+          "x2": 298.46999999999997,
+          "y2": 309.59099999999995
+        },
+        {
+          "x1": 390.0,
+          "y1": 35.59100000000001,
+          "x2": 537.155,
+          "y2": 45.670999999999935
+        },
+        {
+          "x1": 396.02,
+          "y1": 47.59100000000001,
+          "x2": 530.797,
+          "y2": 57.670999999999935
+        },
+        {
+          "x1": 396.02,
+          "y1": 59.59100000000001,
+          "x2": 536.1010000000001,
+          "y2": 69.67099999999994
+        },
+        {
+          "x1": 396.02,
+          "y1": 71.59100000000001,
+          "x2": 556.3689999999999,
+          "y2": 81.67099999999994
+        },
+        {
+          "x1": 396.02,
+          "y1": 83.59100000000001,
+          "x2": 560.864,
+          "y2": 93.67099999999994
+        },
+        {
+          "x1": 396.02,
+          "y1": 95.59100000000001,
+          "x2": 461.59,
+          "y2": 105.67099999999994
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "AMD Instinct accelerators",
+      "created_at": "2025-09-18T17:45:59.768526",
+      "updated_at": "2025-09-18T17:45:59.768535",
+      "tags": [],
+      "profile_score": 1.0,
+      "extracted_text": "Each of these \napplications will drive demand for \nmassive amounts of additional compute \nacross our data center, PC, gaming and \nembedded business. \n• Executing our multi-year roadmap \nof AMD Instinct accelerators and \noffering turnkey, datacenter-scale \nplatforms that deliver industry-leading \nperformance-per-watt for a broad range \nof AI workloads",
+      "auto_generated": true
+    },
+    {
+      "id": "751414d9-d736-4db2-81d0-1e73b9ceca76",
+      "page_index": 8,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 301.541,
+          "x2": 195.86299999999997,
+          "y2": 311.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 313.541,
+          "x2": 181.98200000000003,
+          "y2": 323.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 325.541,
+          "x2": 180.32999999999993,
+          "y2": 335.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 337.541,
+          "x2": 191.53699999999998,
+          "y2": 347.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 349.541,
+          "x2": 201.08399999999997,
+          "y2": 359.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 361.541,
+          "x2": 195.526,
+          "y2": 371.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 373.541,
+          "x2": 189.06699999999995,
+          "y2": 383.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 385.541,
+          "x2": 205.38000000000005,
+          "y2": 395.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 397.541,
+          "x2": 194.65199999999993,
+          "y2": 407.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 409.541,
+          "x2": 202.15399999999994,
+          "y2": 419.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 421.541,
+          "x2": 204.87599999999998,
+          "y2": 431.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 433.541,
+          "x2": 100.8,
+          "y2": 443.62100000000004
+        },
+        {
+          "x1": 213.0,
+          "y1": 35.59100000000001,
+          "x2": 364.99899999999997,
+          "y2": 45.59100000000001
+        },
+        {
+          "x1": 213.0,
+          "y1": 47.59100000000001,
+          "x2": 378.25700000000006,
+          "y2": 57.59100000000001
+        },
+        {
+          "x1": 213.0,
+          "y1": 59.59100000000001,
+          "x2": 358.50300000000004,
+          "y2": 69.59100000000001
+        },
+        {
+          "x1": 213.0,
+          "y1": 71.59100000000001,
+          "x2": 351.51499999999993,
+          "y2": 81.59100000000001
+        },
+        {
+          "x1": 213.0,
+          "y1": 83.59100000000001,
+          "x2": 356.16299999999995,
+          "y2": 93.59100000000001
+        },
+        {
+          "x1": 213.0,
+          "y1": 95.59100000000001,
+          "x2": 360.9320000000001,
+          "y2": 105.59100000000001
+        },
+        {
+          "x1": 213.0,
+          "y1": 107.59100000000001,
+          "x2": 347.81999999999994,
+          "y2": 117.59100000000001
+        },
+        {
+          "x1": 213.0,
+          "y1": 119.59100000000001,
+          "x2": 351.6119999999999,
+          "y2": 129.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 131.591,
+          "x2": 361.4710000000001,
+          "y2": 141.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 143.591,
+          "x2": 351.469,
+          "y2": 153.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 155.591,
+          "x2": 361.072,
+          "y2": 165.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 167.591,
+          "x2": 364.349,
+          "y2": 177.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 179.591,
+          "x2": 366.108,
+          "y2": 189.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 191.591,
+          "x2": 373.67299999999994,
+          "y2": 201.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 203.591,
+          "x2": 347.902,
+          "y2": 213.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 215.591,
+          "x2": 351.432,
+          "y2": 225.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 227.591,
+          "x2": 357.12999999999994,
+          "y2": 237.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 239.591,
+          "x2": 346.10300000000007,
+          "y2": 249.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 251.591,
+          "x2": 350.61100000000005,
+          "y2": 261.591
+        },
+        {
+          "x1": 213.0,
+          "y1": 263.59099999999995,
+          "x2": 351.50899999999996,
+          "y2": 273.59099999999995
+        },
+        {
+          "x1": 213.0,
+          "y1": 275.59099999999995,
+          "x2": 379.00700000000006,
+          "y2": 285.59099999999995
+        },
+        {
+          "x1": 213.0,
+          "y1": 287.59099999999995,
+          "x2": 372.03000000000003,
+          "y2": 297.59099999999995
+        },
+        {
+          "x1": 213.0,
+          "y1": 299.59099999999995,
+          "x2": 298.46999999999997,
+          "y2": 309.59099999999995
+        },
+        {
+          "x1": 390.0,
+          "y1": 35.59100000000001,
+          "x2": 537.155,
+          "y2": 45.670999999999935
+        },
+        {
+          "x1": 396.02,
+          "y1": 47.59100000000001,
+          "x2": 530.797,
+          "y2": 57.670999999999935
+        },
+        {
+          "x1": 396.02,
+          "y1": 59.59100000000001,
+          "x2": 536.1010000000001,
+          "y2": 69.67099999999994
+        },
+        {
+          "x1": 396.02,
+          "y1": 71.59100000000001,
+          "x2": 556.3689999999999,
+          "y2": 81.67099999999994
+        },
+        {
+          "x1": 396.02,
+          "y1": 83.59100000000001,
+          "x2": 560.864,
+          "y2": 93.67099999999994
+        },
+        {
+          "x1": 396.02,
+          "y1": 95.59100000000001,
+          "x2": 461.59,
+          "y2": 105.67099999999994
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "AI growth opportunities",
+      "created_at": "2025-09-18T17:45:59.768807",
+      "updated_at": "2025-09-18T17:45:59.768810",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "While I am incredibly proud of what we \nhave accomplished, I am even more \nexcited about the opportunities we \nsee over the coming years. AMD has a \ndifferentiated opportunity to enable the \nnext wave of revolutionary solutions in \nmedicine, climate research, industrial \nautomation, personalized computing and \nmore — transforming entire industries, \nreshaping business processes, delivering \nnew experiences, and improving the daily \nlives of billions. Looking ahead, AI will drive the most \nsigniﬁcant transformation in the history \nof computing. This pivotal moment \ncreates an unprecedented growth \nopportunity for AMD, driven by the \nrapid adoption of new AI computing \ninfrastructure that will also drive \nincreased demand for our broader \ncompute portfolio. AI systems must \ncontinually process, interact with, \nand generate insights from massive \nreal-world datasets that run on AMD \nEPYC and AMD Ryzen processors. For \nexample, AI-powered digital assistants \nwill tap into enterprise software, \ndatabases and cloud platforms to \nhandle critical business operations, \nfrom ﬁnancial analysis to supply \nchain optimization.",
+      "auto_generated": true
+    },
+    {
+      "id": "8ae9ef7c-713f-410f-8ea8-4d87714a7176",
+      "page_index": 8,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 181.54100000000005,
+          "x2": 161.815,
+          "y2": 191.54100000000005
+        },
+        {
+          "x1": 36.0,
+          "y1": 193.54100000000005,
+          "x2": 156.01700000000005,
+          "y2": 203.54100000000005
+        },
+        {
+          "x1": 36.0,
+          "y1": 205.54100000000005,
+          "x2": 190.60999999999999,
+          "y2": 215.54100000000005
+        },
+        {
+          "x1": 36.0,
+          "y1": 217.54100000000005,
+          "x2": 171.26799999999997,
+          "y2": 227.54100000000005
+        },
+        {
+          "x1": 36.0,
+          "y1": 229.54100000000005,
+          "x2": 170.04000000000005,
+          "y2": 239.54100000000005
+        },
+        {
+          "x1": 36.0,
+          "y1": 241.54100000000005,
+          "x2": 160.68199999999996,
+          "y2": 251.54100000000005
+        },
+        {
+          "x1": 36.0,
+          "y1": 253.54100000000005,
+          "x2": 170.719,
+          "y2": 263.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 265.541,
+          "x2": 167.77599999999995,
+          "y2": 275.541
+        },
+        {
+          "x1": 36.0,
+          "y1": 277.541,
+          "x2": 169.72000000000008,
+          "y2": 287.62100000000004
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Strategic partnerships",
+      "created_at": "2025-09-18T17:45:59.768913",
+      "updated_at": "2025-09-18T17:45:59.768914",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "Over the past decade, we have \nestablished AMD as the high-\nperformance and adaptive computing \nleader by relentlessly innovating, \nconsistently executing our multi-\ngeneration product roadmaps, \nand building deeply collaborative \nrelationships with an expanding \necosystem of strategic partners.",
+      "auto_generated": true
+    },
+    {
+      "id": "0bf8fe4e-b6e9-42b7-a493-52b027a03563",
+      "page_index": 8,
+      "rects": [
+        {
+          "x1": 213.0,
+          "y1": 359.59099999999995,
+          "x2": 349.57400000000007,
+          "y2": 369.671
+        },
+        {
+          "x1": 221.22,
+          "y1": 371.59099999999995,
+          "x2": 368.2180000000001,
+          "y2": 381.671
+        },
+        {
+          "x1": 221.22,
+          "y1": 383.59099999999995,
+          "x2": 334.934,
+          "y2": 393.671
+        },
+        {
+          "x1": 221.22,
+          "y1": 395.59099999999995,
+          "x2": 363.6569999999999,
+          "y2": 405.671
+        },
+        {
+          "x1": 221.22,
+          "y1": 407.59099999999995,
+          "x2": 367.529,
+          "y2": 417.671
+        },
+        {
+          "x1": 221.22,
+          "y1": 419.59099999999995,
+          "x2": 300.061,
+          "y2": 429.671
+        },
+        {
+          "x1": 390.0,
+          "y1": 323.59099999999995,
+          "x2": 534.7340000000002,
+          "y2": 333.59099999999995
+        },
+        {
+          "x1": 390.0,
+          "y1": 335.59099999999995,
+          "x2": 554.579,
+          "y2": 345.59099999999995
+        },
+        {
+          "x1": 390.0,
+          "y1": 347.59099999999995,
+          "x2": 528.6550000000001,
+          "y2": 357.59099999999995
+        },
+        {
+          "x1": 390.0,
+          "y1": 359.59099999999995,
+          "x2": 541.569,
+          "y2": 369.59099999999995
+        },
+        {
+          "x1": 390.0,
+          "y1": 371.59099999999995,
+          "x2": 539.597,
+          "y2": 381.59099999999995
+        },
+        {
+          "x1": 390.0,
+          "y1": 383.59099999999995,
+          "x2": 551.61,
+          "y2": 393.59099999999995
+        },
+        {
+          "x1": 390.0,
+          "y1": 395.59099999999995,
+          "x2": 527.5860000000001,
+          "y2": 405.59099999999995
+        },
+        {
+          "x1": 390.0,
+          "y1": 407.59099999999995,
+          "x2": 554.99,
+          "y2": 417.59099999999995
+        },
+        {
+          "x1": 390.0,
+          "y1": 419.59099999999995,
+          "x2": 506.68000000000006,
+          "y2": 429.671
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Data center AI growth",
+      "created_at": "2025-09-18T17:46:03.167182",
+      "updated_at": "2025-09-18T17:46:03.167205",
+      "tags": [],
+      "profile_score": 0.95,
+      "extracted_text": "•  Extending our industry-leading \ndata center, PC and gaming product \nportfolios by expanding the \nperformance and energy efficiency \nadvantages of our EPYC, Ryzen and \nRadeon processors \nOur 2024 ﬁnancial results mark the \nbeginning of this new growth trajectory, \nreﬂecting the early returns on the \nincreased investments we have been \nmaking across our portfolio. Looking \nahead, we see signiﬁcant opportunities \nto rapidly scale our data center AI \nbusiness and drive strong growth across \neach of our other segments.",
+      "auto_generated": true
+    },
+    {
+      "id": "0175fe9c-23b2-4450-9077-fa94602eb725",
+      "page_index": 8,
+      "rects": [
+        {
+          "x1": 390.0,
+          "y1": 191.591,
+          "x2": 536.8800000000001,
+          "y2": 201.67099999999994
+        },
+        {
+          "x1": 396.02,
+          "y1": 203.591,
+          "x2": 538.5059999999999,
+          "y2": 213.67099999999994
+        },
+        {
+          "x1": 396.02,
+          "y1": 215.591,
+          "x2": 529.9390000000001,
+          "y2": 225.67099999999994
+        },
+        {
+          "x1": 396.02,
+          "y1": 227.591,
+          "x2": 550.73,
+          "y2": 237.67099999999994
+        },
+        {
+          "x1": 396.02,
+          "y1": 239.591,
+          "x2": 536.3130000000001,
+          "y2": 249.67099999999994
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Leadership AI capabilities",
+      "created_at": "2025-09-18T17:46:03.167787",
+      "updated_at": "2025-09-18T17:46:03.167796",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "• Enabling leadership AI capabilities \nacross our entire product portfolio, \nensuring all of our CPU, GPU and \nadaptive computing products excel at \nboth AI and traditional computing",
+      "auto_generated": true
+    },
+    {
+      "id": "cf21ad83-ed5b-40a0-addb-f34616b501a6",
+      "page_index": 8,
+      "rects": [
+        {
+          "x1": 390.0,
+          "y1": 263.59099999999995,
+          "x2": 558.897,
+          "y2": 273.671
+        },
+        {
+          "x1": 396.02,
+          "y1": 275.59099999999995,
+          "x2": 541.5720000000001,
+          "y2": 285.671
+        },
+        {
+          "x1": 396.02,
+          "y1": 287.59099999999995,
+          "x2": 525.54,
+          "y2": 297.671
+        },
+        {
+          "x1": 396.02,
+          "y1": 299.59099999999995,
+          "x2": 498.829,
+          "y2": 309.671
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "AI software ecosystem",
+      "created_at": "2025-09-18T17:46:03.167998",
+      "updated_at": "2025-09-18T17:46:03.168004",
+      "tags": [],
+      "profile_score": 0.85,
+      "extracted_text": "• Building an open, full-stack AI software \necosystem by strengthening ROCm \nwith the speed and scale of the \nopen-source community.",
+      "auto_generated": true
+    },
+    {
+      "id": "73ef00ab-1f7a-4730-a563-7db783e60a38",
+      "page_index": 8,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 676.2090000000001,
+          "x2": 93.28449999999997,
+          "y2": 683.258
+        },
+        {
+          "x1": 36.0,
+          "y1": 684.21,
+          "x2": 435.54879999999997,
+          "y2": 691.21
+        },
+        {
+          "x1": 35.992999999999995,
+          "y1": 692.211,
+          "x2": 435.65240000000006,
+          "y2": 699.211
+        },
+        {
+          "x1": 35.99299999999994,
+          "y1": 700.212,
+          "x2": 435.61319999999995,
+          "y2": 707.212
+        },
+        {
+          "x1": 35.99299999999994,
+          "y1": 708.213,
+          "x2": 435.51730000000003,
+          "y2": 715.213
+        },
+        {
+          "x1": 35.99299999999994,
+          "y1": 716.214,
+          "x2": 435.59849999999875,
+          "y2": 723.214
+        },
+        {
+          "x1": 35.99299999999994,
+          "y1": 724.215,
+          "x2": 435.52010000000007,
+          "y2": 731.264
+        },
+        {
+          "x1": 35.99299999999994,
+          "y1": 732.216,
+          "x2": 348.354,
+          "y2": 739.216
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "AMD AI strategy",
+      "created_at": "2025-09-18T17:46:05.655905",
+      "updated_at": "2025-09-18T17:46:05.655925",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "CAUTIONARY STATEMENT \nThis  letter  contains  forward-looking  statements,  including  but  not  limited  to,  the  features,  functionality,  availability,  timing,  performance,  expectations,  adoption  and  expected \nbeneﬁts of AMD’s products and future products; the future of AI and the signiﬁcant growth opportunities for AMD AI solutions; AMD’s AI strategy; the total addressable market for AI \naccelerators; expected launches by AMD’s cloud partners and server providers; expected beneﬁts of AMD’s acquisition of Silo AI; AMD’s planned acquisition of ZT Systems and potential \nbeneﬁts; AMD’s strategic priorities; and AMD’s new growth trajectory and signiﬁcant opportunities to rapidly scale data center AI business while driving strong growth across other \nsegments, which are made pursuant to the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. Investors are cautioned that forward-looking statements \ncontained herein involve risk and uncertainties that could cause actual results to differ materially from current expectations.",
+      "auto_generated": true
+    },
+    {
+      "id": "ea0a2a4e-1a73-49ec-9ff8-9e5bd5b56e43",
+      "page_index": 8,
+      "rects": [
+        {
+          "x1": 36.0,
+          "y1": 676.2090000000001,
+          "x2": 93.28449999999997,
+          "y2": 683.258
+        },
+        {
+          "x1": 36.0,
+          "y1": 684.21,
+          "x2": 435.54879999999997,
+          "y2": 691.21
+        },
+        {
+          "x1": 35.992999999999995,
+          "y1": 692.211,
+          "x2": 435.65240000000006,
+          "y2": 699.211
+        },
+        {
+          "x1": 35.99299999999994,
+          "y1": 700.212,
+          "x2": 435.61319999999995,
+          "y2": 707.212
+        },
+        {
+          "x1": 35.99299999999994,
+          "y1": 708.213,
+          "x2": 435.51730000000003,
+          "y2": 715.213
+        },
+        {
+          "x1": 35.99299999999994,
+          "y1": 716.214,
+          "x2": 435.59849999999875,
+          "y2": 723.214
+        },
+        {
+          "x1": 35.99299999999994,
+          "y1": 724.215,
+          "x2": 435.52010000000007,
+          "y2": 731.264
+        },
+        {
+          "x1": 35.99299999999994,
+          "y1": 732.216,
+          "x2": 348.354,
+          "y2": 739.216
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Risk and uncertainties",
+      "created_at": "2025-09-18T17:46:05.656510",
+      "updated_at": "2025-09-18T17:46:05.656518",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "We urge investors to review in detail the risk and \nuncertainties in our Securities and Exchange Commission ﬁlings, including but not limited to our most recent reports on Forms 10-K and 10-Q.",
+      "auto_generated": true
+    },
+    {
+      "id": "5e861ba0-0cfe-4fcf-b05b-fd6ecff02fe9",
+      "page_index": 14,
+      "rects": [
+        {
+          "x1": 89.0,
+          "y1": 127.16999999999996,
+          "x2": 502.5,
+          "y2": 137.16999999999996
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Risk factors",
+      "created_at": "2025-09-18T17:46:18.466657",
+      "updated_at": "2025-09-18T17:46:18.466680",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "ITEM 1A. Risk Factors  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+      "auto_generated": true
+    }
+  ],
+  "profile_context": "{\"global_profile\": \"I am an experienced software engineer who is comfortable with technical details, but I do not have a hardware engineering or chip design background. I have read about GPUs and semiconductors for a few weeks now, so I do know some of the basics, but I am still a beginner. I am well-versed in finance, accounting, and economics. I am at an intermediate, not an advanced level though. I am looking to find great, underrated investment opportunities in the tech industry.\", \"document_goal\": \"This is AMD's annual report. I want to understand their data center or DC GPU business. I specifically want to understand key risks in their business, key opportunities, their customers, recent wins, milestones, future roadmaps, and any other information to help me evaluate their data center AI GPU business. I want to see how they compare to Nvidia or Broadcom who also make AI semiconductor chips. I want to focus the highlights on key information that will help me make a decision in whether to invest in AMD or not.\", \"density\": 0.1}",
+  "global_profile": "I am an experienced software engineer who is comfortable with technical details, but I do not have a hardware engineering or chip design background. I have read about GPUs and semiconductors for a few weeks now, so I do know some of the basics, but I am still a beginner. I am well-versed in finance, accounting, and economics. I am at an intermediate, not an advanced level though. I am looking to find great, underrated investment opportunities in the tech industry.",
+  "document_goal": "This is AMD's annual report. I want to understand their data center or DC GPU business. I specifically want to understand key risks in their business, key opportunities, their customers, recent wins, milestones, future roadmaps, and any other information to help me evaluate their data center AI GPU business. I want to see how they compare to Nvidia or Broadcom who also make AI semiconductor chips. I want to focus the highlights on key information that will help me make a decision in whether to invest in AMD or not.",
+  "highlight_density_target": 0.1,
+  "version": 1
+}
