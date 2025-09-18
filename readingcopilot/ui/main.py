@@ -147,19 +147,28 @@ class MainWindow(QMainWindow):
     def _focus_highlight(self, hl):
         if not self.viewer._pdf:
             return
-        # Switch page if needed
-        if hl.page_index != self.viewer._page_index:
-            self.viewer._page_index = hl.page_index
-            self.viewer._render_current_page()
-            self.viewer._restore_highlights()
-        # Center view on highlight's first rect
-        if hl.rects:
-            r = hl.rects[0].normalize()
-            zoom = 1.3
-            sx = r.x1 * zoom
-            sy = r.y1 * zoom
-            self.viewer.centerOn(sx, sy)
-        self._update_page_label(self.viewer._page_index)
+        # In continuous mode just scroll; in single-page mode re-render.
+        if self.viewer.continuous_mode:
+            if hl.rects:
+                r = hl.rects[0].normalize()
+                zoom = self.viewer._zoom
+                y_offset = self.viewer._page_offsets.get(hl.page_index, 0.0)
+                self.viewer.centerOn(r.x1 * zoom, r.y1 * zoom + y_offset)
+            if hl.page_index != self.viewer._page_index:
+                self.viewer._page_index = hl.page_index
+                self._update_page_label(self.viewer._page_index)
+        else:
+            if hl.page_index != self.viewer._page_index:
+                self.viewer._page_index = hl.page_index
+                self.viewer._render_single_page()
+                # redraw highlights only for this page
+                self.viewer.clear_highlight_items()
+                self.viewer._restore_highlights()
+            if hl.rects:
+                r = hl.rects[0].normalize()
+                zoom = self.viewer._zoom
+                self.viewer.centerOn(r.x1 * zoom, r.y1 * zoom)
+            self._update_page_label(self.viewer._page_index)
 
     # ---- AI Integration ----
     def edit_profile(self):
@@ -231,11 +240,11 @@ class MainWindow(QMainWindow):
             return
         added = 0
         for hl in new_highlights:
-            # Avoid duplicate rectangles with identical text already present
             if any((existing.extracted_text == hl.extracted_text and existing.page_index == hl.page_index) for existing in doc.highlights):
                 continue
             doc.add_highlight(hl)
-            if hl.page_index == self.viewer._page_index:
+            # Always draw highlight in continuous mode; otherwise only if on current page
+            if self.viewer.continuous_mode or hl.page_index == self.viewer._page_index:
                 self.viewer._draw_highlight(hl)
             added += 1
         self.panel.refresh_list()
@@ -267,7 +276,12 @@ class MainWindow(QMainWindow):
         doc.clear_highlights()
         # Re-render current page (remove overlay items)
         if self.viewer._pdf:
-            self.viewer._render_current_page()
+            if self.viewer.continuous_mode:
+                # Remove highlight items only
+                self.viewer.clear_highlight_items()
+                # Re-draw remaining highlights (there will be none after clear)
+            else:
+                self.viewer._render_single_page()
         self.panel.refresh_list()
         try:
             doc.save()

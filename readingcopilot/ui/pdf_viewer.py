@@ -194,6 +194,23 @@ class PDFViewer(QGraphicsView):
         for hl in self.annotation_doc.highlights:
             self._draw_highlight(hl)
 
+    def scroll_to_page(self, page_index: int):
+        if not self._pdf:
+            return
+        if 0 <= page_index < self._pdf.page_count():
+            self._page_index = page_index
+            if self.continuous_mode:
+                self.centerOn(0, self._page_offsets.get(page_index, 0) + 10)
+                self.pageChanged.emit(self._page_index)
+            else:
+                self._render_single_page(); self._restore_highlights()
+
+    def clear_highlight_items(self):
+        scene = self.scene()
+        for item in list(scene.items()):
+            if isinstance(item, HighlightGraphicsRect):
+                scene.removeItem(item)
+
     def wheelEvent(self, event):  # noqa: N802
         if not self._pdf:
             return super().wheelEvent(event)
