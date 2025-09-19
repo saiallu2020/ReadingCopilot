@@ -243,7 +243,7 @@ class MainWindow(QMainWindow):
         if self._active_stream_worker:
             QMessageBox.information(self, "In Progress", "Another highlight generation is running.")
             return
-        self._start_spinner("AI")
+        self._start_spinner("Analyzing")
         self._start_stream_worker(pdf_path=doc.pdf_path, density=density, page_filter=page_set)
 
     @staticmethod

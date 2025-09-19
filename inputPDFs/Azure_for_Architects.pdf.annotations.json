@@ -1,6 +1,2191 @@
 {
   "pdf_path": "C:/Users/saiallu/source/repos/ReadingCopilot/inputPDFs/Azure_for_Architects.pdf",
-  "highlights": [],
+  "highlights": [
+    {
+      "id": "6efc989d-2aad-451e-8315-a2ac8ff2ada0",
+      "page_index": 34,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 18.397500000000036,
+          "x2": 179.1828,
+          "y2": 29.518500000000017
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Getting started Azure",
+      "created_at": "2025-09-18T19:55:52.146140",
+      "updated_at": "2025-09-18T19:55:52.146164",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "2 | Getting started with Azure",
+      "auto_generated": true
+    },
+    {
+      "id": "bc7e24d2-3def-4adc-9d3a-54674e48c861",
+      "page_index": 34,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 104.981,
+          "x2": 462.23290000000003,
+          "y2": 116.12400000000002
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Hosting services",
+      "created_at": "2025-09-18T19:55:52.146507",
+      "updated_at": "2025-09-18T19:55:52.146513",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "hosted or hosted using a service provider, such as an internet service provider (ISP).",
+      "auto_generated": true
+    },
+    {
+      "id": "5dcfa063-ed98-4370-ab05-2ed1efd68814",
+      "page_index": 34,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 174.981,
+          "x2": 449.5958,
+          "y2": 185.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Rise of cloud computing",
+      "created_at": "2025-09-18T19:55:54.501891",
+      "updated_at": "2025-09-18T19:55:54.501903",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "of the 2000s. This was the rise of cloud computing, and it again rewrote the entire",
+      "auto_generated": true
+    },
+    {
+      "id": "2389387f-1994-4960-a203-1cbca402cc98",
+      "page_index": 34,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 237.981,
+          "x2": 476.6150999999999,
+          "y2": 248.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Understanding disruptive tech",
+      "created_at": "2025-09-18T19:55:54.502278",
+      "updated_at": "2025-09-18T19:55:54.502280",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "To gain a better understanding of the disruptive technology, we will cover the following",
+      "auto_generated": true
+    },
+    {
+      "id": "53a184d8-0c7e-4425-bb7e-0bec9ea3c87f",
+      "page_index": 34,
+      "rects": [
+        {
+          "x1": 40.5,
+          "y1": 349.981,
+          "x2": 220.89409999999998,
+          "y2": 361.124
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Azure Resource Manager",
+      "created_at": "2025-09-18T19:55:56.958950",
+      "updated_at": "2025-09-18T19:55:56.958961",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "•  Azure Resource Manager (ARM)",
+      "auto_generated": true
+    },
+    {
+      "id": "210d0f9d-878e-453f-8b52-316193211e37",
+      "page_index": 34,
+      "rects": [
+        {
+          "x1": 40.5,
+          "y1": 370.981,
+          "x2": 247.9333,
+          "y2": 381.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Virtualization and containers",
+      "created_at": "2025-09-18T19:55:56.959191",
+      "updated_at": "2025-09-18T19:55:56.959194",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "•  Virtualization, containers, and Docker",
+      "auto_generated": true
+    },
+    {
+      "id": "c80e7b8c-bee4-408f-a0fe-91211cfbbc1e",
+      "page_index": 34,
+      "rects": [
+        {
+          "x1": 40.5,
+          "y1": 391.981,
+          "x2": 242.03290000000004,
+          "y2": 402.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Intelligent cloud interaction",
+      "created_at": "2025-09-18T19:55:56.959327",
+      "updated_at": "2025-09-18T19:55:56.959329",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "•  Interacting with the intelligent cloud",
+      "auto_generated": true
+    },
+    {
+      "id": "966770de-89d9-486b-83a2-e1ae7c2c4c0f",
+      "page_index": 34,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 552.981,
+          "x2": 469.9557000000001,
+          "y2": 563.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Storage as a service",
+      "created_at": "2025-09-18T19:56:01.874977",
+      "updated_at": "2025-09-18T19:56:01.874989",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "to store their files, documents, and more. Here, storage is a service that is offered by a",
+      "auto_generated": true
+    },
+    {
+      "id": "950bf093-4d62-417f-a748-a746afacf45f",
+      "page_index": 34,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 566.981,
+          "x2": 104.14959999999999,
+          "y2": 577.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Cloud provider storage",
+      "created_at": "2025-09-18T19:56:01.875258",
+      "updated_at": "2025-09-18T19:56:01.875261",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "cloud provider.",
+      "auto_generated": true
+    },
+    {
+      "id": "c8fd8465-6fda-43ed-bf4c-cc3468e03496",
+      "page_index": 34,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 538.981,
+          "x2": 474.33150000000006,
+          "y2": 549.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "On-demand storage",
+      "created_at": "2025-09-18T19:56:01.875447",
+      "updated_at": "2025-09-18T19:56:01.875452",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "as services. For example, storage is available on-demand through the internet for users",
+      "auto_generated": true
+    },
+    {
+      "id": "472b11b5-39b7-4979-8981-4776c3fd8b2e",
+      "page_index": 35,
+      "rects": [
+        {
+          "x1": 76.5,
+          "y1": 237.981,
+          "x2": 514.1318,
+          "y2": 249.12400000000002
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Pay-as-you-go model",
+      "created_at": "2025-09-18T19:56:09.355320",
+      "updated_at": "2025-09-18T19:56:09.355336",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "•  Pay-as-you-go model: Customers do not need to purchase hardware and software",
+      "auto_generated": true
+    },
+    {
+      "id": "4262f584-08e8-4355-9a59-83c2626eb2ec",
+      "page_index": 35,
+      "rects": [
+        {
+          "x1": 76.5,
+          "y1": 286.981,
+          "x2": 471.53070000000014,
+          "y2": 298.124
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Global access",
+      "created_at": "2025-09-18T19:56:09.355636",
+      "updated_at": "2025-09-18T19:56:09.355641",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "•  Global access: Cloud resources are available globally through the internet.",
+      "auto_generated": true
+    },
+    {
+      "id": "f2805e65-5e1e-47d2-9ee9-dee51eb9d2ed",
+      "page_index": 35,
+      "rects": [
+        {
+          "x1": 76.5,
+          "y1": 321.981,
+          "x2": 486.31119999999993,
+          "y2": 333.124
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Unlimited scalability",
+      "created_at": "2025-09-18T19:56:11.295310",
+      "updated_at": "2025-09-18T19:56:11.295321",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "•  Unlimited resources: The scaling capability of cloud technology is unlimited;",
+      "auto_generated": true
+    },
+    {
+      "id": "061e7f30-4075-4221-8fa8-d71d66075d6e",
+      "page_index": 35,
+      "rects": [
+        {
+          "x1": 76.5,
+          "y1": 370.981,
+          "x2": 478.2363000000002,
+          "y2": 382.124
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Managed services",
+      "created_at": "2025-09-18T19:56:11.295551",
+      "updated_at": "2025-09-18T19:56:11.295555",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "•  Managed services: The cloud provider provides numerous services that are",
+      "auto_generated": true
+    },
+    {
+      "id": "7c6ffb88-c1a7-4458-9ebe-c7e0e965f4bc",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 69.981,
+          "x2": 419.0620000000001,
+          "y2": 80.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Microservices paradigm",
+      "created_at": "2025-09-18T19:56:13.655808",
+      "updated_at": "2025-09-18T19:56:13.655823",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Instead of creating a large monolithic application using a big-bang approach",
+      "auto_generated": true
+    },
+    {
+      "id": "c6912b08-c810-4f8b-bd9f-fbb383c7b216",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 97.981,
+          "x2": 443.1960000000002,
+          "y2": 108.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Independent services",
+      "created_at": "2025-09-18T19:56:13.656124",
+      "updated_at": "2025-09-18T19:56:13.656130",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "microservices paradigm. Microservices help to create services in an independent",
+      "auto_generated": true
+    },
+    {
+      "id": "23ed0b50-dd07-4457-a54f-400b17b0bf5c",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 167.981,
+          "x2": 470.58600000000007,
+          "y2": 178.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Microservices endpoints",
+      "created_at": "2025-09-18T19:56:16.313698",
+      "updated_at": "2025-09-18T19:56:16.313708",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "microservices should be discoverable and have well-defined endpoints for integration.",
+      "auto_generated": true
+    },
+    {
+      "id": "5c77a9f6-f231-44d4-934f-62f0ff9ac4b1",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 181.981,
+          "x2": 456.81290000000007,
+          "y2": 192.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Integration complexity",
+      "created_at": "2025-09-18T19:56:16.313907",
+      "updated_at": "2025-09-18T19:56:16.313910",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "The number of integrations with the microservices approach is very high compared",
+      "auto_generated": true
+    },
+    {
+      "id": "2f272ead-c6ff-4be9-84f7-85b0e4340dec",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 125.981,
+          "x2": 474.887,
+          "y2": 136.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Flexibility and agility",
+      "created_at": "2025-09-18T19:56:16.314829",
+      "updated_at": "2025-09-18T19:56:16.314832",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "application down. They offer large amounts of flexibility and agility in bringing changes",
+      "auto_generated": true
+    },
+    {
+      "id": "f0c68e16-c9e4-481a-a1ce-435ce29a755e",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 231.12400000000002,
+          "x2": 237.45090000000002,
+          "y2": 242.12400000000002
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Standardization and consistency",
+      "created_at": "2025-09-18T19:56:16.315031",
+      "updated_at": "2025-09-18T19:56:16.315033",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "Speed, standardization, and consistency",
+      "auto_generated": true
+    },
+    {
+      "id": "3decf6e9-131e-4d00-a252-a842be93efb2",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 279.981,
+          "x2": 457.0186000000001,
+          "y2": 290.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Consistent processes",
+      "created_at": "2025-09-18T19:56:20.307624",
+      "updated_at": "2025-09-18T19:56:20.307637",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "For frequent changes and deployments, it is important to use processes that help in",
+      "auto_generated": true
+    },
+    {
+      "id": "71b77a3f-3a7c-4a0d-beee-b8072e9fe831",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 307.981,
+          "x2": 450.98620000000005,
+          "y2": 318.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Smaller changes",
+      "created_at": "2025-09-18T19:56:20.307916",
+      "updated_at": "2025-09-18T19:56:20.307919",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "processes should be used such that smaller changes can be deployed and tested in",
+      "auto_generated": true
+    },
+    {
+      "id": "2daafa73-1fdd-42a7-8c6f-711b745ce131",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 293.981,
+          "x2": 471.79709999999994,
+          "y2": 304.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Automated agile processes",
+      "created_at": "2025-09-18T19:56:20.307997",
+      "updated_at": "2025-09-18T19:56:20.307999",
+      "tags": [],
+      "profile_score": 0.85,
+      "extracted_text": "bringing about these changes in a predictable and consistent manner. Automated agile",
+      "auto_generated": true
+    },
+    {
+      "id": "655ff75e-3d40-4d78-88d3-23e5290d37bc",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 265.981,
+          "x2": 453.7021000000001,
+          "y2": 276.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Frequent deployments",
+      "created_at": "2025-09-18T19:56:20.308057",
+      "updated_at": "2025-09-18T19:56:20.308060",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "to the needs of these services, that is, frequent changes and frequent deployments.",
+      "auto_generated": true
+    },
+    {
+      "id": "a887fd00-4731-4882-80a0-e7850be7836e",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 363.981,
+          "x2": 461.5022000000001,
+          "y2": 374.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Deployment targets",
+      "created_at": "2025-09-18T19:56:20.308108",
+      "updated_at": "2025-09-18T19:56:20.308110",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "Finally, deployment targets should be redefined. Not only should deployment targets",
+      "auto_generated": true
+    },
+    {
+      "id": "4ef49466-a3cf-4416-a4df-58fbe78e7313",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 251.981,
+          "x2": 473.44599999999997,
+          "y2": 262.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Deployment methodology",
+      "created_at": "2025-09-18T19:56:20.308158",
+      "updated_at": "2025-09-18T19:56:20.308160",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "It follows that the methodology for deployments should also undergo changes to adapt",
+      "auto_generated": true
+    },
+    {
+      "id": "1b5a948f-73bd-4ed3-bd5e-f1824e6d2d32",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 321.981,
+          "x2": 73.3694,
+          "y2": 332.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Staying relevant",
+      "created_at": "2025-09-18T19:56:20.308208",
+      "updated_at": "2025-09-18T19:56:20.308210",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "isolation.",
+      "auto_generated": true
+    },
+    {
+      "id": "f37c186e-5e56-4f42-b151-d4deb65158d5",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 469.124,
+          "x2": 81.7327,
+          "y2": 480.124
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Scalability",
+      "created_at": "2025-09-18T19:56:24.435758",
+      "updated_at": "2025-09-18T19:56:24.435777",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Scalability",
+      "auto_generated": true
+    },
+    {
+      "id": "625ca2e2-f140-4674-bef7-dbbb4467771c",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 433.981,
+          "x2": 468.8700000000002,
+          "y2": 444.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Container technology",
+      "created_at": "2025-09-18T19:56:24.436272",
+      "updated_at": "2025-09-18T19:56:24.436279",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "technology is the preferred mechanism for deployment targets for these services, and",
+      "auto_generated": true
+    },
+    {
+      "id": "e926ee6b-96ce-43fe-90dd-ba89cbc42635",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 489.981,
+          "x2": 465.6062999999999,
+          "y2": 500.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Unlimited scaling",
+      "created_at": "2025-09-18T19:56:24.436438",
+      "updated_at": "2025-09-18T19:56:24.436444",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "Some important tenets of using microservices are that they have an unlimited scaling",
+      "auto_generated": true
+    },
+    {
+      "id": "915a466e-d172-48b8-bc08-f1849694436d",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 419.981,
+          "x2": 443.9011,
+          "y2": 430.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Agility and flexibility",
+      "created_at": "2025-09-18T19:56:24.436578",
+      "updated_at": "2025-09-18T19:56:24.436583",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "agility, flexibility, and a more lightweight option than virtual machines. Container",
+      "auto_generated": true
+    },
+    {
+      "id": "d2213875-e29b-48c0-a038-5049544b0fe7",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 405.981,
+          "x2": 471.95000000000005,
+          "y2": 416.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Monolithic to microservices",
+      "created_at": "2025-09-18T19:56:24.436698",
+      "updated_at": "2025-09-18T19:56:24.436703",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "Virtual machines were used with monolithic applications but microservices need more",
+      "auto_generated": true
+    },
+    {
+      "id": "c628d76f-fba7-422b-9e12-d74dd7610df1",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 503.981,
+          "x2": 438.9940000000001,
+          "y2": 514.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Disaster recovery objectives",
+      "created_at": "2025-09-18T19:56:26.860449",
+      "updated_at": "2025-09-18T19:56:26.860460",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "capability in isolation, global high availability, disaster recovery with a near-zero",
+      "auto_generated": true
+    },
+    {
+      "id": "43e0a2a7-21b5-4b6f-bb2b-170fa3bc1313",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 531.981,
+          "x2": 472.31520000000006,
+          "y2": 542.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Unlimited scalability",
+      "created_at": "2025-09-18T19:56:26.860709",
+      "updated_at": "2025-09-18T19:56:26.860712",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "infrastructure that can scale in an unlimited fashion. There should not be any resource",
+      "auto_generated": true
+    },
+    {
+      "id": "380b6b96-0330-4a4b-a89e-f25e503b91c9",
+      "page_index": 36,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 559.981,
+          "x2": 279.1651,
+          "y2": 570.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Resource cost optimization",
+      "created_at": "2025-09-18T19:56:26.860785",
+      "updated_at": "2025-09-18T19:56:26.860787",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "for resources up front when they are not utilized.",
+      "auto_generated": true
+    },
+    {
+      "id": "e510c1a1-6398-4b29-8fa0-f845dedd3588",
+      "page_index": 37,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 111.981,
+          "x2": 511.0135,
+          "y2": 122.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Scalability and availability",
+      "created_at": "2025-09-18T19:56:31.271725",
+      "updated_at": "2025-09-18T19:56:31.271747",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "as the preferred platform to scale easily, be highly available, be disaster-resistant, bring",
+      "auto_generated": true
+    },
+    {
+      "id": "7b6560dd-b628-4d88-b19c-d1df2fd2b7eb",
+      "page_index": 37,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 167.38400000000001,
+          "x2": 249.10799999999998,
+          "y2": 179.38400000000001
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Azure deployment paradigms",
+      "created_at": "2025-09-18T19:56:31.272425",
+      "updated_at": "2025-09-18T19:56:31.272433",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Deployment paradigms in Azure",
+      "auto_generated": true
+    },
+    {
+      "id": "09b77a4b-2a81-47e5-8747-05fa80145083",
+      "page_index": 37,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 188.981,
+          "x2": 499.44040000000007,
+          "y2": 199.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Deployment patterns",
+      "created_at": "2025-09-18T19:56:31.272565",
+      "updated_at": "2025-09-18T19:56:31.272569",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "There are three different deployment patterns that are available in Azure; they are as",
+      "auto_generated": true
+    },
+    {
+      "id": "1f2f755c-cb97-41a0-83d3-3a5a55503528",
+      "page_index": 37,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 202.981,
+          "x2": 102.0621,
+          "y2": 213.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Deployment options",
+      "created_at": "2025-09-18T19:56:31.272662",
+      "updated_at": "2025-09-18T19:56:31.272665",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "follows:",
+      "auto_generated": true
+    },
+    {
+      "id": "ce4f2fe2-79ca-4e67-a700-f91514f67cd4",
+      "page_index": 37,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 97.981,
+          "x2": 510.0191000000001,
+          "y2": 108.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Cloud computing principles",
+      "created_at": "2025-09-18T19:56:31.272749",
+      "updated_at": "2025-09-18T19:56:31.272752",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "tenet of cloud computing. These emerging application requirements demand the cloud",
+      "auto_generated": true
+    },
+    {
+      "id": "8bef1754-8274-42d4-81e4-895c4f12b22e",
+      "page_index": 37,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 125.981,
+          "x2": 504.2463000000001,
+          "y2": 136.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Automated deployments",
+      "created_at": "2025-09-18T19:56:31.272980",
+      "updated_at": "2025-09-18T19:56:31.272983",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "in changes easily, and achieve predictable and consistent automated deployments in a",
+      "auto_generated": true
+    },
+    {
+      "id": "2a57a741-56bd-4496-93ea-4aa222135a12",
+      "page_index": 37,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 83.981,
+          "x2": 486.1721999999999,
+          "y2": 94.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Resource optimization",
+      "created_at": "2025-09-18T19:56:31.273080",
+      "updated_at": "2025-09-18T19:56:31.273084",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "and decreasing the resource counts and capacity automatically is the fundamental",
+      "auto_generated": true
+    },
+    {
+      "id": "83763979-02a8-4f11-83b1-da36ef7a988a",
+      "page_index": 37,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 139.981,
+          "x2": 178.65949999999995,
+          "y2": 150.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Cost-effective solutions",
+      "created_at": "2025-09-18T19:56:31.273161",
+      "updated_at": "2025-09-18T19:56:31.273165",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "cost-effective manner.",
+      "auto_generated": true
+    },
+    {
+      "id": "b99fdee5-c693-4747-a882-fcdf98c73d5d",
+      "page_index": 37,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 293.981,
+          "x2": 492.15729999999996,
+          "y2": 304.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Deployment control levels",
+      "created_at": "2025-09-18T19:56:33.119902",
+      "updated_at": "2025-09-18T19:56:33.119921",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "The difference between these three deployment patterns is the level of control that",
+      "auto_generated": true
+    },
+    {
+      "id": "4aa20610-b35c-46ef-bbf8-f3c8d121393b",
+      "page_index": 37,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 307.981,
+          "x2": 493.76089999999994,
+          "y2": 319.124
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Control in Azure services",
+      "created_at": "2025-09-18T19:56:33.120294",
+      "updated_at": "2025-09-18T19:56:33.120300",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "is exercised by customers via Azure. Figure 1.1 displays the different levels of control",
+      "auto_generated": true
+    },
+    {
+      "id": "1d7243ca-8ae4-40f7-a4b4-ca55409c6e67",
+      "page_index": 38,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 48.980999999999995,
+          "x2": 414.564,
+          "y2": 60.124000000000024
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "IaaS control benefits",
+      "created_at": "2025-09-18T19:56:41.612116",
+      "updated_at": "2025-09-18T19:56:41.612133",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "It is clear from Figure 1.1 that customers have more control when using IaaS",
+      "auto_generated": true
+    },
+    {
+      "id": "c9f4ba1b-d503-4b4e-a3b5-aa27bd9da748",
+      "page_index": 38,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 62.980999999999995,
+          "x2": 468.44649999999996,
+          "y2": 73.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "PaaS control tradeoff",
+      "created_at": "2025-09-18T19:56:41.612464",
+      "updated_at": "2025-09-18T19:56:41.612469",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "deployments, and this level of control continually decreases as we progress from PaaS",
+      "auto_generated": true
+    },
+    {
+      "id": "c4e44175-62cf-4a12-87f9-8e74f950847f",
+      "page_index": 38,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 76.981,
+          "x2": 138.892,
+          "y2": 87.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "SaaS control tradeoff",
+      "created_at": "2025-09-18T19:56:41.612592",
+      "updated_at": "2025-09-18T19:56:41.612596",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "to SaaS deployments.",
+      "auto_generated": true
+    },
+    {
+      "id": "de44d235-32d2-424a-b57c-2ef4d7913cb8",
+      "page_index": 38,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 188.981,
+          "x2": 446.99100000000004,
+          "y2": 199.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Customer Azure operations",
+      "created_at": "2025-09-18T19:56:44.784292",
+      "updated_at": "2025-09-18T19:56:44.784306",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "this approach, customers require active management and operations in the Azure",
+      "auto_generated": true
+    },
+    {
+      "id": "55016af8-94e2-4ab0-bbfc-088cd3043e80",
+      "page_index": 38,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 160.981,
+          "x2": 468.28589999999986,
+          "y2": 171.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Azure physical maintenance",
+      "created_at": "2025-09-18T19:56:44.784622",
+      "updated_at": "2025-09-18T19:56:44.784626",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "governing their own infrastructure. Azure will ensure the maintenance of the physical",
+      "auto_generated": true
+    },
+    {
+      "id": "5f3243dc-e2b2-4676-82b1-20d536b609e6",
+      "page_index": 38,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 118.981,
+          "x2": 439.18430000000006,
+          "y2": 129.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "IaaS provisioning",
+      "created_at": "2025-09-18T19:56:44.784724",
+      "updated_at": "2025-09-18T19:56:44.784727",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "IaaS is a type of deployment model that allows customers to provision their own",
+      "auto_generated": true
+    },
+    {
+      "id": "fce57b05-aa62-45e0-a655-f73e89cd3e4c",
+      "page_index": 38,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 244.981,
+          "x2": 458.18569999999994,
+          "y2": 255.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "PaaS abstraction",
+      "created_at": "2025-09-18T19:56:47.190431",
+      "updated_at": "2025-09-18T19:56:47.190452",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "PaaS takes away infrastructure deployment and control from the customer. This is a",
+      "auto_generated": true
+    },
+    {
+      "id": "c1d5900e-241d-4931-9274-3b55c8159041",
+      "page_index": 38,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 272.981,
+          "x2": 460.67060000000015,
+          "y2": 283.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Customer application responsibility",
+      "created_at": "2025-09-18T19:56:47.190867",
+      "updated_at": "2025-09-18T19:56:47.190872",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "application, code, and data, and deploy them on the Azure-provided platform. These",
+      "auto_generated": true
+    },
+    {
+      "id": "4215a868-964f-4b24-90fc-c190bb44984e",
+      "page_index": 38,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 314.981,
+          "x2": 468.3222000000001,
+          "y2": 325.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Faster application deployment",
+      "created_at": "2025-09-18T19:56:47.191005",
+      "updated_at": "2025-09-18T19:56:47.191009",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "only. This model provides faster and easier options for the deployment of applications",
+      "auto_generated": true
+    },
+    {
+      "id": "ce4ed69b-5280-4137-964f-1cd7d4ea2356",
+      "page_index": 38,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 370.981,
+          "x2": 470.5794000000001,
+          "y2": 381.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "SaaS abstraction",
+      "created_at": "2025-09-18T19:56:49.293205",
+      "updated_at": "2025-09-18T19:56:49.293223",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "SaaS is a higher-level abstraction compared to PaaS. In this approach, software and its",
+      "auto_generated": true
+    },
+    {
+      "id": "5f631c07-0c49-4e76-9854-4be98cab81bf",
+      "page_index": 38,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 475.981,
+          "x2": 460.1877000000001,
+          "y2": 486.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Azure cloud benefits",
+      "created_at": "2025-09-18T19:56:49.293612",
+      "updated_at": "2025-09-18T19:56:49.293617",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "Azure provides all the benefits of the cloud while remaining open and flexible. Azure",
+      "auto_generated": true
+    },
+    {
+      "id": "b35f0de4-8a12-45dc-b73f-928d8ebd7345",
+      "page_index": 38,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 545.981,
+          "x2": 448.15039999999993,
+          "y2": 556.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Continuous integration tools",
+      "created_at": "2025-09-18T19:56:51.751196",
+      "updated_at": "2025-09-18T19:56:51.751217",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Cosmos DB, and it also supports continuous integration tools, such as Jenkins and",
+      "auto_generated": true
+    },
+    {
+      "id": "783db671-3522-4cf9-a302-c6453e860e62",
+      "page_index": 38,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 587.981,
+          "x2": 457.38380000000006,
+          "y2": 598.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Freedom of choice ecosystem",
+      "created_at": "2025-09-18T19:56:51.751803",
+      "updated_at": "2025-09-18T19:56:51.751811",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "own language, platform, operating system, database, storage, and tools and utilities.",
+      "auto_generated": true
+    },
+    {
+      "id": "5fad1023-e1a1-457f-97ad-961275f69848",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 48.980999999999995,
+          "x2": 470.2112000000002,
+          "y2": 59.980999999999995
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Technology stack compatibility",
+      "created_at": "2025-09-18T19:56:53.699486",
+      "updated_at": "2025-09-18T19:56:53.699511",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Azure is very much compatible with the customer's choice of technology stack.",
+      "auto_generated": true
+    },
+    {
+      "id": "e2c1cfa7-7863-4c35-b537-7ecd86526541",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 90.981,
+          "x2": 500.35340000000025,
+          "y2": 101.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Hadoop ecosystem",
+      "created_at": "2025-09-18T19:56:53.700088",
+      "updated_at": "2025-09-18T19:56:53.700096",
+      "tags": [],
+      "profile_score": 0.85,
+      "extracted_text": "provides the Hadoop ecosystem and offers HDInsight, a 100% Apache Hadoop–based",
+      "auto_generated": true
+    },
+    {
+      "id": "1b981b4d-dd88-4de1-989c-adfd340a76e1",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 62.980999999999995,
+          "x2": 477.50859999999994,
+          "y2": 73.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Database support",
+      "created_at": "2025-09-18T19:56:53.703969",
+      "updated_at": "2025-09-18T19:56:53.703983",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "For example, Azure supports all popular (open-source and commercial) database",
+      "auto_generated": true
+    },
+    {
+      "id": "2d2d035c-bc18-4d6a-8b7a-4fa4e1819816",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 202.981,
+          "x2": 515.8799,
+          "y2": 213.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Hybrid cloud paradigm",
+      "created_at": "2025-09-18T19:56:57.588355",
+      "updated_at": "2025-09-18T19:56:57.588377",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Azure also provides a unique cloud computing paradigm known as the hybrid cloud. The",
+      "auto_generated": true
+    },
+    {
+      "id": "fbc7d29f-345f-4051-b42b-11aca370ede4",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 216.981,
+          "x2": 503.3300000000001,
+          "y2": 227.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Hybrid cloud strategy",
+      "created_at": "2025-09-18T19:56:57.588881",
+      "updated_at": "2025-09-18T19:56:57.588889",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "hybrid cloud refers to a deployment strategy in which a subset of services is deployed",
+      "auto_generated": true
+    },
+    {
+      "id": "6783cebd-09ad-4f96-b8e4-2f71b12cf173",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 132.981,
+          "x2": 513.9362,
+          "y2": 143.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Cassandra and Couchbase",
+      "created_at": "2025-09-18T19:56:57.589070",
+      "updated_at": "2025-09-18T19:56:57.589076",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "and supports other popular database environments, such as Cassandra, Couchbase, and",
+      "auto_generated": true
+    },
+    {
+      "id": "ccc155e7-de34-488b-b61e-5339be9bf08e",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 118.981,
+          "x2": 503.2288000000001,
+          "y2": 129.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Redis Cache service",
+      "created_at": "2025-09-18T19:56:57.589214",
+      "updated_at": "2025-09-18T19:56:57.589219",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "customers who prefer the IaaS approach. Azure also provides the Redis Cache service",
+      "auto_generated": true
+    },
+    {
+      "id": "189837fb-2375-43e0-8724-01b1ed7e76f7",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 104.981,
+          "x2": 488.3177,
+          "y2": 116.12400000000002
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Hadoop on Linux VM",
+      "created_at": "2025-09-18T19:56:57.589336",
+      "updated_at": "2025-09-18T19:56:57.589340",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "PaaS. It also provides a Hadoop on Linux virtual machine (VM) implementation for",
+      "auto_generated": true
+    },
+    {
+      "id": "73d79659-5417-4511-b03d-13bcfbc15f92",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 146.981,
+          "x2": 236.6372,
+          "y2": 157.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Oracle IaaS implementation",
+      "created_at": "2025-09-18T19:56:57.589440",
+      "updated_at": "2025-09-18T19:56:57.589444",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "Oracle as an IaaS implementation.",
+      "auto_generated": true
+    },
+    {
+      "id": "7cfc56e4-eed3-4135-ab76-6da4cf1890ee",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 258.981,
+          "x2": 488.73519999999996,
+          "y2": 269.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Workload flexibility",
+      "created_at": "2025-09-18T19:57:01.379312",
+      "updated_at": "2025-09-18T19:57:01.379335",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "and private clouds. Azure offers customers the flexibility to divide and deploy their",
+      "auto_generated": true
+    },
+    {
+      "id": "728ca923-72c6-424a-bc7d-7865b97b2f3a",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 230.981,
+          "x2": 499.14780000000013,
+          "y2": 241.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Hybrid cloud deployment",
+      "created_at": "2025-09-18T19:57:01.379942",
+      "updated_at": "2025-09-18T19:57:01.379950",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "on a public cloud, while other services are deployed on an on-premises private cloud",
+      "auto_generated": true
+    },
+    {
+      "id": "ab6eb8df-588b-4ee1-809b-ff9f0e5dc030",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 272.981,
+          "x2": 406.62350000000004,
+          "y2": 283.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Hybrid workload",
+      "created_at": "2025-09-18T19:57:01.380124",
+      "updated_at": "2025-09-18T19:57:01.380130",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "workload on both the public cloud and an on-premises datacenter.",
+      "auto_generated": true
+    },
+    {
+      "id": "6637a3b3-1359-406a-9bc2-29237a35bd55",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 244.981,
+          "x2": 510.59299999999996,
+          "y2": 256.124
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "VPN connection",
+      "created_at": "2025-09-18T19:57:01.380270",
+      "updated_at": "2025-09-18T19:57:01.380276",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "or datacenter. There is a virtual private network (VPN) connection between the public",
+      "auto_generated": true
+    },
+    {
+      "id": "5873806f-1872-4d4f-8807-24c3123abbc7",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 307.981,
+          "x2": 496.4968000000001,
+          "y2": 318.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Disaster recovery",
+      "created_at": "2025-09-18T19:57:01.380381",
+      "updated_at": "2025-09-18T19:57:01.380386",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "Each region has multiple datacenters to ensure that recovery from disasters is quick",
+      "auto_generated": true
+    },
+    {
+      "id": "98b92488-4741-4a26-ad4d-a101c206a919",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 335.981,
+          "x2": 502.98900000000003,
+          "y2": 346.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Location flexibility",
+      "created_at": "2025-09-18T19:57:01.380489",
+      "updated_at": "2025-09-18T19:57:01.380494",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "customers with the flexibility to deploy their services in their choice of location. They",
+      "auto_generated": true
+    },
+    {
+      "id": "ffc52e2f-148f-485b-bf8f-c7a3f8d77ff6",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 293.981,
+          "x2": 501.4391,
+          "y2": 304.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Global datacenters",
+      "created_at": "2025-09-18T19:57:01.380590",
+      "updated_at": "2025-09-18T19:57:01.380595",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "Azure has datacenters across the globe and combines these datacenters into regions.",
+      "auto_generated": true
+    },
+    {
+      "id": "1183d795-2ffc-45f5-b84e-6ae5fd9baa4a",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 321.981,
+          "x2": 514.4202000000001,
+          "y2": 332.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Regional count",
+      "created_at": "2025-09-18T19:57:01.380682",
+      "updated_at": "2025-09-18T19:57:01.380687",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "and efficient. At the time of writing, there are 58 regions across the globe. This provides",
+      "auto_generated": true
+    },
+    {
+      "id": "712f7840-eccd-43d5-8262-9cdf1e2381c2",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 99.0,
+          "y1": 419.71000000000004,
+          "x2": 459.97,
+          "y2": 429.71000000000004
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Regional service separation",
+      "created_at": "2025-09-18T19:57:03.833811",
+      "updated_at": "2025-09-18T19:57:03.833828",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "In China and Germany, the Azure Cloud Services are separate for general use",
+      "auto_generated": true
+    },
+    {
+      "id": "395704a2-ff02-40aa-93ee-5fbce089db4f",
+      "page_index": 39,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 349.981,
+          "x2": 479.84720000000016,
+          "y2": 360.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Disaster-resistant solutions",
+      "created_at": "2025-09-18T19:57:03.834294",
+      "updated_at": "2025-09-18T19:57:03.834300",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "can also combine these regions to deploy a solution that is disaster-resistant and",
+      "auto_generated": true
+    },
+    {
+      "id": "ed8d7bfb-11ed-4d18-83ab-fa114ee1e79d",
+      "page_index": 40,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 46.94799999999998,
+          "x2": 217.764,
+          "y2": 60.94799999999998
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Intelligent cloud concept",
+      "created_at": "2025-09-18T19:57:03.834579",
+      "updated_at": "2025-09-18T19:57:03.834583",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "Azure as an intelligent cloud",
+      "auto_generated": true
+    },
+    {
+      "id": "0d37900b-5482-44bd-b5c5-c3cdebe75e46",
+      "page_index": 40,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 69.981,
+          "x2": 444.5743,
+          "y2": 80.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Azure transaction ingestion",
+      "created_at": "2025-09-18T19:57:08.851243",
+      "updated_at": "2025-09-18T19:57:08.851265",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Azure provides infrastructure and services to ingest billions of transactions using",
+      "auto_generated": true
+    },
+    {
+      "id": "a120486e-9b85-4a93-adce-31249a9ec453",
+      "page_index": 40,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 97.981,
+          "x2": 476.52270000000004,
+          "y2": 108.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Interconnected services",
+      "created_at": "2025-09-18T19:57:08.851791",
+      "updated_at": "2025-09-18T19:57:08.851798",
+      "tags": [],
+      "profile_score": 0.85,
+      "extracted_text": "of interconnected services that can pass data among themselves. With such capabilities",
+      "auto_generated": true
+    },
+    {
+      "id": "a6cd0799-cae5-42e3-b017-10093c262a4f",
+      "page_index": 40,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 83.981,
+          "x2": 473.9608000000001,
+          "y2": 94.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Petabyte-scale storage",
+      "created_at": "2025-09-18T19:57:08.856584",
+      "updated_at": "2025-09-18T19:57:08.856597",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "hyper-scale processing. It provides petabytes of storage for data, and it provides a host",
+      "auto_generated": true
+    },
+    {
+      "id": "139d5c06-c95a-4da2-a0e5-97b4d887ed9a",
+      "page_index": 40,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 111.981,
+          "x2": 469.7368,
+          "y2": 122.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Data processing insights",
+      "created_at": "2025-09-18T19:57:08.856841",
+      "updated_at": "2025-09-18T19:57:08.856848",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "in place, data can be processed to generate meaningful knowledge and insights. There",
+      "auto_generated": true
+    },
+    {
+      "id": "d5aa39bb-926c-4465-8b8b-bf563129a9b3",
+      "page_index": 40,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 125.981,
+          "x2": 474.3755000000001,
+          "y2": 136.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Types of insights",
+      "created_at": "2025-09-18T19:57:08.857021",
+      "updated_at": "2025-09-18T19:57:08.857026",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "are multiple types of insights that can be generated through data analysis, which are as",
+      "auto_generated": true
+    },
+    {
+      "id": "d84c940c-dd09-4713-a9f2-f9af2c8e54b0",
+      "page_index": 40,
+      "rects": [
+        {
+          "x1": 40.5,
+          "y1": 265.981,
+          "x2": 467.0740000000001,
+          "y2": 277.124
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Cognitive analytics",
+      "created_at": "2025-09-18T19:57:11.516570",
+      "updated_at": "2025-09-18T19:57:11.516594",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "•  Cognitive: This type of analysis actually executes actions that are determined by",
+      "auto_generated": true
+    },
+    {
+      "id": "8c285fc8-4a1a-4c3e-af80-51f0939eb6f6",
+      "page_index": 40,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 307.981,
+          "x2": 470.5585000000001,
+          "y2": 318.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Actionable insights in Azure",
+      "created_at": "2025-09-18T19:57:11.517075",
+      "updated_at": "2025-09-18T19:57:11.517082",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "While deriving insights from data is good, it is equally important to act on them. Azure",
+      "auto_generated": true
+    },
+    {
+      "id": "3d18c864-0475-4a21-922d-61e94de61497",
+      "page_index": 40,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 419.981,
+          "x2": 478.83929999999987,
+          "y2": 430.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Small company accessibility",
+      "created_at": "2025-09-18T19:57:16.021348",
+      "updated_at": "2025-09-18T19:57:16.021369",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Azure ensures that services that are commercially not viable to implement for small and",
+      "auto_generated": true
+    },
+    {
+      "id": "d7831db4-5b55-4d74-af7f-298248383108",
+      "page_index": 40,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 433.981,
+          "x2": 442.23900000000003,
+          "y2": 444.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Rapid deployment",
+      "created_at": "2025-09-18T19:57:16.021887",
+      "updated_at": "2025-09-18T19:57:16.021895",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "medium companies can now be readily consumed and deployed in a few minutes.",
+      "auto_generated": true
+    },
+    {
+      "id": "9151f01a-f288-4700-b7d4-59abc8611c27",
+      "page_index": 40,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 349.981,
+          "x2": 465.7701999999999,
+          "y2": 360.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Automated insights",
+      "created_at": "2025-09-18T19:57:16.022091",
+      "updated_at": "2025-09-18T19:57:16.022097",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "possible to take action on these insights automatically. These services are available to",
+      "auto_generated": true
+    },
+    {
+      "id": "44e51d8c-de6a-42a2-9e6c-6f7e74d4e277",
+      "page_index": 40,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 405.981,
+          "x2": 479.45200000000006,
+          "y2": 416.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Service combination",
+      "created_at": "2025-09-18T19:57:16.022219",
+      "updated_at": "2025-09-18T19:57:16.022224",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "services from Azure, which are combined to create meaningful value for end customers.",
+      "auto_generated": true
+    },
+    {
+      "id": "a381cb68-094a-41eb-ba18-195a609f6f8c",
+      "page_index": 40,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 335.981,
+          "x2": 456.3717999999999,
+          "y2": 346.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Real-time dashboards",
+      "created_at": "2025-09-18T19:57:16.022349",
+      "updated_at": "2025-09-18T19:57:16.022354",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "store and generate insights from it, and display it on real-time dashboards. It is also",
+      "auto_generated": true
+    },
+    {
+      "id": "0de88b42-bc33-4b1b-880f-f5ba5df47dca",
+      "page_index": 40,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 391.981,
+          "x2": 453.9067000000002,
+          "y2": 402.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Industry disruption",
+      "created_at": "2025-09-18T19:57:16.022463",
+      "updated_at": "2025-09-18T19:57:16.022468",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "completely disrupting industries because of the easy availability of these intelligent",
+      "auto_generated": true
+    }
+  ],
   "profile_context": "{\"global_profile\": \"I am a software engineer at Microsoft who has worked closely with Azure services. I am trying to upskill myself by learning more about architecture and Azure.\", \"document_goal\": \"This is a document about Architecting in Azure. I am looking for just interesting takeaways that I might not know already.\", \"density\": 0.1}",
   "global_profile": "I am a software engineer at Microsoft who has worked closely with Azure services. I am trying to upskill myself by learning more about architecture and Azure.",
   "document_goal": "This is a document about Architecting in Azure. I am looking for just interesting takeaways that I might not know already.",
