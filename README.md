@@ -229,7 +229,7 @@ RC_AZURE_OPENAI_MAX_TOKENS=250
 Replace names to fit naming rules (lowercase alphanumeric for ACR, etc.). The plan uses Linux Consumption (B1 / P1v3 as examples) - adjust SKU.
 
 ```powershell
-$rg = "rc-prod-rg"
+$rg = "saiallu-rg"
 $location = "eastus"
 $acr = "rcprodacr"
 $plan = "readingcopilot-plan"

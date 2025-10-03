@@ -7,7 +7,7 @@ on:
 
 env:
   AZURE_WEBAPP_NAME: readingcopilot-webapp   # change to your web app name
-  AZURE_RESOURCE_GROUP: rc-prod-rg          # change to your resource group
+  AZURE_RESOURCE_GROUP: saiallu-rg          # change to your resource group
   AZURE_REGION: eastus                      # region
   ACR_NAME: rcprodacr                       # Azure Container Registry name (without .azurecr.io)
   IMAGE_NAME: readingcopilot
