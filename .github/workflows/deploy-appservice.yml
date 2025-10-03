@@ -1,0 +1,83 @@
+name: Deploy to Azure App Service (Container)
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+env:
+  AZURE_WEBAPP_NAME: readingcopilot-webapp   # change to your web app name
+  AZURE_RESOURCE_GROUP: rc-prod-rg          # change to your resource group
+  AZURE_REGION: eastus                      # region
+  ACR_NAME: rcprodacr                       # Azure Container Registry name (without .azurecr.io)
+  IMAGE_NAME: readingcopilot
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write   # for federated credentials (recommended)
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Azure Login (OIDC)
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Azure CLI - Ensure ACR
+        uses: azure/CLI@v2
+        with:
+          inlineScript: |
+            az acr show -n $ACR_NAME || az acr create -n $ACR_NAME -g $AZURE_RESOURCE_GROUP --sku Basic --admin-enabled false
+            az acr login -n $ACR_NAME
+
+      - name: Build and push image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: ${{ env.ACR_NAME }}.azurecr.io/${{ env.IMAGE_NAME }}:latest
+
+      - name: Create Web App (if missing)
+        uses: azure/CLI@v2
+        with:
+          inlineScript: |
+            az webapp show -n $AZURE_WEBAPP_NAME -g $AZURE_RESOURCE_GROUP || \
+              az webapp create -g $AZURE_RESOURCE_GROUP -n $AZURE_WEBAPP_NAME \
+                -p "${AZURE_WEBAPP_NAME}-plan" --deployment-container-image-name $ACR_NAME.azurecr.io/${IMAGE_NAME}:latest --runtime 'PYTHON:3.11'
+            # Configure container settings
+            az webapp config container set -g $AZURE_RESOURCE_GROUP -n $AZURE_WEBAPP_NAME \
+              --docker-custom-image-name $ACR_NAME.azurecr.io/${IMAGE_NAME}:latest \
+              --docker-registry-server-url https://$ACR_NAME.azurecr.io
+
+      - name: Configure App Settings (env vars)
+        uses: azure/CLI@v2
+        with:
+          inlineScript: |
+            az webapp config appsettings set -g $AZURE_RESOURCE_GROUP -n $AZURE_WEBAPP_NAME --settings \
+              RC_AZURE_OPENAI_ENDPOINT=${{ secrets.RC_AZURE_OPENAI_ENDPOINT }} \
+              RC_AZURE_OPENAI_KEY=${{ secrets.RC_AZURE_OPENAI_KEY }} \
+              RC_AZURE_OPENAI_DEPLOYMENT=${{ secrets.RC_AZURE_OPENAI_DEPLOYMENT }} \
+              RC_AZURE_OPENAI_MAX_TOKENS=250
+
+      - name: Restart Web App
+        uses: azure/CLI@v2
+        with:
+          inlineScript: |
+            az webapp restart -g $AZURE_RESOURCE_GROUP -n $AZURE_WEBAPP_NAME
+
+      - name: Output URL
+        run: echo "App deployed: https://${{ env.AZURE_WEBAPP_NAME }}.azurewebsites.net"

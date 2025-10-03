@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.log
+.git
+.gitignore
+frontend/node_modules
+frontend/.vite
+frontend/dist
+.venv
+.env
+replacements.txt
+logs/

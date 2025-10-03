@@ -183,3 +183,213 @@ curl http://localhost:8000/
 cd C:\Users\saiallu\source\repos\ReadingCopilot\frontend
 npm install
 npm run dev
+
+## Web Architecture (FastAPI + React)
+
+The repository now contains an experimental web version consisting of:
+
+* `backend/` FastAPI app
+  * Document upload & listing
+  * Manual highlight persistence
+  * Start / status / cancel endpoints for LLM auto-highlighting (background thread)
+  * Static serving of built frontend bundle (Vite) + PDF file serving
+* `frontend/` React + TypeScript + Vite + pdf.js
+  * Renders PDF pages via pdf.js
+  * Drag-to-create manual rectangle highlights (persisted through API)
+  * Displays auto-generated highlights (polling status endpoint for now)
+  * Cancel button with "Cancelling…" transitional state
+  * Click highlight list item to scroll & flash corresponding overlay
+* Containerization with multi-stage Dockerfile combining frontend build and backend runtime
+
+### Local (Container) Run
+```powershell
+# From repo root
+docker build -t readingcopilot:local .
+docker run -p 8000:8000 --env-file .env.local readingcopilot:local
+Start-Sleep -Seconds 2
+Start-Process http://localhost:8000/
+```
+
+Sample `.env.local` (DO NOT COMMIT):
+```
+RC_AZURE_OPENAI_ENDPOINT=https://<resource>.openai.azure.com
+RC_AZURE_OPENAI_KEY=***
+RC_AZURE_OPENAI_DEPLOYMENT=gpt-4o-mini
+RC_AZURE_OPENAI_MAX_TOKENS=250
+```
+
+## Azure Deployment (App Service - Container)
+
+### Prerequisites
+* Azure subscription & tenant (IDs already known to you)
+* GitHub OIDC Federated Credential (recommended) or a service principal
+* `az` CLI >= 2.60
+
+### One-Time Provisioning (az CLI)
+Replace names to fit naming rules (lowercase alphanumeric for ACR, etc.). The plan uses Linux Consumption (B1 / P1v3 as examples) - adjust SKU.
+
+```powershell
+$rg = "rc-prod-rg"
+$location = "eastus"
+$acr = "rcprodacr"
+$plan = "readingcopilot-plan"
+$web = "readingcopilot-webapp"   # must be globally unique
+
+az group create -n $rg -l $location
+
+# Container Registry
+az acr create -n $acr -g $rg --sku Basic --admin-enabled false
+
+# App Service Plan (Linux)
+az appservice plan create -g $rg -n $plan --is-linux --sku B1
+
+# Web App (initial dummy image)
+az webapp create -g $rg -n $web -p $plan \
+  -i mcr.microsoft.com/azuredocs/containerapps-helloworld:latest
+
+# Grant Web App pull permission from ACR (using managed identity)
+az webapp identity assign -g $rg -n $web
+$principalId = az webapp identity show -g $rg -n $web --query principalId -o tsv
+az role assignment create --assignee $principalId \
+  --scope $(az acr show -n $acr --query id -o tsv) \
+  --role "AcrPull"
+
+# App settings (placeholders; Key Vault references optional later)
+az webapp config appsettings set -g $rg -n $web --settings \
+  RC_AZURE_OPENAI_ENDPOINT=https://<resource>.openai.azure.com \
+  RC_AZURE_OPENAI_KEY=__ROTATED_KEY__ \
+  RC_AZURE_OPENAI_DEPLOYMENT=gpt-4o-mini \
+  RC_AZURE_OPENAI_MAX_TOKENS=250
+```
+
+### GitHub OIDC Federated Credentials
+1. Create an App Registration (if not already) to act as federated identity.
+2. In Azure Portal > App Registration > Certificates & Secrets > Federated credentials -> Add credential.
+3. Choose GitHub Actions, set:
+   * Organization: your GitHub user/org
+   * Repository: `saiallu2020/ReadingCopilot`
+   * Entity Type: Branch
+   * Branch: `main`
+   * Name: `readingcopilot-main`
+4. Record Application (client) ID, Tenant ID, Subscription ID, and store in GitHub repo secrets:
+   * `AZURE_CLIENT_ID`
+   * `AZURE_TENANT_ID`
+   * `AZURE_SUBSCRIPTION_ID`
+
+### CI/CD Workflow
+`/.github/workflows/deploy-appservice.yml` builds the Docker image, pushes to ACR, updates the Web App container, and sets app settings. Trigger: push to `main` or manual dispatch.
+
+### Required GitHub Secrets
+| Secret | Purpose |
+|--------|---------|
+| `AZURE_CLIENT_ID` | App registration client ID for OIDC login |
+| `AZURE_TENANT_ID` | Azure AD tenant ID |
+| `AZURE_SUBSCRIPTION_ID` | Subscription containing resources |
+| `RC_AZURE_OPENAI_ENDPOINT` | Endpoint (used as app setting) |
+| `RC_AZURE_OPENAI_KEY` | API key (consider moving to Key Vault) |
+| `RC_AZURE_OPENAI_DEPLOYMENT` | Deployment name |
+
+Optional (override defaults): `RC_AZURE_OPENAI_MAX_TOKENS`.
+
+### Deployment Flow Summary
+1. Developer merges to `main`.
+2. Workflow logs into Azure via OIDC, ensures ACR & Web App exist.
+3. Builds multi-stage image, pushes to ACR.
+4. Updates Web App to new image tag.
+5. Applies env settings and restarts.
+
+### Production Hardening Suggestions
+* Move API key to Azure Key Vault and reference via `@Microsoft.KeyVault(SecretUri=...)` in App Settings.
+* Enable logging & Application Insights.
+* Add staging slot and swap strategy.
+* Add CDN or Azure Front Door for global caching (optional).
+
+## GitHub Actions Local Dry Run (Optional)
+You can test Docker build locally identically to CI:
+```powershell
+docker build -t rc-test .
+docker run -p 8000:8000 rc-test
+```
+
+## Persistence Roadmap (Current vs Proposed)
+Current:
+* Documents and highlights stored as JSON sidecar files (desktop) or in-memory + JSON index (web prototype).
+Limitations: Not multi-user safe, no concurrency control, ephemeral in container.
+
+Proposed Evolution:
+1. Azure Blob Storage (or Azure Files) for original PDFs & annotation JSON snapshots.
+2. Relational metadata (Azure PostgreSQL Flexible Server or Azure SQLite in Azure Files) for: documents, profiles, highlight rows, run history, audit.
+3. Optional Redis (Azure Cache) for: streaming run progress, cancellation flags, ephemeral highlight batches.
+4. Background tasks queue (Azure Storage Queues) if LLM highlight generation moves off-request.
+5. Signed URL pattern (SAS) for direct browser PDF fetch if blobs not proxied.
+
+Data Model Sketch (relational):
+* documents(id PK, filename, blob_uri, pages, created_at)
+* profiles(id PK, user_id FK, global_text, updated_at)
+* document_profiles(id PK, document_id FK, goal_text, density_target)
+* highlights(id PK, document_id FK, page, rects(jsonb), note, source(enum: manual|llm), relevance REAL NULL, created_at)
+* highlight_runs(id PK, document_id FK, status, started_at, finished_at, cancelled_at, params(jsonb))
+
+Migration Path:
+* Phase 1: Introduce DB write-through while keeping JSON export for backup.
+* Phase 2: Remove JSON except for explicit export feature.
+* Phase 3: Add per-user isolation + auth (Azure Entra ID / OAuth) and row-level scoping.
+
+## Streaming Upgrade Plan (SSE / WebSocket)
+Current: Client polls `/api/documents/{id}/auto/status` until `completed` or `cancelled`, then fetches results.
+
+Target (SSE):
+* Endpoint: `GET /api/documents/{id}/auto/stream` returning `text/event-stream`.
+* Events:
+  * `run-start` { run_id }
+  * `highlight` { id, page, rects, note, source, relevance }
+  * `progress` { processed_chunks, total_chunks }
+  * `cancelled` { reason }
+  * `completed` { total_highlights, duration_ms }
+* Client: `const es = new EventSource(...)`; mutate state on events without full redraw.
+* Cancellation: `DELETE /api/documents/{id}/auto/run` sets cancellation flag; server emits `cancelled` then closes stream.
+
+Alternative (WebSocket):
+* Single bi-directional channel allows client to send `cancel` message instead of separate REST call.
+* Slightly more infra overhead on App Service (requires WebSockets enabled) but supports future interactive refinements.
+
+Server Implementation Sketch:
+```python
+@router.get("/documents/{doc_id}/auto/stream")
+async def auto_stream(doc_id: str):
+    # Validate run or start new
+    async def event_gen():
+        yield sse_event("run-start", {"run_id": run_id})
+        for batch in highlighter.stream_chunks(...):
+            for h in batch.highlights:
+                yield sse_event("highlight", serialize(h))
+            yield sse_event("progress", {"processed_chunks": batch.i, "total_chunks": batch.total})
+            if cancellation.is_set():
+                yield sse_event("cancelled", {"reason": "user"})
+                return
+        yield sse_event("completed", {...})
+    return EventSourceResponse(event_gen())
+```
+
+Browser Flash / Scroll Enhancement:
+* On `highlight` event, if highlight list panel is open and related page in viewport, briefly pulse border (CSS animation) without re-rendering entire page canvas.
+
+Fallback Strategy:
+* If SSE unsupported (old browsers), automatically revert to existing polling path.
+
+## Security & Compliance Considerations
+* Secrets: move keys to Key Vault; avoid printing in logs; rotate at least every 90 days.
+* PII: current PDFs assumed non-sensitive; if sensitive add encryption at rest & access logs.
+* Dependency Scanning: Enable Dependabot & CodeQL in repo.
+* Rate Limiting: Add simple token bucket (e.g. in Redis) before exposing publicly.
+
+## Monitoring & Observability
+* Integrate Application Insights: request duration, exceptions, custom events for `highlight_run_start` / `highlight_run_complete`.
+* Log correlation ID (traceparent) injected per request to link highlight run logs.
+
+## Next Steps (Suggested)
+1. Implement SSE endpoint & React event handling.
+2. Introduce persistence layer (SQLite/SQLAlchemy) and migration tool (Alembic).
+3. Add auth & multi-user isolation.
+4. Add integration tests hitting containerized image in CI.
+5. Export annotated summary (Markdown) endpoint.
