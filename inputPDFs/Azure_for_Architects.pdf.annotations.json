@@ -2184,6 +2184,1368 @@
       "profile_score": 0.7,
       "extracted_text": "completely disrupting industries because of the easy availability of these intelligent",
       "auto_generated": true
+    },
+    {
+      "id": "b1ce397b-aa5a-43d4-9e2c-6830c7b8deca",
+      "page_index": 41,
+      "rects": [
+        {
+          "x1": 366.5947,
+          "y1": 18.397500000000036,
+          "x2": 513.0022,
+          "y2": 29.518500000000017
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Azure Resource Manager",
+      "created_at": "2025-09-19T19:50:06.196270",
+      "updated_at": "2025-09-19T19:50:06.196295",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Azure Resource Manager | 9",
+      "auto_generated": true
+    },
+    {
+      "id": "fa384958-853f-4335-887d-9499a3abbb67",
+      "page_index": 41,
+      "rects": [
+        {
+          "x1": 127.1101,
+          "y1": 135.3229,
+          "x2": 196.0201,
+          "y2": 145.3229
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Microsoft Azure",
+      "created_at": "2025-09-19T19:50:06.196789",
+      "updated_at": "2025-09-19T19:50:06.196797",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Microsoft Azure",
+      "auto_generated": true
+    },
+    {
+      "id": "f0b23a81-ffea-42b9-b75d-784bf0c033ce",
+      "page_index": 41,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 83.981,
+          "x2": 512.8174000000002,
+          "y2": 95.12400000000002
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Azure Subscription structure",
+      "created_at": "2025-09-19T19:50:06.196985",
+      "updated_at": "2025-09-19T19:50:06.196992",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "Azure Subscription comprises multiple resource groups. Each resource group contains",
+      "auto_generated": true
+    },
+    {
+      "id": "0f624322-6637-4199-aa9c-b440902e9965",
+      "page_index": 41,
+      "rects": [
+        {
+          "x1": 347.7371,
+          "y1": 160.4053,
+          "x2": 431.6571,
+          "y2": 170.4053
+        },
+        {
+          "x1": 436.1774,
+          "y1": 170.78070000000002,
+          "x2": 459.6854,
+          "y2": 179.78070000000002
+        },
+        {
+          "x1": 245.7045,
+          "y1": 182.69600000000003,
+          "x2": 319.0645,
+          "y2": 192.69600000000003
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Azure architecture components",
+      "created_at": "2025-09-19T19:50:06.197150",
+      "updated_at": "2025-09-19T19:50:06.197156",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "Azure Subscription\nAzure\nResource Group",
+      "auto_generated": true
+    },
+    {
+      "id": "68119519-d538-40ef-aca0-d63fcc742ea5",
+      "page_index": 41,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 97.981,
+          "x2": 474.94120000000015,
+          "y2": 108.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Azure resource types",
+      "created_at": "2025-09-19T19:50:06.197278",
+      "updated_at": "2025-09-19T19:50:06.197284",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "resource instances that are created from resource types that are available in the",
+      "auto_generated": true
+    },
+    {
+      "id": "e8cacd4a-d949-459d-bf67-824e667b87d5",
+      "page_index": 41,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 111.981,
+          "x2": 157.41410000000002,
+          "y2": 122.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Azure resource provider",
+      "created_at": "2025-09-19T19:50:06.197411",
+      "updated_at": "2025-09-19T19:50:06.197417",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "resource provider:",
+      "auto_generated": true
+    },
+    {
+      "id": "35cae3de-264c-4e35-acd9-75e14e4784f9",
+      "page_index": 41,
+      "rects": [
+        {
+          "x1": 215.99140000000003,
+          "y1": 329.46200000000005,
+          "x2": 361.5814000000001,
+          "y2": 339.46200000000005
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Azure Resource Manager",
+      "created_at": "2025-09-19T19:50:08.847072",
+      "updated_at": "2025-09-19T19:50:08.847087",
+      "tags": [],
+      "profile_score": 0.95,
+      "extracted_text": "Azure Resource Manager (ARM)",
+      "auto_generated": true
+    },
+    {
+      "id": "689bea38-ce39-4d52-93f4-720376f097ea",
+      "page_index": 41,
+      "rects": [
+        {
+          "x1": 244.8814,
+          "y1": 303.922,
+          "x2": 332.68140000000005,
+          "y2": 313.922
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Resource Providers",
+      "created_at": "2025-09-19T19:50:08.847472",
+      "updated_at": "2025-09-19T19:50:08.847478",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "Resource Providers",
+      "auto_generated": true
+    },
+    {
+      "id": "08850945-5609-49bf-8cd9-db55f93a575e",
+      "page_index": 41,
+      "rects": [
+        {
+          "x1": 217.5337,
+          "y1": 386.538,
+          "x2": 358.4737,
+          "y2": 395.538
+        },
+        {
+          "x1": 92.5213,
+          "y1": 366.8891,
+          "x2": 184.61130000000003,
+          "y2": 376.8891
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "ARM architecture",
+      "created_at": "2025-09-19T19:50:08.849477",
+      "updated_at": "2025-09-19T19:50:08.849512",
+      "tags": [],
+      "profile_score": 0.85,
+      "extracted_text": "Figure 1.2: The ARM architecture\nREST API Endpoints",
+      "auto_generated": true
+    },
+    {
+      "id": "dcce3188-4fd2-4fa7-8b65-54f34f371180",
+      "page_index": 41,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 412.384,
+          "x2": 123.636,
+          "y2": 424.384
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Why ARM",
+      "created_at": "2025-09-19T19:50:08.849740",
+      "updated_at": "2025-09-19T19:50:08.849746",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "Why ARM?",
+      "auto_generated": true
+    },
+    {
+      "id": "0e7ebf7d-32e4-4c5a-ace8-dd7c42504935",
+      "page_index": 41,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 433.981,
+          "x2": 486.4228,
+          "y2": 445.124
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Azure Service Manager",
+      "created_at": "2025-09-19T19:50:08.849875",
+      "updated_at": "2025-09-19T19:50:08.849879",
+      "tags": [],
+      "profile_score": 0.75,
+      "extracted_text": "Prior to ARM, the framework used by Azure was known as Azure Service Manager",
+      "auto_generated": true
+    },
+    {
+      "id": "90a5f12f-10e8-45cb-9bae-2c7bf4333ecf",
+      "page_index": 41,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 461.981,
+          "x2": 504.8568,
+          "y2": 472.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "ARM emergence",
+      "created_at": "2025-09-19T19:50:12.160136",
+      "updated_at": "2025-09-19T19:50:12.160144",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "understanding of the emergence of ARM and the slow and steady deprecation of ASM.",
+      "auto_generated": true
+    },
+    {
+      "id": "24301cb3-6b90-40cc-b91e-64b97127087d",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 69.981,
+          "x2": 465.1652,
+          "y2": 80.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "ASM deployment issues",
+      "created_at": "2025-09-19T19:50:12.160365",
+      "updated_at": "2025-09-19T19:50:12.160368",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "ASM has inherent constraints. For example, ASM deployments are slow and blocking—",
+      "auto_generated": true
+    },
+    {
+      "id": "04a2cd17-c21a-4631-bf74-4f37357c67fe",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 40.5,
+          "y1": 118.981,
+          "x2": 478.2652000000002,
+          "y2": 130.12400000000002
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "ASM parallelism challenges",
+      "created_at": "2025-09-19T19:50:12.160442",
+      "updated_at": "2025-09-19T19:50:12.160445",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "•  Parallelism: Parallelism is a challenge in ASM. It is not possible to execute multiple",
+      "auto_generated": true
+    },
+    {
+      "id": "7b31f772-44da-43a4-b41d-aebc9848243a",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 54.0,
+          "y1": 132.981,
+          "x2": 472.34869999999995,
+          "y2": 143.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Parallel transaction errors",
+      "created_at": "2025-09-19T19:50:15.409548",
+      "updated_at": "2025-09-19T19:50:15.409564",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "transactions successfully in parallel. The operations in ASM are linear and so they",
+      "auto_generated": true
+    },
+    {
+      "id": "4f6ac290-0a76-4e42-98d4-a4f2e26d4899",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 40.5,
+          "y1": 195.981,
+          "x2": 460.02650000000006,
+          "y2": 207.12400000000002
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Resource isolation in ASM",
+      "created_at": "2025-09-19T19:50:15.409784",
+      "updated_at": "2025-09-19T19:50:15.409787",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "•  Resources: Resources in ASM are provisioned and managed in isolation of each",
+      "auto_generated": true
+    },
+    {
+      "id": "7bb3aa69-6eb4-4fd6-964e-859b65315447",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 40.5,
+          "y1": 244.981,
+          "x2": 446.8777999999999,
+          "y2": 256.124
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "ASM cloud services",
+      "created_at": "2025-09-19T19:50:15.409865",
+      "updated_at": "2025-09-19T19:50:15.409871",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "•  Cloud services: Cloud services are the units of deployment in ASM. They are",
+      "auto_generated": true
+    },
+    {
+      "id": "d15d866b-c6f7-4f83-9d77-072ce4c43d4c",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 384.384,
+          "x2": 123.336,
+          "y2": 396.384
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "ARM advantages",
+      "created_at": "2025-09-19T19:50:18.935495",
+      "updated_at": "2025-09-19T19:50:18.935520",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "ARM advantages",
+      "auto_generated": true
+    },
+    {
+      "id": "ebcf81b6-5a44-45f9-a416-18a26c5c6283",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 286.981,
+          "x2": 464.9474000000001,
+          "y2": 297.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Role assignment constraints",
+      "created_at": "2025-09-19T19:50:18.936090",
+      "updated_at": "2025-09-19T19:50:18.936099",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "Granular and discrete roles and permissions cannot be assigned to resources in ASM.",
+      "auto_generated": true
+    },
+    {
+      "id": "962956ce-7563-4881-840f-990efa0aebf4",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 342.981,
+          "x2": 474.86390000000017,
+          "y2": 353.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "API inconsistencies",
+      "created_at": "2025-09-19T19:50:18.936304",
+      "updated_at": "2025-09-19T19:50:18.936310",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "resort to writing procedural scripts in .NET or PowerShell. ASM APIs are not consistent",
+      "auto_generated": true
+    },
+    {
+      "id": "37cafbb1-9bac-4ef0-9508-9e40a58672a3",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 54.0,
+          "y1": 258.981,
+          "x2": 475.7213000000001,
+          "y2": 269.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Affinity group limitations",
+      "created_at": "2025-09-19T19:50:18.936460",
+      "updated_at": "2025-09-19T19:50:18.936466",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "reliant on affinity groups and are not scalable due to their design and architecture.",
+      "auto_generated": true
+    },
+    {
+      "id": "1117246c-5e1d-4e1d-86e7-0588167e8eed",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 314.981,
+          "x2": 458.0867000000001,
+          "y2": 325.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Access control issues",
+      "created_at": "2025-09-19T19:50:18.936582",
+      "updated_at": "2025-09-19T19:50:18.936587",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "They either get full control over resources or do not have access to them at all. ASM",
+      "auto_generated": true
+    },
+    {
+      "id": "be2151e3-2124-41f7-a0a5-dc4e82f2390d",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 300.981,
+          "x2": 467.07920000000007,
+          "y2": 311.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Subscription roles",
+      "created_at": "2025-09-19T19:50:18.936699",
+      "updated_at": "2025-09-19T19:50:18.936704",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "Customers are either service administrators or co-administrators in the subscription.",
+      "auto_generated": true
+    },
+    {
+      "id": "3f6b0272-8bee-4f77-a328-f207590e5e6d",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 356.981,
+          "x2": 126.83269999999999,
+          "y2": 367.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Resource API issues",
+      "created_at": "2025-09-19T19:50:18.936809",
+      "updated_at": "2025-09-19T19:50:18.936813",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "between resources.",
+      "auto_generated": true
+    },
+    {
+      "id": "a0519af0-218a-462f-a6a3-ee3c6ca8539a",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 40.5,
+          "y1": 426.981,
+          "x2": 464.96620000000013,
+          "y2": 438.124
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Resource grouping",
+      "created_at": "2025-09-19T19:50:22.567980",
+      "updated_at": "2025-09-19T19:50:22.567988",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "•  Grouping: ARM allows the grouping of resources together in a logical container.",
+      "auto_generated": true
+    },
+    {
+      "id": "05bfad41-c0c3-4151-bfbd-0f949b63f18f",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 40.5,
+          "y1": 510.981,
+          "x2": 453.56810000000013,
+          "y2": 522.124
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "RBAC roles",
+      "created_at": "2025-09-19T19:50:22.568150",
+      "updated_at": "2025-09-19T19:50:22.568152",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "•  RBAC: Granular roles and permissions can be assigned to resources providing",
+      "auto_generated": true
+    },
+    {
+      "id": "9b4383bd-dc5b-4489-a4b5-c67549f11e6a",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 54.0,
+          "y1": 524.981,
+          "x2": 468.66259999999994,
+          "y2": 535.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Granular access",
+      "created_at": "2025-09-19T19:50:22.568242",
+      "updated_at": "2025-09-19T19:50:22.568246",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "discrete access to customers. Customers can also have only those rights that are",
+      "auto_generated": true
+    },
+    {
+      "id": "2b2a2fae-298b-4a25-88a0-d240d6fec5e5",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 405.981,
+          "x2": 428.26240000000007,
+          "y2": 416.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "ARM advantages",
+      "created_at": "2025-09-19T19:50:22.568312",
+      "updated_at": "2025-09-19T19:50:22.568314",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "ARM provides distinct advantages and benefits over ASM, which are as follows:",
+      "auto_generated": true
+    },
+    {
+      "id": "4af4ad06-0431-4818-8510-d9cf63727b7c",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 40.5,
+          "y1": 475.981,
+          "x2": 431.16560000000004,
+          "y2": 487.124
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Common lifecycle",
+      "created_at": "2025-09-19T19:50:22.568353",
+      "updated_at": "2025-09-19T19:50:22.568355",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "•  Common life cycles: Resources in a group have the same life cycle. These",
+      "auto_generated": true
+    },
+    {
+      "id": "b8f64b25-3796-4bad-9fd0-69f23bd8eda1",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 54.0,
+          "y1": 489.981,
+          "x2": 342.4409000000002,
+          "y2": 500.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Unit management",
+      "created_at": "2025-09-19T19:50:22.568387",
+      "updated_at": "2025-09-19T19:50:22.568388",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "resources can evolve and be managed together as a unit.",
+      "auto_generated": true
+    },
+    {
+      "id": "8cb8dcce-576e-4170-af69-6b3ca3fb9bbe",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 54.0,
+          "y1": 440.981,
+          "x2": 473.0790999999999,
+          "y2": 451.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Lifecycle management",
+      "created_at": "2025-09-19T19:50:22.569454",
+      "updated_at": "2025-09-19T19:50:22.569456",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "These resources can be managed together and go through a common life cycle as",
+      "auto_generated": true
+    },
+    {
+      "id": "d2088615-7ce4-41f4-a7d8-b55015ac0bc2",
+      "page_index": 42,
+      "rects": [
+        {
+          "x1": 54.0,
+          "y1": 454.981,
+          "x2": 429.5367000000001,
+          "y2": 465.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Related resources",
+      "created_at": "2025-09-19T19:50:22.569535",
+      "updated_at": "2025-09-19T19:50:22.569537",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "a group. This makes it easier to identify related and dependent resources.",
+      "auto_generated": true
+    },
+    {
+      "id": "906c7528-d66e-4464-a19d-575f0d922e33",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 76.5,
+          "y1": 48.980999999999995,
+          "x2": 499.23150000000004,
+          "y2": 60.124000000000024
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Infrastructure as Code",
+      "created_at": "2025-09-19T19:50:25.214625",
+      "updated_at": "2025-09-19T19:50:25.214631",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "•  Deployment support: ARM provides deployment support in terms of templates,",
+      "auto_generated": true
+    },
+    {
+      "id": "562dd5f0-c9a9-4e91-921e-b43ea6c0a0be",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 76.5,
+          "y1": 132.981,
+          "x2": 492.2596000000001,
+          "y2": 144.12400000000002
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Advanced ARM features",
+      "created_at": "2025-09-19T19:50:25.214796",
+      "updated_at": "2025-09-19T19:50:25.214798",
+      "tags": [],
+      "profile_score": 0.85,
+      "extracted_text": "•  Manageability: ARM provides advanced features, such as security, monitoring,",
+      "auto_generated": true
+    },
+    {
+      "id": "f3932653-9694-473d-b507-445e59e9965b",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 76.5,
+          "y1": 97.981,
+          "x2": 506.3245,
+          "y2": 109.12400000000002
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Cost management",
+      "created_at": "2025-09-19T19:50:25.214841",
+      "updated_at": "2025-09-19T19:50:25.214842",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "•  Superior technology: The cost and billing of resources can be managed as a unit.",
+      "auto_generated": true
+    },
+    {
+      "id": "df07d2c8-4d88-4fc2-8b07-601f3502e18f",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 244.38400000000001,
+          "x2": 144.576,
+          "y2": 256.384
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "ARM concepts",
+      "created_at": "2025-09-19T19:50:28.546003",
+      "updated_at": "2025-09-19T19:50:28.546010",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "ARM concepts",
+      "auto_generated": true
+    },
+    {
+      "id": "759f8389-0e01-47b8-ac36-99b2e1af7f86",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 265.981,
+          "x2": 504.87660000000017,
+          "y2": 276.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Azure resources",
+      "created_at": "2025-09-19T19:50:28.546187",
+      "updated_at": "2025-09-19T19:50:28.546189",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "With ARM, everything in Azure is a resource. Examples of resources are VMs, network",
+      "auto_generated": true
+    },
+    {
+      "id": "b2c9ce6b-c785-490a-a58d-b9c36a9ac2f9",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 76.5,
+          "y1": 195.981,
+          "x2": 509.99600000000015,
+          "y2": 207.12400000000002
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Resource migration ease",
+      "created_at": "2025-09-19T19:50:28.546317",
+      "updated_at": "2025-09-19T19:50:28.546320",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "•  Migration: Migration and updating resources is easier within and across resource",
+      "auto_generated": true
+    },
+    {
+      "id": "e4016023-26b7-4d1a-bd84-ff199348cfb4",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 279.981,
+          "x2": 465.567,
+          "y2": 290.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "ARM role",
+      "created_at": "2025-09-19T19:50:28.547524",
+      "updated_at": "2025-09-19T19:50:28.547528",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "interfaces, public IP addresses, storage accounts, and virtual networks. ARM is",
+      "auto_generated": true
+    },
+    {
+      "id": "8c7eec82-e5a8-4c75-90ca-b5dea334638a",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 90.0,
+          "y1": 160.981,
+          "x2": 513.5748000000001,
+          "y2": 171.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Tag-based cost tracking",
+      "created_at": "2025-09-19T19:50:28.547600",
+      "updated_at": "2025-09-19T19:50:28.547602",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "queried based on tags. Tags also provide cost and billing information for resources",
+      "auto_generated": true
+    },
+    {
+      "id": "09c2cf8b-bb9b-46db-ab68-37859eb4ef9b",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 90.0,
+          "y1": 146.981,
+          "x2": 490.21190000000007,
+          "y2": 157.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Resource tagging",
+      "created_at": "2025-09-19T19:50:28.547649",
+      "updated_at": "2025-09-19T19:50:28.547650",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "auditing, and tagging, for better manageability of resources. Resources can be",
+      "auto_generated": true
+    },
+    {
+      "id": "3cd1aabd-2614-411b-a958-336e32f65dce",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 363.981,
+          "x2": 486.62870000000004,
+          "y2": 374.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "ARM resource providers",
+      "created_at": "2025-09-19T19:50:32.255502",
+      "updated_at": "2025-09-19T19:50:32.255511",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "These are services that are responsible for providing resource types through ARM.",
+      "auto_generated": true
+    },
+    {
+      "id": "6a2e68f7-b28d-4430-803a-4381d3682c07",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 405.981,
+          "x2": 471.6742000000002,
+          "y2": 416.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Resource deployment and management",
+      "created_at": "2025-09-19T19:50:32.255721",
+      "updated_at": "2025-09-19T19:50:32.255723",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "responsible for deploying and managing resources. For example, a VM resource",
+      "auto_generated": true
+    },
+    {
+      "id": "50104d71-946e-495d-85ab-ef8cb4203200",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 307.981,
+          "x2": 494.0394,
+          "y2": 318.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Azure resource provisioning",
+      "created_at": "2025-09-19T19:50:32.257422",
+      "updated_at": "2025-09-19T19:50:32.257428",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "Azure provides resources and services through multiple resource providers that are",
+      "auto_generated": true
+    },
+    {
+      "id": "8abdf244-bcfe-4835-85f8-abacc00fcb74",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 377.981,
+          "x2": 507.3593,
+          "y2": 388.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Top-level ARM concept",
+      "created_at": "2025-09-19T19:50:32.257519",
+      "updated_at": "2025-09-19T19:50:32.257522",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "The top-level concept in ARM is the resource provider. These providers are containers",
+      "auto_generated": true
+    },
+    {
+      "id": "06dada22-6a60-4bcd-a735-a37c0099b2fe",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 321.981,
+          "x2": 240.94699999999997,
+          "y2": 332.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Resource group deployment",
+      "created_at": "2025-09-19T19:50:32.257589",
+      "updated_at": "2025-09-19T19:50:32.257591",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "consumed and deployed in groups.",
+      "auto_generated": true
+    },
+    {
+      "id": "f671121f-198a-4536-a0f6-79fd142950bd",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 391.981,
+          "x2": 481.0033,
+          "y2": 402.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Resource type grouping",
+      "created_at": "2025-09-19T19:50:32.257640",
+      "updated_at": "2025-09-19T19:50:32.257642",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "for resource types. Resource types are grouped into resource providers. They are",
+      "auto_generated": true
+    },
+    {
+      "id": "bf6b9e45-9474-4906-b14a-5f64fe8b4bbd",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 293.981,
+          "x2": 487.71660000000014,
+          "y2": 304.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Resource providers and consumers",
+      "created_at": "2025-09-19T19:50:32.257681",
+      "updated_at": "2025-09-19T19:50:32.257682",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "based on concepts that are related to resource providers and resource consumers.",
+      "auto_generated": true
+    },
+    {
+      "id": "ffd8cb54-02a5-4aa7-957d-8fa190c29805",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 475.981,
+          "x2": 486.1634000000001,
+          "y2": 486.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Resource provider availability",
+      "created_at": "2025-09-19T19:50:34.882474",
+      "updated_at": "2025-09-19T19:50:34.882486",
+      "tags": [],
+      "profile_score": 0.9,
+      "extracted_text": "to a subscription to deploy a resource. Not all resource providers are available to a",
+      "auto_generated": true
+    },
+    {
+      "id": "96f3ac67-5ca4-44f8-8c08-10b512960789",
+      "page_index": 43,
+      "rects": [
+        {
+          "x1": 63.0,
+          "y1": 517.981,
+          "x2": 401.1961000000002,
+          "y2": 528.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Subscription registration",
+      "created_at": "2025-09-19T19:50:34.882757",
+      "updated_at": "2025-09-19T19:50:34.882761",
+      "tags": [],
+      "profile_score": 0.85,
+      "extracted_text": "available, the customer can explicitly register for the subscription.",
+      "auto_generated": true
+    },
+    {
+      "id": "830ce947-8663-423a-aab3-25dbe8a9f294",
+      "page_index": 44,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 69.981,
+          "x2": 466.7140000000001,
+          "y2": 80.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Resource API specification",
+      "created_at": "2025-09-19T19:50:38.726357",
+      "updated_at": "2025-09-19T19:50:38.726388",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "Resource types are an actual resource specification defining the resource's public API",
+      "auto_generated": true
+    },
+    {
+      "id": "c478bb48-1a81-4786-9c7e-8197dda03bad",
+      "page_index": 44,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 83.981,
+          "x2": 469.9128000000002,
+          "y2": 94.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Resource operations",
+      "created_at": "2025-09-19T19:50:38.726831",
+      "updated_at": "2025-09-19T19:50:38.726839",
+      "tags": [],
+      "profile_score": 0.7,
+      "extracted_text": "interface and implementation. They implement the working and operations supported",
+      "auto_generated": true
+    },
+    {
+      "id": "279c988e-b4cb-4662-9f78-939dc32cfa13",
+      "page_index": 44,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 97.981,
+          "x2": 455.5171000000002,
+          "y2": 108.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Resource evolution",
+      "created_at": "2025-09-19T19:50:38.732937",
+      "updated_at": "2025-09-19T19:50:38.732958",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "by the resource. Similar to resource providers, resource types also evolve over time",
+      "auto_generated": true
+    },
+    {
+      "id": "a750a617-5b92-4771-a4c2-6d5187741593",
+      "page_index": 44,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 125.981,
+          "x2": 472.7364999999999,
+          "y2": 136.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Version naming",
+      "created_at": "2025-09-19T19:50:38.733493",
+      "updated_at": "2025-09-19T19:50:38.733511",
+      "tags": [],
+      "profile_score": 0.6,
+      "extracted_text": "schemas and public API interfaces. The version names are based on the dates that they",
+      "auto_generated": true
+    },
+    {
+      "id": "54c02cf6-7cc9-454a-b9a7-e280519a0df1",
+      "page_index": 44,
+      "rects": [
+        {
+          "x1": 27.0,
+          "y1": 167.981,
+          "x2": 474.1368000000001,
+          "y2": 178.981
+        }
+      ],
+      "color": [
+        255,
+        170,
+        90
+      ],
+      "note": "Azure region availability",
+      "created_at": "2025-09-19T19:50:41.003758",
+      "updated_at": "2025-09-19T19:50:41.003770",
+      "tags": [],
+      "profile_score": 0.8,
+      "extracted_text": "not every resource type is available in every Azure region. The availability of a resource",
+      "auto_generated": true
+    },
+    {
+      "id": "38f4e8f9-28f7-4595-9964-585169cc5db0",
+      "page_index": 40,
+      "rects": [
+        {
+          "x1": 438.46153846153845,
+          "y1": 453.8461538461538,
+          "x2": 441.53846153846155,
+          "y2": 455.38461538461536
+        }
+      ],
+      "color": [
+        255,
+        255,
+        0
+      ],
+      "note": null,
+      "created_at": "2025-09-19T20:27:18.231899",
+      "updated_at": "2025-09-19T20:27:18.231918",
+      "tags": [],
+      "profile_score": null,
+      "extracted_text": null,
+      "auto_generated": false
     }
   ],
   "profile_context": "{\"global_profile\": \"I am a software engineer at Microsoft who has worked closely with Azure services. I am trying to upskill myself by learning more about architecture and Azure.\", \"document_goal\": \"This is a document about Architecting in Azure. I am looking for just interesting takeaways that I might not know already.\", \"density\": 0.1}",

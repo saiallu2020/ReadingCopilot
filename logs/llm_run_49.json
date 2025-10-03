@@ -1,0 +1,4973 @@
+{
+  "timestamp": "2025-09-19T19:50:41.004140Z",
+  "pdf_path": "C:/Users/saiallu/source/repos/ReadingCopilot/inputPDFs/Azure_for_Architects.pdf",
+  "reason": "streaming_ok",
+  "density_target": 0.1,
+  "min_threshold": 0.6,
+  "profile_present": true,
+  "document_goal_present": true,
+  "profile_char_len": 158,
+  "goal_char_len": 122,
+  "chunks": [
+    {
+      "id": 917,
+      "page_index": 41,
+      "char_count": 26,
+      "text_preview": "Azure Resource Manager | 9"
+    },
+    {
+      "id": 918,
+      "page_index": 41,
+      "char_count": 20,
+      "text_preview": "The ARM architecture"
+    },
+    {
+      "id": 919,
+      "page_index": 41,
+      "char_count": 83,
+      "text_preview": "The architecture of ARM and its components is shown in Figure 1.2. As we can see, an"
+    },
+    {
+      "id": 920,
+      "page_index": 41,
+      "char_count": 82,
+      "text_preview": "Azure Subscription comprises multiple resource groups. Each resource group contains"
+    },
+    {
+      "id": 921,
+      "page_index": 41,
+      "char_count": 81,
+      "text_preview": "resource instances that are created from resource types that are available in the"
+    },
+    {
+      "id": 922,
+      "page_index": 41,
+      "char_count": 18,
+      "text_preview": "resource provider:"
+    },
+    {
+      "id": 923,
+      "page_index": 41,
+      "char_count": 15,
+      "text_preview": "Microsoft Azure"
+    },
+    {
+      "id": 924,
+      "page_index": 41,
+      "char_count": 39,
+      "text_preview": "Azure Subscription\nAzure\nResource Group"
+    },
+    {
+      "id": 925,
+      "page_index": 41,
+      "char_count": 59,
+      "text_preview": "Azure App\nService\nAzure \nStorage\nAzure SQL\nDatabase\nLOB App"
+    },
+    {
+      "id": 926,
+      "page_index": 41,
+      "char_count": 37,
+      "text_preview": "laas Workload\nAzure VM\nResource Group"
+    },
+    {
+      "id": 927,
+      "page_index": 41,
+      "char_count": 69,
+      "text_preview": "Azure \nVirtual \nNetwork\nAzure \nStorage\nAzure MySQL \nClearDB \nDatabase"
+    },
+    {
+      "id": 928,
+      "page_index": 41,
+      "char_count": 18,
+      "text_preview": "Resource Providers"
+    },
+    {
+      "id": 929,
+      "page_index": 41,
+      "char_count": 28,
+      "text_preview": "Azure Resource Manager (ARM)"
+    },
+    {
+      "id": 930,
+      "page_index": 41,
+      "char_count": 51,
+      "text_preview": "Figure 1.2: The ARM architecture\nREST API Endpoints"
+    },
+    {
+      "id": 931,
+      "page_index": 41,
+      "char_count": 8,
+      "text_preview": "Why ARM?"
+    },
+    {
+      "id": 932,
+      "page_index": 41,
+      "char_count": 76,
+      "text_preview": "Prior to ARM, the framework used by Azure was known as Azure Service Manager"
+    },
+    {
+      "id": 933,
+      "page_index": 41,
+      "char_count": 83,
+      "text_preview": "(ASM). It is important to have a small introduction to it so that we can get a clear"
+    },
+    {
+      "id": 934,
+      "page_index": 41,
+      "char_count": 81,
+      "text_preview": "understanding of the emergence of ARM and the slow and steady deprecation of ASM."
+    },
+    {
+      "id": 935,
+      "page_index": 42,
+      "char_count": 31,
+      "text_preview": "10 | Getting started with Azure"
+    },
+    {
+      "id": 936,
+      "page_index": 42,
+      "char_count": 18,
+      "text_preview": "Limitations of ASM"
+    },
+    {
+      "id": 937,
+      "page_index": 42,
+      "char_count": 80,
+      "text_preview": "ASM has inherent constraints. For example, ASM deployments are slow and blocking\u2014"
+    },
+    {
+      "id": 938,
+      "page_index": 42,
+      "char_count": 81,
+      "text_preview": "operations are blocked if an earlier operation is already in progress. Some of the"
+    },
+    {
+      "id": 939,
+      "page_index": 42,
+      "char_count": 34,
+      "text_preview": "limitations of ASM are as follows:"
+    },
+    {
+      "id": 940,
+      "page_index": 42,
+      "char_count": 88,
+      "text_preview": "\u2022  Parallelism: Parallelism is a challenge in ASM. It is not possible to execute multiple"
+    },
+    {
+      "id": 941,
+      "page_index": 42,
+      "char_count": 82,
+      "text_preview": "transactions successfully in parallel. The operations in ASM are linear and so they"
+    },
+    {
+      "id": 942,
+      "page_index": 42,
+      "char_count": 80,
+      "text_preview": "are executed one after another. If multiple transactions are executed at the same"
+    },
+    {
+      "id": 943,
+      "page_index": 42,
+      "char_count": 81,
+      "text_preview": "time, there will either be parallel operation errors or the transactions will get"
+    },
+    {
+      "id": 944,
+      "page_index": 42,
+      "char_count": 8,
+      "text_preview": "blocked."
+    },
+    {
+      "id": 945,
+      "page_index": 42,
+      "char_count": 79,
+      "text_preview": "\u2022  Resources: Resources in ASM are provisioned and managed in isolation of each"
+    },
+    {
+      "id": 946,
+      "page_index": 42,
+      "char_count": 71,
+      "text_preview": "other; there is no relation between ASM resources. Grouping services and"
+    },
+    {
+      "id": 947,
+      "page_index": 42,
+      "char_count": 55,
+      "text_preview": "resources or configuring them together is not possible."
+    },
+    {
+      "id": 948,
+      "page_index": 42,
+      "char_count": 77,
+      "text_preview": "\u2022  Cloud services: Cloud services are the units of deployment in ASM. They are"
+    },
+    {
+      "id": 949,
+      "page_index": 42,
+      "char_count": 85,
+      "text_preview": "reliant on affinity groups and are not scalable due to their design and architecture."
+    },
+    {
+      "id": 950,
+      "page_index": 42,
+      "char_count": 83,
+      "text_preview": "Granular and discrete roles and permissions cannot be assigned to resources in ASM."
+    },
+    {
+      "id": 951,
+      "page_index": 42,
+      "char_count": 85,
+      "text_preview": "Customers are either service administrators or co-administrators in the subscription."
+    },
+    {
+      "id": 952,
+      "page_index": 42,
+      "char_count": 84,
+      "text_preview": "They either get full control over resources or do not have access to them at all. ASM"
+    },
+    {
+      "id": 953,
+      "page_index": 42,
+      "char_count": 82,
+      "text_preview": "provides no deployment support. Either deployments are done manually, or we need to"
+    },
+    {
+      "id": 954,
+      "page_index": 42,
+      "char_count": 86,
+      "text_preview": "resort to writing procedural scripts in .NET or PowerShell. ASM APIs are not consistent"
+    },
+    {
+      "id": 955,
+      "page_index": 42,
+      "char_count": 18,
+      "text_preview": "between resources."
+    },
+    {
+      "id": 956,
+      "page_index": 42,
+      "char_count": 14,
+      "text_preview": "ARM advantages"
+    },
+    {
+      "id": 957,
+      "page_index": 42,
+      "char_count": 77,
+      "text_preview": "ARM provides distinct advantages and benefits over ASM, which are as follows:"
+    },
+    {
+      "id": 958,
+      "page_index": 42,
+      "char_count": 82,
+      "text_preview": "\u2022  Grouping: ARM allows the grouping of resources together in a logical container."
+    },
+    {
+      "id": 959,
+      "page_index": 42,
+      "char_count": 77,
+      "text_preview": "These resources can be managed together and go through a common life cycle as"
+    },
+    {
+      "id": 960,
+      "page_index": 42,
+      "char_count": 73,
+      "text_preview": "a group. This makes it easier to identify related and dependent resources."
+    },
+    {
+      "id": 961,
+      "page_index": 42,
+      "char_count": 74,
+      "text_preview": "\u2022  Common life cycles: Resources in a group have the same life cycle. These"
+    },
+    {
+      "id": 962,
+      "page_index": 42,
+      "char_count": 55,
+      "text_preview": "resources can evolve and be managed together as a unit."
+    },
+    {
+      "id": 963,
+      "page_index": 42,
+      "char_count": 78,
+      "text_preview": "\u2022  RBAC: Granular roles and permissions can be assigned to resources providing"
+    },
+    {
+      "id": 964,
+      "page_index": 42,
+      "char_count": 79,
+      "text_preview": "discrete access to customers. Customers can also have only those rights that are"
+    },
+    {
+      "id": 965,
+      "page_index": 42,
+      "char_count": 17,
+      "text_preview": "assigned to them."
+    },
+    {
+      "id": 966,
+      "page_index": 43,
+      "char_count": 27,
+      "text_preview": "Azure Resource Manager | 11"
+    },
+    {
+      "id": 967,
+      "page_index": 43,
+      "char_count": 77,
+      "text_preview": "\u2022  Deployment support: ARM provides deployment support in terms of templates,"
+    },
+    {
+      "id": 968,
+      "page_index": 43,
+      "char_count": 78,
+      "text_preview": "enabling DevOps and infrastructure as code (IaC). These deployments are faster,"
+    },
+    {
+      "id": 969,
+      "page_index": 43,
+      "char_count": 28,
+      "text_preview": "consistent, and predictable."
+    },
+    {
+      "id": 970,
+      "page_index": 43,
+      "char_count": 83,
+      "text_preview": "\u2022  Superior technology: The cost and billing of resources can be managed as a unit."
+    },
+    {
+      "id": 971,
+      "page_index": 43,
+      "char_count": 63,
+      "text_preview": "Each resource group can provide its usage and cost information."
+    },
+    {
+      "id": 972,
+      "page_index": 43,
+      "char_count": 79,
+      "text_preview": "\u2022  Manageability: ARM provides advanced features, such as security, monitoring,"
+    },
+    {
+      "id": 973,
+      "page_index": 43,
+      "char_count": 77,
+      "text_preview": "auditing, and tagging, for better manageability of resources. Resources can be"
+    },
+    {
+      "id": 974,
+      "page_index": 43,
+      "char_count": 82,
+      "text_preview": "queried based on tags. Tags also provide cost and billing information for resources"
+    },
+    {
+      "id": 975,
+      "page_index": 43,
+      "char_count": 26,
+      "text_preview": "that are tagged similarly."
+    },
+    {
+      "id": 976,
+      "page_index": 43,
+      "char_count": 83,
+      "text_preview": "\u2022  Migration: Migration and updating resources is easier within and across resource"
+    },
+    {
+      "id": 977,
+      "page_index": 43,
+      "char_count": 7,
+      "text_preview": "groups."
+    },
+    {
+      "id": 978,
+      "page_index": 43,
+      "char_count": 12,
+      "text_preview": "ARM concepts"
+    },
+    {
+      "id": 979,
+      "page_index": 43,
+      "char_count": 82,
+      "text_preview": "With ARM, everything in Azure is a resource. Examples of resources are VMs, network"
+    },
+    {
+      "id": 980,
+      "page_index": 43,
+      "char_count": 78,
+      "text_preview": "interfaces, public IP addresses, storage accounts, and virtual networks. ARM is"
+    },
+    {
+      "id": 981,
+      "page_index": 43,
+      "char_count": 80,
+      "text_preview": "based on concepts that are related to resource providers and resource consumers."
+    },
+    {
+      "id": 982,
+      "page_index": 43,
+      "char_count": 82,
+      "text_preview": "Azure provides resources and services through multiple resource providers that are"
+    },
+    {
+      "id": 983,
+      "page_index": 43,
+      "char_count": 32,
+      "text_preview": "consumed and deployed in groups."
+    },
+    {
+      "id": 984,
+      "page_index": 43,
+      "char_count": 18,
+      "text_preview": "Resource providers"
+    },
+    {
+      "id": 985,
+      "page_index": 43,
+      "char_count": 81,
+      "text_preview": "These are services that are responsible for providing resource types through ARM."
+    },
+    {
+      "id": 986,
+      "page_index": 43,
+      "char_count": 84,
+      "text_preview": "The top-level concept in ARM is the resource provider. These providers are containers"
+    },
+    {
+      "id": 987,
+      "page_index": 43,
+      "char_count": 78,
+      "text_preview": "for resource types. Resource types are grouped into resource providers. They are"
+    },
+    {
+      "id": 988,
+      "page_index": 43,
+      "char_count": 75,
+      "text_preview": "responsible for deploying and managing resources. For example, a VM resource"
+    },
+    {
+      "id": 989,
+      "page_index": 43,
+      "char_count": 80,
+      "text_preview": "type is provided by a resource provider called Microsoft.Compute/virtualMachines"
+    },
+    {
+      "id": 990,
+      "page_index": 43,
+      "char_count": 79,
+      "text_preview": "resource. Representational state transfer (REST) API operations are versioned to"
+    },
+    {
+      "id": 991,
+      "page_index": 43,
+      "char_count": 79,
+      "text_preview": "distinguish between them. The version naming is based on the dates on which they"
+    },
+    {
+      "id": 992,
+      "page_index": 43,
+      "char_count": 89,
+      "text_preview": "are released by Microsoft. It is necessary for a related resource provider to be available"
+    },
+    {
+      "id": 993,
+      "page_index": 43,
+      "char_count": 84,
+      "text_preview": "to a subscription to deploy a resource. Not all resource providers are available to a"
+    },
+    {
+      "id": 994,
+      "page_index": 43,
+      "char_count": 85,
+      "text_preview": "subscription out of the box. If a resource is not available to a subscription, then we"
+    },
+    {
+      "id": 995,
+      "page_index": 43,
+      "char_count": 89,
+      "text_preview": "need to check whether the required resource provider is available in each region. If it is"
+    },
+    {
+      "id": 996,
+      "page_index": 43,
+      "char_count": 69,
+      "text_preview": "available, the customer can explicitly register for the subscription."
+    },
+    {
+      "id": 997,
+      "page_index": 44,
+      "char_count": 31,
+      "text_preview": "12 | Getting started with Azure"
+    },
+    {
+      "id": 998,
+      "page_index": 44,
+      "char_count": 14,
+      "text_preview": "Resource types"
+    },
+    {
+      "id": 999,
+      "page_index": 44,
+      "char_count": 86,
+      "text_preview": "Resource types are an actual resource specification defining the resource's public API"
+    },
+    {
+      "id": 1000,
+      "page_index": 44,
+      "char_count": 80,
+      "text_preview": "interface and implementation. They implement the working and operations supported"
+    },
+    {
+      "id": 1001,
+      "page_index": 44,
+      "char_count": 83,
+      "text_preview": "by the resource. Similar to resource providers, resource types also evolve over time"
+    },
+    {
+      "id": 1002,
+      "page_index": 44,
+      "char_count": 83,
+      "text_preview": "in terms of their internal implementation, and there are multiple versions of their"
+    },
+    {
+      "id": 1003,
+      "page_index": 44,
+      "char_count": 84,
+      "text_preview": "schemas and public API interfaces. The version names are based on the dates that they"
+    },
+    {
+      "id": 1004,
+      "page_index": 44,
+      "char_count": 86,
+      "text_preview": "are released by Microsoft as a preview or general availability (GA). The resource types"
+    },
+    {
+      "id": 1005,
+      "page_index": 44,
+      "char_count": 88,
+      "text_preview": "become available as a subscription after a resource provider is registered to them. Also,"
+    },
+    {
+      "id": 1006,
+      "page_index": 44,
+      "char_count": 89,
+      "text_preview": "not every resource type is available in every Azure region. The availability of a resource"
+    },
+    {
+      "id": 1007,
+      "page_index": 44,
+      "char_count": 84,
+      "text_preview": "is dependent on the availability and registration of a resource provider in an Azure"
+    },
+    {
+      "id": 1008,
+      "page_index": 44,
+      "char_count": 67,
+      "text_preview": "region and must support the API version needed for provisioning it."
+    },
+    {
+      "id": 1009,
+      "page_index": 44,
+      "char_count": 15,
+      "text_preview": "Resource groups"
+    },
+    {
+      "id": 1010,
+      "page_index": 44,
+      "char_count": 75,
+      "text_preview": "Resource groups are units of deployment in ARM. They are containers grouping"
+    },
+    {
+      "id": 1011,
+      "page_index": 44,
+      "char_count": 82,
+      "text_preview": "multiple resource instances in a security and management boundary. A resource group"
+    },
+    {
+      "id": 1012,
+      "page_index": 44,
+      "char_count": 83,
+      "text_preview": "is uniquely named in a subscription. Resources can be provisioned on different Azure"
+    },
+    {
+      "id": 1013,
+      "page_index": 44,
+      "char_count": 84,
+      "text_preview": "regions and yet belong to the same resource group. Resource groups provide additional"
+    },
+    {
+      "id": 1014,
+      "page_index": 44,
+      "char_count": 84,
+      "text_preview": "services to all the resources within them. Resource groups provide metadata services,"
+    },
+    {
+      "id": 1015,
+      "page_index": 44,
+      "char_count": 80,
+      "text_preview": "such as tagging, which enables the categorization of resources; the policy-based"
+    },
+    {
+      "id": 1016,
+      "page_index": 44,
+      "char_count": 83,
+      "text_preview": "management of resources; RBAC; the protection of resources from accidental deletion"
+    },
+    {
+      "id": 1017,
+      "page_index": 44,
+      "char_count": 82,
+      "text_preview": "or updates; and more. As mentioned before, they have a security boundary, and users"
+    },
+    {
+      "id": 1018,
+      "page_index": 44,
+      "char_count": 87,
+      "text_preview": "that don't have access to a resource group cannot access resources contained within it."
+    },
+    {
+      "id": 1019,
+      "page_index": 44,
+      "char_count": 85,
+      "text_preview": "Every resource instance needs to be part of a resource group; otherwise, it cannot be"
+    },
+    {
+      "id": 1020,
+      "page_index": 44,
+      "char_count": 9,
+      "text_preview": "deployed."
+    },
+    {
+      "id": 1021,
+      "page_index": 44,
+      "char_count": 32,
+      "text_preview": "Resources and resource instances"
+    },
+    {
+      "id": 1022,
+      "page_index": 44,
+      "char_count": 83,
+      "text_preview": "Resources are created from resource types and are an instance of a resource type. An"
+    },
+    {
+      "id": 1023,
+      "page_index": 44,
+      "char_count": 86,
+      "text_preview": "instance can be unique globally or at a resource group level. The uniqueness is defined"
+    },
+    {
+      "id": 1024,
+      "page_index": 44,
+      "char_count": 85,
+      "text_preview": "by both the name of the resource and its type. If we compare this with object-oriented"
+    },
+    {
+      "id": 1025,
+      "page_index": 44,
+      "char_count": 78,
+      "text_preview": "programming constructs, resource instances can be seen as objects and resource"
+    },
+    {
+      "id": 1026,
+      "page_index": 44,
+      "char_count": 82,
+      "text_preview": "types can be seen as classes. The services are consumed through the operations that"
+    },
+    {
+      "id": 1027,
+      "page_index": 44,
+      "char_count": 77,
+      "text_preview": "are supported and implemented by resource instances. The resource type defines"
+    },
+    {
+      "id": 1028,
+      "page_index": 44,
+      "char_count": 77,
+      "text_preview": "properties and each instance should configure mandatory properties during the"
+    },
+    {
+      "id": 1029,
+      "page_index": 44,
+      "char_count": 85,
+      "text_preview": "provisioning of an instance. Some are mandatory properties, while others are optional."
+    },
+    {
+      "id": 1030,
+      "page_index": 44,
+      "char_count": 84,
+      "text_preview": "They inherit the security and access configuration from their parent resource group."
+    },
+    {
+      "id": 1031,
+      "page_index": 44,
+      "char_count": 85,
+      "text_preview": "These inherited permissions and role assignments can be overridden for each resource."
+    },
+    {
+      "id": 1032,
+      "page_index": 44,
+      "char_count": 81,
+      "text_preview": "A resource can be locked in such a way that some of its operations can be blocked"
+    },
+    {
+      "id": 1033,
+      "page_index": 44,
+      "char_count": 86,
+      "text_preview": "and not made available to roles, users, and groups even though they have access to it."
+    },
+    {
+      "id": 1034,
+      "page_index": 44,
+      "char_count": 67,
+      "text_preview": "Resources can be tagged for easy discoverability and manageability."
+    },
+    {
+      "id": 1035,
+      "page_index": 45,
+      "char_count": 27,
+      "text_preview": "Azure Resource Manager | 13"
+    },
+    {
+      "id": 1036,
+      "page_index": 45,
+      "char_count": 12,
+      "text_preview": "ARM features"
+    },
+    {
+      "id": 1037,
+      "page_index": 45,
+      "char_count": 60,
+      "text_preview": "Here are some of the main features that are provided by ARM:"
+    },
+    {
+      "id": 1038,
+      "page_index": 45,
+      "char_count": 83,
+      "text_preview": "\u2022  RBAC: Azure Active Directory (Azure AD) authenticates users to provide access to"
+    },
+    {
+      "id": 1039,
+      "page_index": 45,
+      "char_count": 75,
+      "text_preview": "subscriptions, resource groups, and resources. ARM implements OAuth and RBAC"
+    },
+    {
+      "id": 1040,
+      "page_index": 45,
+      "char_count": 77,
+      "text_preview": "within the platform, enabling authorization and access control for resources,"
+    },
+    {
+      "id": 1041,
+      "page_index": 45,
+      "char_count": 78,
+      "text_preview": "resource groups, and subscriptions based on roles assigned to a user or group."
+    },
+    {
+      "id": 1042,
+      "page_index": 45,
+      "char_count": 77,
+      "text_preview": "A permission defines access to the operations in a resource. These permissions"
+    },
+    {
+      "id": 1043,
+      "page_index": 45,
+      "char_count": 83,
+      "text_preview": "can allow or deny access to the resource. A role definition is a collection of these"
+    },
+    {
+      "id": 1044,
+      "page_index": 45,
+      "char_count": 74,
+      "text_preview": "permissions. Roles map Azure AD users and groups to particular permissions."
+    },
+    {
+      "id": 1045,
+      "page_index": 45,
+      "char_count": 83,
+      "text_preview": "Roles are subsequently assigned to a scope; this can be an individual, a collection"
+    },
+    {
+      "id": 1046,
+      "page_index": 45,
+      "char_count": 83,
+      "text_preview": "of resources, a resource group, or the subscription. The Azure AD identities (users,"
+    },
+    {
+      "id": 1047,
+      "page_index": 45,
+      "char_count": 84,
+      "text_preview": "groups, and service principals) that are added to a role gain access to the resource"
+    },
+    {
+      "id": 1048,
+      "page_index": 45,
+      "char_count": 78,
+      "text_preview": "according to the permissions defined in the role. ARM provides multiple out-of-"
+    },
+    {
+      "id": 1049,
+      "page_index": 45,
+      "char_count": 75,
+      "text_preview": "the-box roles. It provides system roles, such as the owner, contributor, and"
+    },
+    {
+      "id": 1050,
+      "page_index": 45,
+      "char_count": 79,
+      "text_preview": "reader. It also provides resource-based roles, such as SQL DB contributor and VM"
+    },
+    {
+      "id": 1051,
+      "page_index": 45,
+      "char_count": 57,
+      "text_preview": "contributor. ARM also allows the creation of custom roles."
+    },
+    {
+      "id": 1052,
+      "page_index": 45,
+      "char_count": 79,
+      "text_preview": "\u2022  Tags: Tags are name-value pairs that add additional information and metadata"
+    },
+    {
+      "id": 1053,
+      "page_index": 45,
+      "char_count": 75,
+      "text_preview": "to resources. Both resources and resource groups can be tagged with multiple"
+    },
+    {
+      "id": 1054,
+      "page_index": 45,
+      "char_count": 80,
+      "text_preview": "tags. Tags help in the categorization of resources for better discoverability and"
+    },
+    {
+      "id": 1055,
+      "page_index": 45,
+      "char_count": 81,
+      "text_preview": "manageability. Resources can be quickly searched for and easily identified. Billing"
+    },
+    {
+      "id": 1056,
+      "page_index": 45,
+      "char_count": 79,
+      "text_preview": "and cost information can also be fetched for resources that have the same tags."
+    },
+    {
+      "id": 1057,
+      "page_index": 45,
+      "char_count": 80,
+      "text_preview": "While this feature is provided by ARM, an IT administrator defines its usage and"
+    },
+    {
+      "id": 1058,
+      "page_index": 45,
+      "char_count": 76,
+      "text_preview": "taxonomy with regard to resources and resource groups. Taxonomy and tags, for"
+    },
+    {
+      "id": 1059,
+      "page_index": 45,
+      "char_count": 78,
+      "text_preview": "example, can relate to departments, resource usage, location, projects, or any"
+    },
+    {
+      "id": 1060,
+      "page_index": 45,
+      "char_count": 86,
+      "text_preview": "other criteria that are deemed fit from a cost, usage, billing, or search perspective."
+    },
+    {
+      "id": 1061,
+      "page_index": 45,
+      "char_count": 81,
+      "text_preview": "These tags can then be applied to resources. Tags that are defined at the resource"
+    },
+    {
+      "id": 1062,
+      "page_index": 45,
+      "char_count": 49,
+      "text_preview": "group level are not inherited by their resources."
+    },
+    {
+      "id": 1063,
+      "page_index": 45,
+      "char_count": 81,
+      "text_preview": "\u2022  Policies: Another security feature that is provided by ARM is custom policies."
+    },
+    {
+      "id": 1064,
+      "page_index": 45,
+      "char_count": 82,
+      "text_preview": "Custom policies can be created to control access to resources. Policies are defined"
+    },
+    {
+      "id": 1065,
+      "page_index": 45,
+      "char_count": 76,
+      "text_preview": "as conventions and rules, and they must be adhered to while interacting with"
+    },
+    {
+      "id": 1066,
+      "page_index": 45,
+      "char_count": 82,
+      "text_preview": "resources and resource groups. The policy definition contains an explicit denial of"
+    },
+    {
+      "id": 1067,
+      "page_index": 45,
+      "char_count": 82,
+      "text_preview": "actions on resources or access to resources. By default, every access is allowed if"
+    },
+    {
+      "id": 1068,
+      "page_index": 45,
+      "char_count": 82,
+      "text_preview": "it is not mentioned in the policy definition. These policy definitions are assigned"
+    },
+    {
+      "id": 1069,
+      "page_index": 45,
+      "char_count": 79,
+      "text_preview": "to the resource, resource group, and subscription scope. It is important to note"
+    },
+    {
+      "id": 1070,
+      "page_index": 45,
+      "char_count": 78,
+      "text_preview": "that these policies are not replacements or substitutes for RBAC. In fact, they"
+    },
+    {
+      "id": 1071,
+      "page_index": 45,
+      "char_count": 77,
+      "text_preview": "complement and work together with RBAC. Policies are evaluated after a user is"
+    },
+    {
+      "id": 1072,
+      "page_index": 45,
+      "char_count": 73,
+      "text_preview": "authenticated by Azure AD and authorized by the RBAC service. ARM provides"
+    },
+    {
+      "id": 1073,
+      "page_index": 45,
+      "char_count": 75,
+      "text_preview": "a JSON-based policy definition language for defining policies. Some examples"
+    },
+    {
+      "id": 1074,
+      "page_index": 45,
+      "char_count": 80,
+      "text_preview": "of policy definitions are that a policy must tag every provisioned resource, and"
+    },
+    {
+      "id": 1075,
+      "page_index": 45,
+      "char_count": 60,
+      "text_preview": "resources can only be provisioned to specific Azure regions."
+    },
+    {
+      "id": 1076,
+      "page_index": 46,
+      "char_count": 31,
+      "text_preview": "14 | Getting started with Azure"
+    },
+    {
+      "id": 1077,
+      "page_index": 46,
+      "char_count": 80,
+      "text_preview": "\u2022  Locks: Subscriptions, resource groups, and resources can be locked to prevent"
+    },
+    {
+      "id": 1078,
+      "page_index": 46,
+      "char_count": 80,
+      "text_preview": "accidental deletions or updates by an authenticated user. Locks applied at higher"
+    },
+    {
+      "id": 1079,
+      "page_index": 46,
+      "char_count": 83,
+      "text_preview": "levels flow downstream to the child resources. Alternatively, locks that are applied"
+    },
+    {
+      "id": 1080,
+      "page_index": 46,
+      "char_count": 80,
+      "text_preview": "at the subscription level lock every resource group and the resources within it."
+    },
+    {
+      "id": 1081,
+      "page_index": 46,
+      "char_count": 77,
+      "text_preview": "\u2022  Multi-region: Azure provides multiple regions for provisioning and hosting"
+    },
+    {
+      "id": 1082,
+      "page_index": 46,
+      "char_count": 83,
+      "text_preview": "resources. ARM allows resources to be provisioned at different locations while still"
+    },
+    {
+      "id": 1083,
+      "page_index": 46,
+      "char_count": 78,
+      "text_preview": "residing within the same resource group. A resource group can contain resources"
+    },
+    {
+      "id": 1084,
+      "page_index": 46,
+      "char_count": 23,
+      "text_preview": "from different regions."
+    },
+    {
+      "id": 1085,
+      "page_index": 46,
+      "char_count": 84,
+      "text_preview": "\u2022  Idempotent: This feature ensures predictability, standardization, and consistency"
+    },
+    {
+      "id": 1086,
+      "page_index": 46,
+      "char_count": 80,
+      "text_preview": "in resource deployment by ensuring that every deployment will result in the same"
+    },
+    {
+      "id": 1087,
+      "page_index": 46,
+      "char_count": 83,
+      "text_preview": "state of resources and configuration, no matter the number of times it is executed."
+    },
+    {
+      "id": 1088,
+      "page_index": 46,
+      "char_count": 80,
+      "text_preview": "\u2022  Extensible: ARM provides an extensible architecture to allow the creation and"
+    },
+    {
+      "id": 1089,
+      "page_index": 46,
+      "char_count": 73,
+      "text_preview": "plugging in of new resource providers and resource types on the platform."
+    },
+    {
+      "id": 1090,
+      "page_index": 46,
+      "char_count": 14,
+      "text_preview": "Virtualization"
+    },
+    {
+      "id": 1091,
+      "page_index": 46,
+      "char_count": 81,
+      "text_preview": "Virtualization was a breakthrough innovation that completely changed the way that"
+    },
+    {
+      "id": 1092,
+      "page_index": 46,
+      "char_count": 88,
+      "text_preview": "physical servers were looked at. It refers to the abstraction of a physical object into a"
+    },
+    {
+      "id": 1093,
+      "page_index": 46,
+      "char_count": 15,
+      "text_preview": "logical object."
+    },
+    {
+      "id": 1094,
+      "page_index": 46,
+      "char_count": 80,
+      "text_preview": "The virtualization of physical servers led to virtual servers known as VMs. These"
+    },
+    {
+      "id": 1095,
+      "page_index": 46,
+      "char_count": 75,
+      "text_preview": "VMs consume and share the physical CPU, memory, storage, and other hardware"
+    },
+    {
+      "id": 1096,
+      "page_index": 46,
+      "char_count": 82,
+      "text_preview": "of the physical server on which they are hosted. This enables the faster and easier"
+    },
+    {
+      "id": 1097,
+      "page_index": 46,
+      "char_count": 83,
+      "text_preview": "provisioning of application environments on-demand, providing high availability and"
+    },
+    {
+      "id": 1098,
+      "page_index": 46,
+      "char_count": 86,
+      "text_preview": "scalability with reduced cost. One physical server is enough to host multiple VMs, with"
+    },
+    {
+      "id": 1099,
+      "page_index": 46,
+      "char_count": 71,
+      "text_preview": "each VM containing its own operating system and hosting services on it."
+    },
+    {
+      "id": 1100,
+      "page_index": 46,
+      "char_count": 81,
+      "text_preview": "There was no longer any need to buy additional physical servers for deploying new"
+    },
+    {
+      "id": 1101,
+      "page_index": 46,
+      "char_count": 84,
+      "text_preview": "applications and services. The existing physical servers were sufficient to host more"
+    },
+    {
+      "id": 1102,
+      "page_index": 46,
+      "char_count": 84,
+      "text_preview": "VMs. Furthermore, as part of rationalization, many physical servers were consolidated"
+    },
+    {
+      "id": 1103,
+      "page_index": 46,
+      "char_count": 43,
+      "text_preview": "into a few with the help of virtualization."
+    },
+    {
+      "id": 1104,
+      "page_index": 46,
+      "char_count": 80,
+      "text_preview": "Each VM contains the entire operating system, and each VM is completely isolated"
+    },
+    {
+      "id": 1105,
+      "page_index": 46,
+      "char_count": 84,
+      "text_preview": "from other VMs, including the physical hosts. Although a VM uses the hardware that is"
+    },
+    {
+      "id": 1106,
+      "page_index": 46,
+      "char_count": 89,
+      "text_preview": "provided by the host physical server, it has full control over its assigned resources and"
+    },
+    {
+      "id": 1107,
+      "page_index": 46,
+      "char_count": 83,
+      "text_preview": "its environment. These VMs can be hosted on a network such as a physical server with"
+    },
+    {
+      "id": 1108,
+      "page_index": 46,
+      "char_count": 17,
+      "text_preview": "its own identity."
+    },
+    {
+      "id": 1109,
+      "page_index": 46,
+      "char_count": 82,
+      "text_preview": "Azure can create Linux and Windows VMs in a few minutes. Microsoft provides its own"
+    },
+    {
+      "id": 1110,
+      "page_index": 46,
+      "char_count": 85,
+      "text_preview": "images, along with images from its partners and the community; users can also provide"
+    },
+    {
+      "id": 1111,
+      "page_index": 46,
+      "char_count": 52,
+      "text_preview": "their own images. VMs are created using these images."
+    },
+    {
+      "id": 1112,
+      "page_index": 47,
+      "char_count": 15,
+      "text_preview": "Containers | 15"
+    },
+    {
+      "id": 1113,
+      "page_index": 47,
+      "char_count": 10,
+      "text_preview": "Containers"
+    },
+    {
+      "id": 1114,
+      "page_index": 47,
+      "char_count": 90,
+      "text_preview": "Containers are also a virtualization technology; however, they do not virtualize a server."
+    },
+    {
+      "id": 1115,
+      "page_index": 47,
+      "char_count": 85,
+      "text_preview": "Instead, a container is operating system\u2013level virtualization. What this means is that"
+    },
+    {
+      "id": 1116,
+      "page_index": 47,
+      "char_count": 82,
+      "text_preview": "containers share the operating system kernel (which is provided by the host) among"
+    },
+    {
+      "id": 1117,
+      "page_index": 47,
+      "char_count": 81,
+      "text_preview": "themselves along with the host. Multiple containers running on a host (physical or"
+    },
+    {
+      "id": 1118,
+      "page_index": 47,
+      "char_count": 85,
+      "text_preview": "virtual) share the host operating system kernel. Containers ensure that they reuse the"
+    },
+    {
+      "id": 1119,
+      "page_index": 47,
+      "char_count": 68,
+      "text_preview": "host kernel instead of each having a dedicated kernel to themselves."
+    },
+    {
+      "id": 1120,
+      "page_index": 47,
+      "char_count": 86,
+      "text_preview": "Containers are completely isolated from their host or from other containers running on"
+    },
+    {
+      "id": 1121,
+      "page_index": 47,
+      "char_count": 84,
+      "text_preview": "the host. Windows containers use Windows storage filter drivers and session isolation"
+    },
+    {
+      "id": 1122,
+      "page_index": 47,
+      "char_count": 86,
+      "text_preview": "to isolate operating system services such as the file system, registry, processes, and"
+    },
+    {
+      "id": 1123,
+      "page_index": 47,
+      "char_count": 80,
+      "text_preview": "networks. The same is true even for Linux containers running on Linux hosts. Linux"
+    },
+    {
+      "id": 1124,
+      "page_index": 47,
+      "char_count": 87,
+      "text_preview": "containers use the Linux namespace, control groups, and union file system to virtualize"
+    },
+    {
+      "id": 1125,
+      "page_index": 47,
+      "char_count": 26,
+      "text_preview": "the host operating system."
+    },
+    {
+      "id": 1126,
+      "page_index": 47,
+      "char_count": 82,
+      "text_preview": "The container appears as if it has a completely new and untouched operating system"
+    },
+    {
+      "id": 1127,
+      "page_index": 47,
+      "char_count": 80,
+      "text_preview": "and resources. This arrangement provides lots of benefits, such as the following:"
+    },
+    {
+      "id": 1128,
+      "page_index": 47,
+      "char_count": 79,
+      "text_preview": "\u2022  Containers are fast to provision and take less time to provision compared to"
+    },
+    {
+      "id": 1129,
+      "page_index": 47,
+      "char_count": 73,
+      "text_preview": "virtual machines. Most of the operating system services in a container are"
+    },
+    {
+      "id": 1130,
+      "page_index": 47,
+      "char_count": 38,
+      "text_preview": "provided by the host operating system."
+    },
+    {
+      "id": 1131,
+      "page_index": 47,
+      "char_count": 80,
+      "text_preview": "\u2022  Containers are lightweight and require fewer computing resources than VMs. The"
+    },
+    {
+      "id": 1132,
+      "page_index": 47,
+      "char_count": 73,
+      "text_preview": "operating system resource overhead is no longer required with containers."
+    },
+    {
+      "id": 1133,
+      "page_index": 47,
+      "char_count": 40,
+      "text_preview": "\u2022  Containers are much smaller than VMs."
+    },
+    {
+      "id": 1134,
+      "page_index": 47,
+      "char_count": 78,
+      "text_preview": "\u2022  Containers can help solve problems related to managing multiple application"
+    },
+    {
+      "id": 1135,
+      "page_index": 47,
+      "char_count": 59,
+      "text_preview": "dependencies in an intuitive, automated, and simple manner."
+    },
+    {
+      "id": 1136,
+      "page_index": 47,
+      "char_count": 84,
+      "text_preview": "\u2022  Containers provide infrastructure in order to define all application dependencies"
+    },
+    {
+      "id": 1137,
+      "page_index": 47,
+      "char_count": 18,
+      "text_preview": "in a single place."
+    },
+    {
+      "id": 1138,
+      "page_index": 48,
+      "char_count": 31,
+      "text_preview": "16 | Getting started with Azure"
+    },
+    {
+      "id": 1139,
+      "page_index": 48,
+      "char_count": 82,
+      "text_preview": "Containers are an inherent feature of Windows Server 2016 and Windows 10; however,"
+    },
+    {
+      "id": 1140,
+      "page_index": 48,
+      "char_count": 82,
+      "text_preview": "they are managed and accessed using a Docker client and a Docker daemon. Containers"
+    },
+    {
+      "id": 1141,
+      "page_index": 48,
+      "char_count": 81,
+      "text_preview": "can be created on Azure with a Windows Server 2016 SKU as an image. Each container"
+    },
+    {
+      "id": 1142,
+      "page_index": 48,
+      "char_count": 85,
+      "text_preview": "has a single main process that must be running for the container to exist. A container"
+    },
+    {
+      "id": 1143,
+      "page_index": 48,
+      "char_count": 88,
+      "text_preview": "will stop when this process ends. Additionally, a container can either run in interactive"
+    },
+    {
+      "id": 1144,
+      "page_index": 48,
+      "char_count": 40,
+      "text_preview": "mode or in detached mode like a service:"
+    },
+    {
+      "id": 1145,
+      "page_index": 48,
+      "char_count": 34,
+      "text_preview": "Figure 1.3: Container architecture"
+    },
+    {
+      "id": 1146,
+      "page_index": 48,
+      "char_count": 86,
+      "text_preview": "Figure 1.3 shows all the technical layers that enable containers. The bottom-most layer"
+    },
+    {
+      "id": 1147,
+      "page_index": 48,
+      "char_count": 82,
+      "text_preview": "provides the core infrastructure in terms of network, storage, load balancers, and"
+    },
+    {
+      "id": 1148,
+      "page_index": 48,
+      "char_count": 89,
+      "text_preview": "network cards. At the top of the infrastructure is the compute layer, consisting of either"
+    },
+    {
+      "id": 1149,
+      "page_index": 48,
+      "char_count": 87,
+      "text_preview": "a physical server or both physical and virtual servers on top of a physical server. This"
+    },
+    {
+      "id": 1150,
+      "page_index": 48,
+      "char_count": 85,
+      "text_preview": "layer contains the operating system with the ability to host containers. The operating"
+    },
+    {
+      "id": 1151,
+      "page_index": 48,
+      "char_count": 86,
+      "text_preview": "system provides the execution driver that the layers above use to call the kernel code"
+    },
+    {
+      "id": 1152,
+      "page_index": 48,
+      "char_count": 78,
+      "text_preview": "and objects to execute containers. Microsoft created Host Container System Shim"
+    },
+    {
+      "id": 1153,
+      "page_index": 48,
+      "char_count": 78,
+      "text_preview": "(HCSShim) for managing and creating containers and uses Windows storage filter"
+    },
+    {
+      "id": 1154,
+      "page_index": 48,
+      "char_count": 38,
+      "text_preview": "drivers for image and file management."
+    },
+    {
+      "id": 1155,
+      "page_index": 48,
+      "char_count": 81,
+      "text_preview": "Container environment isolation is enabled for the Windows session. Windows Server"
+    },
+    {
+      "id": 1156,
+      "page_index": 48,
+      "char_count": 81,
+      "text_preview": "2016 and Nano Server provide the operating system, enable the container features,"
+    },
+    {
+      "id": 1157,
+      "page_index": 48,
+      "char_count": 81,
+      "text_preview": "and execute the user-level Docker client and Docker Engine. Docker Engine uses the"
+    },
+    {
+      "id": 1158,
+      "page_index": 48,
+      "char_count": 86,
+      "text_preview": "services of HCSShim, storage filter drivers, and sessions to spawn multiple containers"
+    },
+    {
+      "id": 1159,
+      "page_index": 48,
+      "char_count": 72,
+      "text_preview": "on the server, with each containing a service, application, or database."
+    },
+    {
+      "id": 1160,
+      "page_index": 49,
+      "char_count": 11,
+      "text_preview": "Docker | 17"
+    },
+    {
+      "id": 1161,
+      "page_index": 49,
+      "char_count": 6,
+      "text_preview": "Docker"
+    },
+    {
+      "id": 1162,
+      "page_index": 49,
+      "char_count": 74,
+      "text_preview": "Docker provides management features to Windows containers. It comprises the"
+    },
+    {
+      "id": 1163,
+      "page_index": 49,
+      "char_count": 26,
+      "text_preview": "following two executables:"
+    },
+    {
+      "id": 1164,
+      "page_index": 49,
+      "char_count": 20,
+      "text_preview": "\u2022  The Docker daemon"
+    },
+    {
+      "id": 1165,
+      "page_index": 49,
+      "char_count": 20,
+      "text_preview": "\u2022  The Docker client"
+    },
+    {
+      "id": 1166,
+      "page_index": 49,
+      "char_count": 82,
+      "text_preview": "The Docker daemon is the workhorse for managing containers. It is a Windows service"
+    },
+    {
+      "id": 1167,
+      "page_index": 49,
+      "char_count": 86,
+      "text_preview": "responsible for managing all activities on the host that are related to containers. The"
+    },
+    {
+      "id": 1168,
+      "page_index": 49,
+      "char_count": 86,
+      "text_preview": "Docker client interacts with the Docker daemon and is responsible for capturing inputs"
+    },
+    {
+      "id": 1169,
+      "page_index": 49,
+      "char_count": 75,
+      "text_preview": "and sending them across to the Docker daemon. The Docker daemon provides the"
+    },
+    {
+      "id": 1170,
+      "page_index": 49,
+      "char_count": 87,
+      "text_preview": "runtime, libraries, graph drivers, and engine to create, manage, and monitor containers"
+    },
+    {
+      "id": 1171,
+      "page_index": 49,
+      "char_count": 86,
+      "text_preview": "and images on the host server. It also has the ability to create custom images that are"
+    },
+    {
+      "id": 1172,
+      "page_index": 49,
+      "char_count": 69,
+      "text_preview": "used for building and shipping applications to multiple environments."
+    },
+    {
+      "id": 1173,
+      "page_index": 49,
+      "char_count": 38,
+      "text_preview": "Interacting with the intelligent cloud"
+    },
+    {
+      "id": 1174,
+      "page_index": 49,
+      "char_count": 84,
+      "text_preview": "Azure provides multiple ways to connect, automate, and interact with the intelligent"
+    },
+    {
+      "id": 1175,
+      "page_index": 49,
+      "char_count": 87,
+      "text_preview": "cloud. All these methods require users to be authenticated with valid credentials before"
+    },
+    {
+      "id": 1176,
+      "page_index": 49,
+      "char_count": 71,
+      "text_preview": "they can be used. The different ways to connect to Azure are as follows:"
+    },
+    {
+      "id": 1177,
+      "page_index": 49,
+      "char_count": 19,
+      "text_preview": "\u2022  The Azure portal"
+    },
+    {
+      "id": 1178,
+      "page_index": 49,
+      "char_count": 13,
+      "text_preview": "\u2022  PowerShell"
+    },
+    {
+      "id": 1179,
+      "page_index": 49,
+      "char_count": 16,
+      "text_preview": "\u2022  The Azure CLI"
+    },
+    {
+      "id": 1180,
+      "page_index": 49,
+      "char_count": 21,
+      "text_preview": "\u2022  The Azure REST API"
+    },
+    {
+      "id": 1181,
+      "page_index": 49,
+      "char_count": 16,
+      "text_preview": "The Azure portal"
+    },
+    {
+      "id": 1182,
+      "page_index": 49,
+      "char_count": 85,
+      "text_preview": "The Azure portal is a great place to get started. With the Azure portal, users can log"
+    },
+    {
+      "id": 1183,
+      "page_index": 49,
+      "char_count": 79,
+      "text_preview": "in and start creating and managing Azure resources manually. The portal provides"
+    },
+    {
+      "id": 1184,
+      "page_index": 49,
+      "char_count": 82,
+      "text_preview": "an intuitive and user-friendly user interface through the browser. The Azure portal"
+    },
+    {
+      "id": 1185,
+      "page_index": 49,
+      "char_count": 85,
+      "text_preview": "provides an easy way to navigate to resources using blades. The blades display all the"
+    },
+    {
+      "id": 1186,
+      "page_index": 49,
+      "char_count": 92,
+      "text_preview": "properties of a resource, including its logs, cost, relationship with other resources, tags,"
+    },
+    {
+      "id": 1187,
+      "page_index": 49,
+      "char_count": 80,
+      "text_preview": "security options, and more. An entire cloud deployment can be managed through the"
+    },
+    {
+      "id": 1188,
+      "page_index": 49,
+      "char_count": 7,
+      "text_preview": "portal."
+    }
+  ],
+  "scores": [
+    {
+      "id": 929,
+      "page_index": 41,
+      "relevance": 0.95,
+      "rationale_preview": "Azure Resource Manager is central to Azure architecture."
+    },
+    {
+      "id": 917,
+      "page_index": 41,
+      "relevance": 0.9,
+      "rationale_preview": "Directly relevant to Azure architecture and resource management."
+    },
+    {
+      "id": 923,
+      "page_index": 41,
+      "relevance": 0.9,
+      "rationale_preview": "Directly mentions Microsoft Azure, central to the topic."
+    },
+    {
+      "id": 928,
+      "page_index": 41,
+      "relevance": 0.9,
+      "rationale_preview": "Resource Providers are key for Azure architecture understanding."
+    },
+    {
+      "id": 956,
+      "page_index": 42,
+      "relevance": 0.9,
+      "rationale_preview": "Introduces ARM advantages, highly relevant for Azure architecture learning."
+    },
+    {
+      "id": 958,
+      "page_index": 42,
+      "relevance": 0.9,
+      "rationale_preview": "Highlights resource grouping, useful for Azure management insights."
+    },
+    {
+      "id": 963,
+      "page_index": 42,
+      "relevance": 0.9,
+      "rationale_preview": "Introduces RBAC, critical for Azure security and permissions."
+    },
+    {
+      "id": 964,
+      "page_index": 42,
+      "relevance": 0.9,
+      "rationale_preview": "Details granular access control, essential for Azure security."
+    },
+    {
+      "id": 967,
+      "page_index": 43,
+      "relevance": 0.9,
+      "rationale_preview": "Highlights ARM's role in IaC, relevant for Azure expertise."
+    },
+    {
+      "id": 978,
+      "page_index": 43,
+      "relevance": 0.9,
+      "rationale_preview": "ARM concepts are foundational for Azure architecture learning."
+    },
+    {
+      "id": 979,
+      "page_index": 43,
+      "relevance": 0.9,
+      "rationale_preview": "Understanding resources in ARM is crucial for Azure expertise."
+    },
+    {
+      "id": 985,
+      "page_index": 43,
+      "relevance": 0.9,
+      "rationale_preview": "Explains resource providers' role in ARM, key for Azure architecture."
+    },
+    {
+      "id": 988,
+      "page_index": 43,
+      "relevance": 0.9,
+      "rationale_preview": "Details resource deployment and management, critical for Azure architecture."
+    },
+    {
+      "id": 993,
+      "page_index": 43,
+      "relevance": 0.9,
+      "rationale_preview": "Discusses resource provider availability, relevant for Azure architecture."
+    },
+    {
+      "id": 930,
+      "page_index": 41,
+      "relevance": 0.85,
+      "rationale_preview": "ARM architecture and REST API endpoints are relevant for Azure services."
+    },
+    {
+      "id": 972,
+      "page_index": 43,
+      "relevance": 0.85,
+      "rationale_preview": "Mentions advanced ARM features like security and monitoring."
+    },
+    {
+      "id": 996,
+      "page_index": 43,
+      "relevance": 0.85,
+      "rationale_preview": "Covers explicit registration for subscriptions, useful for Azure deployment knowledge."
+    },
+    {
+      "id": 920,
+      "page_index": 41,
+      "relevance": 0.8,
+      "rationale_preview": "Explains Azure Subscription structure, relevant to architecture."
+    },
+    {
+      "id": 924,
+      "page_index": 41,
+      "relevance": 0.8,
+      "rationale_preview": "Lists key Azure architecture components."
+    },
+    {
+      "id": 931,
+      "page_index": 41,
+      "relevance": 0.8,
+      "rationale_preview": "Understanding why ARM is used enhances architectural knowledge."
+    },
+    {
+      "id": 934,
+      "page_index": 41,
+      "relevance": 0.8,
+      "rationale_preview": "Discusses ARM emergence, relevant for Azure architecture."
+    },
+    {
+      "id": 941,
+      "page_index": 42,
+      "relevance": 0.8,
+      "rationale_preview": "Parallel transaction handling contrasts with Azure's modern architecture."
+    },
+    {
+      "id": 950,
+      "page_index": 42,
+      "relevance": 0.8,
+      "rationale_preview": "Discusses role assignment limitations, relevant for Azure permissions architecture."
+    },
+    {
+      "id": 954,
+      "page_index": 42,
+      "relevance": 0.8,
+      "rationale_preview": "Discusses scripting and API inconsistencies, relevant for Azure automation and integration."
+    },
+    {
+      "id": 957,
+      "page_index": 42,
+      "relevance": 0.8,
+      "rationale_preview": "Introduces ARM advantages, relevant for Azure architecture learning."
+    },
+    {
+      "id": 961,
+      "page_index": 42,
+      "relevance": 0.8,
+      "rationale_preview": "Describes common lifecycle, relevant for Azure resource coordination."
+    },
+    {
+      "id": 962,
+      "page_index": 42,
+      "relevance": 0.8,
+      "rationale_preview": "Explains unit management, useful for Azure architecture practices."
+    },
+    {
+      "id": 970,
+      "page_index": 43,
+      "relevance": 0.8,
+      "rationale_preview": "Discusses cost management, useful for architecture insights."
+    },
+    {
+      "id": 976,
+      "page_index": 43,
+      "relevance": 0.8,
+      "rationale_preview": "Migration ease within resource groups is key for Azure architecture."
+    },
+    {
+      "id": 980,
+      "page_index": 43,
+      "relevance": 0.8,
+      "rationale_preview": "ARM's role in Azure architecture is highly relevant."
+    },
+    {
+      "id": 982,
+      "page_index": 43,
+      "relevance": 0.8,
+      "rationale_preview": "Highlights Azure's resource provisioning mechanism, useful for understanding architecture."
+    },
+    {
+      "id": 986,
+      "page_index": 43,
+      "relevance": 0.8,
+      "rationale_preview": "Defines resource providers as top-level ARM concept, important for understanding Azure."
+    },
+    {
+      "id": 999,
+      "page_index": 44,
+      "relevance": 0.8,
+      "rationale_preview": "Defines resource API, relevant for Azure architecture."
+    },
+    {
+      "id": 1006,
+      "page_index": 44,
+      "relevance": 0.8,
+      "rationale_preview": "Highlights Azure region-specific resource availability, which may be less familiar."
+    },
+    {
+      "id": 932,
+      "page_index": 41,
+      "relevance": 0.75,
+      "rationale_preview": "Historical context of ARM provides deeper insight into Azure evolution."
+    },
+    {
+      "id": 921,
+      "page_index": 41,
+      "relevance": 0.7,
+      "rationale_preview": "Discusses resource types and providers in Azure."
+    },
+    {
+      "id": 937,
+      "page_index": 42,
+      "relevance": 0.7,
+      "rationale_preview": "Highlights ASM's slow, blocking deployments, contrasting with modern Azure practices."
+    },
+    {
+      "id": 945,
+      "page_index": 42,
+      "relevance": 0.7,
+      "rationale_preview": "Resource isolation highlights differences from Azure Resource Manager."
+    },
+    {
+      "id": 949,
+      "page_index": 42,
+      "relevance": 0.7,
+      "rationale_preview": "Highlights scalability issues in architecture, relevant for Azure design insights."
+    },
+    {
+      "id": 952,
+      "page_index": 42,
+      "relevance": 0.7,
+      "rationale_preview": "Describes access control issues, relevant for Azure resource management."
+    },
+    {
+      "id": 959,
+      "page_index": 42,
+      "relevance": 0.7,
+      "rationale_preview": "Explains lifecycle management, relevant for Azure resource handling."
+    },
+    {
+      "id": 960,
+      "page_index": 42,
+      "relevance": 0.7,
+      "rationale_preview": "Details identifying related resources, useful for architecture clarity."
+    },
+    {
+      "id": 974,
+      "page_index": 43,
+      "relevance": 0.7,
+      "rationale_preview": "Tags provide cost insights, useful for Azure architecture."
+    },
+    {
+      "id": 983,
+      "page_index": 43,
+      "relevance": 0.7,
+      "rationale_preview": "Discusses resource deployment in groups, relevant to Azure service organization."
+    },
+    {
+      "id": 987,
+      "page_index": 43,
+      "relevance": 0.7,
+      "rationale_preview": "Groups resource types into providers, relevant to Azure's organizational structure."
+    },
+    {
+      "id": 1000,
+      "page_index": 44,
+      "relevance": 0.7,
+      "rationale_preview": "Discusses interface and operations, useful for architecture."
+    },
+    {
+      "id": 1010,
+      "page_index": 44,
+      "relevance": 0.7,
+      "rationale_preview": "Explains resource groups as deployment units, relevant for architecture understanding."
+    },
+    {
+      "id": 922,
+      "page_index": 41,
+      "relevance": 0.6,
+      "rationale_preview": "Mentions resource provider concept in Azure."
+    },
+    {
+      "id": 940,
+      "page_index": 42,
+      "relevance": 0.6,
+      "rationale_preview": "Mentions parallelism challenges in ASM, useful for understanding Azure evolution."
+    },
+    {
+      "id": 948,
+      "page_index": 42,
+      "relevance": 0.6,
+      "rationale_preview": "Cloud services as deployment units may offer historical context."
+    },
+    {
+      "id": 951,
+      "page_index": 42,
+      "relevance": 0.6,
+      "rationale_preview": "Explains subscription roles, useful for understanding Azure administrative structure."
+    },
+    {
+      "id": 955,
+      "page_index": 42,
+      "relevance": 0.6,
+      "rationale_preview": "Mentions resource-specific API issues, useful for Azure resource handling."
+    },
+    {
+      "id": 973,
+      "page_index": 43,
+      "relevance": 0.6,
+      "rationale_preview": "Tagging aids resource manageability, relevant for Azure expertise."
+    },
+    {
+      "id": 981,
+      "page_index": 43,
+      "relevance": 0.6,
+      "rationale_preview": "Mentions resource providers and consumers, relevant to Azure architecture."
+    },
+    {
+      "id": 1001,
+      "page_index": 44,
+      "relevance": 0.6,
+      "rationale_preview": "Mentions evolution, relevant for understanding updates."
+    },
+    {
+      "id": 1003,
+      "page_index": 44,
+      "relevance": 0.6,
+      "rationale_preview": "Versioning based on release dates, useful for tracking updates."
+    },
+    {
+      "id": 953,
+      "page_index": 42,
+      "relevance": 0.5,
+      "rationale_preview": "Mentions deployment methods, less novel but relevant for Azure operations."
+    },
+    {
+      "id": 975,
+      "page_index": 43,
+      "relevance": 0.5,
+      "rationale_preview": "Tagging similar resources simplifies billing, moderately relevant."
+    },
+    {
+      "id": 984,
+      "page_index": 43,
+      "relevance": 0.5,
+      "rationale_preview": "Brief mention of resource providers, less detailed."
+    },
+    {
+      "id": 1002,
+      "page_index": 44,
+      "relevance": 0.5,
+      "rationale_preview": "General note on implementation changes."
+    },
+    {
+      "id": 977,
+      "page_index": 43,
+      "relevance": 0.4,
+      "rationale_preview": "Migration across groups is less novel but still relevant."
+    },
+    {
+      "id": 998,
+      "page_index": 44,
+      "relevance": 0.4,
+      "rationale_preview": "General term, may not add new insights."
+    },
+    {
+      "id": 1004,
+      "page_index": 44,
+      "relevance": 0.4,
+      "rationale_preview": "General note on release stages."
+    },
+    {
+      "id": 918,
+      "page_index": 41,
+      "relevance": 0.3,
+      "rationale_preview": "ARM architecture is unrelated to Azure services."
+    },
+    {
+      "id": 919,
+      "page_index": 41,
+      "relevance": 0.2,
+      "rationale_preview": "Focuses on ARM components, not Azure-specific insights."
+    },
+    {
+      "id": 997,
+      "page_index": 44,
+      "relevance": 0.2,
+      "rationale_preview": "Basic introductory content, likely already known."
+    },
+    {
+      "id": 925,
+      "page_index": 41,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 926,
+      "page_index": 41,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 927,
+      "page_index": 41,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 933,
+      "page_index": 41,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 935,
+      "page_index": 42,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 936,
+      "page_index": 42,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 938,
+      "page_index": 42,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 939,
+      "page_index": 42,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 942,
+      "page_index": 42,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 943,
+      "page_index": 42,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 944,
+      "page_index": 42,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 946,
+      "page_index": 42,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 947,
+      "page_index": 42,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 965,
+      "page_index": 42,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 966,
+      "page_index": 43,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 968,
+      "page_index": 43,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 969,
+      "page_index": 43,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 971,
+      "page_index": 43,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 989,
+      "page_index": 43,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 990,
+      "page_index": 43,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 991,
+      "page_index": 43,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 992,
+      "page_index": 43,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 994,
+      "page_index": 43,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 995,
+      "page_index": 43,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1005,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1007,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1008,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1009,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1011,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1012,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1013,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1014,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1015,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1016,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1017,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1018,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1019,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1020,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1021,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1022,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1023,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1024,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1025,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1026,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1027,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1028,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1029,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1030,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1031,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1032,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1033,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1034,
+      "page_index": 44,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1035,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1036,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1037,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1038,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1039,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1040,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1041,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1042,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1043,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1044,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1045,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1046,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1047,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1048,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1049,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1050,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1051,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1052,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1053,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1054,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1055,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1056,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1057,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1058,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1059,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1060,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1061,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1062,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1063,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1064,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1065,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1066,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1067,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1068,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1069,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1070,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1071,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1072,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1073,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1074,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1075,
+      "page_index": 45,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1076,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1077,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1078,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1079,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1080,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1081,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1082,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1083,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1084,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1085,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1086,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1087,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1088,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1089,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1090,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1091,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1092,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1093,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1094,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1095,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1096,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1097,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1098,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1099,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1100,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1101,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1102,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1103,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1104,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1105,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1106,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1107,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1108,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1109,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1110,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1111,
+      "page_index": 46,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1112,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1113,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1114,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1115,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1116,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1117,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1118,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1119,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1120,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1121,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1122,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1123,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1124,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1125,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1126,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1127,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1128,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1129,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1130,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1131,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1132,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1133,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1134,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1135,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1136,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1137,
+      "page_index": 47,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1138,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1139,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1140,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1141,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1142,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1143,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1144,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1145,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1146,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1147,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1148,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1149,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1150,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1151,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1152,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1153,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1154,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1155,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1156,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1157,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1158,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1159,
+      "page_index": 48,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1160,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1161,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1162,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1163,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1164,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1165,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1166,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1167,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1168,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1169,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1170,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1171,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1172,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1173,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1174,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1175,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1176,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1177,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1178,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1179,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1180,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1181,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1182,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1183,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1184,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1185,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1186,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1187,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    },
+    {
+      "id": 1188,
+      "page_index": 49,
+      "relevance": 0.0,
+      "rationale_preview": ""
+    }
+  ],
+  "scored_order": [
+    {
+      "id": 929,
+      "relevance": 0.95,
+      "page_index": 41
+    },
+    {
+      "id": 917,
+      "relevance": 0.9,
+      "page_index": 41
+    },
+    {
+      "id": 923,
+      "relevance": 0.9,
+      "page_index": 41
+    },
+    {
+      "id": 928,
+      "relevance": 0.9,
+      "page_index": 41
+    },
+    {
+      "id": 956,
+      "relevance": 0.9,
+      "page_index": 42
+    },
+    {
+      "id": 958,
+      "relevance": 0.9,
+      "page_index": 42
+    },
+    {
+      "id": 963,
+      "relevance": 0.9,
+      "page_index": 42
+    },
+    {
+      "id": 964,
+      "relevance": 0.9,
+      "page_index": 42
+    },
+    {
+      "id": 967,
+      "relevance": 0.9,
+      "page_index": 43
+    },
+    {
+      "id": 978,
+      "relevance": 0.9,
+      "page_index": 43
+    },
+    {
+      "id": 979,
+      "relevance": 0.9,
+      "page_index": 43
+    },
+    {
+      "id": 985,
+      "relevance": 0.9,
+      "page_index": 43
+    },
+    {
+      "id": 988,
+      "relevance": 0.9,
+      "page_index": 43
+    },
+    {
+      "id": 993,
+      "relevance": 0.9,
+      "page_index": 43
+    },
+    {
+      "id": 930,
+      "relevance": 0.85,
+      "page_index": 41
+    },
+    {
+      "id": 972,
+      "relevance": 0.85,
+      "page_index": 43
+    },
+    {
+      "id": 996,
+      "relevance": 0.85,
+      "page_index": 43
+    },
+    {
+      "id": 920,
+      "relevance": 0.8,
+      "page_index": 41
+    },
+    {
+      "id": 924,
+      "relevance": 0.8,
+      "page_index": 41
+    },
+    {
+      "id": 931,
+      "relevance": 0.8,
+      "page_index": 41
+    },
+    {
+      "id": 934,
+      "relevance": 0.8,
+      "page_index": 41
+    },
+    {
+      "id": 941,
+      "relevance": 0.8,
+      "page_index": 42
+    },
+    {
+      "id": 950,
+      "relevance": 0.8,
+      "page_index": 42
+    },
+    {
+      "id": 954,
+      "relevance": 0.8,
+      "page_index": 42
+    },
+    {
+      "id": 957,
+      "relevance": 0.8,
+      "page_index": 42
+    },
+    {
+      "id": 961,
+      "relevance": 0.8,
+      "page_index": 42
+    },
+    {
+      "id": 962,
+      "relevance": 0.8,
+      "page_index": 42
+    },
+    {
+      "id": 970,
+      "relevance": 0.8,
+      "page_index": 43
+    },
+    {
+      "id": 976,
+      "relevance": 0.8,
+      "page_index": 43
+    },
+    {
+      "id": 980,
+      "relevance": 0.8,
+      "page_index": 43
+    },
+    {
+      "id": 982,
+      "relevance": 0.8,
+      "page_index": 43
+    },
+    {
+      "id": 986,
+      "relevance": 0.8,
+      "page_index": 43
+    },
+    {
+      "id": 999,
+      "relevance": 0.8,
+      "page_index": 44
+    },
+    {
+      "id": 1006,
+      "relevance": 0.8,
+      "page_index": 44
+    },
+    {
+      "id": 932,
+      "relevance": 0.75,
+      "page_index": 41
+    },
+    {
+      "id": 921,
+      "relevance": 0.7,
+      "page_index": 41
+    },
+    {
+      "id": 937,
+      "relevance": 0.7,
+      "page_index": 42
+    },
+    {
+      "id": 945,
+      "relevance": 0.7,
+      "page_index": 42
+    },
+    {
+      "id": 949,
+      "relevance": 0.7,
+      "page_index": 42
+    },
+    {
+      "id": 952,
+      "relevance": 0.7,
+      "page_index": 42
+    },
+    {
+      "id": 959,
+      "relevance": 0.7,
+      "page_index": 42
+    },
+    {
+      "id": 960,
+      "relevance": 0.7,
+      "page_index": 42
+    },
+    {
+      "id": 974,
+      "relevance": 0.7,
+      "page_index": 43
+    },
+    {
+      "id": 983,
+      "relevance": 0.7,
+      "page_index": 43
+    },
+    {
+      "id": 987,
+      "relevance": 0.7,
+      "page_index": 43
+    },
+    {
+      "id": 1000,
+      "relevance": 0.7,
+      "page_index": 44
+    },
+    {
+      "id": 1010,
+      "relevance": 0.7,
+      "page_index": 44
+    },
+    {
+      "id": 922,
+      "relevance": 0.6,
+      "page_index": 41
+    },
+    {
+      "id": 940,
+      "relevance": 0.6,
+      "page_index": 42
+    },
+    {
+      "id": 948,
+      "relevance": 0.6,
+      "page_index": 42
+    },
+    {
+      "id": 951,
+      "relevance": 0.6,
+      "page_index": 42
+    },
+    {
+      "id": 955,
+      "relevance": 0.6,
+      "page_index": 42
+    },
+    {
+      "id": 973,
+      "relevance": 0.6,
+      "page_index": 43
+    },
+    {
+      "id": 981,
+      "relevance": 0.6,
+      "page_index": 43
+    },
+    {
+      "id": 1001,
+      "relevance": 0.6,
+      "page_index": 44
+    },
+    {
+      "id": 1003,
+      "relevance": 0.6,
+      "page_index": 44
+    },
+    {
+      "id": 953,
+      "relevance": 0.5,
+      "page_index": 42
+    },
+    {
+      "id": 975,
+      "relevance": 0.5,
+      "page_index": 43
+    },
+    {
+      "id": 984,
+      "relevance": 0.5,
+      "page_index": 43
+    },
+    {
+      "id": 1002,
+      "relevance": 0.5,
+      "page_index": 44
+    },
+    {
+      "id": 977,
+      "relevance": 0.4,
+      "page_index": 43
+    },
+    {
+      "id": 998,
+      "relevance": 0.4,
+      "page_index": 44
+    },
+    {
+      "id": 1004,
+      "relevance": 0.4,
+      "page_index": 44
+    },
+    {
+      "id": 918,
+      "relevance": 0.3,
+      "page_index": 41
+    },
+    {
+      "id": 919,
+      "relevance": 0.2,
+      "page_index": 41
+    },
+    {
+      "id": 997,
+      "relevance": 0.2,
+      "page_index": 44
+    },
+    {
+      "id": 925,
+      "relevance": 0.0,
+      "page_index": 41
+    },
+    {
+      "id": 926,
+      "relevance": 0.0,
+      "page_index": 41
+    },
+    {
+      "id": 927,
+      "relevance": 0.0,
+      "page_index": 41
+    },
+    {
+      "id": 933,
+      "relevance": 0.0,
+      "page_index": 41
+    },
+    {
+      "id": 935,
+      "relevance": 0.0,
+      "page_index": 42
+    },
+    {
+      "id": 936,
+      "relevance": 0.0,
+      "page_index": 42
+    },
+    {
+      "id": 938,
+      "relevance": 0.0,
+      "page_index": 42
+    },
+    {
+      "id": 939,
+      "relevance": 0.0,
+      "page_index": 42
+    },
+    {
+      "id": 942,
+      "relevance": 0.0,
+      "page_index": 42
+    },
+    {
+      "id": 943,
+      "relevance": 0.0,
+      "page_index": 42
+    },
+    {
+      "id": 944,
+      "relevance": 0.0,
+      "page_index": 42
+    },
+    {
+      "id": 946,
+      "relevance": 0.0,
+      "page_index": 42
+    },
+    {
+      "id": 947,
+      "relevance": 0.0,
+      "page_index": 42
+    },
+    {
+      "id": 965,
+      "relevance": 0.0,
+      "page_index": 42
+    },
+    {
+      "id": 966,
+      "relevance": 0.0,
+      "page_index": 43
+    },
+    {
+      "id": 968,
+      "relevance": 0.0,
+      "page_index": 43
+    },
+    {
+      "id": 969,
+      "relevance": 0.0,
+      "page_index": 43
+    },
+    {
+      "id": 971,
+      "relevance": 0.0,
+      "page_index": 43
+    },
+    {
+      "id": 989,
+      "relevance": 0.0,
+      "page_index": 43
+    },
+    {
+      "id": 990,
+      "relevance": 0.0,
+      "page_index": 43
+    },
+    {
+      "id": 991,
+      "relevance": 0.0,
+      "page_index": 43
+    },
+    {
+      "id": 992,
+      "relevance": 0.0,
+      "page_index": 43
+    },
+    {
+      "id": 994,
+      "relevance": 0.0,
+      "page_index": 43
+    },
+    {
+      "id": 995,
+      "relevance": 0.0,
+      "page_index": 43
+    },
+    {
+      "id": 1005,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1007,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1008,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1009,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1011,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1012,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1013,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1014,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1015,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1016,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1017,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1018,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1019,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1020,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1021,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1022,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1023,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1024,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1025,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1026,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1027,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1028,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1029,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1030,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1031,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1032,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1033,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1034,
+      "relevance": 0.0,
+      "page_index": 44
+    },
+    {
+      "id": 1035,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1036,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1037,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1038,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1039,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1040,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1041,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1042,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1043,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1044,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1045,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1046,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1047,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1048,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1049,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1050,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1051,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1052,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1053,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1054,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1055,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1056,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1057,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1058,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1059,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1060,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1061,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1062,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1063,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1064,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1065,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1066,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1067,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1068,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1069,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1070,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1071,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1072,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1073,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1074,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1075,
+      "relevance": 0.0,
+      "page_index": 45
+    },
+    {
+      "id": 1076,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1077,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1078,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1079,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1080,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1081,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1082,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1083,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1084,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1085,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1086,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1087,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1088,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1089,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1090,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1091,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1092,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1093,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1094,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1095,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1096,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1097,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1098,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1099,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1100,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1101,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1102,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1103,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1104,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1105,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1106,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1107,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1108,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1109,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1110,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1111,
+      "relevance": 0.0,
+      "page_index": 46
+    },
+    {
+      "id": 1112,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1113,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1114,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1115,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1116,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1117,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1118,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1119,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1120,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1121,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1122,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1123,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1124,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1125,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1126,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1127,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1128,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1129,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1130,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1131,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1132,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1133,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1134,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1135,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1136,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1137,
+      "relevance": 0.0,
+      "page_index": 47
+    },
+    {
+      "id": 1138,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1139,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1140,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1141,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1142,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1143,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1144,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1145,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1146,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1147,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1148,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1149,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1150,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1151,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1152,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1153,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1154,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1155,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1156,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1157,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1158,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1159,
+      "relevance": 0.0,
+      "page_index": 48
+    },
+    {
+      "id": 1160,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1161,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1162,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1163,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1164,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1165,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1166,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1167,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1168,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1169,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1170,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1171,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1172,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1173,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1174,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1175,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1176,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1177,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1178,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1179,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1180,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1181,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1182,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1183,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1184,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1185,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1186,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1187,
+      "relevance": 0.0,
+      "page_index": 49
+    },
+    {
+      "id": 1188,
+      "relevance": 0.0,
+      "page_index": 49
+    }
+  ],
+  "selected": [
+    {
+      "id": 0,
+      "page_index": 41,
+      "relevance": 0.9,
+      "text_preview": "Azure Resource Manager | 9"
+    },
+    {
+      "id": 1,
+      "page_index": 41,
+      "relevance": 0.9,
+      "text_preview": "Microsoft Azure"
+    },
+    {
+      "id": 2,
+      "page_index": 41,
+      "relevance": 0.8,
+      "text_preview": "Azure Subscription comprises multiple resource groups. Each resource group contains"
+    },
+    {
+      "id": 3,
+      "page_index": 41,
+      "relevance": 0.8,
+      "text_preview": "Azure Subscription\nAzure\nResource Group"
+    },
+    {
+      "id": 4,
+      "page_index": 41,
+      "relevance": 0.7,
+      "text_preview": "resource instances that are created from resource types that are available in the"
+    },
+    {
+      "id": 5,
+      "page_index": 41,
+      "relevance": 0.6,
+      "text_preview": "resource provider:"
+    },
+    {
+      "id": 6,
+      "page_index": 41,
+      "relevance": 0.95,
+      "text_preview": "Azure Resource Manager (ARM)"
+    },
+    {
+      "id": 7,
+      "page_index": 41,
+      "relevance": 0.9,
+      "text_preview": "Resource Providers"
+    },
+    {
+      "id": 8,
+      "page_index": 41,
+      "relevance": 0.85,
+      "text_preview": "Figure 1.2: The ARM architecture\nREST API Endpoints"
+    },
+    {
+      "id": 9,
+      "page_index": 41,
+      "relevance": 0.8,
+      "text_preview": "Why ARM?"
+    },
+    {
+      "id": 10,
+      "page_index": 41,
+      "relevance": 0.75,
+      "text_preview": "Prior to ARM, the framework used by Azure was known as Azure Service Manager"
+    },
+    {
+      "id": 11,
+      "page_index": 41,
+      "relevance": 0.8,
+      "text_preview": "understanding of the emergence of ARM and the slow and steady deprecation of ASM."
+    },
+    {
+      "id": 12,
+      "page_index": 42,
+      "relevance": 0.7,
+      "text_preview": "ASM has inherent constraints. For example, ASM deployments are slow and blocking\u2014"
+    },
+    {
+      "id": 13,
+      "page_index": 42,
+      "relevance": 0.6,
+      "text_preview": "\u2022  Parallelism: Parallelism is a challenge in ASM. It is not possible to execute multiple"
+    },
+    {
+      "id": 14,
+      "page_index": 42,
+      "relevance": 0.8,
+      "text_preview": "transactions successfully in parallel. The operations in ASM are linear and so they"
+    },
+    {
+      "id": 15,
+      "page_index": 42,
+      "relevance": 0.7,
+      "text_preview": "\u2022  Resources: Resources in ASM are provisioned and managed in isolation of each"
+    },
+    {
+      "id": 16,
+      "page_index": 42,
+      "relevance": 0.6,
+      "text_preview": "\u2022  Cloud services: Cloud services are the units of deployment in ASM. They are"
+    },
+    {
+      "id": 17,
+      "page_index": 42,
+      "relevance": 0.9,
+      "text_preview": "ARM advantages"
+    },
+    {
+      "id": 18,
+      "page_index": 42,
+      "relevance": 0.8,
+      "text_preview": "Granular and discrete roles and permissions cannot be assigned to resources in ASM."
+    },
+    {
+      "id": 19,
+      "page_index": 42,
+      "relevance": 0.8,
+      "text_preview": "resort to writing procedural scripts in .NET or PowerShell. ASM APIs are not consistent"
+    },
+    {
+      "id": 20,
+      "page_index": 42,
+      "relevance": 0.7,
+      "text_preview": "reliant on affinity groups and are not scalable due to their design and architecture."
+    },
+    {
+      "id": 21,
+      "page_index": 42,
+      "relevance": 0.7,
+      "text_preview": "They either get full control over resources or do not have access to them at all. ASM"
+    },
+    {
+      "id": 22,
+      "page_index": 42,
+      "relevance": 0.6,
+      "text_preview": "Customers are either service administrators or co-administrators in the subscription."
+    },
+    {
+      "id": 23,
+      "page_index": 42,
+      "relevance": 0.6,
+      "text_preview": "between resources."
+    },
+    {
+      "id": 24,
+      "page_index": 42,
+      "relevance": 0.9,
+      "text_preview": "\u2022  Grouping: ARM allows the grouping of resources together in a logical container."
+    },
+    {
+      "id": 25,
+      "page_index": 42,
+      "relevance": 0.9,
+      "text_preview": "\u2022  RBAC: Granular roles and permissions can be assigned to resources providing"
+    },
+    {
+      "id": 26,
+      "page_index": 42,
+      "relevance": 0.9,
+      "text_preview": "discrete access to customers. Customers can also have only those rights that are"
+    },
+    {
+      "id": 27,
+      "page_index": 42,
+      "relevance": 0.8,
+      "text_preview": "ARM provides distinct advantages and benefits over ASM, which are as follows:"
+    },
+    {
+      "id": 28,
+      "page_index": 42,
+      "relevance": 0.8,
+      "text_preview": "\u2022  Common life cycles: Resources in a group have the same life cycle. These"
+    },
+    {
+      "id": 29,
+      "page_index": 42,
+      "relevance": 0.8,
+      "text_preview": "resources can evolve and be managed together as a unit."
+    },
+    {
+      "id": 30,
+      "page_index": 42,
+      "relevance": 0.7,
+      "text_preview": "These resources can be managed together and go through a common life cycle as"
+    },
+    {
+      "id": 31,
+      "page_index": 42,
+      "relevance": 0.7,
+      "text_preview": "a group. This makes it easier to identify related and dependent resources."
+    },
+    {
+      "id": 32,
+      "page_index": 43,
+      "relevance": 0.9,
+      "text_preview": "\u2022  Deployment support: ARM provides deployment support in terms of templates,"
+    },
+    {
+      "id": 33,
+      "page_index": 43,
+      "relevance": 0.85,
+      "text_preview": "\u2022  Manageability: ARM provides advanced features, such as security, monitoring,"
+    },
+    {
+      "id": 34,
+      "page_index": 43,
+      "relevance": 0.8,
+      "text_preview": "\u2022  Superior technology: The cost and billing of resources can be managed as a unit."
+    },
+    {
+      "id": 35,
+      "page_index": 43,
+      "relevance": 0.9,
+      "text_preview": "ARM concepts"
+    },
+    {
+      "id": 36,
+      "page_index": 43,
+      "relevance": 0.9,
+      "text_preview": "With ARM, everything in Azure is a resource. Examples of resources are VMs, network"
+    },
+    {
+      "id": 37,
+      "page_index": 43,
+      "relevance": 0.8,
+      "text_preview": "\u2022  Migration: Migration and updating resources is easier within and across resource"
+    },
+    {
+      "id": 38,
+      "page_index": 43,
+      "relevance": 0.8,
+      "text_preview": "interfaces, public IP addresses, storage accounts, and virtual networks. ARM is"
+    },
+    {
+      "id": 39,
+      "page_index": 43,
+      "relevance": 0.7,
+      "text_preview": "queried based on tags. Tags also provide cost and billing information for resources"
+    },
+    {
+      "id": 40,
+      "page_index": 43,
+      "relevance": 0.6,
+      "text_preview": "auditing, and tagging, for better manageability of resources. Resources can be"
+    },
+    {
+      "id": 41,
+      "page_index": 43,
+      "relevance": 0.9,
+      "text_preview": "These are services that are responsible for providing resource types through ARM."
+    },
+    {
+      "id": 42,
+      "page_index": 43,
+      "relevance": 0.9,
+      "text_preview": "responsible for deploying and managing resources. For example, a VM resource"
+    },
+    {
+      "id": 43,
+      "page_index": 43,
+      "relevance": 0.8,
+      "text_preview": "Azure provides resources and services through multiple resource providers that are"
+    },
+    {
+      "id": 44,
+      "page_index": 43,
+      "relevance": 0.8,
+      "text_preview": "The top-level concept in ARM is the resource provider. These providers are containers"
+    },
+    {
+      "id": 45,
+      "page_index": 43,
+      "relevance": 0.7,
+      "text_preview": "consumed and deployed in groups."
+    },
+    {
+      "id": 46,
+      "page_index": 43,
+      "relevance": 0.7,
+      "text_preview": "for resource types. Resource types are grouped into resource providers. They are"
+    },
+    {
+      "id": 47,
+      "page_index": 43,
+      "relevance": 0.6,
+      "text_preview": "based on concepts that are related to resource providers and resource consumers."
+    },
+    {
+      "id": 48,
+      "page_index": 43,
+      "relevance": 0.9,
+      "text_preview": "to a subscription to deploy a resource. Not all resource providers are available to a"
+    },
+    {
+      "id": 49,
+      "page_index": 43,
+      "relevance": 0.85,
+      "text_preview": "available, the customer can explicitly register for the subscription."
+    },
+    {
+      "id": 50,
+      "page_index": 44,
+      "relevance": 0.8,
+      "text_preview": "Resource types are an actual resource specification defining the resource's public API"
+    },
+    {
+      "id": 51,
+      "page_index": 44,
+      "relevance": 0.7,
+      "text_preview": "interface and implementation. They implement the working and operations supported"
+    },
+    {
+      "id": 52,
+      "page_index": 44,
+      "relevance": 0.6,
+      "text_preview": "by the resource. Similar to resource providers, resource types also evolve over time"
+    },
+    {
+      "id": 53,
+      "page_index": 44,
+      "relevance": 0.6,
+      "text_preview": "schemas and public API interfaces. The version names are based on the dates that they"
+    },
+    {
+      "id": 54,
+      "page_index": 44,
+      "relevance": 0.8,
+      "text_preview": "not every resource type is available in every Azure region. The availability of a resource"
+    }
+  ]
+}

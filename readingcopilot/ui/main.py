@@ -105,7 +105,7 @@ class MainWindow(QMainWindow):
         # Spinner placeholder (right side)
         self._spinner_label = QLabel("")
         self._spinner_label.setObjectName("SpinnerLabel")
-        self._spinner_label.setStyleSheet("color:#ff8800; font-weight:bold; padding-left:8px; padding-right:4px;")
+        self._spinner_label.setStyleSheet("color:#000000; font-weight:bold; font-size: 20px; padding-left:8px; padding-right:4px;")
         tb.addWidget(self._spinner_label)
         # Spacer + page indicator label (mirrors floating overlay)
         spacer = QLabel(" ")

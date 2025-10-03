@@ -155,10 +155,31 @@ Activate venv:
 Environment variables:
 $env:RC_LLM_PROVIDER = 'azure_openai'
 $env:RC_AZURE_OPENAI_ENDPOINT = 'https://saialluoai.openai.azure.com'
-$env:RC_AZURE_OPENAI_KEY = 'literal:<REDACTED>'
+*****$env:RC_AZURE_OPENAI_KEY = '<fill-this-in>'
 $env:RC_AZURE_OPENAI_DEPLOYMENT = 'gpt-4o'
 $env:RC_AZURE_OPENAI_MAX_TOKENS = '16000'
 
 
 Launch application:
 python -m readingcopilot.ui.main
+
+## New Setup
+Backend:
+
+& C:/Users/saiallu/source/repos/ReadingCopilot/.venv/Scripts/Activate.ps1
+
+Environment variables:
+$env:RC_LLM_PROVIDER = 'azure_openai'
+$env:RC_AZURE_OPENAI_ENDPOINT = 'https://saialluoai.openai.azure.com'
+*****$env:RC_AZURE_OPENAI_KEY = '<fill-this-in>'
+$env:RC_AZURE_OPENAI_DEPLOYMENT = 'gpt-4o'
+$env:RC_AZURE_OPENAI_MAX_TOKENS = '16000'
+
+python -m uvicorn backend.app.main:app --reload --reload-dir backend/app --host 0.0.0.0 --port 8000
+
+
+Frontend:
+curl http://localhost:8000/
+cd C:\Users\saiallu\source\repos\ReadingCopilot\frontend
+npm install
+npm run dev
